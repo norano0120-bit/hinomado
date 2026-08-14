@@ -1,0 +1,48 @@
+{% extends "base.html.j2" %}
+{% block title %}ふるさと納税｜{{ site_name }}{% endblock %}
+{% block description %}滋賀県日野町へのふるさと納税の入口と、町からの関連するお知らせをまとめています。{% endblock %}
+{% block subtitle %}日野町へのふるさと納税{% endblock %}
+
+{% block content %}
+  <section class="section first">
+    <div class="section-head">
+      <h2>寄附の入口</h2>
+      <span class="sub">申し込みは各サイトで</span>
+    </div>
+    <p class="lead">{{ furusato.intro }}</p>
+    <ul class="cards">
+      {% for l in furusato.links %}
+      <li class="card">
+        <h4><a href="{{ l.url }}" rel="noopener">{{ l.label }}</a></h4>
+        <p>{{ l.note }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="more">{{ furusato.note }}</p>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>関連するお知らせ</h2>
+      <span class="sub">町の発信から自動で拾っています</span>
+    </div>
+    {% if furusato_items %}
+    <ul class="news">
+      {% for item in furusato_items %}
+      <li>
+        <span class="date">{{ item.date_label }}</span>
+        <span class="badge">{{ item.source_short }}</span>
+        <a href="{{ item.url }}" rel="noopener"><span class="title">{{ item.title }}</span></a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty-note">ふるさと納税に触れたお知らせは、今のところありません。</p>
+    {% endif %}
+    <p class="more">
+      「ふるさと納税」「寄附」「返礼品」「ワンストップ」を含む見出しを拾っています。
+      拾う言葉は <code>data/furusato.json</code> の <code>keywords</code> で変えられます。
+    </p>
+    <p class="back"><a href="{{ home }}">トップに戻る</a></p>
+  </section>
+{% endblock %}

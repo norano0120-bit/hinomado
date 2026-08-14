@@ -1,0 +1,109 @@
+{% extends "base.html.j2" %}
+{% block title %}子育て｜{{ site_name }}{% endblock %}
+{% block description %}滋賀県日野町の子育て情報。相談窓口、集まれる場所、手当の制度を時期ごとにまとめています。{% endblock %}
+{% block subtitle %}日野町で子どもを育てる{% endblock %}
+
+{% block content %}
+  <section class="section first">
+    <p class="lead">{{ kosodate.intro }}</p>
+
+    <div class="hotline">
+      <span class="sash" aria-hidden="true"></span>
+      <p class="h-label">まずここに相談</p>
+      <h2>{{ kosodate.hotline.name }}</h2>
+      <p class="h-belongs">{{ kosodate.hotline.belongs }}</p>
+      <p class="h-tel"><a href="tel:{{ kosodate.hotline.tel }}">{{ kosodate.hotline.tel }}</a></p>
+      <p class="h-note">{{ kosodate.hotline.note }}</p>
+      <p class="h-more"><a href="{{ kosodate.hotline.url }}" rel="noopener">こども家庭センターについて（町公式）</a>　ファックス {{ kosodate.hotline.fax }}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>時期ごとにやること</h2>
+      <span class="sub">抜けやすい手続きを順に</span>
+    </div>
+    <ol class="stages">
+      {% for s in kosodate.stages %}
+      <li>
+        <h3>{{ s.label }}</h3>
+        <ul>{% for i in s["items"] %}<li>{{ i }}</li>{% endfor %}</ul>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>行ける場所</h2>
+      <span class="sub">親子で過ごせる場所と、預けられる仕組み</span>
+    </div>
+    <ul class="cards">
+      {% for p in kosodate.places %}
+      <li class="card">
+        <h4><a href="{{ p.url }}" rel="noopener">{{ p.name }}</a></h4>
+        <p>{{ p.detail }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>お金の制度</h2>
+      <span class="sub">申請しないともらえないものがあります</span>
+    </div>
+    <ul class="kurashi-list money">
+      {% for m in kosodate.money %}
+      <li>
+        <span class="k-name"><a href="{{ m.url }}" rel="noopener">{{ m.name }}</a></span>
+        <span class="k-detail">{{ m.detail }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="more">{{ kosodate.note }}</p>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>子育てのお知らせ</h2>
+      <span class="sub">町の発信から自動で拾っています</span>
+    </div>
+    {% if kosodate_items %}
+    <ul class="news">
+      {% for item in kosodate_items %}
+      <li>
+        <span class="date">{{ item.date_label }}</span>
+        <span class="badge {{ 'alert' if item.category == 'alert' }}">{{ item.source_short }}</span>
+        <a href="{{ item.url }}" rel="noopener">
+          <span class="title">{{ item.title }}{% if item.is_new %}<span class="new">NEW</span>{% endif %}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty-note">子育てに関するお知らせは、今のところありません。</p>
+    {% endif %}
+    <p class="more">
+      「子育て」「保育」「こども」「児童」「妊婦」「予防接種」「学校」「入園」を含む見出しを拾っています。
+      拾う言葉は <code>scripts/fetch_news.py</code> の <code>TAG_RULES</code> で変えられます。
+    </p>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>もっと知る</h2>
+      <span class="sub">町の公式ページへ</span>
+    </div>
+    <ul class="cards">
+      {% for f in kosodate.follow %}
+      <li class="card">
+        <h4><a href="{{ f.url }}" rel="noopener">{{ f.name }}</a></h4>
+        <p>{{ f.detail }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="more">{{ kosodate.links_note }}</p>
+    <p class="back"><a href="{{ home }}">トップに戻る</a></p>
+  </section>
+{% endblock %}

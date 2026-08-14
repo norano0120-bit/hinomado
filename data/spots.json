@@ -1,0 +1,470 @@
+[
+  {
+    "name": "日野駅舎「なないろ」",
+    "cat": "cafe",
+    "url": "https://nanairo.space/",
+    "source": "なないろ",
+    "blurb": "築100年の近江鉄道日野駅の駅舎を改装した交流拠点。日替わりでオーナーが変わるカフェが入り、行く日によって出会う店が違う。",
+    "tags": [
+      "日替わりカフェ",
+      "駅すぐ"
+    ],
+    "season": [],
+    "links": [
+      {
+        "label": "Instagram",
+        "icon": "inst",
+        "url": "https://www.instagram.com/nanairohinoeki/"
+      },
+      {
+        "label": "X",
+        "icon": "x",
+        "url": "https://twitter.com/nanairohinoeki"
+      },
+      {
+        "label": "公式サイト",
+        "icon": "web",
+        "url": "https://nanairo.space/"
+      }
+    ]
+  },
+  {
+    "name": "ツバメカフェ",
+    "cat": "cafe",
+    "url": "https://hino-kanko.jp/food/tsubame/",
+    "source": "日野観光協会",
+    "blurb": "旧市街の町並みのなかにあるカフェ。まち歩きの休憩に立ち寄りやすい場所にある。",
+    "tags": [
+      "まち歩き"
+    ],
+    "season": [],
+    "links": [
+      {
+        "label": "Instagram",
+        "icon": "inst",
+        "url": "https://www.instagram.com/tsubamecafe2017/"
+      }
+    ]
+  },
+  {
+    "name": "カフェ・雑貨 らっこや",
+    "cat": "cafe",
+    "url": "https://hino-kanko.jp/food/rakkoya/",
+    "source": "日野観光協会",
+    "blurb": "カフェと雑貨が一緒になった店。お茶のついでに手みやげを探せる。",
+    "tags": [
+      "雑貨"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "守貞cafe",
+    "cat": "cafe",
+    "url": "https://hino-kanko.jp/food/morisada-cafe/",
+    "source": "日野観光協会",
+    "blurb": "和菓子店・守貞が併設するカフェ。店の菓子をその場で味わえる。",
+    "tags": [
+      "和菓子"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "庭園茶寮 せせら",
+    "cat": "cafe",
+    "url": "https://hino-kanko.jp/food/sesera/",
+    "source": "日野観光協会",
+    "blurb": "庭を眺めながら過ごせる茶寮。落ち着いて長居したい日向き。",
+    "tags": [
+      "庭園"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "茶屋 茶茶丸",
+    "cat": "cafe",
+    "url": "https://hino-kanko.jp/food/chachamaru/",
+    "source": "日野観光協会",
+    "blurb": "気軽に一服できる茶屋。散策の合間の休憩に。",
+    "tags": [
+      "甘味"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "Taiyou Breads.",
+    "cat": "cafe",
+    "url": "https://hino-kanko.jp/food/taiyou-breads/",
+    "source": "日野観光協会",
+    "blurb": "町のベーカリー。買って綿向山や日野川ダムまで持っていくのもいい。",
+    "tags": [
+      "パン",
+      "テイクアウト"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "綿向山ビレッジ キッチン＆ゲストハウス",
+    "cat": "cafe",
+    "url": "https://hino-kanko.jp/food/watamukiyama-cafe/",
+    "source": "日野観光協会",
+    "blurb": "綿向山のふもと。登山の前後に食事ができ、宿泊もできる。",
+    "tags": [
+      "登山口",
+      "宿泊可"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "近江日野牛 レストラン岡﨑",
+    "cat": "food",
+    "url": "https://hino-kanko.jp/food/okazaki/",
+    "source": "日野観光協会",
+    "blurb": "地元ブランドの近江日野牛を出すレストラン。日野で食べるならまずここが挙がる。",
+    "tags": [
+      "近江日野牛"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "うなぎ本丸",
+    "cat": "food",
+    "url": "https://hino-kanko.jp/food/unagi-honmaru/",
+    "source": "日野観光協会",
+    "blurb": "うなぎ専門店。夏場は特に混むので時間に余裕をもって。",
+    "tags": [
+      "うなぎ",
+      "夏が旬"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "日野まちかど感応館・にぎり飯惣菜 みかく",
+    "cat": "food",
+    "url": "https://hino-kanko.jp/food/mikaku/",
+    "source": "日野観光協会",
+    "blurb": "観光案内所を兼ねた感応館の新館。おにぎりと惣菜を売っていて、まち歩きの起点にちょうどいい。",
+    "tags": [
+      "観光案内所",
+      "軽食"
+    ],
+    "season": [],
+    "links": [
+      {
+        "label": "店舗情報",
+        "icon": "web",
+        "url": "https://hinomachikadokannokan.business.site/"
+      }
+    ]
+  },
+  {
+    "name": "馬見岡綿向神社",
+    "cat": "sight",
+    "url": "https://hino-kanko.jp/sight/umamioka/",
+    "source": "日野観光協会",
+    "blurb": "日野の総社。5月の日野祭では、この神社を中心に曳山と神輿が町を巡る。",
+    "tags": [
+      "神社",
+      "日野祭"
+    ],
+    "season": [
+      5
+    ],
+    "links": []
+  },
+  {
+    "name": "近江日野商人館",
+    "cat": "sight",
+    "url": "https://hinosyouninkan.jp/",
+    "source": "近江日野商人館",
+    "blurb": "日野商人・山中兵右衛門邸を使った歴史民俗資料館。「三方よし」の商いがどう営まれたかが見える。",
+    "tags": [
+      "資料館",
+      "商人屋敷"
+    ],
+    "season": [],
+    "links": [
+      {
+        "label": "公式サイト",
+        "icon": "web",
+        "url": "https://hinosyouninkan.jp/"
+      }
+    ]
+  },
+  {
+    "name": "近江日野商人ふるさと館（旧山中正吉邸）",
+    "cat": "sight",
+    "url": "http://www.hinofurusatokan.jp/",
+    "source": "近江日野商人ふるさと館",
+    "blurb": "商家の建物をそのまま公開している施設。座敷や蔵の造りをじっくり見られる。",
+    "tags": [
+      "商人屋敷"
+    ],
+    "season": [],
+    "links": [
+      {
+        "label": "公式サイト",
+        "icon": "web",
+        "url": "http://www.hinofurusatokan.jp/"
+      }
+    ]
+  },
+  {
+    "name": "日野まちかど感応館",
+    "cat": "sight",
+    "url": "https://hino-kanko.jp/sight/hinomachikado/",
+    "source": "日野観光協会",
+    "blurb": "観光協会が入る案内拠点。まち歩きの地図やパンフレットはここで手に入る。",
+    "tags": [
+      "観光案内所"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "信楽院",
+    "cat": "sight",
+    "url": "https://hino-kanko.jp/sight/shigarakiin/",
+    "source": "日野観光協会",
+    "blurb": "蒲生氏の菩提寺。本堂の天井画が見どころ。",
+    "tags": [
+      "寺",
+      "蒲生氏"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "正明寺",
+    "cat": "sight",
+    "url": "https://hino-kanko.jp/sight/syoumeiji/",
+    "source": "日野観光協会",
+    "blurb": "黄檗宗の寺。落ち着いた境内で、人が少ない時間に訪れたい。",
+    "tags": [
+      "寺"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "鬼室神社",
+    "cat": "sight",
+    "url": "https://hino-kanko.jp/sight/kishitsujinjya/",
+    "source": "日野観光協会",
+    "blurb": "百済からの渡来人・鬼室集斯を祀る神社。韓国との交流のきっかけにもなっている場所。",
+    "tags": [
+      "神社",
+      "渡来文化"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "綿向山",
+    "cat": "nature",
+    "url": "https://hino-kanko.jp/nature/watamukiyama/",
+    "source": "日野観光協会",
+    "blurb": "日野のシンボルとなる山。登山道が整備され、冬は霧氷が目当ての人でにぎわう。",
+    "tags": [
+      "登山",
+      "霧氷"
+    ],
+    "season": [
+      1,
+      2,
+      11,
+      12
+    ],
+    "links": []
+  },
+  {
+    "name": "鎌掛谷ほんしゃくなげ群落",
+    "cat": "nature",
+    "url": "https://hino-kanko.jp/nature/honsyakunage/",
+    "source": "日野観光協会",
+    "blurb": "国の天然記念物。谷いっぱいにホンシャクナゲが密生する。開花期のみ入れる。",
+    "tags": [
+      "天然記念物",
+      "花"
+    ],
+    "season": [
+      4,
+      5
+    ],
+    "links": []
+  },
+  {
+    "name": "さつき寺 雲迎寺",
+    "cat": "nature",
+    "url": "https://hino-kanko.jp/nature/satsuki/",
+    "source": "日野観光協会",
+    "blurb": "境内一面にサツキが植えられた寺。花の時期に合わせて訪れる価値がある。",
+    "tags": [
+      "花",
+      "寺"
+    ],
+    "season": [
+      5,
+      6
+    ],
+    "links": []
+  },
+  {
+    "name": "藤の寺 正法寺",
+    "cat": "nature",
+    "url": "https://hino-kanko.jp/nature/fuji/",
+    "source": "日野観光協会",
+    "blurb": "藤の名所として知られる寺。花房が下がる時期は短い。",
+    "tags": [
+      "花",
+      "寺"
+    ],
+    "season": [
+      4,
+      5
+    ],
+    "links": []
+  },
+  {
+    "name": "花の郷 日野ダリア園",
+    "cat": "nature",
+    "url": "https://hino-kanko.jp/nature/hinodariaen/",
+    "source": "日野観光協会",
+    "blurb": "秋に多品種のダリアが咲きそろう。品種ごとの姿の違いを見て回れる。",
+    "tags": [
+      "花"
+    ],
+    "season": [
+      9,
+      10
+    ],
+    "links": []
+  },
+  {
+    "name": "日野川ダム",
+    "cat": "nature",
+    "url": "https://hino-kanko.jp/nature/hinogawadamu/",
+    "source": "日野観光協会",
+    "blurb": "湖畔を歩ける静かな場所。春は桜、秋は紅葉が水面に映る。",
+    "tags": [
+      "桜",
+      "散策"
+    ],
+    "season": [
+      4,
+      11
+    ],
+    "links": []
+  },
+  {
+    "name": "滋賀農業公園ブルーメの丘",
+    "cat": "play",
+    "url": "https://www.blumenooka.jp/",
+    "source": "ブルーメの丘",
+    "blurb": "ドイツの農村をテーマにした農業公園。動物とのふれあいや体験工房があり、子ども連れの定番。",
+    "tags": [
+      "子ども連れ",
+      "一日遊べる"
+    ],
+    "season": [],
+    "links": [
+      {
+        "label": "Instagram",
+        "icon": "inst",
+        "url": "https://www.instagram.com/blumenooka/"
+      },
+      {
+        "label": "公式サイト",
+        "icon": "web",
+        "url": "https://www.blumenooka.jp/"
+      }
+    ]
+  },
+  {
+    "name": "グリム冒険の森",
+    "cat": "play",
+    "url": "https://hino-kanko.jp/play/grimm/",
+    "source": "日野観光協会",
+    "blurb": "オートキャンプ場とコテージのあるアウトドア施設。日帰りバーベキューもできる。",
+    "tags": [
+      "キャンプ",
+      "BBQ",
+      "春〜秋向き"
+    ],
+    "season": [],
+    "links": []
+  },
+  {
+    "name": "日野祭",
+    "cat": "festival",
+    "url": "https://hino-kanko.jp/festival/hinomatsuri/",
+    "source": "日野観光協会",
+    "blurb": "馬見岡綿向神社の春の大祭。曳山が町を巡り、板塀の桟敷窓から見物するのが日野ならではの風景。",
+    "tags": [
+      "曳山",
+      "桟敷窓"
+    ],
+    "season": [
+      5
+    ],
+    "links": [
+      {
+        "label": "日野曳山保存会",
+        "icon": "web",
+        "url": "https://hinohikiyama.com"
+      }
+    ]
+  },
+  {
+    "name": "火ふり祭",
+    "cat": "festival",
+    "url": "https://hino-kanko.jp/festival/hifurimatsuri/",
+    "source": "日野観光協会",
+    "blurb": "お盆の夜、百数十本の松明を松の木めがけて投げ上げる。多くかかった年は豊作といわれる。",
+    "tags": [
+      "松明",
+      "夜"
+    ],
+    "season": [
+      8
+    ],
+    "links": []
+  },
+  {
+    "name": "近江中山の芋競べ祭り",
+    "cat": "festival",
+    "url": "https://hino-kanko.jp/festival/imokurabe/",
+    "source": "日野観光協会",
+    "blurb": "里芋の茎の長さを集落どうしで比べ、その年の豊凶を占う祭り。国の重要無形民俗文化財。",
+    "tags": [
+      "重要無形民俗文化財"
+    ],
+    "season": [
+      9
+    ],
+    "links": []
+  },
+  {
+    "name": "日野ひなまつり紀行",
+    "cat": "festival",
+    "url": "https://hino-kanko.jp/festival/hinamatsuri/",
+    "source": "日野観光協会",
+    "blurb": "町じゅうの家や店が桟敷窓越しに雛人形を飾る。まち歩きしながら見て回る催し。",
+    "tags": [
+      "桟敷窓",
+      "まち歩き"
+    ],
+    "season": [
+      2,
+      3
+    ],
+    "links": []
+  }
+]

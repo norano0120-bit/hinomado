@@ -1,0 +1,98 @@
+{% extends "base.html.j2" %}
+{% block title %}議会｜{{ site_name }}{% endblock %}
+{% block description %}日野町議会の会議録の要点と、原文・議会だより・中継への入口をまとめています。{% endblock %}
+{% block subtitle %}日野町議会の記録を読む{% endblock %}
+
+{% block content %}
+  {% if gikai.schedule %}
+  <section class="section first">
+    <div class="season">
+      <h3>これからの本会議</h3>
+      <p>{% for s in gikai.schedule[:4] %}<a href="{{ s.url }}" rel="noopener">{{ s.title }}</a>{% if not loop.last %}　/　{% endif %}{% endfor %}</p>
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="section{% if not gikai.schedule %} first{% endif %}">
+    <div class="section-head">
+      <h2>会議録の要点</h2>
+      <span class="sub">機械が読んでまとめたものです</span>
+    </div>
+
+    {% if gikai_summarized %}
+    {% for m in gikai_summarized %}
+    <article class="minutes">
+      <h3>{{ m.title }}</h3>
+      <p class="gist">{{ m.summary.overview }}</p>
+
+      {% if m.summary.topics %}
+      <h4>主な論点</h4>
+      <ul class="points">
+        {% for t in m.summary.topics %}
+        <li><b>{{ t.title }}</b>{{ t.detail }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if m.summary.questions %}
+      <h4>一般質問</h4>
+      <ul class="points qa">
+        {% for q in m.summary.questions %}
+        <li><b>{{ q.member }}／{{ q.theme }}</b>{{ q.gist }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if m.summary.decisions %}
+      <h4>議決されたこと</h4>
+      <ul class="points">
+        {% for d in m.summary.decisions %}<li>{{ d }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+
+      <p class="origin">
+        <a href="{{ m.url }}" rel="noopener">原文（会議録のページ）を開く</a>
+        <span class="caveat">この要約は機械が作ったものです。引用や判断の根拠にする前に、必ず原文を確かめてください。</span>
+      </p>
+    </article>
+    {% endfor %}
+    {% else %}
+    <p class="empty-note">
+      会議録の要約はまだありません。<code>scripts/fetch_gikai.py</code> を
+      ANTHROPIC_API_KEY を設定して実行すると、新しい会議録から順に要約されます。
+    </p>
+    {% endif %}
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>原文をたどる</h2>
+      <span class="sub">会議録より早く中身がわかる入口</span>
+    </div>
+    <ul class="cards">
+      {% for d in gikai.documents %}
+      <li class="card">
+        <h4><a href="{{ d.url }}" rel="noopener">{{ d.title }}</a></h4>
+        <p>{{ d.note }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+
+    {% if gikai.minutes %}
+    <details class="minutes-index">
+      <summary>会議録の一覧（{{ gikai.minutes|length }}件）</summary>
+      <ul>
+        {% for m in gikai.minutes %}
+        <li><a href="{{ m.url }}" rel="noopener">{{ m.title }}</a>{% if m.summary %} <span class="done">要約あり</span>{% endif %}</li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endif %}
+
+    <p class="more">
+      会議録は校正のあと公開されるため、開催から数か月あくことがあります。
+      直近の議論を知りたいときは議会だよりかインターネット配信をご覧ください。
+    </p>
+    <p class="back"><a href="{{ home }}">トップに戻る</a></p>
+  </section>
+{% endblock %}

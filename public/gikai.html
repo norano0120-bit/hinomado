@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>議会｜ひのまど</title>
+<meta name="description" content="日野町議会の会議録の要点と、原文・議会だより・中継への入口をまとめています。">
+<link rel="alternate" type="application/rss+xml" title="ひのまど" href="feed.xml">
+<style>
+@import url(&#39;https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;800&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap&#39;);
+
+/* 日野の色 ------------------------------------------------------------- */
+:root {
+  --sumi: #1b1917;         /* 墨 */
+  --paper: #ece5d8;        /* 生成り */
+  --paper-deep: #ded5c4;
+  --shironeri: #fcfaf6;    /* 白練 */
+  --ai: #1f3b57;           /* 藍 — 日野商人の暖簾 */
+  --ai-soft: #33587a;
+  --shu: #b0392a;          /* 朱漆 — 日野椀 */
+  --nezu: #857f74;         /* 鼠 */
+  --line: #c9c0ad;
+
+  --serif: &#39;Shippori Mincho B1&#39;, &#39;Hiragino Mincho ProN&#39;, serif;
+  --sans: &#39;Zen Kaku Gothic New&#39;, &#39;Hiragino Sans&#39;, &#39;Noto Sans JP&#39;, sans-serif;
+
+  --wrap: 1020px;
+  --lattice: repeating-linear-gradient(90deg,
+    transparent 0 9px, rgba(255, 255, 255, .16) 9px 11px);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--sumi);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+.wrap { width: min(100% - 2.5rem, var(--wrap)); margin-inline: auto; }
+
+:focus-visible {
+  outline: 3px solid var(--shu);
+  outline-offset: 2px;
+}
+
+/* 見出しの帯 ----------------------------------------------------------- */
+.masthead {
+  background: var(--ai);
+  color: var(--shironeri);
+  padding: 2.4rem 0 2rem;
+  position: relative;
+}
+.masthead::after {
+  content: &#39;&#39;;
+  position: absolute;
+  inset: 0;
+  background: var(--lattice);   /* 桟敷窓の縦格子 */
+  pointer-events: none;
+}
+.masthead .wrap { position: relative; z-index: 1; }
+
+.brand {
+  font-family: var(--serif);
+  font-weight: 800;
+  font-size: clamp(2.4rem, 7vw, 3.6rem);
+  letter-spacing: .16em;
+  line-height: 1.1;
+  margin: 0;
+}
+.brand .en {
+  display: block;
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: .62rem;
+  letter-spacing: .42em;
+  opacity: .62;
+  margin-bottom: .7rem;
+}
+.tagline {
+  margin: .9rem 0 0;
+  font-size: .9rem;
+  letter-spacing: .06em;
+  color: #cbd8e4;
+}
+.stamp {
+  display: inline-block;
+  margin-top: 1.3rem;
+  padding: .3rem .85rem;
+  border: 1px solid rgba(252, 250, 246, .45);
+  font-size: .76rem;
+  letter-spacing: .1em;
+}
+.stamp b { color: #f0c9a8; font-weight: 700; }
+
+/* 窓（今日の日野） ------------------------------------------------------ */
+.today {
+  margin-top: -1.6rem;
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+}
+.mado {
+  background: var(--shironeri);
+  border: 2px solid var(--sumi);
+  padding: 1.1rem 1.2rem 1.25rem;
+}
+.mado &gt; .sash {
+  display: block;
+  height: 10px;
+  margin: -1.1rem -1.2rem 1rem;
+  background: repeating-linear-gradient(90deg,
+    var(--sumi) 0 2px, transparent 2px 11px);
+  border-bottom: 1px solid var(--line);
+}
+.mado h2 {
+  margin: 0 0 .55rem;
+  font-family: var(--sans);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .22em;
+  color: var(--nezu);
+}
+.mado .big {
+  font-family: var(--serif);
+  font-weight: 800;
+  font-size: 1.55rem;
+  line-height: 1.35;
+  letter-spacing: .02em;
+}
+.mado ul { margin: 0; padding: 0; list-style: none; font-size: .88rem; }
+.mado ul li { padding: .3rem 0; border-bottom: 1px dotted var(--line); }
+.mado ul li:last-child { border-bottom: 0; }
+.mado ul .when {
+  font-weight: 700;
+  color: var(--shu);
+  margin-right: .5em;
+  font-variant-numeric: tabular-nums;
+}
+.mado .note { font-size: .78rem; color: var(--nezu); margin: .5rem 0 0; }
+
+/* 節（セクション） ------------------------------------------------------ */
+.section { padding: 3.4rem 0 0; }
+.section-head {
+  display: flex;
+  align-items: baseline;
+  gap: .9rem;
+  border-bottom: 2px solid var(--sumi);
+  padding-bottom: .5rem;
+  margin-bottom: 1.4rem;
+}
+.section-head h2 {
+  font-family: var(--serif);
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: .12em;
+  margin: 0;
+}
+.section-head .sub {
+  font-size: .78rem;
+  color: var(--nezu);
+  letter-spacing: .08em;
+  margin-left: auto;
+}
+
+/* 絞り込み ------------------------------------------------------------- */
+.filters { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 1.2rem; }
+.filters button {
+  font-family: var(--sans);
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: .06em;
+  padding: .34rem .9rem;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--sumi);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.filters button:hover { border-color: var(--ai); }
+.filters button[aria-pressed=&#39;true&#39;] {
+  background: var(--ai);
+  border-color: var(--ai);
+  color: var(--shironeri);
+}
+
+/* お知らせ一覧 --------------------------------------------------------- */
+.news { list-style: none; margin: 0; padding: 0; }
+.news li {
+  display: grid;
+  grid-template-columns: 4.4rem 4.6rem 1fr;
+  gap: .9rem;
+  align-items: baseline;
+  padding: .8rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.news li[hidden] { display: none; }
+.news .date {
+  font-variant-numeric: tabular-nums;
+  font-size: .84rem;
+  color: var(--nezu);
+  letter-spacing: .04em;
+}
+.news .badge {
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-align: center;
+  padding: .12rem 0;
+  border: 1px solid var(--ai);
+  color: var(--ai);
+}
+.news .badge.alert { border-color: var(--shu); color: var(--shu); }
+.news a { text-decoration: none; }
+.news a:hover .title { text-decoration: underline; text-underline-offset: 3px; }
+.news .title { font-weight: 500; }
+.news .new {
+  display: inline-block;
+  margin-left: .5em;
+  font-size: .64rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: var(--shu);
+  vertical-align: .15em;
+}
+.news .summary {
+  display: block;
+  font-size: .8rem;
+  color: var(--nezu);
+  margin-top: .15rem;
+}
+.more {
+  margin-top: 1.2rem;
+  font-size: .85rem;
+  color: var(--nezu);
+}
+
+/* お出かけ ------------------------------------------------------------- */
+.season {
+  background: var(--shironeri);
+  border-left: 5px solid var(--shu);
+  padding: 1.1rem 1.3rem;
+  margin-bottom: 1.8rem;
+}
+.season h3 {
+  margin: 0 0 .6rem;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  letter-spacing: .08em;
+}
+.season p { margin: 0; font-size: .88rem; }
+.season .empty { color: var(--nezu); }
+
+.spot-group { margin-bottom: 2.2rem; }
+.spot-group h3 {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  letter-spacing: .14em;
+  margin: 0 0 .9rem;
+  padding-left: .7rem;
+  border-left: 3px solid var(--ai);
+}
+.spots {
+  list-style: none; margin: 0; padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: .9rem;
+}
+.spot {
+  background: var(--shironeri);
+  border: 1px solid var(--line);
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  transition: border-color .15s, transform .15s;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .spot:hover { transform: translateY(-2px); }
+}
+.spot:hover { border-color: var(--ai); }
+.spot h4 {
+  margin: 0 0 .4rem;
+  font-family: var(--serif);
+  font-size: 1rem;
+  letter-spacing: .04em;
+}
+.spot h4 a { text-decoration: none; }
+.spot h4 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.spot p { margin: 0 0 .7rem; font-size: .84rem; color: #423d36; }
+.spot .tags { margin-top: auto; display: flex; flex-wrap: wrap; gap: .3rem; }
+.spot .tags span {
+  font-size: .68rem;
+  letter-spacing: .06em;
+  padding: .1rem .5rem;
+  background: var(--paper-deep);
+  color: #55503f;
+}
+.spot .now {
+  align-self: flex-start;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: var(--shironeri);
+  background: var(--shu);
+  padding: .1rem .5rem;
+  margin-bottom: .5rem;
+}
+.spot .via { font-size: .7rem; color: var(--nezu); margin-top: .5rem; }
+
+/* 出典と断り書き ------------------------------------------------------- */
+.colophon {
+  margin-top: 4rem;
+  background: var(--ai);
+  color: #d5dfe9;
+  padding: 2.4rem 0 2.8rem;
+  font-size: .84rem;
+}
+.colophon h2 {
+  font-family: var(--serif);
+  color: var(--shironeri);
+  font-size: 1.1rem;
+  letter-spacing: .14em;
+  margin: 0 0 .9rem;
+}
+.colophon ul { margin: 0 0 1.6rem; padding: 0; list-style: none; }
+.colophon li { padding: .22rem 0; }
+.colophon a { color: #a9cbe8; }
+.colophon .disclaimer {
+  border-top: 1px solid rgba(252, 250, 246, .22);
+  padding-top: 1.2rem;
+  line-height: 1.9;
+}
+.colophon .subscribe { margin-bottom: 1.6rem; }
+.colophon .subscribe a {
+  display: inline-block;
+  margin-right: 1rem;
+  border: 1px solid rgba(252, 250, 246, .4);
+  padding: .3rem .9rem;
+  text-decoration: none;
+  color: var(--shironeri);
+}
+.colophon .subscribe a:hover { background: rgba(252, 250, 246, .12); }
+
+.fetch-error {
+  background: #f6ece4;
+  border: 1px solid var(--shu);
+  color: #7d2b1f;
+  padding: .7rem 1rem;
+  font-size: .82rem;
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 640px) {
+  .news li { grid-template-columns: 3.6rem 1fr; }
+  .news .badge { grid-row: 1; }
+  .news a { grid-column: 1 / -1; }
+  .today { margin-top: -1rem; }
+}
+
+/* 目次バー ------------------------------------------------------------- */
+.toc {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--sumi);
+  border-bottom: 1px solid rgba(252, 250, 246, .18);
+}
+.toc .wrap { display: flex; gap: .2rem; overflow-x: auto; scrollbar-width: none; }
+.toc .wrap::-webkit-scrollbar { display: none; }
+.toc a {
+  flex: none;
+  padding: .7rem .95rem;
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: .08em;
+  color: #cfc9bd;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.toc a:hover { color: var(--shironeri); border-bottom-color: var(--shu); }
+
+/* 折りたたみのボタン --------------------------------------------------- */
+.expander { margin-top: 1rem; }
+.expander button {
+  width: 100%;
+  padding: .65rem 1rem;
+  font-family: var(--sans);
+  font-size: .85rem;
+  font-weight: 500;
+  letter-spacing: .1em;
+  color: var(--ai);
+  background: var(--shironeri);
+  border: 1px solid var(--line);
+  cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+.expander button:hover { background: #fff; border-color: var(--ai); }
+.expander button::after { content: &#39; ▾&#39;; }
+.expander button[aria-expanded=&#39;true&#39;]::after { content: &#39; ▴&#39;; }
+
+/* 報道 ----------------------------------------------------------------- */
+.badge.press { border-color: var(--nezu); color: var(--nezu); }
+.empty-note {
+  background: var(--shironeri);
+  border: 1px dashed var(--line);
+  padding: 1rem 1.2rem;
+  font-size: .86rem;
+  color: #4a453d;
+}
+.empty-note code {
+  font-size: .82em;
+  background: var(--paper-deep);
+  padding: .1em .4em;
+}
+.lead { margin: 0 0 1.2rem; font-size: .92rem; }
+.sub-head {
+  font-family: var(--serif);
+  font-size: 1rem;
+  letter-spacing: .12em;
+  margin: 2rem 0 .8rem;
+  padding-left: .7rem;
+  border-left: 3px solid var(--ai);
+}
+
+/* カード（ふるさと納税・議会の入口） ------------------------------------ */
+.cards {
+  list-style: none; margin: 0; padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  gap: .9rem;
+}
+.card {
+  background: var(--shironeri);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--ai);
+  padding: 1rem 1.1rem;
+}
+.card h4 { margin: 0 0 .4rem; font-family: var(--serif); font-size: .98rem; letter-spacing: .03em; }
+.card h4 a { text-decoration: none; }
+.card h4 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.card p { margin: 0; font-size: .83rem; color: #4a453d; }
+
+/* 会議録の要約 --------------------------------------------------------- */
+.minutes {
+  background: var(--shironeri);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--ai);
+  padding: 1.3rem 1.4rem;
+  margin-bottom: 1.2rem;
+}
+.minutes h3 {
+  margin: 0 0 .6rem;
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  letter-spacing: .06em;
+}
+.minutes .gist { margin: 0 0 1.1rem; font-size: .92rem; }
+.minutes h4 {
+  margin: 1.1rem 0 .45rem;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .2em;
+  color: var(--nezu);
+}
+.points { margin: 0; padding: 0; list-style: none; }
+.points li {
+  font-size: .86rem;
+  padding: .38rem 0 .38rem .95rem;
+  border-left: 2px solid var(--paper-deep);
+  margin-bottom: .2rem;
+}
+.points li b { display: block; font-weight: 700; font-size: .84rem; }
+.points.qa li b { color: var(--ai); }
+.minutes .origin {
+  margin: 1.3rem 0 0;
+  padding-top: .8rem;
+  border-top: 1px solid var(--line);
+  font-size: .82rem;
+}
+.minutes .origin .caveat { display: block; color: var(--nezu); font-size: .76rem; margin-top: .3rem; }
+
+.minutes-index { margin-top: 1.4rem; font-size: .86rem; }
+.minutes-index summary { cursor: pointer; font-weight: 500; letter-spacing: .06em; }
+.minutes-index ul { margin: .8rem 0 0; padding: 0 0 0 1.1rem; }
+.minutes-index li { padding: .18rem 0; }
+.minutes-index .done {
+  font-size: .68rem;
+  letter-spacing: .08em;
+  background: var(--ai);
+  color: var(--shironeri);
+  padding: .05rem .45rem;
+}
+
+/* 警報の帯 ------------------------------------------------------------- */
+.alert-band {
+  background: var(--shu);
+  color: var(--shironeri);
+  font-size: .88rem;
+  letter-spacing: .04em;
+}
+.alert-band .wrap { padding: .6rem 0; }
+.alert-band b {
+  display: inline-block;
+  background: var(--shironeri);
+  color: var(--shu);
+  padding: .05rem .55rem;
+  margin-right: .7rem;
+  font-size: .78rem;
+  letter-spacing: .1em;
+}
+.alert-band a { color: #ffe0d8; }
+
+/* 天気の窓 ------------------------------------------------------------- */
+.mado .temps { margin: .3rem 0 .6rem; display: flex; align-items: baseline; gap: .8rem; }
+.mado .temps .hi { font-family: var(--serif); font-weight: 800; font-size: 1.6rem; color: var(--shu); }
+.mado .temps .lo { font-family: var(--serif); font-weight: 600; font-size: 1.1rem; color: var(--ai); }
+.mado .temps i { font-style: normal; font-size: .6em; margin-left: .1em; }
+.mado .temps .pop { font-size: .78rem; color: var(--nezu); margin-left: auto; }
+.mado .next-days { font-size: .8rem; }
+.mado .next-days .when { color: var(--nezu); font-weight: 500; }
+.mado .note code { font-size: .85em; background: var(--paper-deep); padding: .05em .35em; }
+
+/* ごみ ----------------------------------------------------------------- */
+.gomi-tabs { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1rem; }
+.gomi-tabs button {
+  font-family: var(--sans);
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: .06em;
+  padding: .4rem 1rem;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--sumi);
+  cursor: pointer;
+}
+.gomi-tabs button[aria-selected=&#39;true&#39;] {
+  background: var(--ai);
+  border-color: var(--ai);
+  color: var(--shironeri);
+}
+
+.gomi-panel {
+  background: var(--shironeri);
+  border: 1px solid var(--line);
+  padding: 1.1rem 1.3rem;
+}
+.gomi-panel.unverified { border-style: dashed; }
+.gomi-panel.unverified .gomi-list { opacity: .62; }
+.gomi-area { margin: 0 0 .9rem; font-size: .82rem; color: var(--nezu); letter-spacing: .04em; }
+
+.gomi-list { list-style: none; margin: 0; padding: 0; }
+.gomi-list li {
+  display: grid;
+  grid-template-columns: 4.2rem 5rem 1fr;
+  gap: .7rem;
+  align-items: center;
+  padding: .45rem 0;
+  border-bottom: 1px dotted var(--line);
+}
+.gomi-list li:last-child { border-bottom: 0; }
+.gomi-list .today-row { background: #fdf4e8; margin-inline: -.6rem; padding-inline: .6rem; }
+.gomi-when { font-size: .78rem; font-weight: 700; letter-spacing: .06em; color: var(--shu); }
+.gomi-date { font-size: .84rem; font-variant-numeric: tabular-nums; color: #4a453d; }
+.gomi-kinds { display: flex; flex-wrap: wrap; gap: .3rem; }
+.chip {
+  font-size: .7rem;
+  letter-spacing: .04em;
+  padding: .1rem .55rem;
+  border: 1px solid var(--line);
+}
+.chip.burn { background: #f6e6e2; border-color: #d9b4ab; color: #7d2b1f; }
+.chip.resource { background: #e3ecf3; border-color: #a9c2d6; color: #1f3b57; }
+.chip.other { background: var(--paper-deep); color: #55503f; }
+.gomi-pdf { margin: 1rem 0 0; font-size: .8rem; }
+
+.gomi-rules { margin: 1.2rem 0 0; padding-left: 1.1rem; font-size: .83rem; color: #4a453d; }
+.gomi-rules li { padding: .15rem 0; }
+
+/* 週間天気 ------------------------------------------------------------- */
+.forecast { list-style: none; margin: 0; padding: 0; display: grid; gap: .4rem; }
+.forecast li {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr auto;
+  gap: .8rem;
+  align-items: center;
+  background: var(--shironeri);
+  border: 1px solid var(--line);
+  padding: .6rem .95rem;
+}
+.fc-day { font-weight: 700; font-size: .84rem; letter-spacing: .06em; }
+.fc-day i { display: block; font-style: normal; font-weight: 400; font-size: .72rem; color: var(--nezu); }
+.fc-weather { font-size: .87rem; }
+.fc-temp b { font-family: var(--serif); color: var(--shu); font-size: 1.05rem; }
+.fc-temp i { font-style: normal; color: var(--ai); font-size: .85rem; margin-left: .4rem; }
+
+/* 暮らしの連絡先 ------------------------------------------------------- */
+.kurashi-group { margin-bottom: 1.4rem; }
+.kurashi-group h4 {
+  margin: 0 0 .5rem;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .2em;
+  color: var(--nezu);
+}
+.kurashi-list { list-style: none; margin: 0; padding: 0; }
+.kurashi-list li {
+  padding: .5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.k-name { display: block; font-weight: 500; font-size: .92rem; }
+.k-detail { display: block; font-size: .81rem; color: #4a453d; margin-top: .1rem; }
+.tel {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--ai);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ai);
+}
+
+@media (max-width: 640px) {
+  .gomi-list li { grid-template-columns: 3.6rem 1fr; }
+  .gomi-kinds { grid-column: 1 / -1; }
+  .forecast li { grid-template-columns: 5rem 1fr; }
+  .fc-temp { grid-column: 2; text-align: right; }
+}
+
+/* ── 追加：ページ分割・天気アイコン・SNS ───────────────────────── */
+
+.masthead .brand a { text-decoration: none; }
+.masthead.compact { padding: 1.6rem 0 1.3rem; }
+.masthead.compact .brand { font-size: clamp(1.6rem, 5vw, 2.2rem); }
+.masthead.compact .tagline { margin-top: .5rem; }
+.toc a.here { color: var(--shironeri); border-bottom-color: var(--shu); }
+.section.first { padding-top: 2.4rem; }
+.back { margin-top: 2rem; font-size: .88rem; }
+
+/* 天気アイコン */
+.wx-icon { width: 46px; height: 46px; flex: none; color: var(--shu); }
+.wx-mini { width: 20px; height: 20px; flex: none; color: var(--ai); }
+
+.wx-now { display: flex; align-items: center; gap: .7rem; margin-bottom: .7rem; }
+.wx-text { min-width: 0; flex: 1; }
+.wx-main {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 800;
+  font-size: 1.35rem;
+  line-height: 1.2;
+  letter-spacing: .02em;
+  white-space: nowrap;
+}
+.wx-rest {
+  margin: .1rem 0 0;
+  font-size: .74rem;
+  color: var(--nezu);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wx-temp { margin: 0; text-align: right; white-space: nowrap; line-height: 1.1; }
+.wx-temp b { font-family: var(--serif); font-size: 1.5rem; color: var(--shu); }
+.wx-temp b::after { content: &#39;℃&#39;; font-size: .55em; }
+.wx-temp i {
+  display: block;
+  font-style: normal;
+  font-family: var(--serif);
+  font-size: .95rem;
+  color: var(--ai);
+}
+.wx-temp i::after { content: &#39;℃&#39;; font-size: .6em; }
+
+.wx-next { list-style: none; margin: 0; padding: 0; border-top: 1px dotted var(--line); }
+.wx-next li {
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .3rem 0;
+  font-size: .8rem;
+  white-space: nowrap;
+}
+.wx-next .when { color: var(--nezu); font-weight: 500; flex: none; }
+.wx-next .w { overflow: hidden; text-overflow: ellipsis; }
+.wx-next .t { margin-left: auto; font-weight: 700; color: var(--shu); flex: none; }
+
+/* 窓のなかの全地区ごみ一覧 */
+.gomi-mini { list-style: none; margin: 0; padding: 0; }
+.gomi-mini.unverified { opacity: .68; }
+.gomi-mini li { border-bottom: 1px dotted var(--line); }
+.gomi-mini li:last-child { border-bottom: 0; }
+.gomi-mini a {
+  display: grid;
+  grid-template-columns: 4.6rem 1fr;
+  gap: .1rem .5rem;
+  padding: .35rem 0;
+  text-decoration: none;
+}
+.gomi-mini a:hover .gd { text-decoration: underline; text-underline-offset: 2px; }
+.gomi-mini .ga {
+  grid-row: 1 / 3;
+  align-self: center;
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  color: var(--ai);
+  border-right: 1px solid var(--line);
+  padding-right: .4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.gomi-mini .gd { font-size: .82rem; font-weight: 700; color: var(--shu); white-space: nowrap; }
+.gomi-mini .gk {
+  font-size: .72rem;
+  color: var(--nezu);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 週間天気にアイコンを足したので列を調整 */
+.forecast li { grid-template-columns: 24px 6.5rem 1fr auto; }
+.fc-weather i { font-style: normal; color: var(--nezu); font-size: .78rem; margin-left: .4rem; }
+
+/* スポットのSNSリンク */
+.sns { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .6rem; }
+.sns a {
+  display: inline-flex;
+  align-items: center;
+  gap: .28rem;
+  font-size: .7rem;
+  letter-spacing: .03em;
+  padding: .16rem .5rem;
+  border: 1px solid var(--line);
+  color: var(--ai);
+  text-decoration: none;
+  transition: background .15s, border-color .15s;
+}
+.sns a:hover { background: var(--paper-deep); border-color: var(--ai); }
+.sns svg { width: 12px; height: 12px; }
+
+@media (max-width: 640px) {
+  .forecast li { grid-template-columns: 24px 5rem 1fr; }
+  .fc-temp { grid-column: 3; text-align: right; }
+}
+
+/* 子育てページの段階見出し ---------------------------------------------- */
+.stage { margin-bottom: 1.8rem; }
+.stage h3 {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  letter-spacing: .12em;
+  margin: 0 0 .6rem;
+  padding-left: .7rem;
+  border-left: 3px solid var(--shu);
+}
+
+/* ── 子育てページ ─────────────────────────────────────────── */
+.hotline {
+  background: var(--shironeri);
+  border: 2px solid var(--sumi);
+  padding: 1.4rem 1.5rem 1.5rem;
+  margin-top: 1.4rem;
+}
+.hotline &gt; .sash {
+  display: block;
+  height: 10px;
+  margin: -1.4rem -1.5rem 1.1rem;
+  background: repeating-linear-gradient(90deg, var(--sumi) 0 2px, transparent 2px 11px);
+  border-bottom: 1px solid var(--line);
+}
+.hotline .h-label {
+  margin: 0 0 .4rem;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .22em;
+  color: var(--nezu);
+}
+.hotline h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  letter-spacing: .06em;
+}
+.hotline .h-belongs { margin: .2rem 0 .7rem; font-size: .8rem; color: var(--nezu); }
+.hotline .h-tel { margin: 0 0 .8rem; }
+.hotline .h-tel a {
+  font-family: var(--serif);
+  font-weight: 800;
+  font-size: 1.9rem;
+  letter-spacing: .04em;
+  color: var(--shu);
+  text-decoration: none;
+  font-variant-numeric: tabular-nums;
+}
+.hotline .h-tel a:hover { text-decoration: underline; text-underline-offset: 5px; }
+.hotline .h-note { margin: 0 0 .8rem; font-size: .87rem; }
+.hotline .h-more { margin: 0; font-size: .78rem; color: var(--nezu); }
+
+.stages { list-style: none; margin: 0; padding: 0; counter-reset: stage; }
+.stages &gt; li {
+  counter-increment: stage;
+  position: relative;
+  padding: 0 0 1.3rem 2.6rem;
+  border-left: 2px solid var(--line);
+  margin-left: .7rem;
+}
+.stages &gt; li:last-child { border-left-color: transparent; padding-bottom: 0; }
+.stages &gt; li::before {
+  content: counter(stage);
+  position: absolute;
+  left: -.95rem;
+  top: 0;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: grid;
+  place-items: center;
+  background: var(--ai);
+  color: var(--shironeri);
+  font-size: .8rem;
+  font-weight: 700;
+  border-radius: 50%;
+}
+.stages h3 {
+  margin: .1rem 0 .5rem;
+  font-family: var(--serif);
+  font-size: 1.08rem;
+  letter-spacing: .06em;
+}
+.stages ul { margin: 0; padding-left: 1.1rem; font-size: .87rem; }
+.stages ul li { padding: .18rem 0; }
+
+.kurashi-list.money .k-detail { font-size: .85rem; line-height: 1.75; }
+
+</style>
+</head>
+<body>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="wi-sun" viewBox="0 0 32 32">
+      <circle cx="16" cy="16" r="7" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M16 2v4M16 26v4M2 16h4M26 16h4M6.2 6.2l2.8 2.8M23 23l2.8 2.8M25.8 6.2L23 9M9 23l-2.8 2.8"/>
+      </g>
+    </symbol>
+    <symbol id="wi-cloud" viewBox="0 0 32 32">
+      <path d="M9 25a6 6 0 0 1 .6-12 8 8 0 0 1 15.2 2.4A5 5 0 0 1 24 25z" fill="currentColor"/>
+    </symbol>
+    <symbol id="wi-sun-cloud" viewBox="0 0 32 32">
+      <circle cx="11" cy="11" r="5.5" fill="currentColor" opacity=".55"/>
+      <g stroke="currentColor" stroke-width="1.8" stroke-linecap="round" opacity=".55">
+        <path d="M11 1.5v3M1.5 11h3M4.3 4.3l2.1 2.1M17.7 4.3l-2.1 2.1"/>
+      </g>
+      <path d="M12 27a5.5 5.5 0 0 1 .5-11 7.3 7.3 0 0 1 13.9 2.2A4.6 4.6 0 0 1 25.6 27z" fill="currentColor"/>
+    </symbol>
+    <symbol id="wi-rain" viewBox="0 0 32 32">
+      <path d="M9 21a6 6 0 0 1 .6-12 8 8 0 0 1 15.2 2.4A5 5 0 0 1 24 21z" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+        <path d="M11 24l-1.6 5M18 24l-1.6 5M25 24l-1.6 5"/>
+      </g>
+    </symbol>
+    <symbol id="wi-sun-rain" viewBox="0 0 32 32">
+      <circle cx="11" cy="9.5" r="5" fill="currentColor" opacity=".55"/>
+      <g stroke="currentColor" stroke-width="1.7" stroke-linecap="round" opacity=".55">
+        <path d="M11 .8v2.6M1.8 9.5h2.6M4.4 2.9l1.8 1.8"/>
+      </g>
+      <path d="M12 22a5 5 0 0 1 .5-10 6.8 6.8 0 0 1 12.9 2A4.3 4.3 0 0 1 25 22z" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M14 25l-1.4 4.4M21 25l-1.4 4.4"/>
+      </g>
+    </symbol>
+    <symbol id="wi-thunder" viewBox="0 0 32 32">
+      <path d="M9 20a6 6 0 0 1 .6-12 8 8 0 0 1 15.2 2.4A5 5 0 0 1 24 20z" fill="currentColor"/>
+      <path d="M17.5 21l-6 8h4.2l-1.4 6 7-9h-4.4l2-5z" fill="currentColor"/>
+    </symbol>
+    <symbol id="wi-snow" viewBox="0 0 32 32">
+      <path d="M9 20a6 6 0 0 1 .6-12 8 8 0 0 1 15.2 2.4A5 5 0 0 1 24 20z" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M11 24v5M8.6 25.4l4.8 2.2M13.4 25.4l-4.8 2.2M22 24v5M19.6 25.4l4.8 2.2M24.4 25.4l-4.8 2.2"/>
+      </g>
+    </symbol>
+    <symbol id="wi-inst" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="5.5" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="17.6" cy="6.4" r="1.4" fill="currentColor"/>
+    </symbol>
+    <symbol id="wi-x" viewBox="0 0 24 24">
+      <path d="M3 3l7.6 9.8L3.4 21h2.3l6-6.6L16.5 21H21l-8-10.3L20.2 3H18l-5.6 6.2L7.7 3z" fill="currentColor"/>
+    </symbol>
+    <symbol id="wi-fb" viewBox="0 0 24 24">
+      <path d="M14 8.5V6.8c0-.8.2-1.3 1.5-1.3H17V2.2A21 21 0 0 0 14.7 2C12 2 10.2 3.6 10.2 6.5v2H7.5V12h2.7v10H14V12h2.8l.4-3.5z" fill="currentColor"/>
+    </symbol>
+    <symbol id="wi-web" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9.2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <ellipse cx="12" cy="12" rx="4" ry="9.2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M3 12h18" stroke="currentColor" stroke-width="2"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="masthead compact">
+  <div class="wrap">
+    <h1 class="brand"><span class="en">HINO, SHIGA</span><a href="index.html">ひのまど</a></h1>
+    
+    <p class="tagline">日野町議会の記録を読む</p>
+    
+  </div>
+</header>
+
+<nav class="toc" aria-label="ページの目次">
+  <div class="wrap">
+    <a href="index.html#news">お知らせ</a>
+    <a href="index.html#press">時事ニュース</a>
+    <a href="index.html#kurashi">きょうの暮らし</a>
+    <a href="index.html#odekake">お出かけ</a>
+    <a href="kosodate.html">子育て</a>
+    <a href="furusato.html">ふるさと納税</a>
+    <a href="gikai.html" class="here">議会</a>
+  </div>
+</nav>
+
+
+
+<main class="wrap">
+
+  
+
+  <section class="section first">
+    <div class="section-head">
+      <h2>会議録の要点</h2>
+      <span class="sub">機械が読んでまとめたものです</span>
+    </div>
+
+    
+    
+    <article class="minutes">
+      <h3>令和8年1月臨時会議・会議録</h3>
+      <p class="gist">令和8年1月26日の臨時会議。物価高騰への対策を柱とする令和7年度一般会計補正予算（第7号）5億4,505万6千円が全員の起立で可決され、予算総額は117億3,596万3千円になりました。あわせて、衆議院議員総選挙の経費1,770万6千円を専決処分したことが報告されています。</p>
+
+      
+      <h4>主な論点</h4>
+      <ul class="points">
+        
+        <li><b>くらし応援クーポン券</b>町民1人あたり9,000円分のクーポンを配ります。どの取扱店でも使える共通券5,000円と、地元事業所だけで使える券4,000円の2種類で、1,000円の買い物ごとに500円券を1枚使える仕組みです。</li>
+        
+        <li><b>子育て応援手当</b>0歳から高校3年生年代の子どもを育てる保護者に、子ども1人あたり2万円を支給します。物価高の影響を強く受ける世帯への支援という位置づけです。</li>
+        
+        <li><b>非課税世帯向けの枠がない</b>昨年度は国が低所得世帯向けの支援枠を示していましたが、今年度は示されず、対象を絞った給付は行いません。町は広く早く行き渡る形を選んだと説明しています。</li>
+        
+        <li><b>医療・介護・保育施設への補助</b>エネルギーや食料品の値上がりで負担が増えている社会福祉施設などに対し、経営を安定させるための補助金を新たに計上しました。</li>
+        
+        <li><b>西大路鎌掛線に7,500万円</b>社会資本整備総合交付金が追加され、日野川に架かる橋のうち鎌掛側の橋台工事に約1億5,000万円をあてます。これまでの道路側に加えて橋側からも着工できるようになりました。</li>
+        
+        <li><b>橋の事業費が5億から8億へ</b>資材と人件費の高騰により、当初5億円程度と見ていた橋梁の事業費が8億円程度になる見通しです。土木の人件費は以前の1.5倍ほどとの説明でした。完成目標は令和15年のまま据え置かれています。</li>
+        
+      </ul>
+      
+
+      
+      <h4>一般質問</h4>
+      <ul class="points qa">
+        
+        <li><b>福永晃仁 議員／交付金メニューの選び方</b>昨年度あった低所得世帯向けの枠が今年度は無く、住民税非課税世帯への支援が見えないことをどう考えるかを尋ねました。総務主監は、今年度は国から支援枠が示されず推奨メニューのみだったため、各課に照会したうえで効果が高く広く早く届く形に整理したと答えています。</li>
+        
+        <li><b>谷口智哉 議員／クーポン券の設計と地元商店</b>9,000円の内訳と、この方法を最善と判断した理由を質問。ふだん行かない店には入りづらいという住民の声を挙げ、のぼり旗やSNSでの周知を求めました。産業建設主監は、加盟店をわかりやすくする工夫と商工会との連携を進めると答えています。</li>
+        
+        <li><b>山本秀喜 議員／財政と西大路鎌掛線</b>交付金7,500万円がついた経緯、財政調整基金を約2億8,000万円繰り入れた後に戻せるのか、町債残高の傾向、橋梁工事の内容と事業費の上昇について質問。総務主監は3月補正で基金を12億円の水準に戻す見込みと答え、建設計画課長は道路への交付率が近年100パーセントで推移していると説明しました。</li>
+        
+      </ul>
+      
+
+      
+      <h4>議決されたこと</h4>
+      <ul class="points">
+        <li>議第94号 令和7年度日野町一般会計補正予算（第7号）／5億4,505万6千円の追加を起立全員で可決。予算総額は117億3,596万3千円。</li><li>報第10号 令和7年度一般会計補正予算（第6号）の専決処分／衆議院議員総選挙の経費1,770万6千円を報告。</li>
+      </ul>
+      
+
+      <p class="origin">
+        <a href="https://www.town.shiga-hino.lg.jp/0000008692.html" rel="noopener">原文（会議録のページ）を開く</a>
+        <span class="caveat">この要約は機械が作ったものです。引用や判断の根拠にする前に、必ず原文を確かめてください。</span>
+      </p>
+    </article>
+    
+    
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>原文をたどる</h2>
+      <span class="sub">会議録より早く中身がわかる入口</span>
+    </div>
+    <ul class="cards">
+      
+      <li class="card">
+        <h4><a href="https://www.town.shiga-hino.lg.jp/0000007081.html" rel="noopener">議会だより</a></h4>
+        <p>定例会ごとの紙面。会議録より早く要点がまとまります。</p>
+      </li>
+      
+      <li class="card">
+        <h4><a href="https://www.town.shiga-hino.lg.jp/0000007323.html" rel="noopener">一般質問に係る配付資料</a></h4>
+        <p>議員が質問時に使った資料。数字の出どころを確かめられます。</p>
+      </li>
+      
+      <li class="card">
+        <h4><a href="https://hino-town.stream.jfit.co.jp/" rel="noopener">議会のインターネット配信</a></h4>
+        <p>本会議のライブ中継と録画。会議録より先に中身がわかります。</p>
+      </li>
+      
+    </ul>
+
+    
+    <details class="minutes-index">
+      <summary>会議録の一覧（15件）</summary>
+      <ul>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000008692.html" rel="noopener">令和8年1月臨時会議・会議録</a> <span class="done">要約あり</span></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000008691.html" rel="noopener">令和7年12月定例会議・会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000008582.html" rel="noopener">令和7年9月定例会議・会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000008499.html" rel="noopener">令和7年7月臨時会議・会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000008489.html" rel="noopener">令和7年6月定例会議・会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000008413.html" rel="noopener">令和7年第3回（5月14日）臨時会会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000008397.html" rel="noopener">令和7年第2回（3月）定例会会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000008211.html" rel="noopener">令和6年第7回（12月）定例会会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000008210.html" rel="noopener">令和7年第1回（2月3日）臨時会会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000008116.html" rel="noopener">令和6年第6回（9月）定例会会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000007925.html" rel="noopener">令和6年第5回（7月16日）臨時会会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000007924.html" rel="noopener">令和6年第4回（6月）定例会会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000007862.html" rel="noopener">令和6年第3回（5月16日）臨時会会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000007861.html" rel="noopener">令和6年第2回（3月）定例会会議録</a></li>
+        
+        <li><a href="https://www.town.shiga-hino.lg.jp/0000007570.html" rel="noopener">令和6年第1回（2月5日）臨時会会議録</a></li>
+        
+      </ul>
+    </details>
+    
+
+    <p class="more">
+      会議録は校正のあと公開されるため、開催から数か月あくことがあります。
+      直近の議論を知りたいときは議会だよりかインターネット配信をご覧ください。
+    </p>
+    <p class="back"><a href="index.html">トップに戻る</a></p>
+  </section>
+
+</main>
+
+<footer class="colophon">
+  <div class="wrap">
+    <h2>受け取り方</h2>
+    <div class="subscribe">
+      <a href="feed.xml">RSSで購読する</a>
+      <a href="events.ics">カレンダーに取り込む</a>
+      <a href="news.json">データを使う（JSON）</a>
+    </div>
+
+    <h2>情報のもと</h2>
+    <ul>
+      
+      <li>日野町 新着情報 — <a href="https://www.town.shiga-hino.lg.jp/" rel="noopener">https://www.town.shiga-hino.lg.jp/</a></li>
+      
+      <li>日野町 募集情報 — <a href="https://www.town.shiga-hino.lg.jp/" rel="noopener">https://www.town.shiga-hino.lg.jp/</a></li>
+      
+      <li>日野町 イベント — <a href="https://www.town.shiga-hino.lg.jp/category/34-0-0-0-0-0-0-0-0-0.html" rel="noopener">https://www.town.shiga-hino.lg.jp/category/34-0-0-0-0-0-0-0-0-0.html</a></li>
+      
+      <li>日野め〜る — <a href="http://hino-town.site.ktaiwork.jp/" rel="noopener">http://hino-town.site.ktaiwork.jp/</a></li>
+      
+      <li>日野観光協会 — <a href="https://hino-kanko.jp/" rel="noopener">https://hino-kanko.jp/</a></li>
+      
+      <li>ひの暮らし — <a href="https://hinogurashi.net/" rel="noopener">https://hinogurashi.net/</a></li>
+      
+      <li>日野町商工会 — <a href="http://hino-shokokai.com/" rel="noopener">http://hino-shokokai.com/</a></li>
+      
+      <li>滋賀報知新聞 — <a href="https://shigahochi.co.jp/" rel="noopener">https://shigahochi.co.jp/</a></li>
+      
+      <li>報道横断検索（Googleニュース） — <a href="https://news.google.com/" rel="noopener">https://news.google.com/</a></li>
+      
+      <li>お出かけ情報 — <a href="https://hino-kanko.jp/" rel="noopener">日野観光協会</a> ほか各施設の公式サイト</li>
+      <li>天気・警報 — <a href="https://www.jma.go.jp/bosai/" rel="noopener">気象庁</a></li>
+      <li>ごみ収集 — <a href="https://www.town.shiga-hino.lg.jp/0000008171.html" rel="noopener">日野町 資源・ごみ収集カレンダー</a></li>
+    </ul>
+
+    <p class="disclaimer">
+      このサイトは日野町・日野観光協会とは関係のない、個人が運営する非公式のまとめです。
+      各配信元の見出し・日付・リンクを機械的に集めて並べ、紹介文は独自に書いています。
+      申請の期限や開催の有無など、正確な情報は必ずリンク先の公式ページでご確認ください。
+      掲載をやめてほしい配信元の方は運営者までご連絡ください。<br>
+      最終更新：2026年08月14日 18:11
+      
+    </p>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>

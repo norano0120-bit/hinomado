@@ -1,0 +1,101 @@
+[
+  {
+    "id": "town-news",
+    "name": "日野町 新着情報",
+    "short": "町",
+    "type": "rss",
+    "url": "https://www.town.shiga-hino.lg.jp/rss/rss_new.xml",
+    "site": "https://www.town.shiga-hino.lg.jp/",
+    "category": "town"
+  },
+  {
+    "id": "town-topics",
+    "name": "日野町 募集情報",
+    "short": "募集",
+    "type": "rss",
+    "url": "https://www.town.shiga-hino.lg.jp/rss/rss_topics.xml",
+    "site": "https://www.town.shiga-hino.lg.jp/",
+    "category": "town"
+  },
+  {
+    "id": "town-event",
+    "name": "日野町 イベント",
+    "short": "催し",
+    "type": "html",
+    "url": "https://www.town.shiga-hino.lg.jp/category/34-0-0-0-0-0-0-0-0-0.html",
+    "link_pattern": "town\\.shiga-hino\\.lg\\.jp/\\d{10}\\.html$",
+    "site": "https://www.town.shiga-hino.lg.jp/category/34-0-0-0-0-0-0-0-0-0.html",
+    "category": "event"
+  },
+  {
+    "id": "hino-mail",
+    "name": "日野め〜る",
+    "short": "防災",
+    "type": "rss",
+    "url": "http://hino-town.site.ktaiwork.jp/?feed=rss2",
+    "site": "http://hino-town.site.ktaiwork.jp/",
+    "category": "alert"
+  },
+  {
+    "id": "kanko",
+    "name": "日野観光協会",
+    "short": "観光",
+    "type": "rss",
+    "url": "https://hino-kanko.jp/feed/",
+    "site": "https://hino-kanko.jp/",
+    "category": "event"
+  },
+  {
+    "id": "hinogurashi",
+    "name": "ひの暮らし",
+    "short": "暮らし",
+    "type": "rss",
+    "url": "https://hinogurashi.net/feed/",
+    "site": "https://hinogurashi.net/",
+    "category": "life"
+  },
+  {
+    "id": "shokokai",
+    "name": "日野町商工会",
+    "short": "商工",
+    "type": "rss",
+    "url": "http://hino-shokokai.com/feed",
+    "site": "http://hino-shokokai.com/",
+    "category": "business"
+  },
+  {
+    "id": "shigahochi",
+    "name": "滋賀報知新聞",
+    "short": "報知",
+    "type": "rss",
+    "url": "https://shigahochi.co.jp/feed",
+    "site": "https://shigahochi.co.jp/",
+    "category": "press",
+    "include": [
+      "日野",
+      "蒲生",
+      "綿向"
+    ],
+    "exclude": [
+      "日野市"
+    ]
+  },
+  {
+    "id": "gnews",
+    "name": "報道横断検索（Googleニュース）",
+    "short": "報道",
+    "type": "rss",
+    "url": "https://news.google.com/rss/search?q=%22%E6%97%A5%E9%87%8E%E7%94%BA%22+%E6%BB%8B%E8%B3%80&hl=ja&gl=JP&ceid=JP:ja",
+    "site": "https://news.google.com/",
+    "category": "press",
+    "include": [
+      "日野町"
+    ],
+    "exclude": [
+      "日野市",
+      "鳥取",
+      "東京都",
+      "日野自動車"
+    ]
+  }
+]

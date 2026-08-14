@@ -1,0 +1,86 @@
+{
+  "intro": "困ったときの連絡先と、町のなかで役に立つ場所。電話番号はそのままかけられます。",
+  "groups": [
+    {
+      "title": "役場・手続き",
+      "items": [
+        {
+          "name": "日野町役場",
+          "detail": "河原一丁目1番地／平日 9:00〜16:45（2026年7月1日から開庁時間が変わりました）",
+          "tel": "0748-52-1211",
+          "url": "https://www.town.shiga-hino.lg.jp/0000006723.html"
+        },
+        {
+          "name": "町政への意見箱",
+          "detail": "町へ直接意見を送るフォーム。",
+          "url": "https://www.town.shiga-hino.lg.jp/mailform/opinion.cgi"
+        },
+        {
+          "name": "窓口案内・各課の連絡先",
+          "detail": "どの課に聞けばいいか迷ったときに。",
+          "url": "https://www.town.shiga-hino.lg.jp/soshiki_list.html"
+        }
+      ]
+    },
+    {
+      "title": "移動",
+      "items": [
+        {
+          "name": "チョイソコひの",
+          "detail": "電話で予約する乗合タクシー。町内の決まった停留所を回ります。",
+          "url": "https://www.town.shiga-hino.lg.jp/0000006854.html"
+        },
+        {
+          "name": "近江鉄道 日野駅",
+          "detail": "築100年の駅舎は「なないろ」として日替わりカフェにもなっています。",
+          "url": "https://nanairo.space/"
+        }
+      ]
+    },
+    {
+      "title": "子育て・学び",
+      "items": [
+        {
+          "name": "子育て・教育の情報",
+          "detail": "保育所・こども園、健診、手当などの入口。",
+          "url": "https://www.town.shiga-hino.lg.jp/category/29-0-0-0-0-0-0-0-0-0.html"
+        },
+        {
+          "name": "広報ひの",
+          "detail": "毎月発行。行事予定や保健カレンダーが載ります。",
+          "url": "https://www.town.shiga-hino.lg.jp/category/32-7-27-0-0-0-0-0-0-0.html"
+        }
+      ]
+    },
+    {
+      "title": "住まい",
+      "items": [
+        {
+          "name": "空き家バンク",
+          "detail": "町が仲介する空き家の情報。",
+          "url": "https://www.town.shiga-hino.lg.jp/category/27-9-2-0-0-0-0-0-0-0.html"
+        },
+        {
+          "name": "ひの暮らし（移住・定住）",
+          "detail": "移住相談会の案内や、先に移り住んだ人の話。",
+          "url": "https://hinogurashi.net/"
+        }
+      ]
+    },
+    {
+      "title": "外国語・やさしい日本語",
+      "items": [
+        {
+          "name": "外国人のみなさんへ",
+          "detail": "町の暮らしの情報を多言語でまとめたページ。",
+          "url": "https://www.town.shiga-hino.lg.jp/category/27-17-0-0-0-0-0-0-0-0.html"
+        },
+        {
+          "name": "ごみ出しの基本ルール（外国語版）",
+          "detail": "分別と収集カレンダーの外国語版。",
+          "url": "https://www.town.shiga-hino.lg.jp/0000007362.html"
+        }
+      ]
+    }
+  ]
+}

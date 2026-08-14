@@ -1,0 +1,11 @@
+{
+  "site_url": "https://USERNAME.github.io/hinomado",
+  "site_url_note": "公開先が決まったら書き換えてください。RSSやカレンダーのリンクに使われます。",
+  "analytics": {
+    "provider": "",
+    "provider_note": "cloudflare / goatcounter / none。空のままなら解析タグは出力されません。",
+    "token": "",
+    "token_note": "cloudflare のときは Web Analytics のトークン、goatcounter のときはサイトコード（例 hinomado）を入れます。"
+  },
+  "privacy_note": "このサイトはアクセス数の集計にCookieを使わない解析を利用しています。個人を特定する情報は集めていません。"
+}

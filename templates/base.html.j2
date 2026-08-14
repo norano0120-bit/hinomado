@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site_name }}{% endblock %}</title>
+<meta name="description" content="{% block description %}滋賀県蒲生郡日野町のお知らせ・イベント・お出かけ情報を毎日まとめて表示する非公式サイトです。{% endblock %}">
+<link rel="alternate" type="application/rss+xml" title="{{ site_name }}" href="feed.xml">
+<style>
+{{ css }}
+</style>
+</head>
+<body>
+
+{# 天気アイコン。気象庁のアイコンはライセンスが明示されていないため自作 #}
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="wi-sun" viewBox="0 0 32 32">
+      <circle cx="16" cy="16" r="7" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M16 2v4M16 26v4M2 16h4M26 16h4M6.2 6.2l2.8 2.8M23 23l2.8 2.8M25.8 6.2L23 9M9 23l-2.8 2.8"/>
+      </g>
+    </symbol>
+    <symbol id="wi-cloud" viewBox="0 0 32 32">
+      <path d="M9 25a6 6 0 0 1 .6-12 8 8 0 0 1 15.2 2.4A5 5 0 0 1 24 25z" fill="currentColor"/>
+    </symbol>
+    <symbol id="wi-sun-cloud" viewBox="0 0 32 32">
+      <circle cx="11" cy="11" r="5.5" fill="currentColor" opacity=".55"/>
+      <g stroke="currentColor" stroke-width="1.8" stroke-linecap="round" opacity=".55">
+        <path d="M11 1.5v3M1.5 11h3M4.3 4.3l2.1 2.1M17.7 4.3l-2.1 2.1"/>
+      </g>
+      <path d="M12 27a5.5 5.5 0 0 1 .5-11 7.3 7.3 0 0 1 13.9 2.2A4.6 4.6 0 0 1 25.6 27z" fill="currentColor"/>
+    </symbol>
+    <symbol id="wi-rain" viewBox="0 0 32 32">
+      <path d="M9 21a6 6 0 0 1 .6-12 8 8 0 0 1 15.2 2.4A5 5 0 0 1 24 21z" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+        <path d="M11 24l-1.6 5M18 24l-1.6 5M25 24l-1.6 5"/>
+      </g>
+    </symbol>
+    <symbol id="wi-sun-rain" viewBox="0 0 32 32">
+      <circle cx="11" cy="9.5" r="5" fill="currentColor" opacity=".55"/>
+      <g stroke="currentColor" stroke-width="1.7" stroke-linecap="round" opacity=".55">
+        <path d="M11 .8v2.6M1.8 9.5h2.6M4.4 2.9l1.8 1.8"/>
+      </g>
+      <path d="M12 22a5 5 0 0 1 .5-10 6.8 6.8 0 0 1 12.9 2A4.3 4.3 0 0 1 25 22z" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M14 25l-1.4 4.4M21 25l-1.4 4.4"/>
+      </g>
+    </symbol>
+    <symbol id="wi-thunder" viewBox="0 0 32 32">
+      <path d="M9 20a6 6 0 0 1 .6-12 8 8 0 0 1 15.2 2.4A5 5 0 0 1 24 20z" fill="currentColor"/>
+      <path d="M17.5 21l-6 8h4.2l-1.4 6 7-9h-4.4l2-5z" fill="currentColor"/>
+    </symbol>
+    <symbol id="wi-snow" viewBox="0 0 32 32">
+      <path d="M9 20a6 6 0 0 1 .6-12 8 8 0 0 1 15.2 2.4A5 5 0 0 1 24 20z" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M11 24v5M8.6 25.4l4.8 2.2M13.4 25.4l-4.8 2.2M22 24v5M19.6 25.4l4.8 2.2M24.4 25.4l-4.8 2.2"/>
+      </g>
+    </symbol>
+    <symbol id="wi-inst" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="5.5" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="17.6" cy="6.4" r="1.4" fill="currentColor"/>
+    </symbol>
+    <symbol id="wi-x" viewBox="0 0 24 24">
+      <path d="M3 3l7.6 9.8L3.4 21h2.3l6-6.6L16.5 21H21l-8-10.3L20.2 3H18l-5.6 6.2L7.7 3z" fill="currentColor"/>
+    </symbol>
+    <symbol id="wi-fb" viewBox="0 0 24 24">
+      <path d="M14 8.5V6.8c0-.8.2-1.3 1.5-1.3H17V2.2A21 21 0 0 0 14.7 2C12 2 10.2 3.6 10.2 6.5v2H7.5V12h2.7v10H14V12h2.8l.4-3.5z" fill="currentColor"/>
+    </symbol>
+    <symbol id="wi-web" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9.2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <ellipse cx="12" cy="12" rx="4" ry="9.2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M3 12h18" stroke="currentColor" stroke-width="2"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="masthead{% if compact %} compact{% endif %}">
+  <div class="wrap">
+    <h1 class="brand"><span class="en">HINO, SHIGA</span><a href="{{ home }}">ひのまど</a></h1>
+    {% if not compact %}
+    <p class="tagline">{{ tagline }}</p>
+    <p class="stamp">{{ today_label }}現在　お知らせ <b>{{ total_items }}</b> 件を収録</p>
+    {% else %}
+    <p class="tagline">{% block subtitle %}{% endblock %}</p>
+    {% endif %}
+  </div>
+</header>
+
+<nav class="toc" aria-label="ページの目次">
+  <div class="wrap">
+    <a href="{{ home }}#news"{% if page == 'index' %} class="here"{% endif %}>お知らせ</a>
+    <a href="{{ home }}#press">時事ニュース</a>
+    <a href="{{ home }}#kurashi">きょうの暮らし</a>
+    <a href="{{ home }}#odekake">お出かけ</a>
+    <a href="kosodate.html"{% if page == 'kosodate' %} class="here"{% endif %}>子育て</a>
+    <a href="furusato.html"{% if page == 'furusato' %} class="here"{% endif %}>ふるさと納税</a>
+    <a href="gikai.html"{% if page == 'gikai' %} class="here"{% endif %}>議会</a>
+  </div>
+</nav>
+
+{% if weather.warnings %}
+<div class="alert-band" role="alert">
+  <div class="wrap"><b>発表中</b>{{ weather.warnings | join('／') }}　<a href="https://www.jma.go.jp/bosai/warning/#area_type=offices&amp;area_code=250000" rel="noopener">気象庁の詳細</a></div>
+</div>
+{% endif %}
+
+<main class="wrap">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="colophon">
+  <div class="wrap">
+    <h2>受け取り方</h2>
+    <div class="subscribe">
+      <a href="feed.xml">RSSで購読する</a>
+      <a href="events.ics">カレンダーに取り込む</a>
+      <a href="news.json">データを使う（JSON）</a>
+    </div>
+
+    <h2>情報のもと</h2>
+    <ul>
+      {% for s in sources %}
+      <li>{{ s.name }} — <a href="{{ s.site }}" rel="noopener">{{ s.site }}</a></li>
+      {% endfor %}
+      <li>お出かけ情報 — <a href="https://hino-kanko.jp/" rel="noopener">日野観光協会</a> ほか各施設の公式サイト</li>
+      <li>天気・警報 — <a href="https://www.jma.go.jp/bosai/" rel="noopener">気象庁</a></li>
+      <li>ごみ収集 — <a href="https://www.town.shiga-hino.lg.jp/0000008171.html" rel="noopener">日野町 資源・ごみ収集カレンダー</a></li>
+    </ul>
+
+    <p class="disclaimer">
+      このサイトは日野町・日野観光協会とは関係のない、個人が運営する非公式のまとめです。
+      各配信元の見出し・日付・リンクを機械的に集めて並べ、紹介文は独自に書いています。
+      申請の期限や開催の有無など、正確な情報は必ずリンク先の公式ページでご確認ください。
+      掲載をやめてほしい配信元の方は運営者までご連絡ください。<br>
+      最終更新：{{ now.strftime('%Y年%m月%d日 %H:%M') }}
+      {% if privacy_note %}<br>{{ privacy_note }}{% endif %}
+    </p>
+  </div>
+</footer>
+
+{% block scripts %}{% endblock %}
+
+{{ analytics | safe }}
+</body>
+</html>
