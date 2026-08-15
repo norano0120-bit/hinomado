@@ -22,7 +22,10 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 JST = timezone(timedelta(hours=9))
 
-UA = "hinomado/1.0 (+https://example.com/about; 日野町の情報をまとめる個人サイト)"
+# HTTPヘッダーはASCIIしか送れないため、日本語を入れてはいけない。
+# 連絡先は自分のものに書き換えること（配信元から連絡を受けられるようにする）。
+UA = "hinomado/1.0 (+https://github.com/norano0120-bit/hinomado_1)"
+assert UA.isascii(), "User-Agent に日本語は使えません"
 KEEP_DAYS = 400          # これより古い記事は news.json から落とす
 REQUEST_INTERVAL = 2.0   # 取得元に負荷をかけないための待ち時間（秒）
 
@@ -218,8 +221,15 @@ def main() -> int:
     )
     print(f"取得 {fetched}件 / 保存 {len(items)}件 / 失敗 {len(errors)}件")
 
-    # すべてのソースが失敗したときだけ異常終了させる
-    return 1 if len(errors) == len(sources) else 0
+    # 取得に失敗してもサイトは前回の内容で公開する。
+    # 止めてしまうと、1つの不具合で全ページが出なくなるため。
+    # 失敗はページ上部に表示され、ここでも目立つように警告を出す。
+    if errors and len(errors) == len(sources):
+        print("::warning::すべての配信元から取得できませんでした。"
+              "前回のデータでサイトを作ります。ネットワークか取得元の仕様変更を確認してください。")
+    elif errors:
+        print(f"::warning::{len(errors)}件の配信元から取得できませんでした。")
+    return 0
 
 
 if __name__ == "__main__":

@@ -17,7 +17,10 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 JST = timezone(timedelta(hours=9))
-UA = "hinomado/1.0 (+https://example.com/about; 日野町の情報をまとめる個人サイト)"
+# HTTPヘッダーはASCIIしか送れないため、日本語を入れてはいけない。
+# 連絡先は自分のものに書き換えること（配信元から連絡を受けられるようにする）。
+UA = "hinomado/1.0 (+https://github.com/norano0120-bit/hinomado_1)"
+assert UA.isascii(), "User-Agent に日本語は使えません"
 
 PREF = "250000"          # 滋賀県
 AREA_HINT = "南部"        # 日野町が属する予報区

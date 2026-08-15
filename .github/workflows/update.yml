@@ -32,6 +32,7 @@ jobs:
 
       - name: お知らせを取得する
         run: python scripts/fetch_news.py
+        continue-on-error: true   # 取れなくても前回の内容でサイトは出す
 
       - name: 天気と警報を取得する
         run: python scripts/fetch_weather.py
