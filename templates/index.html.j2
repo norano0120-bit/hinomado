@@ -56,10 +56,11 @@
         {% for a in gomi.areas %}
         <li>
           <a href="#gomi-{{ a.id }}">
-            <span class="ga">{{ a.short }}</span>
+            <span class="ga">{{ a.name }}</span>
             {% if a.next %}
-            <span class="gd">{{ a.next.when }} {{ a.next.md }}</span>
-            <span class="gk">{% for k in a.next.kinds %}{{ k.label }}{% if not loop.last %}・{% endif %}{% endfor %}</span>
+            <span class="gd">{{ a.next.when }} {{ a.next.md }}
+              <b>{% for k in a.next.kinds %}{{ k.label }}{% if not loop.last %}・{% endif %}{% endfor %}</b>
+            </span>
             {% else %}
             <span class="gd">未設定</span>
             {% endif %}
@@ -162,7 +163,7 @@
   <section class="section" id="kurashi">
     <div class="section-head">
       <h2>きょうの暮らし</h2>
-      <span class="sub">ごみの日、天気、困ったときの連絡先</span>
+      <span class="sub">ごみの日と天気</span>
     </div>
 
     {% if not gomi.verified %}
@@ -178,7 +179,7 @@
     <div class="gomi-tabs" role="tablist">
       {% for a in gomi.areas %}
       <button type="button" role="tab" data-area="{{ a.id }}"
-              aria-selected="{{ 'true' if loop.first else 'false' }}">{{ a.short }}</button>
+              aria-selected="{{ 'true' if loop.first else 'false' }}">{{ a.tab_label }}</button>
       {% endfor %}
     </div>
 
@@ -235,22 +236,6 @@
     </ul>
     {% if weather.overview %}<p class="more">{{ weather.overview[:180] }}{% if weather.overview|length > 180 %}…{% endif %}（気象庁）</p>{% endif %}
     {% endif %}
-
-    <h3 class="sub-head">困ったときの連絡先</h3>
-    <p class="lead">{{ kurashi.intro }}</p>
-    {% for g in kurashi.groups %}
-    <div class="kurashi-group">
-      <h4>{{ g.title }}</h4>
-      <ul class="kurashi-list">
-        {% for i in g["items"] %}
-        <li>
-          <span class="k-name">{% if i.url %}<a href="{{ i.url }}" rel="noopener">{{ i.name }}</a>{% else %}{{ i.name }}{% endif %}</span>
-          <span class="k-detail">{{ i.detail }}{% if i.tel %}　<a href="tel:{{ i.tel }}" class="tel">{{ i.tel }}</a>{% endif %}</span>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endfor %}
   </section>
 
   {# ── お出かけ ── #}
@@ -299,6 +284,30 @@
     </div>
     {% endif %}
     {% endfor %}
+  </section>
+
+  {# ── 困ったときの連絡先（ページ末尾） ── #}
+  <section class="section" id="renrakusaki">
+    <div class="section-head">
+      <h2>困ったときの連絡先</h2>
+      <span class="sub">電話番号はそのままかけられます</span>
+    </div>
+    <p class="lead">{{ kurashi.intro }}</p>
+    <div class="kurashi-cols">
+      {% for g in kurashi.groups %}
+      <div class="kurashi-group">
+        <h4>{{ g.title }}</h4>
+        <ul class="kurashi-list">
+          {% for i in g["items"] %}
+          <li>
+            <span class="k-name">{% if i.url %}<a href="{{ i.url }}" rel="noopener">{{ i.name }}</a>{% else %}{{ i.name }}{% endif %}</span>
+            <span class="k-detail">{{ i.detail }}{% if i.tel %}　<a href="tel:{{ i.tel }}" class="tel">{{ i.tel }}</a>{% endif %}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
   </section>
 
 {% endblock %}

@@ -135,7 +135,7 @@ a { color: inherit; }
 
 /* 窓（今日の日野） ------------------------------------------------------ */
 .today {
-  margin-top: -1.6rem;
+  margin-top: 2rem;
   position: relative;
   z-index: 2;
   display: grid;
@@ -397,7 +397,7 @@ a { color: inherit; }
   .news li { grid-template-columns: 3.6rem 1fr; }
   .news .badge { grid-row: 1; }
   .news a { grid-column: 1 / -1; }
-  .today { margin-top: -1rem; }
+  .today { margin-top: 1.4rem; }
 }
 
 /* 目次バー ------------------------------------------------------------- */
@@ -731,33 +731,30 @@ a { color: inherit; }
 .gomi-mini li { border-bottom: 1px dotted var(--line); }
 .gomi-mini li:last-child { border-bottom: 0; }
 .gomi-mini a {
-  display: grid;
-  grid-template-columns: 4.6rem 1fr;
-  gap: .1rem .5rem;
-  padding: .35rem 0;
+  display: block;
+  padding: .5rem 0;
   text-decoration: none;
 }
 .gomi-mini a:hover .gd { text-decoration: underline; text-underline-offset: 2px; }
 .gomi-mini .ga {
-  grid-row: 1 / 3;
-  align-self: center;
-  font-size: .74rem;
-  font-weight: 700;
-  letter-spacing: .04em;
-  color: var(--ai);
-  border-right: 1px solid var(--line);
-  padding-right: .4rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.gomi-mini .gd { font-size: .82rem; font-weight: 700; color: var(--shu); white-space: nowrap; }
-.gomi-mini .gk {
+  display: block;
   font-size: .72rem;
-  color: var(--nezu);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: .02em;
+  color: var(--ai);
+}
+.gomi-mini .gd {
+  display: block;
+  margin-top: .1rem;
+  font-size: .84rem;
+  font-weight: 700;
+  color: var(--shu);
+}
+.gomi-mini .gd b {
+  font-weight: 500;
+  color: #4a453d;
+  margin-left: .5em;
 }
 
 /* 週間天気にアイコンを足したので列を調整 */
@@ -943,6 +940,26 @@ a { color: inherit; }
   color: var(--shu);
 }
 
+
+/* ── 目次バーの下に余白をとる（見出しが隠れないように） ────────── */
+html { scroll-padding-top: 4.2rem; }
+.section { scroll-margin-top: 3.6rem; }
+.matsuri { margin-top: 2rem; }
+
+/* ── 困ったときの連絡先：2列 ─────────────────────────────── */
+.kurashi-cols {
+  columns: 2;
+  column-gap: 2.4rem;
+}
+.kurashi-cols .kurashi-group {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  margin-bottom: 1.6rem;
+}
+@media (max-width: 700px) {
+  .kurashi-cols { columns: 1; }
+}
+
 </style>
 </head>
 <body>
@@ -1030,6 +1047,7 @@ a { color: inherit; }
     <a href="kosodate.html">子育て</a>
     <a href="furusato.html">ふるさと納税</a>
     <a href="gikai.html">議会</a>
+    <a href="index.html#renrakusaki">連絡先</a>
   </div>
 </nav>
 
@@ -1084,40 +1102,44 @@ a { color: inherit; }
         
         <li>
           <a href="#gomi-A">
-            <span class="ga">村井</span>
+            <span class="ga">村井・大窪・河原・松尾・大谷・中道</span>
             
-            <span class="gd">あす 8/17</span>
-            <span class="gk">燃えるごみ</span>
+            <span class="gd">あす 8/17
+              <b>燃えるごみ</b>
+            </span>
             
           </a>
         </li>
         
         <li>
           <a href="#gomi-B">
-            <span class="ga">小井口</span>
+            <span class="ga">小井口・寺尻・木津・椿野台・上野田・いせの・日田・五月台・西大路・鎌掛</span>
             
-            <span class="gd">あす 8/17</span>
-            <span class="gk">びん</span>
+            <span class="gd">あす 8/17
+              <b>びん</b>
+            </span>
             
           </a>
         </li>
         
         <li>
           <a href="#gomi-C">
-            <span class="ga">東西桜谷</span>
+            <span class="ga">東西桜谷・山本・湖南サンライズ</span>
             
-            <span class="gd">あす 8/17</span>
-            <span class="gk">燃えるごみ</span>
+            <span class="gd">あす 8/17
+              <b>燃えるごみ</b>
+            </span>
             
           </a>
         </li>
         
         <li>
           <a href="#gomi-D">
-            <span class="ga">南比都佐</span>
+            <span class="ga">南比都佐・必佐（山本・湖南サンライズを除く）</span>
             
-            <span class="gd">あす 8/17</span>
-            <span class="gk">ペットボトル</span>
+            <span class="gd">あす 8/17
+              <b>ペットボトル</b>
+            </span>
             
           </a>
         </li>
@@ -1493,7 +1515,7 @@ a { color: inherit; }
   <section class="section" id="kurashi">
     <div class="section-head">
       <h2>きょうの暮らし</h2>
-      <span class="sub">ごみの日、天気、困ったときの連絡先</span>
+      <span class="sub">ごみの日と天気</span>
     </div>
 
     
@@ -1502,16 +1524,16 @@ a { color: inherit; }
     <div class="gomi-tabs" role="tablist">
       
       <button type="button" role="tab" data-area="A"
-              aria-selected="true">村井</button>
+              aria-selected="true">村井・大窪ほか</button>
       
       <button type="button" role="tab" data-area="B"
-              aria-selected="false">小井口</button>
+              aria-selected="false">小井口・西大路ほか</button>
       
       <button type="button" role="tab" data-area="C"
-              aria-selected="false">東西桜谷</button>
+              aria-selected="false">東西桜谷ほか</button>
       
       <button type="button" role="tab" data-area="D"
-              aria-selected="false">南比都佐</button>
+              aria-selected="false">南比都佐・必佐</button>
       
     </div>
 
@@ -1878,100 +1900,6 @@ a { color: inherit; }
       
     </ul>
     <p class="more">【これはプレビュー用のサンプルです。実際は気象庁の概況文がここに入ります】滋賀県は、高気圧に覆われておおむね晴れています。（気象庁）</p>
-    
-
-    <h3 class="sub-head">困ったときの連絡先</h3>
-    <p class="lead">困ったときの連絡先と、町のなかで役に立つ場所。電話番号はそのままかけられます。</p>
-    
-    <div class="kurashi-group">
-      <h4>役場・手続き</h4>
-      <ul class="kurashi-list">
-        
-        <li>
-          <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/0000006723.html" rel="noopener">日野町役場</a></span>
-          <span class="k-detail">河原一丁目1番地／平日 9:00〜16:45（2026年7月1日から開庁時間が変わりました）　<a href="tel:0748-52-1211" class="tel">0748-52-1211</a></span>
-        </li>
-        
-        <li>
-          <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/mailform/opinion.cgi" rel="noopener">町政への意見箱</a></span>
-          <span class="k-detail">町へ直接意見を送るフォーム。</span>
-        </li>
-        
-        <li>
-          <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/soshiki_list.html" rel="noopener">窓口案内・各課の連絡先</a></span>
-          <span class="k-detail">どの課に聞けばいいか迷ったときに。</span>
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="kurashi-group">
-      <h4>移動</h4>
-      <ul class="kurashi-list">
-        
-        <li>
-          <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/0000006854.html" rel="noopener">チョイソコひの</a></span>
-          <span class="k-detail">電話で予約する乗合タクシー。町内の決まった停留所を回ります。</span>
-        </li>
-        
-        <li>
-          <span class="k-name"><a href="https://nanairo.space/" rel="noopener">近江鉄道 日野駅</a></span>
-          <span class="k-detail">築100年の駅舎は「なないろ」として日替わりカフェにもなっています。</span>
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="kurashi-group">
-      <h4>子育て・学び</h4>
-      <ul class="kurashi-list">
-        
-        <li>
-          <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/category/29-0-0-0-0-0-0-0-0-0.html" rel="noopener">子育て・教育の情報</a></span>
-          <span class="k-detail">保育所・こども園、健診、手当などの入口。</span>
-        </li>
-        
-        <li>
-          <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/category/32-7-27-0-0-0-0-0-0-0.html" rel="noopener">広報ひの</a></span>
-          <span class="k-detail">毎月発行。行事予定や保健カレンダーが載ります。</span>
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="kurashi-group">
-      <h4>住まい</h4>
-      <ul class="kurashi-list">
-        
-        <li>
-          <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/category/27-9-2-0-0-0-0-0-0-0.html" rel="noopener">空き家バンク</a></span>
-          <span class="k-detail">町が仲介する空き家の情報。</span>
-        </li>
-        
-        <li>
-          <span class="k-name"><a href="https://hinogurashi.net/" rel="noopener">ひの暮らし（移住・定住）</a></span>
-          <span class="k-detail">移住相談会の案内や、先に移り住んだ人の話。</span>
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="kurashi-group">
-      <h4>外国語・やさしい日本語</h4>
-      <ul class="kurashi-list">
-        
-        <li>
-          <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/category/27-17-0-0-0-0-0-0-0-0.html" rel="noopener">外国人のみなさんへ</a></span>
-          <span class="k-detail">町の暮らしの情報を多言語でまとめたページ。</span>
-        </li>
-        
-        <li>
-          <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/0000007362.html" rel="noopener">ごみ出しの基本ルール（外国語版）</a></span>
-          <span class="k-detail">分別と収集カレンダーの外国語版。</span>
-        </li>
-        
-      </ul>
-    </div>
     
   </section>
 
@@ -2474,6 +2402,108 @@ a { color: inherit; }
     
   </section>
 
+  
+  <section class="section" id="renrakusaki">
+    <div class="section-head">
+      <h2>困ったときの連絡先</h2>
+      <span class="sub">電話番号はそのままかけられます</span>
+    </div>
+    <p class="lead">困ったときの連絡先と、町のなかで役に立つ場所。電話番号はそのままかけられます。</p>
+    <div class="kurashi-cols">
+      
+      <div class="kurashi-group">
+        <h4>役場・手続き</h4>
+        <ul class="kurashi-list">
+          
+          <li>
+            <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/0000006723.html" rel="noopener">日野町役場</a></span>
+            <span class="k-detail">河原一丁目1番地／平日 9:00〜16:45（2026年7月1日から開庁時間が変わりました）　<a href="tel:0748-52-1211" class="tel">0748-52-1211</a></span>
+          </li>
+          
+          <li>
+            <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/mailform/opinion.cgi" rel="noopener">町政への意見箱</a></span>
+            <span class="k-detail">町へ直接意見を送るフォーム。</span>
+          </li>
+          
+          <li>
+            <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/soshiki_list.html" rel="noopener">窓口案内・各課の連絡先</a></span>
+            <span class="k-detail">どの課に聞けばいいか迷ったときに。</span>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="kurashi-group">
+        <h4>移動</h4>
+        <ul class="kurashi-list">
+          
+          <li>
+            <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/0000006854.html" rel="noopener">チョイソコひの</a></span>
+            <span class="k-detail">電話で予約する乗合タクシー。町内の決まった停留所を回ります。</span>
+          </li>
+          
+          <li>
+            <span class="k-name"><a href="https://nanairo.space/" rel="noopener">近江鉄道 日野駅</a></span>
+            <span class="k-detail">築100年の駅舎は「なないろ」として日替わりカフェにもなっています。</span>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="kurashi-group">
+        <h4>子育て・学び</h4>
+        <ul class="kurashi-list">
+          
+          <li>
+            <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/category/29-0-0-0-0-0-0-0-0-0.html" rel="noopener">子育て・教育の情報</a></span>
+            <span class="k-detail">保育所・こども園、健診、手当などの入口。</span>
+          </li>
+          
+          <li>
+            <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/category/32-7-27-0-0-0-0-0-0-0.html" rel="noopener">広報ひの</a></span>
+            <span class="k-detail">毎月発行。行事予定や保健カレンダーが載ります。</span>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="kurashi-group">
+        <h4>住まい</h4>
+        <ul class="kurashi-list">
+          
+          <li>
+            <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/category/27-9-2-0-0-0-0-0-0-0.html" rel="noopener">空き家バンク</a></span>
+            <span class="k-detail">町が仲介する空き家の情報。</span>
+          </li>
+          
+          <li>
+            <span class="k-name"><a href="https://hinogurashi.net/" rel="noopener">ひの暮らし（移住・定住）</a></span>
+            <span class="k-detail">移住相談会の案内や、先に移り住んだ人の話。</span>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="kurashi-group">
+        <h4>外国語・やさしい日本語</h4>
+        <ul class="kurashi-list">
+          
+          <li>
+            <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/category/27-17-0-0-0-0-0-0-0-0.html" rel="noopener">外国人のみなさんへ</a></span>
+            <span class="k-detail">町の暮らしの情報を多言語でまとめたページ。</span>
+          </li>
+          
+          <li>
+            <span class="k-name"><a href="https://www.town.shiga-hino.lg.jp/0000007362.html" rel="noopener">ごみ出しの基本ルール（外国語版）</a></span>
+            <span class="k-detail">分別と収集カレンダーの外国語版。</span>
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </section>
+
 
 </main>
 
@@ -2517,7 +2547,7 @@ a { color: inherit; }
       各配信元の見出し・日付・リンクを機械的に集めて並べ、紹介文は独自に書いています。
       申請の期限や開催の有無など、正確な情報は必ずリンク先の公式ページでご確認ください。
       掲載をやめてほしい配信元の方は運営者までご連絡ください。<br>
-      最終更新：2026年08月16日 17:50
+      最終更新：2026年08月16日 19:09
       
     </p>
   </div>

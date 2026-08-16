@@ -264,7 +264,7 @@ def build():
         day["main"], day["rest"] = split_weather(day["weather"])
 
     for area in gomi["areas"]:
-        area["short"] = area["name"].split("・")[0]
+        area.setdefault("tab_label", area["name"].split("・")[0])
         area["upcoming"] = gomi_days(area, gomi, today)
         area["next"] = area["upcoming"][0] if area["upcoming"] else None
 
