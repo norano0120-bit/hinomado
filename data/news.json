@@ -1,10 +1,6 @@
 {
- "updated_at": "2026-08-16T17:56:35.476321+09:00",
+ "updated_at": "2026-08-16T18:30:16.453427+09:00",
  "errors": [
-  {
-   "source": "ひの暮らし",
-   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
-  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
@@ -275,9 +271,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkUVZPUFJ4WXhuaWlKT1FsQkRiYnUwVHZUcFhOalZtYXROMl9fQl9DeVpvdGN0ejllb2VJNmFfT3JNSWFLWTNudUlRYw?oc=5",
-   "title": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃 - 47news.jp",
+   "title": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃 - 47NEWS",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkUVZPUFJ4WXhuaWlKT1FsQkRiYnUwVHZUcFhOalZtYXROMl9fQl9DeVpvdGN0ejllb2VJNmFfT3JNSWFLWTNudUlRYw?oc=5",
-   "summary": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃&nbsp;&nbsp;47news.jp",
+   "summary": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃&nbsp;&nbsp;47NEWS",
    "date": "2026-08-01T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -772,6 +768,18 @@
    "tags": []
   },
   {
+   "id": "https://hinogurashi.net/info_hinozine021/",
+   "title": "ヒノジン.021 谷口宗広さんの記事を公開しました！",
+   "url": "https://hinogurashi.net/info_hinozine021/",
+   "summary": "第21回は、乙菊のオーナーシェフ 谷口宗広さんです。ぜひご一読ください。 日野町公式note",
+   "date": "2026-07-17T13:55:24+09:00",
+   "source_id": "hinogurashi",
+   "source_name": "ひの暮らし",
+   "source_short": "暮らし",
+   "category": "life",
+   "tags": []
+  },
+  {
    "id": "https://www.town.shiga-hino.lg.jp/0000008718.html",
    "title": "入札結果（7月10日開札分）",
    "url": "https://www.town.shiga-hino.lg.jp/0000008718.html",
@@ -885,9 +893,21 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uamQ4ZXc5V05UZ05ENFpmNXRPRzctbTZ0Z18xRG9VVE55eGpkSjZheFVOOUJOc1EzUXAtSmcwWlVPN2JlWjRsQW5IWF9EUQ?oc=5",
-   "title": "日野町事件再審で誤報 共同通信、記事取り消し - news.jp",
+   "title": "日野町事件再審で誤報 共同通信、記事取り消し - NEWSjp",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uamQ4ZXc5V05UZ05ENFpmNXRPRzctbTZ0Z18xRG9VVE55eGpkSjZheFVOOUJOc1EzUXAtSmcwWlVPN2JlWjRsQW5IWF9EUQ?oc=5",
-   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;news.jp",
+   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;NEWSjp",
+   "date": "2026-07-14T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6U1pjMFJaNERjVV9GVmRVektPbFppVW5jSldpZUlrZVZhMXRMaVZRX201alpCRHd4blp3a2NXSWdfakFVV0RLMzBUc3FDWk9DMTRNcw?oc=5",
+   "title": "「有罪立証しないが無罪立証もしない、では父はかわいそう」 日野町事件の3者協議受け阪原弘さんの長男 - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6U1pjMFJaNERjVV9GVmRVektPbFppVW5jSldpZUlrZVZhMXRMaVZRX201alpCRHd4blp3a2NXSWdfakFVV0RLMzBUc3FDWk9DMTRNcw?oc=5",
+   "summary": "「有罪立証しないが無罪立証もしない、では父はかわいそう」 日野町事件の3者協議受け阪原弘さんの長男&nbsp;&nbsp;中日新聞Web",
    "date": "2026-07-14T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -970,6 +990,20 @@
    "source_short": "報道",
    "category": "press",
    "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmWTF1NU9UWDViZTBZRFVmN1F6aXoyd3JCcWQ0ZWtUM1RWekM2SmM1Mm5NVk1FVGo3Z3Z3SW55SFJ0cEJSd2VDaXJielg0enFtalpvYw?oc=5",
+   "title": "＜しが旅のススメ＞五感揺さぶる炎の奇祭 火振り祭（日野町） - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmWTF1NU9UWDViZTBZRFVmN1F6aXoyd3JCcWQ0ZWtUM1RWekM2SmM1Mm5NVk1FVGo3Z3Z3SW55SFJ0cEJSd2VDaXJielg0enFtalpvYw?oc=5",
+   "summary": "＜しが旅のススメ＞五感揺さぶる炎の奇祭 火振り祭（日野町）&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-07-09T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event"
+   ]
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008838.html",
@@ -1230,9 +1264,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ncWZkOVI2NkJOX05OTW9ucnRIQUZoSkE4VV9jODZxWWRueVRkb0xQMHdGdzExTVBzcEJuLUlQY2JodFpwM1poaEtRWQ?oc=5",
-   "title": "＜社説＞日野町事件再審名誉回復し教訓生かせ - 47news.jp",
+   "title": "＜社説＞日野町事件再審名誉回復し教訓生かせ - 47NEWS",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ncWZkOVI2NkJOX05OTW9ucnRIQUZoSkE4VV9jODZxWWRueVRkb0xQMHdGdzExTVBzcEJuLUlQY2JodFpwM1poaEtRWQ?oc=5",
-   "summary": "＜社説＞日野町事件再審名誉回復し教訓生かせ&nbsp;&nbsp;47news.jp",
+   "summary": "＜社説＞日野町事件再審名誉回復し教訓生かせ&nbsp;&nbsp;47NEWS",
    "date": "2026-06-30T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1281,9 +1315,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wc2NEdXIwV1cyTFpVSEhteEV1LWo4Q2hqS2hOMjdNU2hUQ1RpUkZObkdrTmN2TnJWbnhJUl9yTm14WjBsVXkzQTZ6Yw?oc=5",
-   "title": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める - 47news.jp",
+   "title": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める - 47NEWS",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wc2NEdXIwV1cyTFpVSEhteEV1LWo4Q2hqS2hOMjdNU2hUQ1RpUkZObkdrTmN2TnJWbnhJUl9yTm14WjBsVXkzQTZ6Yw?oc=5",
-   "summary": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める&nbsp;&nbsp;47news.jp",
+   "summary": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める&nbsp;&nbsp;47NEWS",
    "date": "2026-06-23T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1478,6 +1512,42 @@
    "tags": []
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FOURsLU5uSzJCV3hIZGlxNXhmeTlwTEJfUVdtT3c3THFxZWhkU1VtT1oyTHJJeGFTQ3R3U3dweF9BSTdmWGNEQXBqY1VuZ2c5NXVWZA?oc=5",
+   "title": "【動画】滋賀県日野町事件の再審公判、検察側が有罪の主張をしない方針 無罪が確実に - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FOURsLU5uSzJCV3hIZGlxNXhmeTlwTEJfUVdtT3c3THFxZWhkU1VtT1oyTHJJeGFTQ3R3U3dweF9BSTdmWGNEQXBqY1VuZ2c5NXVWZA?oc=5",
+   "summary": "【動画】滋賀県日野町事件の再審公判、検察側が有罪の主張をしない方針 無罪が確実に&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-06-19T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jaDNhd082NFVzdVRKRldIdG9OWnMydHZOOFJKQzFiamJnSTh6ZE9lb3pRYmhjUVRTcHoyUW9oeVV3RnZheWhNbzV0VGkwbDBGQlZFTVRkSWZLdmU5VWFRVXliSjFkOS16V1pSWk8xYUtmeWpveVE?oc=5",
+   "title": "昭和59年の強盗殺人「日野町事件」 検察側が「有罪立証せず」 再審公判で無罪の見込み - 産経ニュース",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jaDNhd082NFVzdVRKRldIdG9OWnMydHZOOFJKQzFiamJnSTh6ZE9lb3pRYmhjUVRTcHoyUW9oeVV3RnZheWhNbzV0VGkwbDBGQlZFTVRkSWZLdmU5VWFRVXliSjFkOS16V1pSWk8xYUtmeWpveVE?oc=5",
+   "summary": "昭和59年の強盗殺人「日野町事件」 検察側が「有罪立証せず」 再審公判で無罪の見込み&nbsp;&nbsp;産経ニュース",
+   "date": "2026-06-19T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://hinogurashi.net/260627_soudankai/",
+   "title": "【台風の影響による延期のお知らせ】６/２７（土）、ふるさと回帰支援センター・大阪にて、移住相談会を開催します",
+   "url": "https://hinogurashi.net/260627_soudankai/",
+   "summary": "【重要】台風7号の影響による「移住相談会」参加中止のお知らせ 令和8年6月27日（土）に、下記のとおり参加を予定しておりました「移住相談会」は、 …",
+   "date": "2026-06-19T14:33:02+09:00",
+   "source_id": "hinogurashi",
+   "source_name": "ひの暮らし",
+   "source_short": "暮らし",
+   "category": "life",
+   "tags": []
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBUM29lN19yWEg5aWV4V1UtTkdVNjFyZ0JrbGswcVo3S2Zram5BZjNaOGM4dDhGcUZsWWQ4bVlSQ0hNRXpRdFRNUldyeUtuRDA2QVVlMFJlTTc?oc=5",
    "title": "「国の特別天然記念物」滋賀県日野町の水田に飛来 「幸せを運ぶ鳥」静かな話題に - 京都新聞デジタル",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBUM29lN19yWEg5aWV4V1UtTkdVNjFyZ0JrbGswcVo3S2Zram5BZjNaOGM4dDhGcUZsWWQ4bVlSQ0hNRXpRdFRNUldyeUtuRDA2QVVlMFJlTTc?oc=5",
@@ -1549,6 +1619,34 @@
    "source_name": "日野町 募集情報",
    "source_short": "募集",
    "category": "town",
+   "tags": [
+    "kosodate"
+   ]
+  },
+  {
+   "id": "https://hinogurashi.net/hinomaturi2026/",
+   "title": "「ただ見るだけじゃもったいない！」協力隊が仕掛けた、日野祭特別体験企画のレポート",
+   "url": "https://hinogurashi.net/hinomaturi2026/",
+   "summary": "こんにちは！日野町の地域おこし協力隊として活動している廣瀬です。普段は「移住・定住の促進」や「関係人口の創出・拡大」に取り組みながら、日野町をも …",
+   "date": "2026-06-04T14:45:53+09:00",
+   "source_id": "hinogurashi",
+   "source_name": "ひの暮らし",
+   "source_short": "暮らし",
+   "category": "life",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "https://hinogurashi.net/%e5%9c%b0%e5%9f%9f%e3%81%8a%e3%81%93%e3%81%97%e5%8d%94%e5%8a%9b%e9%9a%8a%ef%bc%88%e8%8b%a5%e8%80%85%e6%94%af%e6%8f%b4%e5%8d%94%e5%83%8d%e6%8e%a8%e9%80%b2%e5%93%a1%ef%bc%89%e3%82%92%e5%8b%9f%e9%9b%86/",
+   "title": "地域おこし協力隊（若者支援協働推進員）を募集します",
+   "url": "https://hinogurashi.net/%e5%9c%b0%e5%9f%9f%e3%81%8a%e3%81%93%e3%81%97%e5%8d%94%e5%8a%9b%e9%9a%8a%ef%bc%88%e8%8b%a5%e8%80%85%e6%94%af%e6%8f%b4%e5%8d%94%e5%83%8d%e6%8e%a8%e9%80%b2%e5%93%a1%ef%bc%89%e3%82%92%e5%8b%9f%e9%9b%86/",
+   "summary": "私たちがこのプロジェクトにかける想い（背景・課題） 学校卒業後に地域との接点が途切れ、孤立してしまう若者がいます。日野町には子ども食堂やフリース …",
+   "date": "2026-06-01T00:00:03+09:00",
+   "source_id": "hinogurashi",
+   "source_name": "ひの暮らし",
+   "source_short": "暮らし",
+   "category": "life",
    "tags": [
     "kosodate"
    ]
@@ -1639,6 +1737,18 @@
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
    "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://hinogurashi.net/info_hinozine020/",
+   "title": "ヒノジン.020 廣瀬敬一郎さんの記事を公開しました！",
+   "url": "https://hinogurashi.net/info_hinozine020/",
+   "summary": "第20回は、農家兼研究者 廣瀬敬一郎さんです。ぜひご一読ください。 日野町公式note",
+   "date": "2026-05-15T09:49:43+09:00",
+   "source_id": "hinogurashi",
+   "source_name": "ひの暮らし",
+   "source_short": "暮らし",
+   "category": "life",
    "tags": []
   },
   {
@@ -1813,6 +1923,18 @@
    "tags": []
   },
   {
+   "id": "https://hinogurashi.net/info_hinozine019/",
+   "title": "ヒノジン.019 栗田千弦さんの記事を公開しました！",
+   "url": "https://hinogurashi.net/info_hinozine019/",
+   "summary": "第19回は、クレイスタジオ くりの店主&#38;nbsp;栗田千弦さんです。ぜひご一読ください。 日野町公式note",
+   "date": "2026-04-17T16:54:31+09:00",
+   "source_id": "hinogurashi",
+   "source_name": "ひの暮らし",
+   "source_short": "暮らし",
+   "category": "life",
+   "tags": []
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1zZEFFSVRzWWYzbGVRaFIxMWNfbG9XMXFjUUNHdVBoMjEwc3pucjRwN3dwNWJoNU8wLXlqM0dvQkxtNWUzcHdLeURJX0U3LWFmMWt3Rk9yMnM?oc=5",
    "title": "滋賀県日野町のダム湖で「八重桜」湖面に映る「浮島」の桜は絶好「映えスポット」 - 京都新聞デジタル",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1zZEFFSVRzWWYzbGVRaFIxMWNfbG9XMXFjUUNHdVBoMjEwc3pucjRwN3dwNWJoNU8wLXlqM0dvQkxtNWUzcHdLeURJX0U3LWFmMWt3Rk9yMnM?oc=5",
@@ -1834,6 +1956,18 @@
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
    "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://hinogurashi.net/info_hinozine018/",
+   "title": "ヒノジン.018 植田真之助さんの記事を公開しました！",
+   "url": "https://hinogurashi.net/info_hinozine018/",
+   "summary": "第18回は、かぎや菓子舗の店主 植田真之助さんです。ぜひご一読ください。 日野町公式note ヒノジン",
+   "date": "2026-04-03T10:42:29+09:00",
+   "source_id": "hinogurashi",
+   "source_name": "ひの暮らし",
+   "source_short": "暮らし",
+   "category": "life",
    "tags": []
   },
   {
@@ -2083,11 +2217,59 @@
    "tags": []
   },
   {
+   "id": "https://hinogurashi.net/info_hinozine017/",
+   "title": "ヒノジン.017 五百木 誠さん、祥子さんの記事を公開しました！",
+   "url": "https://hinogurashi.net/info_hinozine017/",
+   "summary": "第17回は、COFFEE ROASTERY&#38;amp;CAFEらっこやの代表 五百木 誠さん、祥子さんさんです。ぜひご一読ください。 日野 …",
+   "date": "2026-02-25T13:39:45+09:00",
+   "source_id": "hinogurashi",
+   "source_name": "ひの暮らし",
+   "source_short": "暮らし",
+   "category": "life",
+   "tags": []
+  },
+  {
+   "id": "https://hinogurashi.net/info_hinozine016/",
+   "title": "ヒノジン.016 長晴太郎さんの記事を公開しました！",
+   "url": "https://hinogurashi.net/info_hinozine016/",
+   "summary": "第16回は、日野高カフェ@Home（アットホーム）のメンバー 長晴太郎さんです。ぜひご一読ください。 日野町公式note",
+   "date": "2026-02-25T13:35:21+09:00",
+   "source_id": "hinogurashi",
+   "source_name": "ひの暮らし",
+   "source_short": "暮らし",
+   "category": "life",
+   "tags": []
+  },
+  {
+   "id": "https://hinogurashi.net/info_hinozine015/",
+   "title": "ヒノジン.015 西塚和彦さんの記事を公開しました！",
+   "url": "https://hinogurashi.net/info_hinozine015/",
+   "summary": "第15回は、自転車店「西塚商店」代表の西塚和彦さんです。ぜひご一読ください。 日野町公式note",
+   "date": "2026-02-25T13:31:23+09:00",
+   "source_id": "hinogurashi",
+   "source_name": "ひの暮らし",
+   "source_short": "暮らし",
+   "category": "life",
+   "tags": []
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5peWpGYXZpclBHNHVmQm54ZVJyR2hlVWpfNjcyY0QySlRxeFVjSUlXTTNsbVE3cjczRmpOQkdIeEtoc0N2OWVVa1ptRTMtRnI1R3JTaW5Qc2hpay1LckRTcFcwMVpOYUk?oc=5",
    "title": "40年前の殺人「日野町事件」、再審可否の判断が年度内にも 最高裁 - 朝日新聞",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5peWpGYXZpclBHNHVmQm54ZVJyR2hlVWpfNjcyY0QySlRxeFVjSUlXTTNsbVE3cjczRmpOQkdIeEtoc0N2OWVVa1ptRTMtRnI1R3JTaW5Qc2hpay1LckRTcFcwMVpOYUk?oc=5",
    "summary": "40年前の殺人「日野町事件」、再審可否の判断が年度内にも 最高裁&nbsp;&nbsp;朝日新聞",
    "date": "2026-02-17T17:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6RUZKTTF3LXhNZGZZVG1WdmVPbVl2ZnFwQWc4VUVOUnNkZ1FlX2JqMmlFOHdhYUJPRk9pQU1WS1RhVG94X0taVUtlY0IzRDlWeUtXWjRiS0d6ZWppYlVLU2Z1S0JPbnp2ODg4?oc=5",
+   "title": "日野町がオーガニックビレッジ宣言を行いました！：近畿農政局 - maff.go.jp",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6RUZKTTF3LXhNZGZZVG1WdmVPbVl2ZnFwQWc4VUVOUnNkZ1FlX2JqMmlFOHdhYUJPRk9pQU1WS1RhVG94X0taVUtlY0IzRDlWeUtXWjRiS0d6ZWppYlVLU2Z1S0JPbnp2ODg4?oc=5",
+   "summary": "日野町がオーガニックビレッジ宣言を行いました！：近畿農政局&nbsp;&nbsp;maff.go.jp",
+   "date": "2026-01-17T17:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
