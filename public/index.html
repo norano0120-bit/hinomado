@@ -840,6 +840,75 @@ a { color: inherit; }
 
 .kurashi-list.money .k-detail { font-size: .85rem; line-height: 1.75; }
 
+/* ── 開催が近い祭り（ページ先頭） ─────────────────────────── */
+.matsuri {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1.6rem;
+}
+.matsuri-card {
+  position: relative;
+  background: var(--shironeri);
+  border: 2px solid var(--shu);
+  padding: 1.2rem 1.3rem 1.3rem;
+  overflow: hidden;
+}
+.matsuri-card::before {
+  content: &#39;&#39;;
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 6px;
+  background: repeating-linear-gradient(90deg,
+    var(--shu) 0 14px, transparent 14px 22px);
+}
+.matsuri-card .m-state {
+  display: inline-block;
+  margin: .4rem 0 .6rem;
+  padding: .12rem .6rem;
+  background: var(--shu);
+  color: var(--shironeri);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+.matsuri-card h2 {
+  margin: 0 0 .35rem;
+  font-family: var(--serif);
+  font-weight: 800;
+  font-size: 1.4rem;
+  letter-spacing: .06em;
+}
+.matsuri-card h2 a { text-decoration: none; }
+.matsuri-card h2 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.matsuri-card .m-when {
+  margin: 0 0 .6rem;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.02rem;
+  color: var(--shu);
+  letter-spacing: .04em;
+}
+.matsuri-card .m-approx {
+  display: inline-block;
+  margin-left: .6em;
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: .7rem;
+  color: var(--nezu);
+  letter-spacing: 0;
+}
+.matsuri-card .m-blurb { margin: 0; font-size: .86rem; color: #423d36; }
+
+/* お出かけカードの日程 */
+.spot-when {
+  margin: 0 0 .4rem;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  color: var(--shu);
+}
+
 </style>
 </head>
 <body>
@@ -913,7 +982,7 @@ a { color: inherit; }
     <h1 class="brand"><span class="en">HINO, SHIGA</span><a href="index.html">ひのまど</a></h1>
     
     <p class="tagline">滋賀県蒲生郡日野町の今日を、ひとつの窓から</p>
-    <p class="stamp">8月14日（金）現在　お知らせ <b>32</b> 件を収録</p>
+    <p class="stamp">8月16日（日）現在　お知らせ <b>32</b> 件を収録</p>
     
   </div>
 </header>
@@ -934,6 +1003,8 @@ a { color: inherit; }
 
 <main class="wrap">
 
+
+  
 
   
   <section class="today" aria-label="今日の日野">
@@ -981,7 +1052,7 @@ a { color: inherit; }
           <a href="#gomi-A">
             <span class="ga">村井</span>
             
-            <span class="gd">3日後 8/17</span>
+            <span class="gd">あす 8/17</span>
             <span class="gk">燃えるごみ</span>
             
           </a>
@@ -991,8 +1062,8 @@ a { color: inherit; }
           <a href="#gomi-B">
             <span class="ga">小井口</span>
             
-            <span class="gd">きょう 8/14</span>
-            <span class="gk">燃えるごみ</span>
+            <span class="gd">あす 8/17</span>
+            <span class="gk">びん</span>
             
           </a>
         </li>
@@ -1001,7 +1072,7 @@ a { color: inherit; }
           <a href="#gomi-C">
             <span class="ga">東西桜谷</span>
             
-            <span class="gd">3日後 8/17</span>
+            <span class="gd">あす 8/17</span>
             <span class="gk">燃えるごみ</span>
             
           </a>
@@ -1011,8 +1082,8 @@ a { color: inherit; }
           <a href="#gomi-D">
             <span class="ga">南比都佐</span>
             
-            <span class="gd">きょう 8/14</span>
-            <span class="gk">燃えるごみ</span>
+            <span class="gd">あす 8/17</span>
+            <span class="gk">ペットボトル</span>
             
           </a>
         </li>
@@ -1072,7 +1143,7 @@ a { color: inherit; }
         <span class="date">8/12</span>
         <span class="badge ">催し</span>
         <a href="https://www.town.shiga-hino.lg.jp/0000008799.html" rel="noopener">
-          <span class="title">【8月26日】子育てサロン合同イベント<span class="new">NEW</span></span>
+          <span class="title">【8月26日】子育てサロン合同イベント</span>
           
         </a>
       </li>
@@ -1081,7 +1152,7 @@ a { color: inherit; }
         <span class="date">8/12</span>
         <span class="badge ">催し</span>
         <a href="https://www.town.shiga-hino.lg.jp/0000008612.html" rel="noopener">
-          <span class="title">【8月27日】体力測定会《測ってみよう！あなたの体力、どのくらい？》<span class="new">NEW</span></span>
+          <span class="title">【8月27日】体力測定会《測ってみよう！あなたの体力、どのくらい？》</span>
           
         </a>
       </li>
@@ -1090,7 +1161,7 @@ a { color: inherit; }
         <span class="date">8/12</span>
         <span class="badge ">催し</span>
         <a href="https://www.town.shiga-hino.lg.jp/0000008675.html" rel="noopener">
-          <span class="title">【8月28日】おもいでカフェ茶のみ処わたむき<span class="new">NEW</span></span>
+          <span class="title">【8月28日】おもいでカフェ茶のみ処わたむき</span>
           
         </a>
       </li>
@@ -1099,7 +1170,7 @@ a { color: inherit; }
         <span class="date">8/12</span>
         <span class="badge ">催し</span>
         <a href="https://www.town.shiga-hino.lg.jp/0000008358.html" rel="noopener">
-          <span class="title">【8月29日】「しが結」出張登録会＆婚活イベント（要申込）<span class="new">NEW</span></span>
+          <span class="title">【8月29日】「しが結」出張登録会＆婚活イベント（要申込）</span>
           
         </a>
       </li>
@@ -1108,7 +1179,7 @@ a { color: inherit; }
         <span class="date">8/12</span>
         <span class="badge ">催し</span>
         <a href="https://www.town.shiga-hino.lg.jp/0000008719.html" rel="noopener">
-          <span class="title">【9月8日】令和8年度 町立保育所・こども園 園開放「きっずらんど」(要予約)<span class="new">NEW</span></span>
+          <span class="title">【9月8日】令和8年度 町立保育所・こども園 園開放「きっずらんど」(要予約)</span>
           
         </a>
       </li>
@@ -1117,7 +1188,7 @@ a { color: inherit; }
         <span class="date">8/12</span>
         <span class="badge ">催し</span>
         <a href="https://www.town.shiga-hino.lg.jp/0000007773.html" rel="noopener">
-          <span class="title">【9月26日】氏郷まつり2026<span class="new">NEW</span></span>
+          <span class="title">【9月26日】氏郷まつり2026</span>
           
         </a>
       </li>
@@ -1343,7 +1414,7 @@ a { color: inherit; }
       <span class="sub">日野町が出てくる報道を拾っています</span>
     </div>
     
-    <ul class="news press">
+    <ul class="news press" id="press-list">
       
       <li>
         <span class="date">8/11</span>
@@ -1373,6 +1444,9 @@ a { color: inherit; }
       </li>
       
     </ul>
+    <div class="expander">
+      <button type="button" id="press-toggle" aria-expanded="false" aria-controls="press-list"></button>
+    </div>
     <p class="more">
       見出しとリンクのみを表示しています。本文は各紙のページでお読みください。
       東京都日野市・鳥取県日野町の記事が紛れないよう、キーワードで絞っています。
@@ -1415,7 +1489,7 @@ a { color: inherit; }
       <ul class="gomi-list">
         
         <li>
-          <span class="gomi-when">3日後</span>
+          <span class="gomi-when">あす</span>
           <span class="gomi-date">8/17（月）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1423,7 +1497,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">4日後</span>
+          <span class="gomi-when">2日後</span>
           <span class="gomi-date">8/18（火）</span>
           <span class="gomi-kinds">
             <span class="chip resource">ペットボトル</span>
@@ -1431,7 +1505,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">5日後</span>
+          <span class="gomi-when">3日後</span>
           <span class="gomi-date">8/19（水）</span>
           <span class="gomi-kinds">
             <span class="chip resource">びん</span>
@@ -1439,7 +1513,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">6日後</span>
+          <span class="gomi-when">4日後</span>
           <span class="gomi-date">8/20（木）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1447,7 +1521,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">10日後</span>
+          <span class="gomi-when">8日後</span>
           <span class="gomi-date">8/24（月）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1455,7 +1529,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">12日後</span>
+          <span class="gomi-when">10日後</span>
           <span class="gomi-date">8/26（水）</span>
           <span class="gomi-kinds">
             <span class="chip other">不燃ごみ（粗大）</span>
@@ -1463,7 +1537,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">13日後</span>
+          <span class="gomi-when">11日後</span>
           <span class="gomi-date">8/27（木）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1471,7 +1545,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">17日後</span>
+          <span class="gomi-when">15日後</span>
           <span class="gomi-date">8/31（月）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1489,16 +1563,8 @@ a { color: inherit; }
       
       <ul class="gomi-list">
         
-        <li class="today-row">
-          <span class="gomi-when">きょう</span>
-          <span class="gomi-date">8/14（金）</span>
-          <span class="gomi-kinds">
-            <span class="chip burn">燃えるごみ</span>
-          </span>
-        </li>
-        
         <li>
-          <span class="gomi-when">3日後</span>
+          <span class="gomi-when">あす</span>
           <span class="gomi-date">8/17（月）</span>
           <span class="gomi-kinds">
             <span class="chip resource">びん</span>
@@ -1506,7 +1572,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">4日後</span>
+          <span class="gomi-when">2日後</span>
           <span class="gomi-date">8/18（火）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1514,7 +1580,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">5日後</span>
+          <span class="gomi-when">3日後</span>
           <span class="gomi-date">8/19（水）</span>
           <span class="gomi-kinds">
             <span class="chip other">古紙</span>
@@ -1522,7 +1588,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">6日後</span>
+          <span class="gomi-when">4日後</span>
           <span class="gomi-date">8/20（木）</span>
           <span class="gomi-kinds">
             <span class="chip resource">ペットボトル</span>
@@ -1530,7 +1596,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">7日後</span>
+          <span class="gomi-when">5日後</span>
           <span class="gomi-date">8/21（金）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1538,7 +1604,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">11日後</span>
+          <span class="gomi-when">9日後</span>
           <span class="gomi-date">8/25（火）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1546,10 +1612,18 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">13日後</span>
+          <span class="gomi-when">11日後</span>
           <span class="gomi-date">8/27（木）</span>
           <span class="gomi-kinds">
             <span class="chip other">不燃ごみ（粗大）</span>
+          </span>
+        </li>
+        
+        <li>
+          <span class="gomi-when">12日後</span>
+          <span class="gomi-date">8/28（金）</span>
+          <span class="gomi-kinds">
+            <span class="chip burn">燃えるごみ</span>
           </span>
         </li>
         
@@ -1565,7 +1639,7 @@ a { color: inherit; }
       <ul class="gomi-list">
         
         <li>
-          <span class="gomi-when">3日後</span>
+          <span class="gomi-when">あす</span>
           <span class="gomi-date">8/17（月）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1573,7 +1647,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">4日後</span>
+          <span class="gomi-when">2日後</span>
           <span class="gomi-date">8/18（火）</span>
           <span class="gomi-kinds">
             <span class="chip other">不燃ごみ（袋に入るもの）</span>
@@ -1581,7 +1655,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">6日後</span>
+          <span class="gomi-when">4日後</span>
           <span class="gomi-date">8/20（木）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1589,7 +1663,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">7日後</span>
+          <span class="gomi-when">5日後</span>
           <span class="gomi-date">8/21（金）</span>
           <span class="gomi-kinds">
             <span class="chip resource">ペットボトル</span>
@@ -1597,7 +1671,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">10日後</span>
+          <span class="gomi-when">8日後</span>
           <span class="gomi-date">8/24（月）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1605,7 +1679,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">11日後</span>
+          <span class="gomi-when">9日後</span>
           <span class="gomi-date">8/25（火）</span>
           <span class="gomi-kinds">
             <span class="chip resource">びん</span>
@@ -1613,7 +1687,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">12日後</span>
+          <span class="gomi-when">10日後</span>
           <span class="gomi-date">8/26（水）</span>
           <span class="gomi-kinds">
             <span class="chip other">不燃ごみ（粗大）</span>
@@ -1621,7 +1695,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">13日後</span>
+          <span class="gomi-when">11日後</span>
           <span class="gomi-date">8/27（木）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1639,16 +1713,8 @@ a { color: inherit; }
       
       <ul class="gomi-list">
         
-        <li class="today-row">
-          <span class="gomi-when">きょう</span>
-          <span class="gomi-date">8/14（金）</span>
-          <span class="gomi-kinds">
-            <span class="chip burn">燃えるごみ</span>
-          </span>
-        </li>
-        
         <li>
-          <span class="gomi-when">3日後</span>
+          <span class="gomi-when">あす</span>
           <span class="gomi-date">8/17（月）</span>
           <span class="gomi-kinds">
             <span class="chip resource">ペットボトル</span>
@@ -1656,7 +1722,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">4日後</span>
+          <span class="gomi-when">2日後</span>
           <span class="gomi-date">8/18（火）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1664,7 +1730,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">6日後</span>
+          <span class="gomi-when">4日後</span>
           <span class="gomi-date">8/20（木）</span>
           <span class="gomi-kinds">
             <span class="chip resource">びん</span>
@@ -1672,7 +1738,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">7日後</span>
+          <span class="gomi-when">5日後</span>
           <span class="gomi-date">8/21（金）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1680,7 +1746,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">11日後</span>
+          <span class="gomi-when">9日後</span>
           <span class="gomi-date">8/25（火）</span>
           <span class="gomi-kinds">
             <span class="chip burn">燃えるごみ</span>
@@ -1688,7 +1754,7 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">12日後</span>
+          <span class="gomi-when">10日後</span>
           <span class="gomi-date">8/26（水）</span>
           <span class="gomi-kinds">
             <span class="chip other">古紙</span>
@@ -1696,10 +1762,18 @@ a { color: inherit; }
         </li>
         
         <li>
-          <span class="gomi-when">13日後</span>
+          <span class="gomi-when">11日後</span>
           <span class="gomi-date">8/27（木）</span>
           <span class="gomi-kinds">
             <span class="chip other">不燃ごみ（粗大）</span>
+          </span>
+        </li>
+        
+        <li>
+          <span class="gomi-when">12日後</span>
+          <span class="gomi-date">8/28（金）</span>
+          <span class="gomi-kinds">
+            <span class="chip burn">燃えるごみ</span>
           </span>
         </li>
         
@@ -1890,6 +1964,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://nanairo.space/" rel="noopener">日野駅舎「なないろ」</a></h4>
+          
           <p>築100年の近江鉄道日野駅の駅舎を改装した交流拠点。日替わりでオーナーが変わるカフェが入り、行く日によって出会う店が違う。</p>
           
           <div class="tags"><span>日替わりカフェ</span><span>駅すぐ</span></div>
@@ -1917,6 +1992,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/food/tsubame/" rel="noopener">ツバメカフェ</a></h4>
+          
           <p>旧市街の町並みのなかにあるカフェ。まち歩きの休憩に立ち寄りやすい場所にある。</p>
           
           <div class="tags"><span>まち歩き</span></div>
@@ -1936,6 +2012,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/food/rakkoya/" rel="noopener">カフェ・雑貨 らっこや</a></h4>
+          
           <p>カフェと雑貨が一緒になった店。お茶のついでに手みやげを探せる。</p>
           
           <div class="tags"><span>雑貨</span></div>
@@ -1947,6 +2024,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/food/morisada-cafe/" rel="noopener">守貞cafe</a></h4>
+          
           <p>和菓子店・守貞が併設するカフェ。店の菓子をその場で味わえる。</p>
           
           <div class="tags"><span>和菓子</span></div>
@@ -1958,6 +2036,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/food/sesera/" rel="noopener">庭園茶寮 せせら</a></h4>
+          
           <p>庭を眺めながら過ごせる茶寮。落ち着いて長居したい日向き。</p>
           
           <div class="tags"><span>庭園</span></div>
@@ -1969,6 +2048,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/food/chachamaru/" rel="noopener">茶屋 茶茶丸</a></h4>
+          
           <p>気軽に一服できる茶屋。散策の合間の休憩に。</p>
           
           <div class="tags"><span>甘味</span></div>
@@ -1980,6 +2060,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/food/taiyou-breads/" rel="noopener">Taiyou Breads.</a></h4>
+          
           <p>町のベーカリー。買って綿向山や日野川ダムまで持っていくのもいい。</p>
           
           <div class="tags"><span>パン</span><span>テイクアウト</span></div>
@@ -1991,6 +2072,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/food/watamukiyama-cafe/" rel="noopener">綿向山ビレッジ キッチン＆ゲストハウス</a></h4>
+          
           <p>綿向山のふもと。登山の前後に食事ができ、宿泊もできる。</p>
           
           <div class="tags"><span>登山口</span><span>宿泊可</span></div>
@@ -2011,6 +2093,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/food/okazaki/" rel="noopener">近江日野牛 レストラン岡﨑</a></h4>
+          
           <p>地元ブランドの近江日野牛を出すレストラン。日野で食べるならまずここが挙がる。</p>
           
           <div class="tags"><span>近江日野牛</span></div>
@@ -2022,6 +2105,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/food/unagi-honmaru/" rel="noopener">うなぎ本丸</a></h4>
+          
           <p>うなぎ専門店。夏場は特に混むので時間に余裕をもって。</p>
           
           <div class="tags"><span>うなぎ</span><span>夏が旬</span></div>
@@ -2033,6 +2117,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/food/mikaku/" rel="noopener">日野まちかど感応館・にぎり飯惣菜 みかく</a></h4>
+          
           <p>観光案内所を兼ねた感応館の新館。おにぎりと惣菜を売っていて、まち歩きの起点にちょうどいい。</p>
           
           <div class="tags"><span>観光案内所</span><span>軽食</span></div>
@@ -2061,6 +2146,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/sight/umamioka/" rel="noopener">馬見岡綿向神社</a></h4>
+          
           <p>日野の総社。5月の日野祭では、この神社を中心に曳山と神輿が町を巡る。</p>
           
           <div class="tags"><span>神社</span><span>日野祭</span></div>
@@ -2072,6 +2158,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hinosyouninkan.jp/" rel="noopener">近江日野商人館</a></h4>
+          
           <p>日野商人・山中兵右衛門邸を使った歴史民俗資料館。「三方よし」の商いがどう営まれたかが見える。</p>
           
           <div class="tags"><span>資料館</span><span>商人屋敷</span></div>
@@ -2091,6 +2178,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="http://www.hinofurusatokan.jp/" rel="noopener">近江日野商人ふるさと館（旧山中正吉邸）</a></h4>
+          
           <p>商家の建物をそのまま公開している施設。座敷や蔵の造りをじっくり見られる。</p>
           
           <div class="tags"><span>商人屋敷</span></div>
@@ -2110,6 +2198,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/sight/hinomachikado/" rel="noopener">日野まちかど感応館</a></h4>
+          
           <p>観光協会が入る案内拠点。まち歩きの地図やパンフレットはここで手に入る。</p>
           
           <div class="tags"><span>観光案内所</span></div>
@@ -2121,6 +2210,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/sight/shigarakiin/" rel="noopener">信楽院</a></h4>
+          
           <p>蒲生氏の菩提寺。本堂の天井画が見どころ。</p>
           
           <div class="tags"><span>寺</span><span>蒲生氏</span></div>
@@ -2132,6 +2222,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/sight/syoumeiji/" rel="noopener">正明寺</a></h4>
+          
           <p>黄檗宗の寺。落ち着いた境内で、人が少ない時間に訪れたい。</p>
           
           <div class="tags"><span>寺</span></div>
@@ -2143,6 +2234,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/sight/kishitsujinjya/" rel="noopener">鬼室神社</a></h4>
+          
           <p>百済からの渡来人・鬼室集斯を祀る神社。韓国との交流のきっかけにもなっている場所。</p>
           
           <div class="tags"><span>神社</span><span>渡来文化</span></div>
@@ -2163,6 +2255,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/nature/watamukiyama/" rel="noopener">綿向山</a></h4>
+          
           <p>日野のシンボルとなる山。登山道が整備され、冬は霧氷が目当ての人でにぎわう。</p>
           
           <div class="tags"><span>登山</span><span>霧氷</span></div>
@@ -2174,6 +2267,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/nature/honsyakunage/" rel="noopener">鎌掛谷ほんしゃくなげ群落</a></h4>
+          
           <p>国の天然記念物。谷いっぱいにホンシャクナゲが密生する。開花期のみ入れる。</p>
           
           <div class="tags"><span>天然記念物</span><span>花</span></div>
@@ -2185,6 +2279,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/nature/satsuki/" rel="noopener">さつき寺 雲迎寺</a></h4>
+          
           <p>境内一面にサツキが植えられた寺。花の時期に合わせて訪れる価値がある。</p>
           
           <div class="tags"><span>花</span><span>寺</span></div>
@@ -2196,6 +2291,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/nature/fuji/" rel="noopener">藤の寺 正法寺</a></h4>
+          
           <p>藤の名所として知られる寺。花房が下がる時期は短い。</p>
           
           <div class="tags"><span>花</span><span>寺</span></div>
@@ -2207,6 +2303,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/nature/hinodariaen/" rel="noopener">花の郷 日野ダリア園</a></h4>
+          
           <p>秋に多品種のダリアが咲きそろう。品種ごとの姿の違いを見て回れる。</p>
           
           <div class="tags"><span>花</span></div>
@@ -2218,6 +2315,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/nature/hinogawadamu/" rel="noopener">日野川ダム</a></h4>
+          
           <p>湖畔を歩ける静かな場所。春は桜、秋は紅葉が水面に映る。</p>
           
           <div class="tags"><span>桜</span><span>散策</span></div>
@@ -2238,6 +2336,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://www.blumenooka.jp/" rel="noopener">滋賀農業公園ブルーメの丘</a></h4>
+          
           <p>ドイツの農村をテーマにした農業公園。動物とのふれあいや体験工房があり、子ども連れの定番。</p>
           
           <div class="tags"><span>子ども連れ</span><span>一日遊べる</span></div>
@@ -2261,6 +2360,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/play/grimm/" rel="noopener">グリム冒険の森</a></h4>
+          
           <p>オートキャンプ場とコテージのあるアウトドア施設。日帰りバーベキューもできる。</p>
           
           <div class="tags"><span>キャンプ</span><span>BBQ</span><span>春〜秋向き</span></div>
@@ -2281,6 +2381,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/festival/hinomatsuri/" rel="noopener">日野祭</a></h4>
+          <p class="spot-when">5月2日（宵祭）・3日（本祭）</p>
           <p>馬見岡綿向神社の春の大祭。曳山が町を巡り、板塀の桟敷窓から見物するのが日野ならではの風景。</p>
           
           <div class="tags"><span>曳山</span><span>桟敷窓</span></div>
@@ -2300,6 +2401,7 @@ a { color: inherit; }
         <li class="spot">
           <span class="now">今月開催</span>
           <h4><a href="https://hino-kanko.jp/festival/hifurimatsuri/" rel="noopener">火ふり祭</a></h4>
+          <p class="spot-when">8月14日・15日</p>
           <p>お盆の夜、百数十本の松明を松の木めがけて投げ上げる。多くかかった年は豊作といわれる。</p>
           
           <div class="tags"><span>松明</span><span>夜</span></div>
@@ -2311,6 +2413,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/festival/imokurabe/" rel="noopener">近江中山の芋競べ祭り</a></h4>
+          <p class="spot-when">9月の第1日曜</p>
           <p>里芋の茎の長さを集落どうしで比べ、その年の豊凶を占う祭り。国の重要無形民俗文化財。</p>
           
           <div class="tags"><span>重要無形民俗文化財</span></div>
@@ -2322,6 +2425,7 @@ a { color: inherit; }
         <li class="spot">
           
           <h4><a href="https://hino-kanko.jp/festival/hinamatsuri/" rel="noopener">日野ひなまつり紀行</a></h4>
+          <p class="spot-when">2月上旬〜3月上旬</p>
           <p>町じゅうの家や店が桟敷窓越しに雛人形を飾る。まち歩きしながら見て回る催し。</p>
           
           <div class="tags"><span>桟敷窓</span><span>まち歩き</span></div>
@@ -2379,7 +2483,7 @@ a { color: inherit; }
       各配信元の見出し・日付・リンクを機械的に集めて並べ、紹介文は独自に書いています。
       申請の期限や開催の有無など、正確な情報は必ずリンク先の公式ページでご確認ください。
       掲載をやめてほしい配信元の方は運営者までご連絡ください。<br>
-      最終更新：2026年08月14日 18:11
+      最終更新：2026年08月16日 08:32
       
     </p>
   </div>
@@ -2389,47 +2493,64 @@ a { color: inherit; }
 <script>
 (function () {
   var LIMIT = 7;
-  var buttons = document.querySelectorAll('.filters button');
-  var rows = Array.prototype.slice.call(document.querySelectorAll('#news-list li'));
-  var toggle = document.getElementById('news-toggle');
-  var filter = 'all';
-  var expanded = false;
 
-  function matches(row) {
-    return filter === 'all'
-      || row.dataset.cat === filter
-      || row.dataset.tags.split(' ').indexOf(filter) !== -1;
-  }
+  // 一覧を LIMIT 件で折りたたむ。絞り込みがあれば連動させる
+  function makeExpander(listId, toggleId, buttons) {
+    var rows = Array.prototype.slice.call(
+      document.querySelectorAll('#' + listId + ' > li'));
+    var toggle = document.getElementById(toggleId);
+    if (!toggle || !rows.length) return null;
+    var filter = 'all';
+    var expanded = false;
 
-  function render() {
-    var shown = 0, hiddenCount = 0;
-    rows.forEach(function (row) {
-      if (!matches(row)) { row.hidden = true; return; }
-      shown++;
-      var over = shown > LIMIT;
-      row.hidden = over && !expanded;
-      if (over) hiddenCount++;
-    });
-    if (hiddenCount === 0) { toggle.hidden = true; return; }
-    toggle.hidden = false;
-    toggle.textContent = expanded ? 'とじる' : 'あと' + hiddenCount + '件を見る';
-    toggle.setAttribute('aria-expanded', expanded);
-  }
+    function matches(row) {
+      if (!buttons) return true;
+      return filter === 'all'
+        || row.dataset.cat === filter
+        || (row.dataset.tags || '').split(' ').indexOf(filter) !== -1;
+    }
 
-  buttons.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      filter = btn.dataset.filter;
-      expanded = false;
-      buttons.forEach(function (b) { b.setAttribute('aria-pressed', b === btn); });
+    function render() {
+      var shown = 0, hidden = 0;
+      rows.forEach(function (row) {
+        if (!matches(row)) { row.hidden = true; return; }
+        shown++;
+        var over = shown > LIMIT;
+        row.hidden = over && !expanded;
+        if (over) hidden++;
+      });
+      if (hidden === 0) { toggle.hidden = true; return; }
+      toggle.hidden = false;
+      toggle.textContent = expanded ? 'とじる' : 'あと' + hidden + '件を見る';
+      toggle.setAttribute('aria-expanded', expanded);
+    }
+
+    toggle.addEventListener('click', function () {
+      expanded = !expanded;
       render();
+      if (!expanded) {
+        document.getElementById(listId).closest('.section')
+          .scrollIntoView({ block: 'start' });
+      }
     });
-  });
-  toggle.addEventListener('click', function () {
-    expanded = !expanded;
+
+    if (buttons) {
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          filter = btn.dataset.filter;
+          expanded = false;
+          buttons.forEach(function (b) { b.setAttribute('aria-pressed', b === btn); });
+          render();
+        });
+      });
+    }
     render();
-    if (!expanded) document.getElementById('news').scrollIntoView({ block: 'start' });
-  });
-  render();
+    return render;
+  }
+
+  makeExpander('news-list', 'news-toggle',
+    Array.prototype.slice.call(document.querySelectorAll('.filters button')));
+  makeExpander('press-list', 'press-toggle', null);
 
   // ごみの地区タブ。#gomi-B のように直接開ける
   var tabs = document.querySelectorAll('.gomi-tabs button');
@@ -2447,7 +2568,6 @@ a { color: inherit; }
       history.replaceState(null, '', '#gomi-' + tab.dataset.area);
     });
   });
-  // 上の窓から「#gomi-B」で飛んできたときもタブを合わせる
   function syncFromHash() {
     var m = (location.hash.match(/^#gomi-(\w+)$/) || [])[1];
     if (m) showArea(m);

@@ -3,6 +3,20 @@
 
 {% block content %}
 
+  {% if festivals_now %}
+  {# ── 開催月に入った祭り。終わると自動で消える ── #}
+  <section class="matsuri" aria-label="開催が近い祭り">
+    {% for f in festivals_now %}
+    <article class="matsuri-card">
+      <p class="m-state">{{ f.state }}</p>
+      <h2><a href="{{ f.url }}" rel="noopener">{{ f.name }}</a></h2>
+      <p class="m-when">{{ f.range_label }}{% if f.approximate %}<span class="m-approx">年により前後します</span>{% endif %}</p>
+      <p class="m-blurb">{{ f.blurb }}</p>
+    </article>
+    {% endfor %}
+  </section>
+  {% endif %}
+
   {# ── 今日の日野：桟敷窓に見立てたパネル ── #}
   <section class="today" aria-label="今日の日野">
     <div class="mado weather-mado">
@@ -119,7 +133,7 @@
       <span class="sub">日野町が出てくる報道を拾っています</span>
     </div>
     {% if press_items %}
-    <ul class="news press">
+    <ul class="news press" id="press-list">
       {% for item in press_items %}
       <li>
         <span class="date">{{ item.date_label }}</span>
@@ -131,6 +145,9 @@
       </li>
       {% endfor %}
     </ul>
+    <div class="expander">
+      <button type="button" id="press-toggle" aria-expanded="false" aria-controls="press-list"></button>
+    </div>
     <p class="more">
       見出しとリンクのみを表示しています。本文は各紙のページでお読みください。
       東京都日野市・鳥取県日野町の記事が紛れないよう、キーワードで絞っています。
@@ -261,6 +278,7 @@
         <li class="spot">
           {% if s.in_season %}<span class="now">{{ s.season_label }}</span>{% endif %}
           <h4><a href="{{ s.url }}" rel="noopener">{{ s.name }}</a></h4>
+          {% if s.when_label %}<p class="spot-when">{{ s.when_label }}</p>{% endif %}
           <p>{{ s.blurb }}</p>
           {% if s.tags %}
           <div class="tags">{% for t in s.tags %}<span>{{ t }}</span>{% endfor %}</div>
@@ -289,47 +307,64 @@
 <script>
 (function () {
   var LIMIT = {{ collapse_at }};
-  var buttons = document.querySelectorAll('.filters button');
-  var rows = Array.prototype.slice.call(document.querySelectorAll('#news-list li'));
-  var toggle = document.getElementById('news-toggle');
-  var filter = 'all';
-  var expanded = false;
 
-  function matches(row) {
-    return filter === 'all'
-      || row.dataset.cat === filter
-      || row.dataset.tags.split(' ').indexOf(filter) !== -1;
-  }
+  // 一覧を LIMIT 件で折りたたむ。絞り込みがあれば連動させる
+  function makeExpander(listId, toggleId, buttons) {
+    var rows = Array.prototype.slice.call(
+      document.querySelectorAll('#' + listId + ' > li'));
+    var toggle = document.getElementById(toggleId);
+    if (!toggle || !rows.length) return null;
+    var filter = 'all';
+    var expanded = false;
 
-  function render() {
-    var shown = 0, hiddenCount = 0;
-    rows.forEach(function (row) {
-      if (!matches(row)) { row.hidden = true; return; }
-      shown++;
-      var over = shown > LIMIT;
-      row.hidden = over && !expanded;
-      if (over) hiddenCount++;
-    });
-    if (hiddenCount === 0) { toggle.hidden = true; return; }
-    toggle.hidden = false;
-    toggle.textContent = expanded ? 'とじる' : 'あと' + hiddenCount + '件を見る';
-    toggle.setAttribute('aria-expanded', expanded);
-  }
+    function matches(row) {
+      if (!buttons) return true;
+      return filter === 'all'
+        || row.dataset.cat === filter
+        || (row.dataset.tags || '').split(' ').indexOf(filter) !== -1;
+    }
 
-  buttons.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      filter = btn.dataset.filter;
-      expanded = false;
-      buttons.forEach(function (b) { b.setAttribute('aria-pressed', b === btn); });
+    function render() {
+      var shown = 0, hidden = 0;
+      rows.forEach(function (row) {
+        if (!matches(row)) { row.hidden = true; return; }
+        shown++;
+        var over = shown > LIMIT;
+        row.hidden = over && !expanded;
+        if (over) hidden++;
+      });
+      if (hidden === 0) { toggle.hidden = true; return; }
+      toggle.hidden = false;
+      toggle.textContent = expanded ? 'とじる' : 'あと' + hidden + '件を見る';
+      toggle.setAttribute('aria-expanded', expanded);
+    }
+
+    toggle.addEventListener('click', function () {
+      expanded = !expanded;
       render();
+      if (!expanded) {
+        document.getElementById(listId).closest('.section')
+          .scrollIntoView({ block: 'start' });
+      }
     });
-  });
-  toggle.addEventListener('click', function () {
-    expanded = !expanded;
+
+    if (buttons) {
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          filter = btn.dataset.filter;
+          expanded = false;
+          buttons.forEach(function (b) { b.setAttribute('aria-pressed', b === btn); });
+          render();
+        });
+      });
+    }
     render();
-    if (!expanded) document.getElementById('news').scrollIntoView({ block: 'start' });
-  });
-  render();
+    return render;
+  }
+
+  makeExpander('news-list', 'news-toggle',
+    Array.prototype.slice.call(document.querySelectorAll('.filters button')));
+  makeExpander('press-list', 'press-toggle', null);
 
   // ごみの地区タブ。#gomi-B のように直接開ける
   var tabs = document.querySelectorAll('.gomi-tabs button');
@@ -347,7 +382,6 @@
       history.replaceState(null, '', '#gomi-' + tab.dataset.area);
     });
   });
-  // 上の窓から「#gomi-B」で飛んできたときもタブを合わせる
   function syncFromHash() {
     var m = (location.hash.match(/^#gomi-(\w+)$/) || [])[1];
     if (m) showArea(m);

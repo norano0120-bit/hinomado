@@ -107,6 +107,51 @@ def analytics_tag(cfg: dict) -> str:
     return ""
 
 
+def nth_weekday_date(year: int, month: int, weekday: int, nth: int) -> date:
+    """その月の「第nth ○曜日」の日付を返す。weekday は 0=月曜、6=日曜。"""
+    first = date(year, month, 1)
+    offset = (weekday - first.weekday()) % 7
+    return first + timedelta(days=offset + 7 * (nth - 1))
+
+
+def festival_dates(sched: dict, today: date):
+    """祭りの今回の開催期間を (開始日, 終了日) で返す。
+
+    終わっていれば翌年の日付を返すので、年をまたいでも正しく先送りされる。
+    """
+    def occurrence(year: int):
+        kind = sched["type"]
+        if kind == "fixed":
+            days = sched["days"]
+            return (date(year, sched["month"], days[0]),
+                    date(year, sched["month"], days[-1]))
+        if kind == "nth_weekday":
+            d = nth_weekday_date(year, sched["month"], sched["weekday"], sched["nth"])
+            return (d, d)
+        if kind == "range":
+            sm, sd = sched["start"]
+            em, ed = sched["end"]
+            start = date(year, sm, sd)
+            end = date(year if em >= sm else year + 1, em, ed)
+            return (start, end)
+        raise ValueError(f"未知の日程タイプ: {kind}")
+
+    for year in (today.year, today.year + 1):
+        start, end = occurrence(year)
+        if end >= today:      # まだ終わっていない回
+            return start, end
+    return occurrence(today.year + 1)
+
+
+def jp_range(start: date, end: date) -> str:
+    if start == end:
+        return f"{start.month}月{start.day}日（{WEEKDAYS[start.weekday()]}）"
+    if start.month == end.month:
+        return (f"{start.month}月{start.day}日（{WEEKDAYS[start.weekday()]}）"
+                f'〜{end.day}日（{WEEKDAYS[end.weekday()]}）')
+    return (f"{start.month}月{start.day}日〜{end.month}月{end.day}日")
+
+
 def weather_icon(text: str) -> str:
     """予報文からアイコンを選ぶ。気象庁のアイコンはライセンス表示がないため自作を使う。"""
     t = text.replace(" ", "").replace("　", "")
@@ -223,6 +268,33 @@ def build():
         area["upcoming"] = gomi_days(area, gomi, today)
         area["next"] = area["upcoming"][0] if area["upcoming"] else None
 
+    # 開催月に入った祭りをページの先頭に出す。終わったら消える。
+    festivals_now = []
+    for sp in spots:
+        sched = sp.get("schedule")
+        if not sched:
+            continue
+        start, end = festival_dates(sched, today)
+        sp["next_start"], sp["next_end"] = start, end
+        sp["when_label"] = sched.get("label") or jp_range(start, end)
+        # 「今まさに開催中」か「今月これから開催」のときだけ先頭に出す。
+        # 年の指定を入れないと、終わった直後に翌年の同月分が出てしまう。
+        ongoing = start <= today <= end
+        this_month = (start >= today
+                      and start.year == today.year
+                      and start.month == today.month)
+        if ongoing or this_month:
+            days_left = (start - today).days
+            festivals_now.append({
+                **sp,
+                "range_label": jp_range(start, end),
+                "approximate": sched.get("approximate", False),
+                "state": ("開催中" if start <= today <= end
+                          else ("あす" if days_left == 1
+                                else ("きょう" if days_left == 0 else f"あと{days_left}日"))),
+            })
+    festivals_now.sort(key=lambda f: f["next_start"])
+
     spot_groups = [
         {"key": key, "label": label, "spots": [s for s in spots if s["cat"] == key]}
         for key, label in SPOT_CATS
@@ -267,6 +339,7 @@ def build():
             press_items=press_items,
             gomi=gomi,
             kurashi=kurashi,
+            festivals_now=festivals_now,
             collapse_at=COLLAPSE_AT,
             upcoming=upcoming,
             in_season=in_season,

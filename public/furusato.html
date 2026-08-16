@@ -840,6 +840,75 @@ a { color: inherit; }
 
 .kurashi-list.money .k-detail { font-size: .85rem; line-height: 1.75; }
 
+/* ── 開催が近い祭り（ページ先頭） ─────────────────────────── */
+.matsuri {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1.6rem;
+}
+.matsuri-card {
+  position: relative;
+  background: var(--shironeri);
+  border: 2px solid var(--shu);
+  padding: 1.2rem 1.3rem 1.3rem;
+  overflow: hidden;
+}
+.matsuri-card::before {
+  content: &#39;&#39;;
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 6px;
+  background: repeating-linear-gradient(90deg,
+    var(--shu) 0 14px, transparent 14px 22px);
+}
+.matsuri-card .m-state {
+  display: inline-block;
+  margin: .4rem 0 .6rem;
+  padding: .12rem .6rem;
+  background: var(--shu);
+  color: var(--shironeri);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+.matsuri-card h2 {
+  margin: 0 0 .35rem;
+  font-family: var(--serif);
+  font-weight: 800;
+  font-size: 1.4rem;
+  letter-spacing: .06em;
+}
+.matsuri-card h2 a { text-decoration: none; }
+.matsuri-card h2 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.matsuri-card .m-when {
+  margin: 0 0 .6rem;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.02rem;
+  color: var(--shu);
+  letter-spacing: .04em;
+}
+.matsuri-card .m-approx {
+  display: inline-block;
+  margin-left: .6em;
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: .7rem;
+  color: var(--nezu);
+  letter-spacing: 0;
+}
+.matsuri-card .m-blurb { margin: 0; font-size: .86rem; color: #423d36; }
+
+/* お出かけカードの日程 */
+.spot-when {
+  margin: 0 0 .4rem;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  color: var(--shu);
+}
+
 </style>
 </head>
 <body>
@@ -1031,7 +1100,7 @@ a { color: inherit; }
       各配信元の見出し・日付・リンクを機械的に集めて並べ、紹介文は独自に書いています。
       申請の期限や開催の有無など、正確な情報は必ずリンク先の公式ページでご確認ください。
       掲載をやめてほしい配信元の方は運営者までご連絡ください。<br>
-      最終更新：2026年08月14日 18:11
+      最終更新：2026年08月16日 08:32
       
     </p>
   </div>

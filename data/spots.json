@@ -420,7 +420,17 @@
         "icon": "web",
         "url": "https://hinohikiyama.com"
       }
-    ]
+    ],
+    "schedule": {
+      "type": "fixed",
+      "month": 5,
+      "days": [
+        2,
+        3
+      ],
+      "label": "5月2日（宵祭）・3日（本祭）",
+      "source": "日野町・日野観光協会"
+    }
   },
   {
     "name": "火ふり祭",
@@ -435,7 +445,17 @@
     "season": [
       8
     ],
-    "links": []
+    "links": [],
+    "schedule": {
+      "type": "fixed",
+      "month": 8,
+      "days": [
+        14,
+        15
+      ],
+      "label": "8月14日・15日",
+      "source": "日野町・日野観光協会"
+    }
   },
   {
     "name": "近江中山の芋競べ祭り",
@@ -449,7 +469,15 @@
     "season": [
       9
     ],
-    "links": []
+    "links": [],
+    "schedule": {
+      "type": "nth_weekday",
+      "month": 9,
+      "weekday": 6,
+      "nth": 1,
+      "label": "9月の第1日曜",
+      "source": "日野観光協会"
+    }
   },
   {
     "name": "日野ひなまつり紀行",
@@ -465,6 +493,20 @@
       2,
       3
     ],
-    "links": []
+    "links": [],
+    "schedule": {
+      "type": "range",
+      "start": [
+        2,
+        8
+      ],
+      "end": [
+        3,
+        8
+      ],
+      "label": "2月上旬〜3月上旬",
+      "approximate": true,
+      "source": "日野観光協会（年により前後します）"
+    }
   }
 ]
