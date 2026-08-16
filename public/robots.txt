@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://norano0120-bit.github.io/hinomado/sitemap.xml

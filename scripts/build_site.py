@@ -311,6 +311,9 @@ def build():
     analytics = analytics_tag(site.get("analytics", {}))
     shared = dict(
         css=css,
+        site_url=site["site_url"].rstrip("/"),
+        og_description=site.get("og_description", ""),
+        google_verification=site.get("google_site_verification", ""),
         analytics=analytics,
         privacy_note=site.get("privacy_note", "") if analytics else "",
         site_name=SITE_NAME,
@@ -333,6 +336,7 @@ def build():
 
     pages = [
         ("index.html", "index.html.j2", dict(
+            priority="1.0",
             page="index",
             compact=False,
             items=notice_items[:60],
@@ -348,18 +352,49 @@ def build():
             errors=news.get("errors", []),
             cat_labels={k: v for k, v in CAT_LABELS.items() if k in NOTICE_CATS},
         )),
-        ("kosodate.html", "kosodate.html.j2", dict(page="kosodate", compact=True)),
-        ("furusato.html", "furusato.html.j2", dict(page="furusato", compact=True)),
-        ("gikai.html", "gikai.html.j2", dict(page="gikai", compact=True)),
+        ("kosodate.html", "kosodate.html.j2", dict(page="kosodate", compact=True, priority="0.8")),
+        ("furusato.html", "furusato.html.j2", dict(page="furusato", compact=True, priority="0.6")),
+        ("gikai.html", "gikai.html.j2", dict(page="gikai", compact=True, priority="0.6")),
     ]
     for filename, template, extra in pages:
         html = env.get_template(template).render(**shared, **extra)
         (PUBLIC / filename).write_text(html, encoding="utf-8")
 
     shutil.copy(DATA / "news.json", PUBLIC / "news.json")
+    write_sitemap(pages, now, site["site_url"])
+    write_robots(site["site_url"])
     write_feed(items[:50], now, site["site_url"])
     write_ics(upcoming, now)
     print(f"公開ファイルを書き出しました: {PUBLIC}")
+
+
+def write_sitemap(pages, now, site_url):
+    """Googleにページ一覧を渡すファイル。Search Consoleに登録して使う。"""
+    base = site_url.rstrip("/")
+    stamp = now.strftime("%Y-%m-%d")
+    urls = "".join(
+        f"<url><loc>{escape(base)}/{name}</loc>"
+        f"<lastmod>{stamp}</lastmod>"
+        f"<changefreq>daily</changefreq>"
+        f"<priority>{extra.get('priority', '0.5')}</priority></url>"
+        for name, _tpl, extra in pages
+    )
+    (PUBLIC / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+        + urls + "</urlset>",
+        encoding="utf-8",
+    )
+
+
+def write_robots(site_url):
+    """検索エンジンへの案内。sitemapの場所を伝える。"""
+    base = site_url.rstrip("/")
+    (PUBLIC / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\n\n"
+        f"Sitemap: {base}/sitemap.xml\n",
+        encoding="utf-8",
+    )
 
 
 def write_feed(items, now, site_url):

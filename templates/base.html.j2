@@ -5,7 +5,41 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}{{ site_name }}{% endblock %}</title>
 <meta name="description" content="{% block description %}滋賀県蒲生郡日野町のお知らせ・イベント・お出かけ情報を毎日まとめて表示する非公式サイトです。{% endblock %}">
+{% if google_verification %}<meta name="google-site-verification" content="{{ google_verification }}">{% endif %}
+<link rel="canonical" href="{{ site_url }}/{{ 'index.html' if page == 'index' else page ~ '.html' }}">
+
+{# SNSでリンクを貼ったときの表示 #}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site_name }}">
+<meta property="og:title" content="{{ self.title() }}">
+<meta property="og:description" content="{{ og_description }}">
+<meta property="og:url" content="{{ site_url }}/{{ 'index.html' if page == 'index' else page ~ '.html' }}">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+
+{# 検索結果で「地域の情報サイト」として理解されやすくする #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site_name }}",
+  "url": "{{ site_url }}/",
+  "description": "{{ og_description }}",
+  "inLanguage": "ja",
+  "about": {
+    "@type": "Place",
+    "name": "滋賀県蒲生郡日野町",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "滋賀県",
+      "addressLocality": "蒲生郡日野町",
+      "addressCountry": "JP"
+    }
+  }
+}
+</script>
 <link rel="alternate" type="application/rss+xml" title="{{ site_name }}" href="feed.xml">
+<meta name="robots" content="index, follow">
 <style>
 {{ css }}
 </style>
