@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-17T06:42:02.734898+09:00",
+ "updated_at": "2026-08-17T19:18:35.756653+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,32 @@
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008145.html",
+   "title": "地域スポーツ活動補助金（大字スポーツ）申請書類について",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008145.html",
+   "summary": "",
+   "date": "2026-08-17T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "business"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008897.html",
+   "title": "【声の広報】広報ひの8月号",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008897.html",
+   "summary": "広報ひのを音声でお聞きいただけます。",
+   "date": "2026-08-17T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000003025.html",
    "title": "Language",
@@ -53,6 +79,18 @@
    "source_name": "日野町 イベント",
    "source_short": "催し",
    "category": "event",
+   "tags": []
+  },
+  {
+   "id": "https://hinogurashi.net/%e3%83%92%e3%83%8e%e3%82%b8%e3%83%b3-022-%e5%b2%a1%e7%94%b0%e5%81%a5%e5%8f%b8%e3%81%95%e3%82%93%e3%81%ae%e8%a8%98%e4%ba%8b%e3%82%92%e5%85%ac%e9%96%8b%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/",
+   "title": "ヒノジン.022 岡田健司さんの記事を公開しました！",
+   "url": "https://hinogurashi.net/%e3%83%92%e3%83%8e%e3%82%b8%e3%83%b3-022-%e5%b2%a1%e7%94%b0%e5%81%a5%e5%8f%b8%e3%81%95%e3%82%93%e3%81%ae%e8%a8%98%e4%ba%8b%e3%82%92%e5%85%ac%e9%96%8b%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/",
+   "summary": "第22回は、写真愛好家の岡田健司さんです。ぜひご一読ください。 日野町公式note ヒノジン 日野町公式note ヒノジン",
+   "date": "2026-08-16T11:00:00+09:00",
+   "source_id": "hinogurashi",
+   "source_name": "ひの暮らし",
+   "source_short": "暮らし",
+   "category": "life",
    "tags": []
   },
   {
@@ -438,6 +476,18 @@
    "tags": [
     "alert"
    ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yemlSWVFnZjZTUUczNlBheW9QR3lwd283cnJsWFNYa3BIaFpmWEZ0ZndnQ0RtLW9rNTFWUHhSb3h2R2FrZVpGMWI2MW9VQ0xuSWl3c1NaTjVnOFlnTU9xZTdIWllUblVLYXFpMTlB?oc=5",
+   "title": "日野町事件再審で阪原弘さんの「無罪」が事実上確定 大津地検「有罪立証せず」と表明 - 週刊金曜日",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yemlSWVFnZjZTUUczNlBheW9QR3lwd283cnJsWFNYa3BIaFpmWEZ0ZndnQ0RtLW9rNTFWUHhSb3h2R2FrZVpGMWI2MW9VQ0xuSWl3c1NaTjVnOFlnTU9xZTdIWllUblVLYXFpMTlB?oc=5",
+   "summary": "日野町事件再審で阪原弘さんの「無罪」が事実上確定 大津地検「有罪立証せず」と表明&nbsp;&nbsp;週刊金曜日",
+   "date": "2026-07-29T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
   },
   {
    "id": "https://hino-kanko.jp/topics/7233/",
@@ -905,9 +955,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uamQ4ZXc5V05UZ05ENFpmNXRPRzctbTZ0Z18xRG9VVE55eGpkSjZheFVOOUJOc1EzUXAtSmcwWlVPN2JlWjRsQW5IWF9EUQ?oc=5",
-   "title": "日野町事件再審で誤報 共同通信、記事取り消し - NEWSjp",
+   "title": "日野町事件再審で誤報 共同通信、記事取り消し - news.jp",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uamQ4ZXc5V05UZ05ENFpmNXRPRzctbTZ0Z18xRG9VVE55eGpkSjZheFVOOUJOc1EzUXAtSmcwWlVPN2JlWjRsQW5IWF9EUQ?oc=5",
-   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;NEWSjp",
+   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;news.jp",
    "date": "2026-07-14T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
