@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-17T19:18:35.756653+09:00",
+ "updated_at": "2026-08-18T06:55:01.401530+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,18 @@
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1heTkzQ3hBY0ZFeGllSmZQVG01R2N0NDhLUi1wY3NwWm94YlV4cUNZWHhFeTNEaXlCd1VEWjF4MTVrcVAwblZGLWF0OHluSWN1UlF1RW5FOGg?oc=5",
+   "title": "東京大法学部卒の大津地検の新検事正は会見で何を語ったのか 日野町事件は？趣味は？滋賀の印象は？ - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1heTkzQ3hBY0ZFeGllSmZQVG01R2N0NDhLUi1wY3NwWm94YlV4cUNZWHhFeTNEaXlCd1VEWjF4MTVrcVAwblZGLWF0OHluSWN1UlF1RW5FOGg?oc=5",
+   "summary": "東京大法学部卒の大津地検の新検事正は会見で何を語ったのか 日野町事件は？趣味は？滋賀の印象は？&nbsp;&nbsp;京都新聞デジタル",
+   "date": "2026-08-18T05:55:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008145.html",
    "title": "地域スポーツ活動補助金（大字スポーツ）申請書類について",
@@ -955,9 +967,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uamQ4ZXc5V05UZ05ENFpmNXRPRzctbTZ0Z18xRG9VVE55eGpkSjZheFVOOUJOc1EzUXAtSmcwWlVPN2JlWjRsQW5IWF9EUQ?oc=5",
-   "title": "日野町事件再審で誤報 共同通信、記事取り消し - news.jp",
+   "title": "日野町事件再審で誤報 共同通信、記事取り消し - NEWSjp",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uamQ4ZXc5V05UZ05ENFpmNXRPRzctbTZ0Z18xRG9VVE55eGpkSjZheFVOOUJOc1EzUXAtSmcwWlVPN2JlWjRsQW5IWF9EUQ?oc=5",
-   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;news.jp",
+   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;NEWSjp",
    "date": "2026-07-14T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
