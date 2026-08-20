@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-20T06:56:47.694948+09:00",
+ "updated_at": "2026-08-20T19:15:07.639535+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,30 @@
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008900.html",
+   "title": "地区計画の原案の縦覧について",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008900.html",
+   "summary": "",
+   "date": "2026-08-20T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008919.html",
+   "title": "つどいのひろば『ぽけっと』9月の予定カレンダーを掲載しました。",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008919.html",
+   "summary": "",
+   "date": "2026-08-20T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008916.html",
    "title": "未来対話ワークショップを開催しました",
@@ -1005,9 +1029,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uamQ4ZXc5V05UZ05ENFpmNXRPRzctbTZ0Z18xRG9VVE55eGpkSjZheFVOOUJOc1EzUXAtSmcwWlVPN2JlWjRsQW5IWF9EUQ?oc=5",
-   "title": "日野町事件再審で誤報 共同通信、記事取り消し - news.jp",
+   "title": "日野町事件再審で誤報 共同通信、記事取り消し - NEWSjp",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uamQ4ZXc5V05UZ05ENFpmNXRPRzctbTZ0Z18xRG9VVE55eGpkSjZheFVOOUJOc1EzUXAtSmcwWlVPN2JlWjRsQW5IWF9EUQ?oc=5",
-   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;news.jp",
+   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;NEWSjp",
    "date": "2026-07-14T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1901,9 +1925,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cXpmaUxZNjFQMFVZMTU4ZGI3MUsxQXh5MFlhWlVnRDgyU0hTTnZfTkNaQ0JsZWFqVnJfV3A2bFlKYk1oY2dKUGZ0UXJjVkF6WXlWSEk5cGtNLUhDUXZz?oc=5",
-   "title": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース - biz.chunichi.co.jp",
+   "title": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース - 中日BIZナビ",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cXpmaUxZNjFQMFVZMTU4ZGI3MUsxQXh5MFlhWlVnRDgyU0hTTnZfTkNaQ0JsZWFqVnJfV3A2bFlKYk1oY2dKUGZ0UXJjVkF6WXlWSEk5cGtNLUhDUXZz?oc=5",
-   "summary": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース&nbsp;&nbsp;biz.chunichi.co.jp",
+   "summary": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース&nbsp;&nbsp;中日BIZナビ",
    "date": "2026-05-29T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
