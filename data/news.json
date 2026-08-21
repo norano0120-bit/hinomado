@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-21T06:59:05.392924+09:00",
+ "updated_at": "2026-08-21T19:15:42.006694+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,32 @@
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zbFo2RjdUYmR4N0xRcjl0VGdfdm1WOE1FZU4yRlNIX1MzTTRQakNNRGxPQXQ2ZFdHMmxReWR4bFZVT05TU0twdVRXbmdBVVlWMW9KNms5dW5MVnVmS25Pb0dR?oc=5",
+   "title": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道 - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zbFo2RjdUYmR4N0xRcjl0VGdfdm1WOE1FZU4yRlNIX1MzTTRQakNNRGxPQXQ2ZFdHMmxReWR4bFZVT05TU0twdVRXbmdBVVlWMW9KNms5dW5MVnVmS25Pb0dR?oc=5",
+   "summary": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-08-21T17:59:27+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8394",
+   "title": "おもいでカフェ「茶のみ処わたむき(日野町立図書館）」のお知らせについて",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8394",
+   "summary": "□高齢者支援情報 ■おもいでカフェ「茶のみ処わたむき」のお知らせ ■日時：令和8 &#8230; 続きを読む &#8594;",
+   "date": "2026-08-21T09:00:02+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "senior"
+   ]
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008900.html",
    "title": "地区計画の原案の縦覧について",
@@ -1369,6 +1395,18 @@
    "tags": []
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrUnplYXh0T2U5ZG9Ra3RmSkNLLXBJVmFsM1BJZWJwcWoxWVJrdGZjOXRtV0M4eU5HQ2FQbGREYnlDSjRuNjJQSWkxRDlCcnREUlRrTjdMU3g?oc=5",
+   "title": "日野町事件、証拠開示請求 - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrUnplYXh0T2U5ZG9Ra3RmSkNLLXBJVmFsM1BJZWJwcWoxWVJrdGZjOXRtV0M4eU5HQ2FQbGREYnlDSjRuNjJQSWkxRDlCcnREUlRrTjdMU3g?oc=5",
+   "summary": "日野町事件、証拠開示請求&nbsp;&nbsp;京都新聞デジタル",
+   "date": "2026-07-02T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoMUx1MVJnbU12Uk1ZeWRTWFVNYmFqSXZpZG9RdzF0N191NFg3bjFxR2gzTGx3VGU5Rm80YjQxam8yVkpiN0xXNVc4ZVdVM0x3VVNvVWdHYzc?oc=5",
    "title": "滋賀県日野町長の所得・資産を公開 新たに愛知県内の土地取得 - 京都新聞デジタル",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoMUx1MVJnbU12Uk1ZeWRTWFVNYmFqSXZpZG9RdzF0N191NFg3bjFxR2gzTGx3VGU5Rm80YjQxam8yVkpiN0xXNVc4ZVdVM0x3VVNvVWdHYzc?oc=5",
@@ -1745,9 +1783,21 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKa2RvajYyczhQbUlMc2thWUgxNUdlQ3doSkFzc1ctbkRJSzF2Wm1CU0RPYWR0WDBmNGdFNU5iRGd4WTVMYV9ldjVMWnV6M2p5bHFxeGwxX29xU1R6T2pOQlBUdU9Od28?oc=5",
-   "title": "再審法案審議を意識？ 有罪立証しないと判断した検察 日野町事件 - asahi.com",
+   "title": "再審法案審議を意識？ 有罪立証しないと判断した検察 日野町事件 - 朝日新聞",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKa2RvajYyczhQbUlMc2thWUgxNUdlQ3doSkFzc1ctbkRJSzF2Wm1CU0RPYWR0WDBmNGdFNU5iRGd4WTVMYV9ldjVMWnV6M2p5bHFxeGwxX29xU1R6T2pOQlBUdU9Od28?oc=5",
-   "summary": "再審法案審議を意識？ 有罪立証しないと判断した検察 日野町事件&nbsp;&nbsp;asahi.com",
+   "summary": "再審法案審議を意識？ 有罪立証しないと判断した検察 日野町事件&nbsp;&nbsp;朝日新聞",
+   "date": "2026-06-19T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsY0FwMlNlaDNHZTltRUZuelJIUWpvZVZNbm5FSlo5Nk5BS3BHczR1T0k3UzRMR3o0UGJIZ0MyWmo3RVBpdEVlbHdxMU9IdUc4ZnpwaHdVeW8?oc=5",
+   "title": "日野町事件再審公判、検察側有罪主張せず - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsY0FwMlNlaDNHZTltRUZuelJIUWpvZVZNbm5FSlo5Nk5BS3BHczR1T0k3UzRMR3o0UGJIZ0MyWmo3RVBpdEVlbHdxMU9IdUc4ZnpwaHdVeW8?oc=5",
+   "summary": "日野町事件再審公判、検察側有罪主張せず&nbsp;&nbsp;京都新聞デジタル",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2010,6 +2060,18 @@
    "tags": []
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50NzdCRThJbU9rTUhuX3ZVRWFHV3R4eEdZdTZPakZWNDBodWxrMEJRZDZCS0JpVTFoSEtMdzctdVFnZUVqcF9sWGQxTQ?oc=5",
+   "title": "【速報】日野町再審、新証拠評価に「判例違反」主張 - 47NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50NzdCRThJbU9rTUhuX3ZVRWFHV3R4eEdZdTZPakZWNDBodWxrMEJRZDZCS0JpVTFoSEtMdzctdVFnZUVqcF9sWGQxTQ?oc=5",
+   "summary": "【速報】日野町再審、新証拠評価に「判例違反」主張&nbsp;&nbsp;47NEWS",
+   "date": "2026-05-16T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://hinogurashi.net/info_hinozine020/",
    "title": "ヒノジン.020 廣瀬敬一郎さんの記事を公開しました！",
    "url": "https://hinogurashi.net/info_hinozine020/",
@@ -2023,9 +2085,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mQ3NPaUlob2wxWUllRUZWdTVFMDI0eU5nQnF0ZVJ2c3QyWFVMbll1cTNYQzA1TlNhTkFEVHdpci00NXVQRUxEdVVGOHRLdXBmTTQwSHoyN0M1dUdBeUxfb2tsR052ams?oc=5",
-   "title": "再審法改正、日野町事件無罪確定を訴え 滋賀で14日までキャラバン [滋賀県] - asahi.com",
+   "title": "再審法改正、日野町事件無罪確定を訴え 滋賀で14日までキャラバン [滋賀県] - 朝日新聞",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mQ3NPaUlob2wxWUllRUZWdTVFMDI0eU5nQnF0ZVJ2c3QyWFVMbll1cTNYQzA1TlNhTkFEVHdpci00NXVQRUxEdVVGOHRLdXBmTTQwSHoyN0M1dUdBeUxfb2tsR052ams?oc=5",
-   "summary": "再審法改正、日野町事件無罪確定を訴え 滋賀で14日までキャラバン [滋賀県]&nbsp;&nbsp;asahi.com",
+   "summary": "再審法改正、日野町事件無罪確定を訴え 滋賀で14日までキャラバン [滋賀県]&nbsp;&nbsp;朝日新聞",
    "date": "2026-05-14T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
