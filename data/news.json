@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-21T19:15:42.006694+09:00",
+ "updated_at": "2026-08-22T06:56:26.743775+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -11,6 +11,18 @@
    "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zbFo2RjdUYmR4N0xRcjl0VGdfdm1WOE1FZU4yRlNIX1MzTTRQakNNRGxPQXQ2ZFdHMmxReWR4bFZVT05TU0twdVRXbmdBVVlWMW9KNms5dW5MVnVmS25Pb0dR?oc=5",
    "title": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道 - 中日新聞Web",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zbFo2RjdUYmR4N0xRcjl0VGdfdm1WOE1FZU4yRlNIX1MzTTRQakNNRGxPQXQ2ZFdHMmxReWR4bFZVT05TU0twdVRXbmdBVVlWMW9KNms5dW5MVnVmS25Pb0dR?oc=5",
+   "summary": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-08-21T17:59:27+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BRDl2MElRcktUWG5nUmdkOThFUTJMR2RHTFE2VGZyZHh0c1FNSmpkZDhGY1FNOEJzWGhqZDRKYVdCYU9GbC1qOHdhdXNUdFI0V09sNA?oc=5",
+   "title": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道 - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BRDl2MElRcktUWG5nUmdkOThFUTJMR2RHTFE2VGZyZHh0c1FNSmpkZDhGY1FNOEJzWGhqZDRKYVdCYU9GbC1qOHdhdXNUdFI0V09sNA?oc=5",
    "summary": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道&nbsp;&nbsp;中日新聞Web",
    "date": "2026-08-21T17:59:27+09:00",
    "source_id": "gnews",
@@ -1323,6 +1335,20 @@
    ]
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rdmEzQlZZNWhGTmhMQlZzX043UHM2eV9EZ01tbEJwU2Ixem4zSjdUMklLYmNzZG9UZzVCSzVZSGM5TjlWRi1uZVlyUFRxd3pCNlhUQUZFZDM1TnlYQmc?oc=5",
+   "title": "日野町「子育て支援お米プロジェクト」 - 滋賀報知新聞",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rdmEzQlZZNWhGTmhMQlZzX043UHM2eV9EZ01tbEJwU2Ixem4zSjdUMklLYmNzZG9UZzVCSzVZSGM5TjlWRi1uZVlyUFRxd3pCNlhUQUZFZDM1TnlYQmc?oc=5",
+   "summary": "日野町「子育て支援お米プロジェクト」&nbsp;&nbsp;滋賀報知新聞",
+   "date": "2026-07-04T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "kosodate"
+   ]
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYRXVxNUFoUlhTSWxlb1hQaW05TnF3QndYX3IwNllHZU1PRUNGTzhLY0RqUEdzWXJHaFZlNnhkQnpXdkZJa3Z0ckZmQnhURm1TQVYtbVZ1VzZYXzR1U2c?oc=5",
    "title": "日野町チョイソコひのサービスを一部利用 - 滋賀報知新聞",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYRXVxNUFoUlhTSWxlb1hQaW05TnF3QndYX3IwNllHZU1PRUNGTzhLY0RqUEdzWXJHaFZlNnhkQnpXdkZJa3Z0ckZmQnhURm1TQVYtbVZ1VzZYXzR1U2c?oc=5",
@@ -1723,9 +1749,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wek1ObjVKRXVRY2JUNzhNSXZjMEg5Q3lsRExFbndMb1E5TEx4MTZYTHY5N19CYjVKVi1RUWV3Rkh2VDNjdjhwd3hfdksyNUF0ZXFWMjJLS0VLRERVd0lYZkFVaw?oc=5",
-   "title": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず：時事ドットコム - 時事ドットコム",
+   "title": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず - 時事ドットコム",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wek1ObjVKRXVRY2JUNzhNSXZjMEg5Q3lsRExFbndMb1E5TEx4MTZYTHY5N19CYjVKVi1RUWV3Rkh2VDNjdjhwd3hfdksyNUF0ZXFWMjJLS0VLRERVd0lYZkFVaw?oc=5",
-   "summary": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず：時事ドットコム&nbsp;&nbsp;時事ドットコム",
+   "summary": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず&nbsp;&nbsp;時事ドットコム",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1977,6 +2003,18 @@
    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cXpmaUxZNjFQMFVZMTU4ZGI3MUsxQXh5MFlhWlVnRDgyU0hTTnZfTkNaQ0JsZWFqVnJfV3A2bFlKYk1oY2dKUGZ0UXJjVkF6WXlWSEk5cGtNLUhDUXZz?oc=5",
    "title": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース - 中日BIZナビ",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cXpmaUxZNjFQMFVZMTU4ZGI3MUsxQXh5MFlhWlVnRDgyU0hTTnZfTkNaQ0JsZWFqVnJfV3A2bFlKYk1oY2dKUGZ0UXJjVkF6WXlWSEk5cGtNLUhDUXZz?oc=5",
+   "summary": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース&nbsp;&nbsp;中日BIZナビ",
+   "date": "2026-05-29T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZbjdNM3RvY0lGVGRWWXhfU3VNRDAtdjlyRlc1ZnZhaXo1MklTMldMVU1FUy0ydmVMejFRMnNhTjFOR1IwYnVueWxBd3IzYzAtdGlJY0Z5cFlYT1lEVkRIVVpMQQ?oc=5",
+   "title": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース - 中日BIZナビ",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZbjdNM3RvY0lGVGRWWXhfU3VNRDAtdjlyRlc1ZnZhaXo1MklTMldMVU1FUy0ydmVMejFRMnNhTjFOR1IwYnVueWxBd3IzYzAtdGlJY0Z5cFlYT1lEVkRIVVpMQQ?oc=5",
    "summary": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース&nbsp;&nbsp;中日BIZナビ",
    "date": "2026-05-29T16:00:00+09:00",
    "source_id": "gnews",
