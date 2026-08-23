@@ -960,6 +960,144 @@ html { scroll-padding-top: 4.2rem; }
   .kurashi-cols { columns: 1; }
 }
 
+/* ── ごみ欄：予定と決まりを横並びに ───────────────────────── */
+.gomi-wrap {
+  display: grid;
+  grid-template-columns: 1.55fr 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+.gomi-wrap.unverified .gomi-list { opacity: .62; }
+.gomi-side {
+  background: var(--paper-deep);
+  border: 1px solid var(--line);
+  padding: 1rem 1.2rem 1.1rem;
+}
+.gomi-side h4 {
+  margin: 0 0 .6rem;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .2em;
+  color: #55503f;
+}
+.gomi-side .gomi-rules { margin: 0; padding-left: 1.1rem; font-size: .8rem; line-height: 1.8; }
+@media (max-width: 780px) {
+  .gomi-wrap { grid-template-columns: 1fr; }
+}
+
+/* ── 記事 ─────────────────────────────────────────────── */
+.post-list { list-style: none; margin: 0; padding: 0; }
+.post-list &gt; li {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.post-list h2 {
+  margin: .2rem 0 .4rem;
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  letter-spacing: .04em;
+}
+.post-list h2 a { text-decoration: none; }
+.post-list h2 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.p-date { margin: 0; font-size: .78rem; color: var(--nezu); letter-spacing: .06em; }
+.p-sum { margin: 0 0 .5rem; font-size: .87rem; color: #4a453d; }
+
+.post h1 {
+  margin: .3rem 0 .5rem;
+  font-family: var(--serif);
+  font-weight: 800;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  letter-spacing: .04em;
+  line-height: 1.4;
+}
+.post-body {
+  max-width: 42rem;
+  margin-top: 1.6rem;
+  font-size: .95rem;
+  line-height: 2;
+}
+.post-body h2 {
+  margin: 2.2rem 0 .8rem;
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  letter-spacing: .06em;
+  padding-left: .7rem;
+  border-left: 3px solid var(--ai);
+}
+.post-body h3 { margin: 1.6rem 0 .6rem; font-size: 1.02rem; }
+.post-body p { margin: 0 0 1.2rem; }
+.post-body ul, .post-body ol { margin: 0 0 1.2rem; padding-left: 1.4rem; }
+.post-body li { margin-bottom: .3rem; }
+.post-body a { color: var(--ai); }
+.post-body strong { font-weight: 700; }
+.post-body blockquote {
+  margin: 0 0 1.2rem;
+  padding: .6rem 1.1rem;
+  border-left: 4px solid var(--line);
+  color: #4a453d;
+}
+.post-body table { border-collapse: collapse; width: 100%; margin-bottom: 1.2rem; font-size: .88rem; }
+.post-body th, .post-body td { border: 1px solid var(--line); padding: .45rem .7rem; text-align: left; }
+.post-body th { background: var(--paper-deep); }
+
+/* ── お問い合わせフォーム ─────────────────────────────── */
+.contact-form { max-width: 34rem; }
+.contact-form label { display: block; margin-bottom: 1.1rem; }
+.contact-form label &gt; span {
+  display: block;
+  margin-bottom: .3rem;
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+}
+.contact-form label &gt; span i {
+  font-style: normal;
+  margin-left: .6em;
+  font-size: .68rem;
+  font-weight: 400;
+  padding: .05rem .45rem;
+  background: var(--paper-deep);
+  color: #55503f;
+}
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: .55rem .7rem;
+  font-family: var(--sans);
+  font-size: .9rem;
+  color: var(--sumi);
+  background: var(--shironeri);
+  border: 1px solid var(--line);
+  border-radius: 0;
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus { border-color: var(--ai); outline: 2px solid var(--ai); outline-offset: -2px; }
+.contact-form small { display: block; margin-top: .25rem; font-size: .74rem; color: var(--nezu); }
+.contact-form textarea { resize: vertical; line-height: 1.8; }
+.form-note {
+  font-size: .76rem;
+  color: var(--nezu);
+  line-height: 1.8;
+  background: var(--paper-deep);
+  padding: .7rem .9rem;
+  margin-bottom: 1.1rem;
+}
+.contact-form button {
+  font-family: var(--sans);
+  font-size: .92rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  color: var(--shironeri);
+  background: var(--ai);
+  border: 0;
+  padding: .7rem 2.4rem;
+  cursor: pointer;
+  transition: background .15s;
+}
+.contact-form button:hover { background: var(--ai-soft); }
+
 </style>
 </head>
 <body>
@@ -1046,8 +1184,11 @@ html { scroll-padding-top: 4.2rem; }
     <a href="index.html#odekake">お出かけ</a>
     <a href="kosodate.html">子育て</a>
     <a href="furusato.html">ふるさと納税</a>
+    <a href="hojokin.html">補助金</a>
     <a href="gikai.html">議会</a>
+    <a href="kiji.html">記事</a>
     <a href="index.html#renrakusaki">連絡先</a>
+    <a href="renraku.html">お問い合わせ</a>
   </div>
 </nav>
 
@@ -1089,6 +1230,13 @@ html { scroll-padding-top: 4.2rem; }
           <span class="when">あさって</span>
           <span class="w">晴れ</span>
           <span class="t">34℃</span>
+        </li>
+        
+        <li>
+          <svg class="wx-mini" aria-hidden="true"><use href="#wi-cloud"></use></svg>
+          <span class="when">8/16</span>
+          <span class="w">くもり</span>
+          <span class="t">32℃</span>
         </li>
         
       </ul>
@@ -1538,8 +1686,9 @@ html { scroll-padding-top: 4.2rem; }
     </div>
 
     
-    <div class="gomi-panel"
+    <div class="gomi-wrap"
          id="gomi-A" >
+      <div class="gomi-panel">
       <p class="gomi-area">村井・大窪・河原・松尾・大谷・中道</p>
       
       <ul class="gomi-list">
@@ -1611,10 +1760,19 @@ html { scroll-padding-top: 4.2rem; }
       </ul>
       
       <p class="gomi-pdf"><a href="https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000008/8171/R8hino_gomi_A.pdf" rel="noopener">この地区のカレンダーPDF（令和8年度（2026年度））</a></p>
+      </div>
+
+      <aside class="gomi-side">
+        <h4>出すときの決まり</h4>
+        <ul class="gomi-rules">
+          <li>指定のごみ袋に町名と氏名を書いて、収集日の午前8時までに集積所へ。</li><li>スプレー缶・カセットボンベは使い切って穴を開けてから。</li><li>リチウムイオン電池（充電式電池）は集積所に出さず、役場・公民館・エコドームの回収ボックスへ。</li><li>生ごみはよく水を切ってから。</li>
+        </ul>
+      </aside>
     </div>
     
-    <div class="gomi-panel"
+    <div class="gomi-wrap"
          id="gomi-B" hidden>
+      <div class="gomi-panel">
       <p class="gomi-area">小井口・寺尻・木津・椿野台・上野田・いせの・日田・五月台・西大路・鎌掛</p>
       
       <ul class="gomi-list">
@@ -1686,10 +1844,19 @@ html { scroll-padding-top: 4.2rem; }
       </ul>
       
       <p class="gomi-pdf"><a href="https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000008/8171/R8hino_gomi_B.pdf" rel="noopener">この地区のカレンダーPDF（令和8年度（2026年度））</a></p>
+      </div>
+
+      <aside class="gomi-side">
+        <h4>出すときの決まり</h4>
+        <ul class="gomi-rules">
+          <li>指定のごみ袋に町名と氏名を書いて、収集日の午前8時までに集積所へ。</li><li>スプレー缶・カセットボンベは使い切って穴を開けてから。</li><li>リチウムイオン電池（充電式電池）は集積所に出さず、役場・公民館・エコドームの回収ボックスへ。</li><li>生ごみはよく水を切ってから。</li>
+        </ul>
+      </aside>
     </div>
     
-    <div class="gomi-panel"
+    <div class="gomi-wrap"
          id="gomi-C" hidden>
+      <div class="gomi-panel">
       <p class="gomi-area">東西桜谷・山本・湖南サンライズ</p>
       
       <ul class="gomi-list">
@@ -1761,10 +1928,19 @@ html { scroll-padding-top: 4.2rem; }
       </ul>
       
       <p class="gomi-pdf"><a href="https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000008/8171/R8hino_gomi_C.pdf" rel="noopener">この地区のカレンダーPDF（令和8年度（2026年度））</a></p>
+      </div>
+
+      <aside class="gomi-side">
+        <h4>出すときの決まり</h4>
+        <ul class="gomi-rules">
+          <li>指定のごみ袋に町名と氏名を書いて、収集日の午前8時までに集積所へ。</li><li>スプレー缶・カセットボンベは使い切って穴を開けてから。</li><li>リチウムイオン電池（充電式電池）は集積所に出さず、役場・公民館・エコドームの回収ボックスへ。</li><li>生ごみはよく水を切ってから。</li>
+        </ul>
+      </aside>
     </div>
     
-    <div class="gomi-panel"
+    <div class="gomi-wrap"
          id="gomi-D" hidden>
+      <div class="gomi-panel">
       <p class="gomi-area">南比都佐・必佐（山本・湖南サンライズを除く）</p>
       
       <ul class="gomi-list">
@@ -1836,12 +2012,16 @@ html { scroll-padding-top: 4.2rem; }
       </ul>
       
       <p class="gomi-pdf"><a href="https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000008/8171/R8hino_gomi_D.pdf" rel="noopener">この地区のカレンダーPDF（令和8年度（2026年度））</a></p>
+      </div>
+
+      <aside class="gomi-side">
+        <h4>出すときの決まり</h4>
+        <ul class="gomi-rules">
+          <li>指定のごみ袋に町名と氏名を書いて、収集日の午前8時までに集積所へ。</li><li>スプレー缶・カセットボンベは使い切って穴を開けてから。</li><li>リチウムイオン電池（充電式電池）は集積所に出さず、役場・公民館・エコドームの回収ボックスへ。</li><li>生ごみはよく水を切ってから。</li>
+        </ul>
+      </aside>
     </div>
     
-
-    <ul class="gomi-rules">
-      <li>指定のごみ袋に町名と氏名を書いて、収集日の午前8時までに集積所へ。</li><li>スプレー缶・カセットボンベは使い切って穴を開けてから。</li><li>リチウムイオン電池（充電式電池）は集積所に出さず、役場・公民館・エコドームの回収ボックスへ。</li><li>生ごみはよく水を切ってから。</li>
-    </ul>
 
     <h3 class="sub-head">持ち込み先</h3>
     <ul class="cards">
@@ -1894,6 +2074,46 @@ html { scroll-padding-top: 4.2rem; }
         <span class="fc-weather">晴れ<i>時々くもり</i></span>
         <span class="fc-temp">
           <b>34℃</b>
+          <i>25℃</i>
+        </span>
+      </li>
+      
+      <li>
+        <svg class="wx-mini" aria-hidden="true"><use href="#wi-cloud"></use></svg>
+        <span class="fc-day">8/16<i>8/16（日）</i></span>
+        <span class="fc-weather">くもり</span>
+        <span class="fc-temp">
+          <b>32℃</b>
+          <i>30℃</i>
+        </span>
+      </li>
+      
+      <li>
+        <svg class="wx-mini" aria-hidden="true"><use href="#wi-sun"></use></svg>
+        <span class="fc-day">8/17<i>8/17（月）</i></span>
+        <span class="fc-weather">晴れ</span>
+        <span class="fc-temp">
+          <b>33℃</b>
+          <i>25℃</i>
+        </span>
+      </li>
+      
+      <li>
+        <svg class="wx-mini" aria-hidden="true"><use href="#wi-rain"></use></svg>
+        <span class="fc-day">8/18<i>8/18（火）</i></span>
+        <span class="fc-weather">雨</span>
+        <span class="fc-temp">
+          <b>29℃</b>
+          <i>24℃</i>
+        </span>
+      </li>
+      
+      <li>
+        <svg class="wx-mini" aria-hidden="true"><use href="#wi-cloud"></use></svg>
+        <span class="fc-day">8/19<i>8/19（水）</i></span>
+        <span class="fc-weather">くもり</span>
+        <span class="fc-temp">
+          <b>31℃</b>
           <i>25℃</i>
         </span>
       </li>
@@ -1980,6 +2200,14 @@ html { scroll-padding-top: 4.2rem; }
           <div class="tags"><span>雑貨</span></div>
           
           
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/food/rakkoya/" rel="noopener" title="観光協会の紹介" aria-label="カフェ・雑貨 らっこやの観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
+          
           <p class="via">情報：日野観光協会</p>
         </li>
         
@@ -1991,6 +2219,14 @@ html { scroll-padding-top: 4.2rem; }
           
           <div class="tags"><span>和菓子</span></div>
           
+          
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/food/morisada-cafe/" rel="noopener" title="観光協会の紹介" aria-label="守貞cafeの観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
           
           <p class="via">情報：日野観光協会</p>
         </li>
@@ -2004,6 +2240,14 @@ html { scroll-padding-top: 4.2rem; }
           <div class="tags"><span>庭園</span></div>
           
           
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/food/sesera/" rel="noopener" title="観光協会の紹介" aria-label="庭園茶寮 せせらの観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
+          
           <p class="via">情報：日野観光協会</p>
         </li>
         
@@ -2015,6 +2259,14 @@ html { scroll-padding-top: 4.2rem; }
           
           <div class="tags"><span>甘味</span></div>
           
+          
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/food/chachamaru/" rel="noopener" title="観光協会の紹介" aria-label="茶屋 茶茶丸の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
           
           <p class="via">情報：日野観光協会</p>
         </li>
@@ -2028,6 +2280,14 @@ html { scroll-padding-top: 4.2rem; }
           <div class="tags"><span>パン</span><span>テイクアウト</span></div>
           
           
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/food/taiyou-breads/" rel="noopener" title="観光協会の紹介" aria-label="Taiyou Breads.の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
+          
           <p class="via">情報：日野観光協会</p>
         </li>
         
@@ -2039,6 +2299,14 @@ html { scroll-padding-top: 4.2rem; }
           
           <div class="tags"><span>登山口</span><span>宿泊可</span></div>
           
+          
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/food/watamukiyama-cafe/" rel="noopener" title="観光協会の紹介" aria-label="綿向山ビレッジ キッチン＆ゲストハウスの観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
           
           <p class="via">情報：日野観光協会</p>
         </li>
@@ -2061,17 +2329,13 @@ html { scroll-padding-top: 4.2rem; }
           <div class="tags"><span>近江日野牛</span></div>
           
           
-          <p class="via">情報：日野観光協会</p>
-        </li>
-        
-        <li class="spot">
-          
-          <h4><a href="https://hino-kanko.jp/food/unagi-honmaru/" rel="noopener">うなぎ本丸</a></h4>
-          
-          <p>うなぎ専門店。夏場は特に混むので時間に余裕をもって。</p>
-          
-          <div class="tags"><span>うなぎ</span><span>夏が旬</span></div>
-          
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/food/okazaki/" rel="noopener" title="観光協会の紹介" aria-label="近江日野牛 レストラン岡﨑の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
           
           <p class="via">情報：日野観光協会</p>
         </li>
@@ -2113,6 +2377,14 @@ html { scroll-padding-top: 4.2rem; }
           
           <div class="tags"><span>神社</span><span>日野祭</span></div>
           
+          
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/sight/umamioka/" rel="noopener" title="観光協会の紹介" aria-label="馬見岡綿向神社の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
           
           <p class="via">情報：日野観光協会</p>
         </li>
@@ -2166,6 +2438,14 @@ html { scroll-padding-top: 4.2rem; }
           <div class="tags"><span>観光案内所</span></div>
           
           
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/sight/hinomachikado/" rel="noopener" title="観光協会の紹介" aria-label="日野まちかど感応館の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
+          
           <p class="via">情報：日野観光協会</p>
         </li>
         
@@ -2177,6 +2457,14 @@ html { scroll-padding-top: 4.2rem; }
           
           <div class="tags"><span>寺</span><span>蒲生氏</span></div>
           
+          
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/sight/shigarakiin/" rel="noopener" title="観光協会の紹介" aria-label="信楽院の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
           
           <p class="via">情報：日野観光協会</p>
         </li>
@@ -2190,6 +2478,14 @@ html { scroll-padding-top: 4.2rem; }
           <div class="tags"><span>寺</span></div>
           
           
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/sight/syoumeiji/" rel="noopener" title="観光協会の紹介" aria-label="正明寺の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
+          
           <p class="via">情報：日野観光協会</p>
         </li>
         
@@ -2201,6 +2497,14 @@ html { scroll-padding-top: 4.2rem; }
           
           <div class="tags"><span>神社</span><span>渡来文化</span></div>
           
+          
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/sight/kishitsujinjya/" rel="noopener" title="観光協会の紹介" aria-label="鬼室神社の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
           
           <p class="via">情報：日野観光協会</p>
         </li>
@@ -2223,6 +2527,14 @@ html { scroll-padding-top: 4.2rem; }
           <div class="tags"><span>登山</span><span>霧氷</span></div>
           
           
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/nature/watamukiyama/" rel="noopener" title="観光協会の紹介" aria-label="綿向山の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
+          
           <p class="via">情報：日野観光協会</p>
         </li>
         
@@ -2234,6 +2546,14 @@ html { scroll-padding-top: 4.2rem; }
           
           <div class="tags"><span>天然記念物</span><span>花</span></div>
           
+          
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/nature/honsyakunage/" rel="noopener" title="観光協会の紹介" aria-label="鎌掛谷ほんしゃくなげ群落の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
           
           <p class="via">情報：日野観光協会</p>
         </li>
@@ -2247,6 +2567,14 @@ html { scroll-padding-top: 4.2rem; }
           <div class="tags"><span>花</span><span>寺</span></div>
           
           
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/nature/satsuki/" rel="noopener" title="観光協会の紹介" aria-label="さつき寺 雲迎寺の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
+          
           <p class="via">情報：日野観光協会</p>
         </li>
         
@@ -2258,6 +2586,14 @@ html { scroll-padding-top: 4.2rem; }
           
           <div class="tags"><span>花</span><span>寺</span></div>
           
+          
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/nature/fuji/" rel="noopener" title="観光協会の紹介" aria-label="藤の寺 正法寺の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
           
           <p class="via">情報：日野観光協会</p>
         </li>
@@ -2271,6 +2607,14 @@ html { scroll-padding-top: 4.2rem; }
           <div class="tags"><span>花</span></div>
           
           
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/nature/hinodariaen/" rel="noopener" title="観光協会の紹介" aria-label="花の郷 日野ダリア園の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
+          
           <p class="via">情報：日野観光協会</p>
         </li>
         
@@ -2282,6 +2626,14 @@ html { scroll-padding-top: 4.2rem; }
           
           <div class="tags"><span>桜</span><span>散策</span></div>
           
+          
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/nature/hinogawadamu/" rel="noopener" title="観光協会の紹介" aria-label="日野川ダムの観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
           
           <p class="via">情報：日野観光協会</p>
         </li>
@@ -2328,6 +2680,14 @@ html { scroll-padding-top: 4.2rem; }
           <div class="tags"><span>キャンプ</span><span>BBQ</span><span>春〜秋向き</span></div>
           
           
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/play/grimm/" rel="noopener" title="観光協会の紹介" aria-label="グリム冒険の森の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
+          
           <p class="via">情報：日野観光協会</p>
         </li>
         
@@ -2369,6 +2729,14 @@ html { scroll-padding-top: 4.2rem; }
           <div class="tags"><span>松明</span><span>夜</span></div>
           
           
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/festival/hifurimatsuri/" rel="noopener" title="観光協会の紹介" aria-label="火ふり祭の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
+          
           <p class="via">情報：日野観光協会</p>
         </li>
         
@@ -2381,6 +2749,14 @@ html { scroll-padding-top: 4.2rem; }
           <div class="tags"><span>重要無形民俗文化財</span></div>
           
           
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/festival/imokurabe/" rel="noopener" title="観光協会の紹介" aria-label="近江中山の芋競べ祭りの観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
+          
           <p class="via">情報：日野観光協会</p>
         </li>
         
@@ -2392,6 +2768,14 @@ html { scroll-padding-top: 4.2rem; }
           
           <div class="tags"><span>桟敷窓</span><span>まち歩き</span></div>
           
+          
+          <div class="sns">
+            
+            <a href="https://hino-kanko.jp/festival/hinamatsuri/" rel="noopener" title="観光協会の紹介" aria-label="日野ひなまつり紀行の観光協会の紹介">
+              <svg aria-hidden="true"><use href="#wi-web"></use></svg><span>観光協会の紹介</span>
+            </a>
+            
+          </div>
           
           <p class="via">情報：日野観光協会</p>
         </li>
@@ -2547,7 +2931,7 @@ html { scroll-padding-top: 4.2rem; }
       各配信元の見出し・日付・リンクを機械的に集めて並べ、紹介文は独自に書いています。
       申請の期限や開催の有無など、正確な情報は必ずリンク先の公式ページでご確認ください。
       掲載をやめてほしい配信元の方は運営者までご連絡ください。<br>
-      最終更新：2026年08月16日 19:09
+      最終更新：2026年08月16日 23:55
       
     </p>
   </div>

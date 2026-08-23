@@ -1,0 +1,16 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ post.title }}｜{{ site_name }}{% endblock %}
+{% block description %}{{ post.summary or post.title }}{% endblock %}
+{% block subtitle %}{{ post.date_label }}{% endblock %}
+
+{% block content %}
+  <article class="section first post">
+    <h1>{{ post.title }}</h1>
+    <p class="p-date">{{ post.date_label }}</p>
+    {% if post.tags %}<div class="tags">{% for t in post.tags %}<span>{{ t }}</span>{% endfor %}</div>{% endif %}
+    <div class="post-body">
+      {{ post.html | safe }}
+    </div>
+    <p class="back"><a href="kiji.html">記事の一覧へ</a>　<a href="{{ home }}">トップに戻る</a></p>
+  </article>
+{% endblock %}

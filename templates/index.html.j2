@@ -35,7 +35,7 @@
         </p>
       </div>
       <ul class="wx-next">
-        {% for d in weather.days[1:3] %}
+        {% for d in weather.days[1:4] %}
         <li>
           <svg class="wx-mini" aria-hidden="true"><use href="#wi-{{ d.icon }}"></use></svg>
           <span class="when">{{ d.label }}</span>
@@ -110,7 +110,7 @@
     </div>
 
     <ul class="news" id="news-list">
-      {% for item in items %}
+      {% for item in items[:60] %}
       <li data-cat="{{ item.category }}" data-tags="{{ item.tags | join(' ') }}">
         <span class="date">{{ item.date_label }}</span>
         <span class="badge {{ 'alert' if item.category == 'alert' }}">{{ item.source_short }}</span>
@@ -184,8 +184,9 @@
     </div>
 
     {% for a in gomi.areas %}
-    <div class="gomi-panel{% if not gomi.verified %} unverified{% endif %}"
+    <div class="gomi-wrap{% if not gomi.verified %} unverified{% endif %}"
          id="gomi-{{ a.id }}" {% if not loop.first %}hidden{% endif %}>
+      <div class="gomi-panel">
       <p class="gomi-area">{{ a.name }}</p>
       {% if a.upcoming %}
       <ul class="gomi-list">
@@ -201,12 +202,16 @@
       </ul>
       {% endif %}
       <p class="gomi-pdf"><a href="{{ a.pdf }}" rel="noopener">この地区のカレンダーPDF（{{ gomi.fiscal_year }}）</a></p>
+      </div>
+
+      <aside class="gomi-side">
+        <h4>出すときの決まり</h4>
+        <ul class="gomi-rules">
+          {% for c in gomi.common %}<li>{{ c }}</li>{% endfor %}
+        </ul>
+      </aside>
     </div>
     {% endfor %}
-
-    <ul class="gomi-rules">
-      {% for c in gomi.common %}<li>{{ c }}</li>{% endfor %}
-    </ul>
 
     <h3 class="sub-head">持ち込み先</h3>
     <ul class="cards">

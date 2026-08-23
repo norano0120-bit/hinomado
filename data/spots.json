@@ -56,7 +56,13 @@
       "雑貨"
     ],
     "season": [],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/food/rakkoya/"
+      }
+    ]
   },
   {
     "name": "守貞cafe",
@@ -68,7 +74,13 @@
       "和菓子"
     ],
     "season": [],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/food/morisada-cafe/"
+      }
+    ]
   },
   {
     "name": "庭園茶寮 せせら",
@@ -80,7 +92,13 @@
       "庭園"
     ],
     "season": [],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/food/sesera/"
+      }
+    ]
   },
   {
     "name": "茶屋 茶茶丸",
@@ -92,7 +110,13 @@
       "甘味"
     ],
     "season": [],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/food/chachamaru/"
+      }
+    ]
   },
   {
     "name": "Taiyou Breads.",
@@ -105,7 +129,13 @@
       "テイクアウト"
     ],
     "season": [],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/food/taiyou-breads/"
+      }
+    ]
   },
   {
     "name": "綿向山ビレッジ キッチン＆ゲストハウス",
@@ -118,7 +148,13 @@
       "宿泊可"
     ],
     "season": [],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/food/watamukiyama-cafe/"
+      }
+    ]
   },
   {
     "name": "近江日野牛 レストラン岡﨑",
@@ -130,20 +166,13 @@
       "近江日野牛"
     ],
     "season": [],
-    "links": []
-  },
-  {
-    "name": "うなぎ本丸",
-    "cat": "food",
-    "url": "https://hino-kanko.jp/food/unagi-honmaru/",
-    "source": "日野観光協会",
-    "blurb": "うなぎ専門店。夏場は特に混むので時間に余裕をもって。",
-    "tags": [
-      "うなぎ",
-      "夏が旬"
-    ],
-    "season": [],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/food/okazaki/"
+      }
+    ]
   },
   {
     "name": "日野まちかど感応館・にぎり飯惣菜 みかく",
@@ -177,7 +206,13 @@
     "season": [
       5
     ],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/sight/umamioka/"
+      }
+    ]
   },
   {
     "name": "近江日野商人館",
@@ -226,7 +261,13 @@
       "観光案内所"
     ],
     "season": [],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/sight/hinomachikado/"
+      }
+    ]
   },
   {
     "name": "信楽院",
@@ -239,7 +280,13 @@
       "蒲生氏"
     ],
     "season": [],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/sight/shigarakiin/"
+      }
+    ]
   },
   {
     "name": "正明寺",
@@ -251,7 +298,13 @@
       "寺"
     ],
     "season": [],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/sight/syoumeiji/"
+      }
+    ]
   },
   {
     "name": "鬼室神社",
@@ -264,7 +317,13 @@
       "渡来文化"
     ],
     "season": [],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/sight/kishitsujinjya/"
+      }
+    ]
   },
   {
     "name": "綿向山",
@@ -282,7 +341,13 @@
       11,
       12
     ],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/nature/watamukiyama/"
+      }
+    ]
   },
   {
     "name": "鎌掛谷ほんしゃくなげ群落",
@@ -298,7 +363,13 @@
       4,
       5
     ],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/nature/honsyakunage/"
+      }
+    ]
   },
   {
     "name": "さつき寺 雲迎寺",
@@ -314,7 +385,13 @@
       5,
       6
     ],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/nature/satsuki/"
+      }
+    ]
   },
   {
     "name": "藤の寺 正法寺",
@@ -330,7 +407,13 @@
       4,
       5
     ],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/nature/fuji/"
+      }
+    ]
   },
   {
     "name": "花の郷 日野ダリア園",
@@ -345,7 +428,13 @@
       9,
       10
     ],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/nature/hinodariaen/"
+      }
+    ]
   },
   {
     "name": "日野川ダム",
@@ -361,7 +450,13 @@
       4,
       11
     ],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/nature/hinogawadamu/"
+      }
+    ]
   },
   {
     "name": "滋賀農業公園ブルーメの丘",
@@ -399,7 +494,13 @@
       "春〜秋向き"
     ],
     "season": [],
-    "links": []
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/play/grimm/"
+      }
+    ]
   },
   {
     "name": "日野祭",
@@ -445,7 +546,13 @@
     "season": [
       8
     ],
-    "links": [],
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/festival/hifurimatsuri/"
+      }
+    ],
     "schedule": {
       "type": "fixed",
       "month": 8,
@@ -469,7 +576,13 @@
     "season": [
       9
     ],
-    "links": [],
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/festival/imokurabe/"
+      }
+    ],
     "schedule": {
       "type": "nth_weekday",
       "month": 9,
@@ -493,7 +606,13 @@
       2,
       3
     ],
-    "links": [],
+    "links": [
+      {
+        "label": "観光協会の紹介",
+        "icon": "web",
+        "url": "https://hino-kanko.jp/festival/hinamatsuri/"
+      }
+    ],
     "schedule": {
       "type": "range",
       "start": [

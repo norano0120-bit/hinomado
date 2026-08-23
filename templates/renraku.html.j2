@@ -1,0 +1,79 @@
+{% extends "base.html.j2" %}
+{% block title %}お問い合わせ｜{{ site_name }}{% endblock %}
+{% block description %}ひのまどへのご連絡はこちらから。間違いの指摘や掲載の相談を受け付けています。{% endblock %}
+{% block subtitle %}ご連絡はこちらから{% endblock %}
+
+{% block content %}
+  <section class="section first">
+    <p class="lead">{{ contact.intro }}</p>
+
+    {% if contact.provider == 'formspree' and contact.formspree_id %}
+    <form class="contact-form" action="https://formspree.io/f/{{ contact.formspree_id }}" method="POST">
+      <label>
+        <span>お名前<i>任意</i></span>
+        <input type="text" name="name" autocomplete="name">
+      </label>
+      <label>
+        <span>返信先のメールアドレス<i>任意</i></span>
+        <input type="email" name="email" autocomplete="email">
+        <small>返事が必要な場合だけご記入ください。</small>
+      </label>
+      <label>
+        <span>ご用件<i>必須</i></span>
+        <select name="kind" required>
+          <option value="">選んでください</option>
+          <option>掲載内容の間違いを見つけた</option>
+          <option>載せてほしい情報がある</option>
+          <option>掲載をやめてほしい</option>
+          <option>お出かけスポットの情報提供</option>
+          <option>その他</option>
+        </select>
+      </label>
+      <label>
+        <span>内容<i>必須</i></span>
+        <textarea name="message" rows="8" required
+          placeholder="どのページのどの部分か、わかる範囲で書いていただけると助かります。"></textarea>
+      </label>
+      <p class="form-note">
+        送信された内容はフォーム配信サービス（Formspree）を経由して運営者に届きます。
+        いただいた情報は返信と内容の修正のためだけに使い、第三者に渡すことはありません。
+      </p>
+      <button type="submit">送信する</button>
+    </form>
+
+    {% elif contact.provider == 'mailto' and contact.email %}
+    <div class="card">
+      <h4>メールでご連絡ください</h4>
+      <p><a href="mailto:{{ contact.email }}?subject=%E3%81%B2%E3%81%AE%E3%81%BE%E3%81%A9%E3%81%B8%E3%81%AE%E3%81%94%E9%80%A3%E7%B5%A1">{{ contact.email }}</a></p>
+    </div>
+
+    {% else %}
+    <p class="empty-note">
+      連絡手段がまだ設定されていません。<code>data/site.json</code> の
+      <code>contact</code> に formspree のIDかメールアドレスを入れると、ここにフォームが出ます。
+    </p>
+    {% endif %}
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>お伝えする前に</h2>
+      <span class="sub">窓口が違う場合があります</span>
+    </div>
+    <ul class="cards">
+      <li class="card">
+        <h4>町の手続きや制度について</h4>
+        <p>このサイトは非公式のまとめです。申請の可否や期限などは、日野町役場（0748-52-1211）にお問い合わせください。</p>
+      </li>
+      <li class="card">
+        <h4>ごみの出し方について</h4>
+        <p>収集日の表示に誤りがあればぜひ教えてください。制度そのもののご質問は交通環境政策課（0748-52-6578）へ。</p>
+      </li>
+      <li class="card">
+        <h4>お店・施設の情報</h4>
+        <p>閉店、移転、営業時間の変更など、気づいたことを教えていただけると助かります。掲載を希望されない場合もご連絡ください。</p>
+      </li>
+    </ul>
+    <p class="back"><a href="{{ home }}">トップに戻る</a></p>
+  </section>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "base.html.j2" %}
+{% block title %}記事｜{{ site_name }}{% endblock %}
+{% block description %}ひのまどの運営者が書いた記事の一覧です。{% endblock %}
+{% block subtitle %}書いたもの{% endblock %}
+
+{% block content %}
+  <section class="section first">
+    {% if posts %}
+    <ul class="post-list">
+      {% for p in posts %}
+      <li>
+        <p class="p-date">{{ p.date_label }}</p>
+        <h2><a href="{{ p.url }}">{{ p.title }}</a></h2>
+        {% if p.summary %}<p class="p-sum">{{ p.summary }}</p>{% endif %}
+        {% if p.tags %}<div class="tags">{% for t in p.tags %}<span>{{ t }}</span>{% endfor %}</div>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty-note">
+      まだ記事がありません。<code>posts/</code> に .md ファイルを置くと、ここに並びます。
+    </p>
+    {% endif %}
+    <p class="back"><a href="{{ home }}">トップに戻る</a></p>
+  </section>
+{% endblock %}

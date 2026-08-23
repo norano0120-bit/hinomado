@@ -21,7 +21,9 @@ data/gikai.json         会議録の一覧と要約（fetch_gikai.py が書く�
 data/gomi.json          ごみ収集日のルール（手で書く。要確認）
 data/kurashi.json       暮らしの連絡先
 data/kosodate.json      子育てページの内容
-data/site.json          公開先URLとアクセス解析の設定
+data/site.json          公開先URL、アクセス解析、問い合わせ先の設定
+data/hojokin.json       事業者向け補助金の内容
+posts/                  記事（.md）。ここに置くと自動でページになる
 data/kosodate.json      子育て情報（手で書く）
 data/weather.json       天気（fetch_weather.py が書く）
 data/news.sample.json   動作確認用のサンプル
@@ -146,6 +148,70 @@ git push -u origin main
 ### 独自ドメインを使う場合
 
 `hinomado.jp` のようなドメインを取れば、そちらでも公開できます。Settings → Pages の Custom domain に入力し、ドメイン側でDNSを設定します。年間1,000〜3,000円ほどかかりますが、覚えやすく、リポジトリ名を変えてもURLが変わらなくなります。
+
+## 記事を書く
+
+`posts/` に `.md` ファイルを置くだけです。ファイル名がそのままURLになります。
+
+```markdown
+---
+title: 記事の見出し
+date: 2026-08-16
+summary: 一覧に出る短い説明。
+tags: おしらせ ごみ
+---
+
+本文をマークダウンで書きます。
+
+## 見出し
+
+- 箇条書き
+- **強調** や [リンク](https://example.com) が使えます
+```
+
+先頭の `---` で囲む部分は必須です。`date` を未来の日付にしておくと、その日が来るまで公開されません（予約投稿）。
+
+書いたら Commit → Push。次のビルドで `kiji.html` の一覧と、記事ごとのページができます。
+
+日付は書いた日ではなく「公開したい日」を入れてください。並び順に使われます。
+
+## お問い合わせフォーム
+
+静的サイトなのでサーバーがありません。外部のフォーム配信サービスを使います。
+
+### Formspree を使う（無料・おすすめ）
+
+1. https://formspree.io/ に登録し、New Form でフォームを作る
+2. 表示される送信先URL `https://formspree.io/f/xxxxxxx` の **末尾のIDだけ**をコピー
+3. `data/site.json` に入れる
+
+```json
+"contact": {
+  "provider": "formspree",
+  "formspree_id": "xxxxxxx"
+}
+```
+
+無料枠は月50件まで。届いた内容は登録したメールアドレスに転送されます。
+
+### メールアドレスを載せるだけにする
+
+```json
+"contact": {
+  "provider": "mailto",
+  "email": "your-address@example.com"
+}
+```
+
+手軽ですが、迷惑メールが増えやすい点に注意してください。
+
+`provider` を空にすると、お問い合わせページに手段が出ません。
+
+## 事業者向けの補助金
+
+`data/hojokin.json` を手で書きます。**制度は年度ごとに変わるので、年に一度は見直してください。**
+
+同梱分は町・商工会・県の入口をまとめたもので、金額や締切はあえて書いていません。すぐ古くなって害になるためです。「どこに何があるか」と「まず商工会に相談」を伝えることに絞っています。
 
 ## アクセス解析
 

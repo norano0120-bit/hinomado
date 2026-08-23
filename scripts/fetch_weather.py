@@ -118,6 +118,56 @@ def build_warnings(warning):
     return out
 
 
+WEATHER_WORD = {
+    "1": "晴れ", "2": "くもり", "3": "雨", "4": "雪",
+}
+
+
+def build_week(forecast, days):
+    """週間予報（3日目以降）を days に足す。日付が重なる分は上書きしない。"""
+    if len(forecast) < 2:
+        return
+    weekly = forecast[1]
+    ts_w = weekly["timeSeries"][0]
+    ts_t = weekly["timeSeries"][1] if len(weekly["timeSeries"]) > 1 else None
+
+    area = pick_area(ts_w, AREA_HINT)
+    if not area:
+        return
+
+    have = {d["date"] for d in days}
+    temps = {}
+    if ts_t:
+        t_area = pick_area(ts_t, "彦根") or (ts_t.get("areas") or [None])[0]
+        if t_area:
+            for stamp, lo, hi in zip(ts_t["timeDefines"],
+                                     t_area.get("tempsMin", []),
+                                     t_area.get("tempsMax", [])):
+                d = datetime.fromisoformat(stamp).astimezone(JST).date().isoformat()
+                temps[d] = (lo, hi)
+
+    for i, stamp in enumerate(ts_w["timeDefines"]):
+        d = datetime.fromisoformat(stamp).astimezone(JST)
+        iso = d.date().isoformat()
+        if iso in have:
+            continue
+        code = (area.get("weatherCodes") or [""] * 20)[i]
+        pop = (area.get("pops") or [""] * 20)[i]
+        lo, hi = temps.get(iso, ("", ""))
+        days.append({
+            "date": iso,
+            "label": f"{d.month}/{d.day}",
+            "md": f"{d.month}/{d.day}（{WEEKDAYS[d.weekday()]}）",
+            "weather": WEATHER_WORD.get(str(code)[:1], "くもり"),
+            "code": code,
+            "pops": [{"hour": 0, "value": int(pop)}] if pop not in ("", None) else [],
+            "high": int(hi) if str(hi).lstrip("-").isdigit() else None,
+            "low": int(lo) if str(lo).lstrip("-").isdigit() else None,
+            "weekly": True,
+        })
+    days.sort(key=lambda x: x["date"])
+
+
 def main() -> int:
     result = {
         "updated_at": datetime.now(JST).isoformat(),
@@ -128,7 +178,10 @@ def main() -> int:
         "ok": False,
     }
     try:
-        result["days"], result["area_name"] = build_days(get_json(FORECAST))
+        forecast = get_json(FORECAST)
+        result["days"], result["area_name"] = build_days(forecast)
+        build_week(forecast, result["days"])      # 3日目以降を週間予報で埋める
+        result["days"] = result["days"][:7]
         result["ok"] = bool(result["days"])
     except Exception as exc:  # noqa: BLE001
         print(f"予報の取得に失敗: {exc}")

@@ -10,5 +10,14 @@
   "privacy_note": "このサイトはアクセス数の集計にCookieを使わない解析を利用しています。個人を特定する情報は集めていません。",
   "google_site_verification": "Jjq5nPziYIxjLteHvgvlN3-XvXQPzRkNv3uKRS2ex5g",
   "google_site_verification_note": "Google Search Console の所有権確認用。確認が済んだあとも消さないでください。",
-  "og_description": "滋賀県蒲生郡日野町のごみ収集日、天気、お知らせ、イベント、お出かけ情報を毎日まとめています。"
+  "og_description": "滋賀県蒲生郡日野町のごみ収集日、天気、お知らせ、イベント、お出かけ情報を毎日まとめています。",
+  "contact": {
+    "provider": "",
+    "provider_note": "formspree / mailto / none。空なら連絡先ページに手段が出ません。",
+    "formspree_id": "",
+    "formspree_note": "https://formspree.io/ で無料登録し、フォームIDだけを入れます（例 xayzbqwe）。バックエンド不要で送信できます。",
+    "email": "",
+    "email_note": "mailto を使う場合の宛先。formspree を使うなら空でかまいません。",
+    "intro": "間違いの指摘、載せてほしい情報、掲載をやめてほしいというご連絡など、なんでもお寄せください。個人が運営しているため、お返事に時間がかかることがあります。"
+  }
 }

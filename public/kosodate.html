@@ -960,6 +960,144 @@ html { scroll-padding-top: 4.2rem; }
   .kurashi-cols { columns: 1; }
 }
 
+/* ── ごみ欄：予定と決まりを横並びに ───────────────────────── */
+.gomi-wrap {
+  display: grid;
+  grid-template-columns: 1.55fr 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+.gomi-wrap.unverified .gomi-list { opacity: .62; }
+.gomi-side {
+  background: var(--paper-deep);
+  border: 1px solid var(--line);
+  padding: 1rem 1.2rem 1.1rem;
+}
+.gomi-side h4 {
+  margin: 0 0 .6rem;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .2em;
+  color: #55503f;
+}
+.gomi-side .gomi-rules { margin: 0; padding-left: 1.1rem; font-size: .8rem; line-height: 1.8; }
+@media (max-width: 780px) {
+  .gomi-wrap { grid-template-columns: 1fr; }
+}
+
+/* ── 記事 ─────────────────────────────────────────────── */
+.post-list { list-style: none; margin: 0; padding: 0; }
+.post-list &gt; li {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.post-list h2 {
+  margin: .2rem 0 .4rem;
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  letter-spacing: .04em;
+}
+.post-list h2 a { text-decoration: none; }
+.post-list h2 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.p-date { margin: 0; font-size: .78rem; color: var(--nezu); letter-spacing: .06em; }
+.p-sum { margin: 0 0 .5rem; font-size: .87rem; color: #4a453d; }
+
+.post h1 {
+  margin: .3rem 0 .5rem;
+  font-family: var(--serif);
+  font-weight: 800;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  letter-spacing: .04em;
+  line-height: 1.4;
+}
+.post-body {
+  max-width: 42rem;
+  margin-top: 1.6rem;
+  font-size: .95rem;
+  line-height: 2;
+}
+.post-body h2 {
+  margin: 2.2rem 0 .8rem;
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  letter-spacing: .06em;
+  padding-left: .7rem;
+  border-left: 3px solid var(--ai);
+}
+.post-body h3 { margin: 1.6rem 0 .6rem; font-size: 1.02rem; }
+.post-body p { margin: 0 0 1.2rem; }
+.post-body ul, .post-body ol { margin: 0 0 1.2rem; padding-left: 1.4rem; }
+.post-body li { margin-bottom: .3rem; }
+.post-body a { color: var(--ai); }
+.post-body strong { font-weight: 700; }
+.post-body blockquote {
+  margin: 0 0 1.2rem;
+  padding: .6rem 1.1rem;
+  border-left: 4px solid var(--line);
+  color: #4a453d;
+}
+.post-body table { border-collapse: collapse; width: 100%; margin-bottom: 1.2rem; font-size: .88rem; }
+.post-body th, .post-body td { border: 1px solid var(--line); padding: .45rem .7rem; text-align: left; }
+.post-body th { background: var(--paper-deep); }
+
+/* ── お問い合わせフォーム ─────────────────────────────── */
+.contact-form { max-width: 34rem; }
+.contact-form label { display: block; margin-bottom: 1.1rem; }
+.contact-form label &gt; span {
+  display: block;
+  margin-bottom: .3rem;
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+}
+.contact-form label &gt; span i {
+  font-style: normal;
+  margin-left: .6em;
+  font-size: .68rem;
+  font-weight: 400;
+  padding: .05rem .45rem;
+  background: var(--paper-deep);
+  color: #55503f;
+}
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: .55rem .7rem;
+  font-family: var(--sans);
+  font-size: .9rem;
+  color: var(--sumi);
+  background: var(--shironeri);
+  border: 1px solid var(--line);
+  border-radius: 0;
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus { border-color: var(--ai); outline: 2px solid var(--ai); outline-offset: -2px; }
+.contact-form small { display: block; margin-top: .25rem; font-size: .74rem; color: var(--nezu); }
+.contact-form textarea { resize: vertical; line-height: 1.8; }
+.form-note {
+  font-size: .76rem;
+  color: var(--nezu);
+  line-height: 1.8;
+  background: var(--paper-deep);
+  padding: .7rem .9rem;
+  margin-bottom: 1.1rem;
+}
+.contact-form button {
+  font-family: var(--sans);
+  font-size: .92rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  color: var(--shironeri);
+  background: var(--ai);
+  border: 0;
+  padding: .7rem 2.4rem;
+  cursor: pointer;
+  transition: background .15s;
+}
+.contact-form button:hover { background: var(--ai-soft); }
+
 </style>
 </head>
 <body>
@@ -1045,8 +1183,11 @@ html { scroll-padding-top: 4.2rem; }
     <a href="index.html#odekake">お出かけ</a>
     <a href="kosodate.html" class="here">子育て</a>
     <a href="furusato.html">ふるさと納税</a>
+    <a href="hojokin.html">補助金</a>
     <a href="gikai.html">議会</a>
+    <a href="kiji.html">記事</a>
     <a href="index.html#renrakusaki">連絡先</a>
+    <a href="renraku.html">お問い合わせ</a>
   </div>
 </nav>
 
@@ -1291,7 +1432,7 @@ html { scroll-padding-top: 4.2rem; }
       各配信元の見出し・日付・リンクを機械的に集めて並べ、紹介文は独自に書いています。
       申請の期限や開催の有無など、正確な情報は必ずリンク先の公式ページでご確認ください。
       掲載をやめてほしい配信元の方は運営者までご連絡ください。<br>
-      最終更新：2026年08月16日 19:09
+      最終更新：2026年08月16日 23:55
       
     </p>
   </div>

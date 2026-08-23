@@ -152,6 +152,51 @@ def jp_range(start: date, end: date) -> str:
     return (f"{start.month}月{start.day}日〜{end.month}月{end.day}日")
 
 
+def load_posts(today: date) -> list:
+    """posts/ の .md を読んで記事の一覧を作る。
+
+    ファイルの先頭に --- で囲んだ見出し情報（front matter）を書く。
+    未来の日付にしておくと、その日が来るまで公開されない。
+    """
+    import markdown as md_lib
+
+    posts_dir = ROOT / "posts"
+    if not posts_dir.exists():
+        return []
+
+    posts = []
+    for path in sorted(posts_dir.glob("*.md"), reverse=True):
+        raw = path.read_text(encoding="utf-8")
+        meta, body = {}, raw
+        if raw.startswith("---"):
+            _, front, body = raw.split("---", 2)
+            for line in front.strip().splitlines():
+                if ":" in line:
+                    k, v = line.split(":", 1)
+                    meta[k.strip()] = v.strip()
+
+        try:
+            posted = date.fromisoformat(meta.get("date", ""))
+        except ValueError:
+            print(f"  ※ 日付が読めないので飛ばします: {path.name}")
+            continue
+        if posted > today:          # 予約投稿
+            continue
+
+        posts.append({
+            "slug": path.stem,
+            "title": meta.get("title", path.stem),
+            "date": posted,
+            "date_label": f"{posted.year}年{posted.month}月{posted.day}日",
+            "summary": meta.get("summary", ""),
+            "tags": [t for t in meta.get("tags", "").split() if t],
+            "html": md_lib.markdown(body.strip(), extensions=["tables", "nl2br"]),
+            "url": f"kiji-{path.stem}.html",
+        })
+    posts.sort(key=lambda x: x["date"], reverse=True)
+    return posts
+
+
 def weather_icon(text: str) -> str:
     """予報文からアイコンを選ぶ。気象庁のアイコンはライセンス表示がないため自作を使う。"""
     t = text.replace(" ", "").replace("　", "")
@@ -204,6 +249,8 @@ def build():
     sources = load("sources.json")
     furusato = load("furusato.json")
     site = load("site.json")
+    hojokin = load("hojokin.json")
+    posts = load_posts(today)
     gomi = load("gomi.json")
     kurashi = load("kurashi.json")
     kosodate = load("kosodate.json")
@@ -233,6 +280,10 @@ def build():
     ][:6]
     notice_items = [i for i in items if i["category"] in NOTICE_CATS]
     kosodate_items = [i for i in items if "kosodate" in i["tags"]][:10]
+    business_items = [
+        i for i in items
+        if "business" in i["tags"] or i["category"] == "business"
+    ][:10]
 
     # 日付つきイベントを拾って、これから来る順に並べる
     upcoming = []
@@ -311,6 +362,7 @@ def build():
     analytics = analytics_tag(site.get("analytics", {}))
     shared = dict(
         css=css,
+        gomi=gomi,
         site_url=site["site_url"].rstrip("/"),
         og_description=site.get("og_description", ""),
         google_verification=site.get("google_site_verification", ""),
@@ -330,6 +382,11 @@ def build():
         gikai_summarized=[m for m in gikai.get("minutes", []) if m.get("summary")][:4],
         kosodate=kosodate,
         kosodate_items=kosodate_items,
+        hojokin=hojokin,
+        business_items=business_items,
+        posts=posts,
+        contact=site.get("contact", {}),
+        items=notice_items,
     )
 
     PUBLIC.mkdir(exist_ok=True)
@@ -339,9 +396,7 @@ def build():
             priority="1.0",
             page="index",
             compact=False,
-            items=notice_items[:60],
             press_items=press_items,
-            gomi=gomi,
             kurashi=kurashi,
             festivals_now=festivals_now,
             collapse_at=COLLAPSE_AT,
@@ -355,10 +410,20 @@ def build():
         ("kosodate.html", "kosodate.html.j2", dict(page="kosodate", compact=True, priority="0.8")),
         ("furusato.html", "furusato.html.j2", dict(page="furusato", compact=True, priority="0.6")),
         ("gikai.html", "gikai.html.j2", dict(page="gikai", compact=True, priority="0.6")),
+        ("hojokin.html", "hojokin.html.j2", dict(page="hojokin", compact=True, priority="0.7")),
+        ("kiji.html", "kiji.html.j2", dict(page="kiji", compact=True, priority="0.7")),
+        ("renraku.html", "renraku.html.j2", dict(page="renraku", compact=True, priority="0.4")),
     ]
     for filename, template, extra in pages:
         html = env.get_template(template).render(**shared, **extra)
         (PUBLIC / filename).write_text(html, encoding="utf-8")
+
+    # 記事は1本ずつページにする
+    tpl = env.get_template("kiji_single.html.j2")
+    for post in posts:
+        html = tpl.render(**shared, page="kiji", compact=True, post=post)
+        (PUBLIC / post["url"]).write_text(html, encoding="utf-8")
+        pages.append((post["url"], "kiji_single.html.j2", {"priority": "0.6"}))
 
     shutil.copy(DATA / "news.json", PUBLIC / "news.json")
     write_sitemap(pages, now, site["site_url"])

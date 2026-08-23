@@ -1,0 +1,58 @@
+{% extends "base.html.j2" %}
+{% block title %}事業者向けの補助金｜{{ site_name }}{% endblock %}
+{% block description %}日野町で事業をする方が使える補助金・支援制度を、町・県・国それぞれの窓口ごとにまとめています。{% endblock %}
+{% block subtitle %}事業者向けの補助金{% endblock %}
+
+{% block content %}
+  <section class="section first">
+    <p class="lead">{{ hojokin.intro }}</p>
+    <p class="fetch-error">{{ hojokin.warning }}</p>
+
+    <div class="hotline">
+      <span class="sash" aria-hidden="true"></span>
+      <p class="h-label">まずここに相談</p>
+      <h2>{{ hojokin.first_stop.name }}</h2>
+      <p class="h-note">{{ hojokin.first_stop.detail }}</p>
+      <p class="h-more"><a href="{{ hojokin.first_stop.url }}" rel="noopener">日野町商工会のサイト</a></p>
+    </div>
+  </section>
+
+  {% for g in hojokin.groups %}
+  <section class="section">
+    <div class="section-head">
+      <h2>{{ g.title }}</h2>
+      {% if g.note %}<span class="sub">{{ g.note }}</span>{% endif %}
+    </div>
+    <ul class="kurashi-list">
+      {% for i in g["items"] %}
+      <li>
+        <span class="k-name"><a href="{{ i.url }}" rel="noopener">{{ i.name }}</a></span>
+        <span class="k-detail">{{ i.detail }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+
+  <section class="section">
+    <div class="section-head">
+      <h2>関連するお知らせ</h2>
+      <span class="sub">町・商工会の発信から自動で拾っています</span>
+    </div>
+    {% set biz = business_items %}
+    {% if biz %}
+    <ul class="news">
+      {% for item in biz[:10] %}
+      <li>
+        <span class="date">{{ item.date_label }}</span>
+        <span class="badge">{{ item.source_short }}</span>
+        <a href="{{ item.url }}" rel="noopener"><span class="title">{{ item.title }}</span></a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="empty-note">事業者向けのお知らせは、今のところありません。</p>
+    {% endif %}
+    <p class="back"><a href="{{ home }}">トップに戻る</a></p>
+  </section>
+{% endblock %}
