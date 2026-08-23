@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-23T18:56:08.751147+09:00",
+ "updated_at": "2026-08-23T18:58:09.919092+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -1206,6 +1206,18 @@
    "tags": []
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkYzc5ZzFfRVFRRTdYNG5ma3M1Rmo3ODZScm1pNmtuRDZnaFEtQzNOdnZWN2NUdnp5c0ZIdlhJNXRJcW9jTkJwNGVpYjhET3NuTTdz?oc=5",
+   "title": "狭山で12日、石川さんの再審求め集会 日野町事件の遺族と対談 - 東京新聞",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkYzc5ZzFfRVFRRTdYNG5ma3M1Rmo3ODZScm1pNmtuRDZnaFEtQzNOdnZWN2NUdnp5c0ZIdlhJNXRJcW9jTkJwNGVpYjhET3NuTTdz?oc=5",
+   "summary": "狭山で12日、石川さんの再審求め集会 日野町事件の遺族と対談&nbsp;&nbsp;東京新聞",
+   "date": "2026-07-09T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://www.town.shiga-hino.lg.jp/0000008838.html",
    "title": "【声の広報】広報ひの7月号",
    "url": "https://www.town.shiga-hino.lg.jp/0000008838.html",
@@ -2104,6 +2116,18 @@
    "title": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信） - Yahoo!ニュース",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NnZXb2ZLaUdfZDgxODdWblhXSlJsR0I0R0NCOEhPaWRTZkI2NUZ2NXB4SGVJTHp5N0xhbGhOMFBVQmtWX0hiV0V4UWZSemhtLVdaVjRJX2hYVXFjMTlxa1JSVFhzcXBWNm1hNU5TZGNDWmFrdVJobWRRb3cybk0?oc=5",
    "summary": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信）&nbsp;&nbsp;Yahoo!ニュース",
+   "date": "2026-05-19T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1OdWZtcjlsRlNvOG1MbUhVa3N0S3JHcS1VVVA0WEJLTVU4WlktMENNQ3NRemh2Xzk1aVQtQks2MV9QS3hQR2dUWlFEMA?oc=5",
+   "title": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議 - 47NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1OdWZtcjlsRlNvOG1MbUhVa3N0S3JHcS1VVVA0WEJLTVU4WlktMENNQ3NRemh2Xzk1aVQtQks2MV9QS3hQR2dUWlFEMA?oc=5",
+   "summary": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議&nbsp;&nbsp;47NEWS",
    "date": "2026-05-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
