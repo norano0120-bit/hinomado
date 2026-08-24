@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-24T06:49:01.249422+09:00",
+ "updated_at": "2026-08-24T19:58:48.764915+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,33 @@
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008908.html",
+   "title": "「オレンジフェスタ茶のみ処わたむきやさしさでつながるみんなの笑顔」開催のお知らせ",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008908.html",
+   "summary": "□高齢者支援情報 ■「オレンジフェスタ茶のみ処わたむき」開催のお知らせ ■日時：令和8年9月5日（土曜日）14時から16時（受付13時45分から） ■場所：町民会館わたむきホール虹ふれあいホール ■参加費：無料 ■申込：不要 ■主催：日野町認知症キャラバンメイト、日野町 ■内容：認知症月間である9月に毎年開催している認",
+   "date": "2026-08-24T08:52:58+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "event",
+    "senior"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008927.html",
+   "title": "自治会・町内会に参加しよう！",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008927.html",
+   "summary": "",
+   "date": "2026-08-24T08:52:06+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aWVk3WWNGcXo2ZVBoVHJaZjBWeVZXZVc4QkZwcGlFTU43MkxiZFdESkI4UnNtZEI4WjdpSEpQT0lHOXFJUi1WMHZxZk5MbnVmN1pPX0xxUlc?oc=5",
    "title": "滋賀県日野町で「平和展」 憲法公布80年、９条の誕生秘話に迫る展示 - 京都新聞デジタル",
@@ -2797,6 +2824,30 @@
    "tags": [
     "event"
    ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82NU9SdmdiMDFNcElFMDUyTzZjbU53TExHaGpNanZIc0xQaUZ4dUtPSXNZOHNSd3V0UEN4Q0ZKdGNUTDZjUElZMVFQS0d5eEFtZVljSjQ4clYwMVhCVWp3?oc=5",
+   "title": "滋賀県日野町の雷レーダー - ウェザーニュース",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82NU9SdmdiMDFNcElFMDUyTzZjbU53TExHaGpNanZIc0xQaUZ4dUtPSXNZOHNSd3V0UEN4Q0ZKdGNUTDZjUElZMVFQS0d5eEFtZVljSjQ4clYwMVhCVWp3?oc=5",
+   "summary": "滋賀県日野町の雷レーダー&nbsp;&nbsp;ウェザーニュース",
+   "date": "2025-11-13T20:15:12+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Yc0JfZllEU2VwdnZRU2QwNE9BMDQ5elU2LTVHejV4di0wOTZ3OVR2T1JPMUIwanhDM2pjRnI0U0FnWjJSQ0ZBRjhFeWFMNk96SVlNQm1lQ2hLSEZkQW5qWA?oc=5",
+   "title": "滋賀県日野町の雨雪レーダー【予想6時間】 - ウェザーニュース",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Yc0JfZllEU2VwdnZRU2QwNE9BMDQ5elU2LTVHejV4di0wOTZ3OVR2T1JPMUIwanhDM2pjRnI0U0FnWjJSQ0ZBRjhFeWFMNk96SVlNQm1lQ2hLSEZkQW5qWA?oc=5",
+   "summary": "滋賀県日野町の雨雪レーダー【予想6時間】&nbsp;&nbsp;ウェザーニュース",
+   "date": "2025-11-06T16:20:21+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008465.html",
