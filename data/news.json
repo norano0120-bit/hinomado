@@ -1,6 +1,10 @@
 {
- "updated_at": "2026-08-25T19:17:36.159175+09:00",
+ "updated_at": "2026-08-26T06:59:40.393087+09:00",
  "errors": [
+  {
+   "source": "ひの暮らし",
+   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
+  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
