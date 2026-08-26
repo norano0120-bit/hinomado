@@ -1,16 +1,82 @@
 {
- "updated_at": "2026-08-26T06:59:40.393087+09:00",
+ "updated_at": "2026-08-26T19:55:24.635848+09:00",
  "errors": [
-  {
-   "source": "ひの暮らし",
-   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
-  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
+  },
+  {
+   "source": "報道横断検索（Googleニュース）",
+   "message": "解析に失敗しました: <unknown>:2:252: not well-formed (invalid token)"
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008926.html",
+   "title": "【日野町議会】令和8年9月定例会議について",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008926.html",
+   "summary": "",
+   "date": "2026-08-26T16:59:08+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008933.html",
+   "title": "オンライン日本語教室「はじめよう！にほんご」が開催されます",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008933.html",
+   "summary": "",
+   "date": "2026-08-26T16:54:45+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8400",
+   "title": "滋賀県気象防災速報（竜巻注意） 発表",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8400",
+   "summary": "発表日時： 08月26日16時52分 発表内容： ＜概要＞ 滋賀県南部は、竜 &#8230; 続きを読む &#8594;",
+   "date": "2026-08-26T16:53:32+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": []
+  },
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8398",
+   "title": "滋賀県内に食中毒注意報が発令されました",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8398",
+   "summary": "□住民生活情報 ■県内に食中毒注意報が発令されました。 ■【発令期間】令和8年8 &#8230; 続きを読む &#8594;",
+   "date": "2026-08-26T13:15:32+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "alert"
+   ]
+  },
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8396",
+   "title": "すくすく広場のお知らせ（9月）",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8396",
+   "summary": "□子育て支援情報 ■すくすく広場のお知らせ（9月） ■助産師・管理栄養士・保健師 &#8230; 続きを読む &#8594;",
+   "date": "2026-08-26T09:00:04+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "kosodate"
+   ]
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008908.html",
    "title": "「オレンジフェスタ茶のみ処わたむきやさしさでつながるみんなの笑顔」開催のお知らせ",
@@ -846,7 +912,7 @@
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008892.html",
-   "title": "【質疑回答】日野町立小中学校電子黒板整備",
+   "title": "【入札結果】日野町立小中学校電子黒板整備",
    "url": "https://www.town.shiga-hino.lg.jp/0000008892.html",
    "summary": "",
    "date": "2026-07-24T00:00:01+09:00",
@@ -855,7 +921,8 @@
    "source_short": "町",
    "category": "town",
    "tags": [
-    "kosodate"
+    "kosodate",
+    "business"
    ]
   },
   {
@@ -988,7 +1055,7 @@
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008718.html",
-   "title": "入札結果（7月10日開札分）",
+   "title": "入札結果（8月19日開札分）",
    "url": "https://www.town.shiga-hino.lg.jp/0000008718.html",
    "summary": "",
    "date": "2026-07-16T19:27:34+09:00",
