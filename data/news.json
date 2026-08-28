@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-28T11:26:48.154905+09:00",
+ "updated_at": "2026-08-29T06:48:57.203436+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,33 @@
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51Tk9tZFNjNGstV2V6MWpwUDZ1Zm42RDZGbERQU0h0dUVLLTdETzBfTWlYNGNBV1lJVDRHVjFwWkd5WWFPSTNDblJMNk4tdUdYTEo2TnlIaXU?oc=5",
+   "title": "滋賀県日野町、水道工事の入札で予定価格に誤り 落札結果取り消し、業者に謝罪 - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51Tk9tZFNjNGstV2V6MWpwUDZ1Zm42RDZGbERQU0h0dUVLLTdETzBfTWlYNGNBV1lJVDRHVjFwWkd5WWFPSTNDblJMNk4tdUdYTEo2TnlIaXU?oc=5",
+   "summary": "滋賀県日野町、水道工事の入札で予定価格に誤り 落札結果取り消し、業者に謝罪&nbsp;&nbsp;京都新聞デジタル",
+   "date": "2026-08-29T05:25:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "business",
+    "kurashi"
+   ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTklFeEkzNG9NbW1BcFhRb1k5elhqWlZJbEU5NFZ0MmRVWVVpZF9kaHlVcDV0dnFxVUxMbFZSV1hoSVk3cW5lWnR0akdGbXFoeG5pMW9XNFJQdmhtQ2ZVYWlHQzJ5Y3cyZnBLbVZHblhWSVhCdDIyYnhRNnZwdHVPdUNENA?oc=5",
+   "title": "蒲生郡日野町一棟アパート - rakumachi.jp",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTklFeEkzNG9NbW1BcFhRb1k5elhqWlZJbEU5NFZ0MmRVWVVpZF9kaHlVcDV0dnFxVUxMbFZSV1hoSVk3cW5lWnR0akdGbXFoeG5pMW9XNFJQdmhtQ2ZVYWlHQzJ5Y3cyZnBLbVZHblhWSVhCdDIyYnhRNnZwdHVPdUNENA?oc=5",
+   "summary": "蒲生郡日野町一棟アパート&nbsp;&nbsp;rakumachi.jp",
+   "date": "2026-08-28T16:47:02+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8410",
    "title": "つどいのひろば『ぽけっと』9月の予定について",
@@ -2223,9 +2250,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cXpmaUxZNjFQMFVZMTU4ZGI3MUsxQXh5MFlhWlVnRDgyU0hTTnZfTkNaQ0JsZWFqVnJfV3A2bFlKYk1oY2dKUGZ0UXJjVkF6WXlWSEk5cGtNLUhDUXZz?oc=5",
-   "title": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース - 中日新聞Web",
+   "title": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース - 中日BIZナビ",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cXpmaUxZNjFQMFVZMTU4ZGI3MUsxQXh5MFlhWlVnRDgyU0hTTnZfTkNaQ0JsZWFqVnJfV3A2bFlKYk1oY2dKUGZ0UXJjVkF6WXlWSEk5cGtNLUhDUXZz?oc=5",
-   "summary": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース&nbsp;&nbsp;中日新聞Web",
+   "summary": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース&nbsp;&nbsp;中日BIZナビ",
    "date": "2026-05-29T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2975,6 +3002,18 @@
    "title": "日野町（滋賀県）との農業連携 - 泉大津市",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWERBTG9TcjluTjRwSWkwQlV3VGNZVk5XTm9Zb25VUmxhZEZyQjctaVVtUURvWDVJOUF3ZXNkbUJZS2JrSXN4a3l5SFp0U21oTzVjQ0g3Z0U0SWQzanRXX0s5SUlKYjFDMW1jcFJKSkVTZkN3NG5TSVZ5aFIxWC1KemtOVTZOeHN2UXlFUmtWcXVGYzNqTktNeTh2dVNQeTNkZFJR?oc=5",
    "summary": "日野町（滋賀県）との農業連携&nbsp;&nbsp;泉大津市",
+   "date": "2025-12-19T17:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IRzAzUHkzNUx0RXVUdmYwUDFUUGR3N0pvM09wYmYzX0xVZ3BqZlBoSk5IZGlMd1JPZDJGa1NFekdCQWR6YlhvWjN5VmZ6NEcxc2NSXzFSang0dUJQenhOd0lHOS16al95TFE?oc=5",
+   "title": "滋賀県日野町と農業連携協定を締結 | 泉大津市のプレスリリース - PR TIMES",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IRzAzUHkzNUx0RXVUdmYwUDFUUGR3N0pvM09wYmYzX0xVZ3BqZlBoSk5IZGlMd1JPZDJGa1NFekdCQWR6YlhvWjN5VmZ6NEcxc2NSXzFSang0dUJQenhOd0lHOS16al95TFE?oc=5",
+   "summary": "滋賀県日野町と農業連携協定を締結 | 泉大津市のプレスリリース&nbsp;&nbsp;PR TIMES",
    "date": "2025-12-19T17:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
