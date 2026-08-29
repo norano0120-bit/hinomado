@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-29T07:00:56.934623+09:00",
+ "updated_at": "2026-08-29T18:07:52.610579+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,20 @@
   }
  ],
  "items": [
+  {
+   "id": "https://hino-kanko.jp/topics/7735/",
+   "title": "私たちのいるこの世界 ー バンバンのアトリエ ー 展 開催のお知らせ",
+   "url": "https://hino-kanko.jp/topics/7735/",
+   "summary": "私たちのいるこの世界 -バンバンのアトリエ- 展 開催のお知らせ 日 時：２０２６年 ９月 ９日（水） ～ ９月 ２３日（水・祝） １０：３０ ～ １６：００（最終日は１３：００まで） ※開催期間中の休館日：９月１４日（ &#8230; Continue reading \"私たちのいるこの世界 ー バンバンのアトリエ ",
+   "date": "2026-08-29T11:05:40+09:00",
+   "source_id": "kanko",
+   "source_name": "日野観光協会",
+   "source_short": "観光",
+   "category": "event",
+   "tags": [
+    "event"
+   ]
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51Tk9tZFNjNGstV2V6MWpwUDZ1Zm42RDZGbERQU0h0dUVLLTdETzBfTWlYNGNBV1lJVDRHVjFwWkd5WWFPSTNDblJMNk4tdUdYTEo2TnlIaXU?oc=5",
    "title": "滋賀県日野町、水道工事の入札で予定価格に誤り 落札結果取り消し、業者に謝罪 - 京都新聞デジタル",
@@ -1709,9 +1723,9 @@
   },
   {
    "id": "https://hino-kanko.jp/topics/news/2373/",
-   "title": "日野駅舎「なないろ」イベント・出店予定（７月～）",
+   "title": "日野駅舎「なないろ」イベント・出店予定（８月～）",
    "url": "https://hino-kanko.jp/topics/news/2373/",
-   "summary": "築100年を迎え、新たな日野町の観光交流拠点として再生した日野駅舎。毎日オーナーが変わる日替わりカフェやイベントなどがおこなわれています。 ぜひお立ち寄りください。 【場所】 近江鉄道日野駅舎「なないろ」（日野町内池 &#8230; Continue reading \"日野駅舎「なないろ」イベント・出店予定（７月～）\"",
+   "summary": "築100年を迎え、新たな日野町の観光交流拠点として再生した日野駅舎。毎日オーナーが変わる日替わりカフェやイベントなどがおこなわれています。 ぜひお立ち寄りください。 【場所】 近江鉄道日野駅舎「なないろ」（日野町内池 &#8230; Continue reading \"日野駅舎「なないろ」イベント・出店予定（８月～）\"",
    "date": "2026-07-01T09:00:19+09:00",
    "source_id": "kanko",
    "source_name": "日野観光協会",
