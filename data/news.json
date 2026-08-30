@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-30T18:08:06.118108+09:00",
+ "updated_at": "2026-08-31T06:08:00.682803+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -32,6 +32,18 @@
    "tags": [
     "event"
    ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zWE9fa1I1ZFlMRl94T0NxaWJab2VIYTc1QjBISDc2bWhFOG1RQ0hpdV9TcHNjMVN5VUR2VFN6dUU1TWJxY3l6UDRrX2JlRXE0eXYtTk5mM1R1eUE3d0NYbFJCNTdsWWlxQ0FZbjZzNDgyVDRMMTF6OVBuZnhiZ2M?oc=5",
+   "title": "「警察にだまされた」検察関係者が異例の証言 無罪見通し「日野町事件」 無念のうちに父亡くした長男は怒り「だまされたレベルの話ではない」 - Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zWE9fa1I1ZFlMRl94T0NxaWJab2VIYTc1QjBISDc2bWhFOG1RQ0hpdV9TcHNjMVN5VUR2VFN6dUU1TWJxY3l6UDRrX2JlRXE0eXYtTk5mM1R1eUE3d0NYbFJCNTdsWWlxQ0FZbjZzNDgyVDRMMTF6OVBuZnhiZ2M?oc=5",
+   "summary": "「警察にだまされた」検察関係者が異例の証言 無罪見通し「日野町事件」 無念のうちに父亡くした長男は怒り「だまされたレベルの話ではない」&nbsp;&nbsp;Yahoo!ニュース",
+   "date": "2026-08-29T11:00:34+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51Tk9tZFNjNGstV2V6MWpwUDZ1Zm42RDZGbERQU0h0dUVLLTdETzBfTWlYNGNBV1lJVDRHVjFwWkd5WWFPSTNDblJMNk4tdUdYTEo2TnlIaXU?oc=5",
