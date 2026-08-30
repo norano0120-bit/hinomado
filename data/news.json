@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-30T06:08:16.162995+09:00",
+ "updated_at": "2026-08-30T18:08:06.118108+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,18 @@
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OcklQZ2VMZFVNb2FuM0M3NkNUNnFqaVRWTDNCOHU5cXUxNm9kTW40TEYyRkdzYnR3a3MtTUppOWFadjkya2FpUjVhSlVDZVFjZ3BxS1V3SGIyZk5HUmc?oc=5",
+   "title": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。 - 選挙ドットコム",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OcklQZ2VMZFVNb2FuM0M3NkNUNnFqaVRWTDNCOHU5cXUxNm9kTW40TEYyRkdzYnR3a3MtTUppOWFadjkya2FpUjVhSlVDZVFjZ3BxS1V3SGIyZk5HUmc?oc=5",
+   "summary": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。&nbsp;&nbsp;選挙ドットコム",
+   "date": "2026-08-30T09:36:22+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
   {
    "id": "https://hino-kanko.jp/topics/7735/",
    "title": "私たちのいるこの世界 ー バンバンのアトリエ ー 展 開催のお知らせ",
@@ -2012,9 +2024,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wek1ObjVKRXVRY2JUNzhNSXZjMEg5Q3lsRExFbndMb1E5TEx4MTZYTHY5N19CYjVKVi1RUWV3Rkh2VDNjdjhwd3hfdksyNUF0ZXFWMjJLS0VLRERVd0lYZkFVaw?oc=5",
-   "title": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず - 時事ドットコム",
+   "title": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず：時事ドットコム - 時事ドットコム",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wek1ObjVKRXVRY2JUNzhNSXZjMEg5Q3lsRExFbndMb1E5TEx4MTZYTHY5N19CYjVKVi1RUWV3Rkh2VDNjdjhwd3hfdksyNUF0ZXFWMjJLS0VLRERVd0lYZkFVaw?oc=5",
-   "summary": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず&nbsp;&nbsp;時事ドットコム",
+   "summary": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず：時事ドットコム&nbsp;&nbsp;時事ドットコム",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
