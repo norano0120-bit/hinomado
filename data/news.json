@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-31T18:07:56.537948+09:00",
+ "updated_at": "2026-09-01T06:07:52.072154+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,60 @@
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008930.html",
+   "title": "「広報ひの」9月号(No.794)を掲載しました",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008930.html",
+   "summary": "",
+   "date": "2026-09-01T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008922.html",
+   "title": "令和9年度幼稚園・認定こども園・保育所・地域型保育入園申込み受付のお知らせ",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008922.html",
+   "summary": "",
+   "date": "2026-09-01T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "kosodate"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000003032.html",
+   "title": "学校給食「給食だより9月号」を掲載しました！",
+   "url": "https://www.town.shiga-hino.lg.jp/0000003032.html",
+   "summary": "幼稚園、小・中学校の給食献立表、給食だよりを掲載しています。",
+   "date": "2026-09-01T00:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "kosodate"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008928.html",
+   "title": "秋の自然観察イベント開催！",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008928.html",
+   "summary": "",
+   "date": "2026-08-31T18:09:32+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "event"
+   ]
+  },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8412",
    "title": "「オレンジフェスタ茶のみ処わたむき やさしさでつながるみんなの笑顔」開催のお知らせ",
@@ -2339,9 +2393,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cXpmaUxZNjFQMFVZMTU4ZGI3MUsxQXh5MFlhWlVnRDgyU0hTTnZfTkNaQ0JsZWFqVnJfV3A2bFlKYk1oY2dKUGZ0UXJjVkF6WXlWSEk5cGtNLUhDUXZz?oc=5",
-   "title": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース - 中日BIZナビ",
+   "title": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース - 中日新聞Web",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cXpmaUxZNjFQMFVZMTU4ZGI3MUsxQXh5MFlhWlVnRDgyU0hTTnZfTkNaQ0JsZWFqVnJfV3A2bFlKYk1oY2dKUGZ0UXJjVkF6WXlWSEk5cGtNLUhDUXZz?oc=5",
-   "summary": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース&nbsp;&nbsp;中日BIZナビ",
+   "summary": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース&nbsp;&nbsp;中日新聞Web",
    "date": "2026-05-29T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
