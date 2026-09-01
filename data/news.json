@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-01T06:07:52.072154+09:00",
+ "updated_at": "2026-09-01T18:15:15.374586+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,56 @@
   }
  ],
  "items": [
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8414",
+   "title": "きっずらんど開催のお知らせ（9月）",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8414",
+   "summary": "□子育て支援情報 ■日野町立保育所やこども園では、園開放「きっずらんど」を開催し &#8230; 続きを読む &#8594;",
+   "date": "2026-09-01T09:00:03+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "kosodate"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000007201.html",
+   "title": "日野町「モビリティウィーク＆カーフリーデー」を実施します",
+   "url": "https://www.town.shiga-hino.lg.jp/0000007201.html",
+   "summary": "",
+   "date": "2026-09-01T08:45:56+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000002170.html",
+   "title": "登録物件一覧「空き家」を更新しました。",
+   "url": "https://www.town.shiga-hino.lg.jp/0000002170.html",
+   "summary": "",
+   "date": "2026-09-01T08:45:26+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008941.html",
+   "title": "令和8年度日野町平和祈念式典を挙行しました",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008941.html",
+   "summary": "",
+   "date": "2026-09-01T08:35:46+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008930.html",
    "title": "「広報ひの」9月号(No.794)を掲載しました",
@@ -60,6 +110,18 @@
    "tags": [
     "event"
    ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE80M29LRWFrRUQwREp5N0dEYWdMY2lEUDZpYndwanJ3SjUzOUtkWWt3dDRoa1hnME4zTlJIeUFKTE5pa3BkaEZuTHhQZw?oc=5",
+   "title": "雪冤の誓い～滋賀・日野町事件 奪われた38年～ - TVer",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE80M29LRWFrRUQwREp5N0dEYWdMY2lEUDZpYndwanJ3SjUzOUtkWWt3dDRoa1hnME4zTlJIeUFKTE5pa3BkaEZuTHhQZw?oc=5",
+   "summary": "雪冤の誓い～滋賀・日野町事件 奪われた38年～&nbsp;&nbsp;TVer",
+   "date": "2026-08-31T16:17:59+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
   },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8412",
@@ -612,14 +674,14 @@
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000007773.html",
-   "title": "【9月26日】氏郷まつり2026",
+   "title": "「氏郷まつり2026」を開催します！",
    "url": "https://www.town.shiga-hino.lg.jp/0000007773.html",
    "summary": "",
    "date": "2026-08-12T09:00:00+09:00",
-   "source_id": "town-event",
-   "source_name": "日野町 イベント",
-   "source_short": "催し",
-   "category": "event",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
    "tags": [
     "event"
    ]
@@ -1499,9 +1561,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QT2ZtS3BJZkJtMG9VNWJGTlRIX1QydVRDNFpwdll0c2o0Qi1NSG94eVozMC1aSHh6LUVMVzJzMWgtaHpPQWp0eUFUbHFHU1hURmlLNFNBek5zQldMWnc?oc=5",
-   "title": "日野町の姉妹都市 ブラジル・エンブ市へ - 滋賀報知新聞",
+   "title": "日野町の姉妹都市 ブラジル・エンブ市へ - shigahochi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QT2ZtS3BJZkJtMG9VNWJGTlRIX1QydVRDNFpwdll0c2o0Qi1NSG94eVozMC1aSHh6LUVMVzJzMWgtaHpPQWp0eUFUbHFHU1hURmlLNFNBek5zQldMWnc?oc=5",
-   "summary": "日野町の姉妹都市 ブラジル・エンブ市へ&nbsp;&nbsp;滋賀報知新聞",
+   "summary": "日野町の姉妹都市 ブラジル・エンブ市へ&nbsp;&nbsp;shigahochi.co.jp",
    "date": "2026-07-09T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1692,9 +1754,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rdmEzQlZZNWhGTmhMQlZzX043UHM2eV9EZ01tbEJwU2Ixem4zSjdUMklLYmNzZG9UZzVCSzVZSGM5TjlWRi1uZVlyUFRxd3pCNlhUQUZFZDM1TnlYQmc?oc=5",
-   "title": "日野町「子育て支援お米プロジェクト」 - 滋賀報知新聞",
+   "title": "日野町「子育て支援お米プロジェクト」 - shigahochi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rdmEzQlZZNWhGTmhMQlZzX043UHM2eV9EZ01tbEJwU2Ixem4zSjdUMklLYmNzZG9UZzVCSzVZSGM5TjlWRi1uZVlyUFRxd3pCNlhUQUZFZDM1TnlYQmc?oc=5",
-   "summary": "日野町「子育て支援お米プロジェクト」&nbsp;&nbsp;滋賀報知新聞",
+   "summary": "日野町「子育て支援お米プロジェクト」&nbsp;&nbsp;shigahochi.co.jp",
    "date": "2026-07-04T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1706,9 +1768,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYRXVxNUFoUlhTSWxlb1hQaW05TnF3QndYX3IwNllHZU1PRUNGTzhLY0RqUEdzWXJHaFZlNnhkQnpXdkZJa3Z0ckZmQnhURm1TQVYtbVZ1VzZYXzR1U2c?oc=5",
-   "title": "日野町チョイソコひのサービスを一部利用 - 滋賀報知新聞",
+   "title": "日野町チョイソコひのサービスを一部利用 - shigahochi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYRXVxNUFoUlhTSWxlb1hQaW05TnF3QndYX3IwNllHZU1PRUNGTzhLY0RqUEdzWXJHaFZlNnhkQnpXdkZJa3Z0ckZmQnhURm1TQVYtbVZ1VzZYXzR1U2c?oc=5",
-   "summary": "日野町チョイソコひのサービスを一部利用&nbsp;&nbsp;滋賀報知新聞",
+   "summary": "日野町チョイソコひのサービスを一部利用&nbsp;&nbsp;shigahochi.co.jp",
    "date": "2026-07-03T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1816,9 +1878,9 @@
   },
   {
    "id": "https://hino-kanko.jp/topics/news/2373/",
-   "title": "日野駅舎「なないろ」イベント・出店予定（８月～）",
+   "title": "日野駅舎「なないろ」イベント・出店予定（９月～）",
    "url": "https://hino-kanko.jp/topics/news/2373/",
-   "summary": "築100年を迎え、新たな日野町の観光交流拠点として再生した日野駅舎。毎日オーナーが変わる日替わりカフェやイベントなどがおこなわれています。 ぜひお立ち寄りください。 【場所】 近江鉄道日野駅舎「なないろ」（日野町内池 &#8230; Continue reading \"日野駅舎「なないろ」イベント・出店予定（８月～）\"",
+   "summary": "築100年を迎え、新たな日野町の観光交流拠点として再生した日野駅舎。毎日オーナーが変わる日替わりカフェやイベントなどがおこなわれています。 ぜひお立ち寄りください。 【場所】 近江鉄道日野駅舎「なないろ」（日野町内池 &#8230; Continue reading \"日野駅舎「なないろ」イベント・出店予定（９月～）\"",
    "date": "2026-07-01T09:00:19+09:00",
    "source_id": "kanko",
    "source_name": "日野観光協会",
@@ -2379,9 +2441,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94a3p6Mm5YZUdTM2dHalN6VkRSY3VINnpZazVDX3dFZlFJN1dRYTEyd3hiQUF6ZFhjdm5GLUs2VjVXcjQ4QmZEeGZ1d2pXYXM2RUxQQ1gyZDFHeHdjbHc?oc=5",
-   "title": "自閉症の生活介護事業所、発信拠点 日野町中在寺に施設オープン - 滋賀報知新聞",
+   "title": "自閉症の生活介護事業所、発信拠点 日野町中在寺に施設オープン - shigahochi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94a3p6Mm5YZUdTM2dHalN6VkRSY3VINnpZazVDX3dFZlFJN1dRYTEyd3hiQUF6ZFhjdm5GLUs2VjVXcjQ4QmZEeGZ1d2pXYXM2RUxQQ1gyZDFHeHdjbHc?oc=5",
-   "summary": "自閉症の生活介護事業所、発信拠点 日野町中在寺に施設オープン&nbsp;&nbsp;滋賀報知新聞",
+   "summary": "自閉症の生活介護事業所、発信拠点 日野町中在寺に施設オープン&nbsp;&nbsp;shigahochi.co.jp",
    "date": "2026-05-30T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2393,9 +2455,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cXpmaUxZNjFQMFVZMTU4ZGI3MUsxQXh5MFlhWlVnRDgyU0hTTnZfTkNaQ0JsZWFqVnJfV3A2bFlKYk1oY2dKUGZ0UXJjVkF6WXlWSEk5cGtNLUhDUXZz?oc=5",
-   "title": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース - 中日新聞Web",
+   "title": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース - 中日BIZナビ",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cXpmaUxZNjFQMFVZMTU4ZGI3MUsxQXh5MFlhWlVnRDgyU0hTTnZfTkNaQ0JsZWFqVnJfV3A2bFlKYk1oY2dKUGZ0UXJjVkF6WXlWSEk5cGtNLUhDUXZz?oc=5",
-   "summary": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース&nbsp;&nbsp;中日新聞Web",
+   "summary": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース&nbsp;&nbsp;中日BIZナビ",
    "date": "2026-05-29T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2794,9 +2856,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA4OFktTl9IUHlySW5Sb1BQQUg4QjFVbGRta1M0d0Ixclgxbk42NlV0WlAwNVRXckdKakY2aHBUYXpZZ0pYX1kwSTRUTHlOdlFJbzRrTy1fVTRpTEY5YVE?oc=5",
-   "title": "異動総数は107人 日野町の人事異動 - 滋賀報知新聞",
+   "title": "異動総数は107人 日野町の人事異動 - shigahochi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA4OFktTl9IUHlySW5Sb1BQQUg4QjFVbGRta1M0d0Ixclgxbk42NlV0WlAwNVRXckdKakY2aHBUYXpZZ0pYX1kwSTRUTHlOdlFJbzRrTy1fVTRpTEY5YVE?oc=5",
-   "summary": "異動総数は107人 日野町の人事異動&nbsp;&nbsp;滋賀報知新聞",
+   "summary": "異動総数は107人 日野町の人事異動&nbsp;&nbsp;shigahochi.co.jp",
    "date": "2026-04-02T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
