@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-03T18:15:48.524729+09:00",
+ "updated_at": "2026-09-04T06:14:29.001371+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,35 @@
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008944.html",
+   "title": "9月30日の親子ぷれすて開催のお知らせ",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008944.html",
+   "summary": "■みなくち子どもの森にお出かけ！ 化石をはじめ、太古の森や現代の森の四季の実物大ジオラマなどを観察して楽しみましょう！ 写し絵体験もできます！ ■とき…9月30日（水曜日）10時から12時（受付：9時45分から） ■場所…みなくち子どもの森 ■集合場所…日野町役場北側駐車場（福祉バスで移動します。バスの利用が難しい場合",
+   "date": "2026-09-03T18:55:40+09:00",
+   "source_id": "town-topics",
+   "source_name": "日野町 募集情報",
+   "source_short": "募集",
+   "category": "town",
+   "tags": [
+    "event",
+    "kosodate"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000007194.html",
+   "title": "「ガチャフェス」＆地域イベント「日野が好き！！」開催",
+   "url": "https://www.town.shiga-hino.lg.jp/0000007194.html",
+   "summary": "",
+   "date": "2026-09-03T18:45:56+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "event"
+   ]
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008934.html",
    "title": "日野町多文化交流事業「多文化交流広場 外国人と日本人が“ともだち”になる交流イベント」の開催について",
@@ -244,9 +273,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OcklQZ2VMZFVNb2FuM0M3NkNUNnFqaVRWTDNCOHU5cXUxNm9kTW40TEYyRkdzYnR3a3MtTUppOWFadjkya2FpUjVhSlVDZVFjZ3BxS1V3SGIyZk5HUmc?oc=5",
-   "title": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。 - go2senkyo.com",
+   "title": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。 - 選挙ドットコム",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OcklQZ2VMZFVNb2FuM0M3NkNUNnFqaVRWTDNCOHU5cXUxNm9kTW40TEYyRkdzYnR3a3MtTUppOWFadjkya2FpUjVhSlVDZVFjZ3BxS1V3SGIyZk5HUmc?oc=5",
-   "summary": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。&nbsp;&nbsp;go2senkyo.com",
+   "summary": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。&nbsp;&nbsp;選挙ドットコム",
    "date": "2026-08-30T09:36:22+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -918,9 +947,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDSDJKQkhNcnhJZDFiYU12QnU0V0FROEVISHVJZWFKLWphQ3FMZDl1RWxnbGR5ZTlRNmVQeWJfSnVHLWFuc0JtbktMTEhBUmZRdnI3bg?oc=5",
-   "title": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃 - 中日新聞Web",
+   "title": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃 - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDSDJKQkhNcnhJZDFiYU12QnU0V0FROEVISHVJZWFKLWphQ3FMZDl1RWxnbGR5ZTlRNmVQeWJfSnVHLWFuc0JtbktMTEhBUmZRdnI3bg?oc=5",
-   "summary": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃&nbsp;&nbsp;中日新聞Web",
+   "summary": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-08-01T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1453,9 +1482,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52akNkZXRJWkw2cWFiNzlodU9adjdQSXoyV0hXMUpUNS03NC01UFc0bnNxbDN0RmZEU2RDX2VCZmNzNVdHTERaaFk2dVdmMkRrbXhzaHg1NDQ?oc=5",
-   "title": "再審見直し改正法成立 滋賀 日野町事件遺族“運用監視必要” - news.web.nhk",
+   "title": "再審見直し改正法成立 滋賀 日野町事件遺族“運用監視必要” - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52akNkZXRJWkw2cWFiNzlodU9adjdQSXoyV0hXMUpUNS03NC01UFc0bnNxbDN0RmZEU2RDX2VCZmNzNVdHTERaaFk2dVdmMkRrbXhzaHg1NDQ?oc=5",
-   "summary": "再審見直し改正法成立 滋賀 日野町事件遺族“運用監視必要”&nbsp;&nbsp;news.web.nhk",
+   "summary": "再審見直し改正法成立 滋賀 日野町事件遺族“運用監視必要”&nbsp;&nbsp;NHKニュース",
    "date": "2026-07-17T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1553,9 +1582,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SUm5Yc0dqTkRQUURJZzV6NWhFLW84SXJ2M2FldnJZVk1VbXZTWGFuQzBiQlpmbXNDWVlpT0c1YTc4LTJTTXktM2EwUUVkUzZKN1F5T3N0bG9GUjBoQkFv?oc=5",
-   "title": "共同通信 日野町事件再審めぐり誤報 担当デスクら処分 - news.web.nhk",
+   "title": "共同通信 日野町事件再審めぐり誤報 担当デスクら処分 - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SUm5Yc0dqTkRQUURJZzV6NWhFLW84SXJ2M2FldnJZVk1VbXZTWGFuQzBiQlpmbXNDWVlpT0c1YTc4LTJTTXktM2EwUUVkUzZKN1F5T3N0bG9GUjBoQkFv?oc=5",
-   "summary": "共同通信 日野町事件再審めぐり誤報 担当デスクら処分&nbsp;&nbsp;news.web.nhk",
+   "summary": "共同通信 日野町事件再審めぐり誤報 担当デスクら処分&nbsp;&nbsp;NHKニュース",
    "date": "2026-07-14T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1601,9 +1630,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uamQ4ZXc5V05UZ05ENFpmNXRPRzctbTZ0Z18xRG9VVE55eGpkSjZheFVOOUJOc1EzUXAtSmcwWlVPN2JlWjRsQW5IWF9EUQ?oc=5",
-   "title": "日野町事件再審で誤報 共同通信、記事取り消し - NEWSjp",
+   "title": "日野町事件再審で誤報 共同通信、記事取り消し - news.jp",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uamQ4ZXc5V05UZ05ENFpmNXRPRzctbTZ0Z18xRG9VVE55eGpkSjZheFVOOUJOc1EzUXAtSmcwWlVPN2JlWjRsQW5IWF9EUQ?oc=5",
-   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;NEWSjp",
+   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;news.jp",
    "date": "2026-07-14T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1665,9 +1694,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCTlozNmVUYm8wOUlGd3EtS2tHLU1sQmFfVVRLY3F4V0NtTlpQa244eDlBaUltZWNyS1dEdmlLVmgwMW5pb2ZkeDlpVXVkMnVOZi1yeA?oc=5",
-   "title": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん - 中日新聞Web",
+   "title": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCTlozNmVUYm8wOUlGd3EtS2tHLU1sQmFfVVRLY3F4V0NtTlpQa244eDlBaUltZWNyS1dEdmlLVmgwMW5pb2ZkeDlpVXVkMnVOZi1yeA?oc=5",
-   "summary": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん&nbsp;&nbsp;中日新聞Web",
+   "summary": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-07-10T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1725,9 +1754,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmWTF1NU9UWDViZTBZRFVmN1F6aXoyd3JCcWQ0ZWtUM1RWekM2SmM1Mm5NVk1FVGo3Z3Z3SW55SFJ0cEJSd2VDaXJielg0enFtalpvYw?oc=5",
-   "title": "＜しが旅のススメ＞五感揺さぶる炎の奇祭 火振り祭（日野町） - 中日新聞Web",
+   "title": "＜しが旅のススメ＞五感揺さぶる炎の奇祭 火振り祭（日野町） - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmWTF1NU9UWDViZTBZRFVmN1F6aXoyd3JCcWQ0ZWtUM1RWekM2SmM1Mm5NVk1FVGo3Z3Z3SW55SFJ0cEJSd2VDaXJielg0enFtalpvYw?oc=5",
-   "summary": "＜しが旅のススメ＞五感揺さぶる炎の奇祭 火振り祭（日野町）&nbsp;&nbsp;中日新聞Web",
+   "summary": "＜しが旅のススメ＞五感揺さぶる炎の奇祭 火振り祭（日野町）&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-07-09T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1860,6 +1889,18 @@
    "source_name": "日野町 新着情報",
    "source_short": "町",
    "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuRlhkSlAwQTA0VGtZaXJaQ2w5QXZ1Znl3a19WOU9NMy0zNktwNS1OTU9tYUY2QVRENXFEbUZPQ2RMN2R0N3M5LWFrNA?oc=5",
+   "title": "滋賀県蒲生郡日野町の中西さん、国際フィギュア初V 「アダルト選手権」女子アーティスティック - 47NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuRlhkSlAwQTA0VGtZaXJaQ2w5QXZ1Znl3a19WOU9NMy0zNktwNS1OTU9tYUY2QVRENXFEbUZPQ2RMN2R0N3M5LWFrNA?oc=5",
+   "summary": "滋賀県蒲生郡日野町の中西さん、国際フィギュア初V 「アダルト選手権」女子アーティスティック&nbsp;&nbsp;47NEWS",
+   "date": "2026-07-05T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
    "tags": []
   },
   {
@@ -2027,6 +2068,18 @@
    "tags": []
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zekEybTRrZ3kzcW9INEZlZzVOY2JnQ2l1Nk40cmRVdUh2dW1YNUFGcmE0SGw0MG9GOVVUN1pPXzhoVFNzd1haYzQ4RlMzN3B2ZVBrQVgxMmFqdTZ2UWt5MV8zTG9YLUFHcjJMdE5jYVk3T2JhdzA1SGxYQ3RiQ2c?oc=5",
+   "title": "日野町事件、証拠開示請求 弁護団「無実明らかに」（共同通信） - Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zekEybTRrZ3kzcW9INEZlZzVOY2JnQ2l1Nk40cmRVdUh2dW1YNUFGcmE0SGw0MG9GOVVUN1pPXzhoVFNzd1haYzQ4RlMzN3B2ZVBrQVgxMmFqdTZ2UWt5MV8zTG9YLUFHcjJMdE5jYVk3T2JhdzA1SGxYQ3RiQ2c?oc=5",
+   "summary": "日野町事件、証拠開示請求 弁護団「無実明らかに」（共同通信）&nbsp;&nbsp;Yahoo!ニュース",
+   "date": "2026-07-02T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoMUx1MVJnbU12Uk1ZeWRTWFVNYmFqSXZpZG9RdzF0N191NFg3bjFxR2gzTGx3VGU5Rm80YjQxam8yVkpiN0xXNVc4ZVdVM0x3VVNvVWdHYzc?oc=5",
    "title": "滋賀県日野町長の所得・資産を公開 新たに愛知県内の土地取得 - 京都新聞デジタル",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoMUx1MVJnbU12Uk1ZeWRTWFVNYmFqSXZpZG9RdzF0N191NFg3bjFxR2gzTGx3VGU5Rm80YjQxam8yVkpiN0xXNVc4ZVdVM0x3VVNvVWdHYzc?oc=5",
@@ -2106,9 +2159,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNMHVoNkd0RENOcVlIb3NEbEU0QjVKd3FiR3FLUnRMZDNuTGRreDh3cHQydnBHaXoySzVyazYzNnZxZ2ZwQjdBcFBPUVhRNG1QRllhQllwUWxuOFdyamc?oc=5",
-   "title": "*◎滋賀県知事選挙12日目三日月大造候補◎名神名阪連絡道路整備促進日野町議員連盟設立総会*滋賀... - go2senkyo.com",
+   "title": "*◎滋賀県知事選挙12日目三日月大造候補◎名神名阪連絡道路整備促進日野町議員連盟設立総会*滋賀... - 選挙ドットコム",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNMHVoNkd0RENOcVlIb3NEbEU0QjVKd3FiR3FLUnRMZDNuTGRreDh3cHQydnBHaXoySzVyazYzNnZxZ2ZwQjdBcFBPUVhRNG1QRllhQllwUWxuOFdyamc?oc=5",
-   "summary": "*◎滋賀県知事選挙12日目三日月大造候補◎名神名阪連絡道路整備促進日野町議員連盟設立総会*滋賀...&nbsp;&nbsp;go2senkyo.com",
+   "summary": "*◎滋賀県知事選挙12日目三日月大造候補◎名神名阪連絡道路整備促進日野町議員連盟設立総会*滋賀...&nbsp;&nbsp;選挙ドットコム",
    "date": "2026-06-29T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2703,9 +2756,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lS2ZHMVAxVjRTQ1oxZkFYWFBZRjJTYi1YekN6dHBZdVl1U3BUZlRSV3RkVnNTaWxydjhrUzdKZHg4UDRzcS0zaU9pR3RxM3lNUXBkQw?oc=5",
-   "title": "色とりどり華やか大輪 春のバラ 滋賀県日野町のブルーメの丘で見頃 - 中日新聞Web",
+   "title": "色とりどり華やか大輪 春のバラ 滋賀県日野町のブルーメの丘で見頃 - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lS2ZHMVAxVjRTQ1oxZkFYWFBZRjJTYi1YekN6dHBZdVl1U3BUZlRSV3RkVnNTaWxydjhrUzdKZHg4UDRzcS0zaU9pR3RxM3lNUXBkQw?oc=5",
-   "summary": "色とりどり華やか大輪 春のバラ 滋賀県日野町のブルーメの丘で見頃&nbsp;&nbsp;中日新聞Web",
+   "summary": "色とりどり華やか大輪 春のバラ 滋賀県日野町のブルーメの丘で見頃&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-05-27T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3230,9 +3283,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE80aDVvVkhwemdkRk1LNHk2UTJZWVdJbTRob3d6eWN2SUR1RDZkWHQ2NVYxV0Vkd1NOMWp0cWpHSFIwczA2b3pjZDE1Ym4yZGNmRXZNT2hYR2xGNlZuVC1r?oc=5",
-   "title": "滋賀 日野町の強盗殺人事件 再審に向け 初の3者協議 - news.web.nhk",
+   "title": "滋賀 日野町の強盗殺人事件 再審に向け 初の3者協議 - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE80aDVvVkhwemdkRk1LNHk2UTJZWVdJbTRob3d6eWN2SUR1RDZkWHQ2NVYxV0Vkd1NOMWp0cWpHSFIwczA2b3pjZDE1Ym4yZGNmRXZNT2hYR2xGNlZuVC1r?oc=5",
-   "summary": "滋賀 日野町の強盗殺人事件 再審に向け 初の3者協議&nbsp;&nbsp;news.web.nhk",
+   "summary": "滋賀 日野町の強盗殺人事件 再審に向け 初の3者協議&nbsp;&nbsp;NHKニュース",
    "date": "2026-03-25T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3254,9 +3307,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YUG5BbDVlb3QwYTlJV2I3dWVvZC1MSk5saHFmQ3NKQlRodTRrUFZIQURHQ1dSTjZncWgzb0lfaVlwQVFBcmN3Zl9FWWNDek9RYWVwdjlWQXY?oc=5",
-   "title": "滋賀県日野町の強盗殺人事件 無実訴えた関係者 再審への思い - news.web.nhk",
+   "title": "滋賀県日野町の強盗殺人事件 無実訴えた関係者 再審への思い - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YUG5BbDVlb3QwYTlJV2I3dWVvZC1MSk5saHFmQ3NKQlRodTRrUFZIQURHQ1dSTjZncWgzb0lfaVlwQVFBcmN3Zl9FWWNDek9RYWVwdjlWQXY?oc=5",
-   "summary": "滋賀県日野町の強盗殺人事件 無実訴えた関係者 再審への思い&nbsp;&nbsp;news.web.nhk",
+   "summary": "滋賀県日野町の強盗殺人事件 無実訴えた関係者 再審への思い&nbsp;&nbsp;NHKニュース",
    "date": "2026-03-24T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3316,9 +3369,21 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByYWxLY1k0b0RFX0laR0ZTNjZxbGVBNEpSQUMzNWdFVzd2SHpCQ19Na3ZNcXZWMHNkeU9nM1dwSmJlQUtwakdsb0V2WHpzY2w1WXFFMXlrNnI?oc=5",
-   "title": "滋賀 ４２年前の日野町事件 再審決定を遺族が墓前で報告 - news.web.nhk",
+   "title": "滋賀 ４２年前の日野町事件 再審決定を遺族が墓前で報告 - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByYWxLY1k0b0RFX0laR0ZTNjZxbGVBNEpSQUMzNWdFVzd2SHpCQ19Na3ZNcXZWMHNkeU9nM1dwSmJlQUtwakdsb0V2WHpzY2w1WXFFMXlrNnI?oc=5",
-   "summary": "滋賀 ４２年前の日野町事件 再審決定を遺族が墓前で報告&nbsp;&nbsp;news.web.nhk",
+   "summary": "滋賀 ４２年前の日野町事件 再審決定を遺族が墓前で報告&nbsp;&nbsp;NHKニュース",
+   "date": "2026-03-18T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45WjVuMmx5eEdKR2liRE5RRkhKOGlFb3dDZE14T1JSUUJ1dTBGcWl4NzltY0dYV0R2ZERuLWJTM192U2lzb3RqSEp3QUx0SVRTSDRkQzN2bnZuaktmT0p4bnIxMA?oc=5",
+   "title": "再審開始確定、遺族が墓前に報告 無罪判決誓う―日野町事件 - 時事ドットコム",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45WjVuMmx5eEdKR2liRE5RRkhKOGlFb3dDZE14T1JSUUJ1dTBGcWl4NzltY0dYV0R2ZERuLWJTM192U2lzb3RqSEp3QUx0SVRTSDRkQzN2bnZuaktmT0p4bnIxMA?oc=5",
+   "summary": "再審開始確定、遺族が墓前に報告 無罪判決誓う―日野町事件&nbsp;&nbsp;時事ドットコム",
    "date": "2026-03-18T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3364,9 +3429,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oS2pCOV9EbDhFRVhDcF9xUVlUYVF2a09nUEVUM2lqdFh2anlPcU52eFItMENUeWpEN2ZGbmp2MFNDZTlGY0hLN21GdUhYcExNUXdGNEptVFI?oc=5",
-   "title": "日野町事件再審 服役中に死亡した阪原さんの長男が訴え 滋賀 - news.web.nhk",
+   "title": "日野町事件再審 服役中に死亡した阪原さんの長男が訴え 滋賀 - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oS2pCOV9EbDhFRVhDcF9xUVlUYVF2a09nUEVUM2lqdFh2anlPcU52eFItMENUeWpEN2ZGbmp2MFNDZTlGY0hLN21GdUhYcExNUXdGNEptVFI?oc=5",
-   "summary": "日野町事件再審 服役中に死亡した阪原さんの長男が訴え 滋賀&nbsp;&nbsp;news.web.nhk",
+   "summary": "日野町事件再審 服役中に死亡した阪原さんの長男が訴え 滋賀&nbsp;&nbsp;NHKニュース",
    "date": "2026-03-14T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3425,6 +3490,18 @@
    ]
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYMjYxRFpTaENvdjZyc0tfMVFWRXpvVDAxU2NMaXhfMzRHdDEtdzB5RWtsdUpLby1RZDlUMnpRc2NnQWNBclloQWh2amp4WGlkbTlDRE9BOGVOWWhySVE?oc=5",
+   "title": "【日野町事件】再審制度見直しに生かせ - kochinews.co.jp",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYMjYxRFpTaENvdjZyc0tfMVFWRXpvVDAxU2NMaXhfMzRHdDEtdzB5RWtsdUpLby1RZDlUMnpRc2NnQWNBclloQWh2amp4WGlkbTlDRE9BOGVOWWhySVE?oc=5",
+   "summary": "【日野町事件】再審制度見直しに生かせ&nbsp;&nbsp;kochinews.co.jp",
+   "date": "2026-03-03T17:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vZ3lIS2NiM0ZEeTVnVjZUazlwQngyQWtBMUlmaFFRTWlkMTlsS2dRQmJtWDZ5UDk0cnRFY0cxa2dIalNUYUxZN1FhbW0zOFpWT0Q2QU5iSVRuSGtuYlpsNlllTkRUYmFt?oc=5",
    "title": "滋賀の「日野町事件」、再審へ - 朝日新聞",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vZ3lIS2NiM0ZEeTVnVjZUazlwQngyQWtBMUlmaFFRTWlkMTlsS2dRQmJtWDZ5UDk0cnRFY0cxa2dIalNUYUxZN1FhbW0zOFpWT0Q2QU5iSVRuSGtuYlpsNlllTkRUYmFt?oc=5",
@@ -3453,6 +3530,18 @@
    "title": "（社説）遅すぎた雪冤 日野町の教訓生かして - 朝日新聞",
    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4M2pDM1lTZE9FMWMtX1kyeTh5b1UxcXNIMmhSbVlpbWwzQ240NDlIU3BaRWpVX0ZidDRock1SeWVPdTZMaEtMUnJYUzdSVXV2U3ZfSlMwM2hZeVJa?oc=5",
    "summary": "（社説）遅すぎた雪冤 日野町の教訓生かして&nbsp;&nbsp;朝日新聞",
+   "date": "2026-02-27T17:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE16bzlaX2o3Nmd5MnYyRkZIeV9TeHRRVTd4Nl9IZXU3UXdWVlJ1UGxKYU80N0JFY0F0bEVaTWFCYk9weHVqNmxGcXlJcGw4cGpFblBFWFdZQ0E?oc=5",
+   "title": "日野町事件再審開始の確定受け、滋賀と東京の弁護士会が会長声明 検察に求めたこととは - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE16bzlaX2o3Nmd5MnYyRkZIeV9TeHRRVTd4Nl9IZXU3UXdWVlJ1UGxKYU80N0JFY0F0bEVaTWFCYk9weHVqNmxGcXlJcGw4cGpFblBFWFdZQ0E?oc=5",
+   "summary": "日野町事件再審開始の確定受け、滋賀と東京の弁護士会が会長声明 検察に求めたこととは&nbsp;&nbsp;京都新聞デジタル",
    "date": "2026-02-27T17:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3562,9 +3651,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13UEMzdl9oaXJIMUVaV2sxRC05eEJGay1CR0JmM0s0UmxRa1N5ekE0OENHT295UTgyeWk2amU5UUpqSVF6NWE5Vkp6bUItNm1oMTNGa2NjZw?oc=5",
-   "title": "最高裁が再審開始決定 滋賀・日野町1984年強盗殺人事件 死刑や無期懲役の「死後再審」は戦後初 「こんな不幸なことは二度と起こってはいけない」長男・阪原弘次さん - newsdig.tbs.co.jp",
+   "title": "最高裁が再審開始決定 滋賀・日野町1984年強盗殺人事件 死刑や無期懲役の「死後再審」は戦後初 「こんな不幸なことは二度と起こってはいけない」長男・阪原弘次さん - TBS NEWS DIG",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13UEMzdl9oaXJIMUVaV2sxRC05eEJGay1CR0JmM0s0UmxRa1N5ekE0OENHT295UTgyeWk2amU5UUpqSVF6NWE5Vkp6bUItNm1oMTNGa2NjZw?oc=5",
-   "summary": "最高裁が再審開始決定 滋賀・日野町1984年強盗殺人事件 死刑や無期懲役の「死後再審」は戦後初 「こんな不幸なことは二度と起こってはいけない」長男・阪原弘次さん&nbsp;&nbsp;newsdig.tbs.co.jp",
+   "summary": "最高裁が再審開始決定 滋賀・日野町1984年強盗殺人事件 死刑や無期懲役の「死後再審」は戦後初 「こんな不幸なことは二度と起こってはいけない」長男・阪原弘次さん&nbsp;&nbsp;TBS NEWS DIG",
    "date": "2026-02-25T17:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3669,6 +3758,18 @@
    "tags": []
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41akR5MURhZmZyc0JlOXR2aTM4bXFjOWEyMDB5VVAtMDh1QlZBaDVOenVvQTZRQjVMVllrYWxjRWU2R1ZYNUlKczVOM0p6a2l1Tmx5M3JEeE83MEltRjhLMjNYWUNyZ2RvLWl5NTdRWjFWbmN4M2FJ?oc=5",
+   "title": "42年前の殺人「日野町事件」再審開始へ 「死後再審」、無罪の公算 動画 - 朝日新聞",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41akR5MURhZmZyc0JlOXR2aTM4bXFjOWEyMDB5VVAtMDh1QlZBaDVOenVvQTZRQjVMVllrYWxjRWU2R1ZYNUlKczVOM0p6a2l1Tmx5M3JEeE83MEltRjhLMjNYWUNyZ2RvLWl5NTdRWjFWbmN4M2FJ?oc=5",
+   "summary": "42年前の殺人「日野町事件」再審開始へ 「死後再審」、無罪の公算 動画&nbsp;&nbsp;朝日新聞",
+   "date": "2026-02-25T17:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://hinogurashi.net/info_hinozine017/",
    "title": "ヒノジン.017 五百木 誠さん、祥子さんの記事を公開しました！",
    "url": "https://hinogurashi.net/info_hinozine017/",
@@ -3744,9 +3845,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15OFQ5aFZjUXpYNUU2cjlqcDNDckxfc2pGNU1hT0s1Vm5Fbk8ydVByX0hRekk5OXVobG9hbmlyYVJEbXNVeUN4dlNIWnZuYjkyNkNsT2hjdw?oc=5",
-   "title": "【大雪警報】滋賀県・大津市北部、彦根市、近江八幡市、高島市、東近江市、日野町などに発表 22日03:22時点 - newsdig.tbs.co.jp",
+   "title": "【大雪警報】滋賀県・大津市北部、彦根市、近江八幡市、高島市、東近江市、日野町などに発表 22日03:22時点 - TBS NEWS DIG",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15OFQ5aFZjUXpYNUU2cjlqcDNDckxfc2pGNU1hT0s1Vm5Fbk8ydVByX0hRekk5OXVobG9hbmlyYVJEbXNVeUN4dlNIWnZuYjkyNkNsT2hjdw?oc=5",
-   "summary": "【大雪警報】滋賀県・大津市北部、彦根市、近江八幡市、高島市、東近江市、日野町などに発表 22日03:22時点&nbsp;&nbsp;newsdig.tbs.co.jp",
+   "summary": "【大雪警報】滋賀県・大津市北部、彦根市、近江八幡市、高島市、東近江市、日野町などに発表 22日03:22時点&nbsp;&nbsp;TBS NEWS DIG",
    "date": "2026-01-22T17:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3819,6 +3920,18 @@
    ]
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YME9HcjR0cWJIWFA5Rzg0QW91bkJsbnJrYzRjazdwY09MZUE4ZU9ZUFhuX2UwMndWOWpSQTVfNjJMeHQxcFFMWkV5UVRkM2Z6QkNaVzBYX2c?oc=5",
+   "title": "滋賀県日野町で「近江の伝統野菜サミット」12月14日開催、各地の生産者集う - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YME9HcjR0cWJIWFA5Rzg0QW91bkJsbnJrYzRjazdwY09MZUE4ZU9ZUFhuX2UwMndWOWpSQTVfNjJMeHQxcFFMWkV5UVRkM2Z6QkNaVzBYX2c?oc=5",
+   "summary": "滋賀県日野町で「近江の伝統野菜サミット」12月14日開催、各地の生産者集う&nbsp;&nbsp;京都新聞デジタル",
+   "date": "2025-12-14T17:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkWFlLZXNkMFYxOGJQNk9NbHZPdkNUb0Yyc3RWdTFxRjlfdkpKLU8xRFFXamk0cGIta2VYcTdZUlpwNXlfVzU0TmplWVVMZw?oc=5",
    "title": "滋賀県日野町にコンテナホテル 「HOTEL R9 The Yard 蒲生日野」が2026年1月10日(土)開業！ - アットプレス",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkWFlLZXNkMFYxOGJQNk9NbHZPdkNUb0Yyc3RWdTFxRjlfdkpKLU8xRFFXamk0cGIta2VYcTdZUlpwNXlfVzU0TmplWVVMZw?oc=5",
@@ -3870,9 +3983,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Yc0JfZllEU2VwdnZRU2QwNE9BMDQ5elU2LTVHejV4di0wOTZ3OVR2T1JPMUIwanhDM2pjRnI0U0FnWjJSQ0ZBRjhFeWFMNk96SVlNQm1lQ2hLSEZkQW5qWA?oc=5",
-   "title": "滋賀県日野町の雨雪レーダー【予想6時間】 - ウェザーニュース",
+   "title": "滋賀県日野町の雨雪レーダー【予想6時間】 - weathernews.jp",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Yc0JfZllEU2VwdnZRU2QwNE9BMDQ5elU2LTVHejV4di0wOTZ3OVR2T1JPMUIwanhDM2pjRnI0U0FnWjJSQ0ZBRjhFeWFMNk96SVlNQm1lQ2hLSEZkQW5qWA?oc=5",
-   "summary": "滋賀県日野町の雨雪レーダー【予想6時間】&nbsp;&nbsp;ウェザーニュース",
+   "summary": "滋賀県日野町の雨雪レーダー【予想6時間】&nbsp;&nbsp;weathernews.jp",
    "date": "2025-11-06T16:20:21+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3882,9 +3995,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0Sl9maU90OEhnZGtEbWdTVlBaejItRmNTRFRrTkxNNmhHMmotckF2RFZPR0xRalF6UEdPaWdfWGZheEhNc1ZXZmI4VzdaSDhRbXV4bElESDk5a1VaOE1DcmRBaw?oc=5",
-   "title": "滋賀県日野町の風の予報（風レーダー） - ウェザーニュース",
+   "title": "滋賀県日野町の風の予報（風レーダー） - weathernews.jp",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0Sl9maU90OEhnZGtEbWdTVlBaejItRmNTRFRrTkxNNmhHMmotckF2RFZPR0xRalF6UEdPaWdfWGZheEhNc1ZXZmI4VzdaSDhRbXV4bElESDk5a1VaOE1DcmRBaw?oc=5",
-   "summary": "滋賀県日野町の風の予報（風レーダー）&nbsp;&nbsp;ウェザーニュース",
+   "summary": "滋賀県日野町の風の予報（風レーダー）&nbsp;&nbsp;weathernews.jp",
    "date": "2025-10-02T17:37:18+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
