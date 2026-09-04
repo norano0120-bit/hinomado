@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-04T06:14:29.001371+09:00",
+ "updated_at": "2026-09-04T18:15:15.314172+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,44 @@
   }
  ],
  "items": [
+  {
+   "id": "https://hino-kanko.jp/topics/7746/",
+   "title": "第３回 味覚夜市・ビアガーデン開催のお知らせ",
+   "url": "https://hino-kanko.jp/topics/7746/",
+   "summary": "日野祭囃子に酔う夏の風物詩、味覚夜市を開催します！ &#160; 日時：２０２６年 ９月 １２日（土）１６：００ ～ ２０：００ 場所：日野まちかど感応館駐車場 日野祭囃子と美味しいビール、食べ物で楽しい夜を過ごしましょ &#8230; Continue reading \"第３回 味覚夜市・ビアガーデン開催のお知らせ\"",
+   "date": "2026-09-04T17:27:37+09:00",
+   "source_id": "kanko",
+   "source_name": "日野観光協会",
+   "source_short": "観光",
+   "category": "event",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "https://hino-kanko.jp/topics/7743/",
+   "title": "日野ダリア園 秋の開園のお知らせ",
+   "url": "https://hino-kanko.jp/topics/7743/",
+   "summary": "日野町にある「日野ダリア園」。 秋の開園のお知らせです。 【開園日時】2026年 9月 26日(土) ～ 10月 25日頃まで 9：00 ～ 16：00（最終受付15：30） ※お花の状況によって開園期間が変更する場合が &#8230; Continue reading \"日野ダリア園 秋の開園のお知らせ\"",
+   "date": "2026-09-04T16:55:35+09:00",
+   "source_id": "kanko",
+   "source_name": "日野観光協会",
+   "source_short": "観光",
+   "category": "event",
+   "tags": []
+  },
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8422",
+   "title": "日野町くらし応援クーポン券の利用はお早めに！",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8422",
+   "summary": "□住民生活情報 ■物価高騰等への対応として、町民の皆さんに配布しました「日野町く &#8230; 続きを読む &#8594;",
+   "date": "2026-09-04T09:00:03+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": []
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008944.html",
    "title": "9月30日の親子ぷれすて開催のお知らせ",
@@ -115,6 +153,18 @@
    "tags": [
     "event"
    ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9QN0MteHBpZFFQR0s3TUVmTHVRTlZ2akpjdG9VOEFlQ1luTFBPUHl4U0xOQjZyZ2U2ajVkTGZRemYzeU9vMmFIaUM5RDRIMGxQQU8yYWpTV3hrTV9H?oc=5",
+   "title": "日野中野城 2023.12 滋賀県日野町 ビーグル犬ビリーと城巡り - YouTube",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9QN0MteHBpZFFQR0s3TUVmTHVRTlZ2akpjdG9VOEFlQ1luTFBPUHl4U0xOQjZyZ2U2ajVkTGZRemYzeU9vMmFIaUM5RDRIMGxQQU8yYWpTV3hrTV9H?oc=5",
+   "summary": "日野中野城 2023.12 滋賀県日野町 ビーグル犬ビリーと城巡り&nbsp;&nbsp;YouTube",
+   "date": "2026-09-01T17:37:56+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
   },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8414",
@@ -428,9 +478,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9WZGM0dTdLa3lFM19hNU96cWNhWEt1TEExM1hyU3Ytczc4ZGttV2lESFJzUi1PR3RlUDNMZjRCU09LX3ZUZHhmdUJnTHF3RldfcV9FSzZJSTk?oc=5",
-   "title": "日野町の2選手が世界大会へ - 滋賀報知新聞",
+   "title": "日野町の2選手が世界大会へ - shigahochi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9WZGM0dTdLa3lFM19hNU96cWNhWEt1TEExM1hyU3Ytczc4ZGttV2lESFJzUi1PR3RlUDNMZjRCU09LX3ZUZHhmdUJnTHF3RldfcV9FSzZJSTk?oc=5",
-   "summary": "日野町の2選手が世界大会へ&nbsp;&nbsp;滋賀報知新聞",
+   "summary": "日野町の2選手が世界大会へ&nbsp;&nbsp;shigahochi.co.jp",
    "date": "2026-08-27T07:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -947,9 +997,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDSDJKQkhNcnhJZDFiYU12QnU0V0FROEVISHVJZWFKLWphQ3FMZDl1RWxnbGR5ZTlRNmVQeWJfSnVHLWFuc0JtbktMTEhBUmZRdnI3bg?oc=5",
-   "title": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃 - chunichi.co.jp",
+   "title": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃 - 中日新聞Web",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDSDJKQkhNcnhJZDFiYU12QnU0V0FROEVISHVJZWFKLWphQ3FMZDl1RWxnbGR5ZTlRNmVQeWJfSnVHLWFuc0JtbktMTEhBUmZRdnI3bg?oc=5",
-   "summary": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃&nbsp;&nbsp;chunichi.co.jp",
+   "summary": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃&nbsp;&nbsp;中日新聞Web",
    "date": "2026-08-01T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1630,9 +1680,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uamQ4ZXc5V05UZ05ENFpmNXRPRzctbTZ0Z18xRG9VVE55eGpkSjZheFVOOUJOc1EzUXAtSmcwWlVPN2JlWjRsQW5IWF9EUQ?oc=5",
-   "title": "日野町事件再審で誤報 共同通信、記事取り消し - news.jp",
+   "title": "日野町事件再審で誤報 共同通信、記事取り消し - NEWSjp",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uamQ4ZXc5V05UZ05ENFpmNXRPRzctbTZ0Z18xRG9VVE55eGpkSjZheFVOOUJOc1EzUXAtSmcwWlVPN2JlWjRsQW5IWF9EUQ?oc=5",
-   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;news.jp",
+   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;NEWSjp",
    "date": "2026-07-14T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1694,9 +1744,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCTlozNmVUYm8wOUlGd3EtS2tHLU1sQmFfVVRLY3F4V0NtTlpQa244eDlBaUltZWNyS1dEdmlLVmgwMW5pb2ZkeDlpVXVkMnVOZi1yeA?oc=5",
-   "title": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん - chunichi.co.jp",
+   "title": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん - 中日新聞Web",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCTlozNmVUYm8wOUlGd3EtS2tHLU1sQmFfVVRLY3F4V0NtTlpQa244eDlBaUltZWNyS1dEdmlLVmgwMW5pb2ZkeDlpVXVkMnVOZi1yeA?oc=5",
-   "summary": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん&nbsp;&nbsp;chunichi.co.jp",
+   "summary": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん&nbsp;&nbsp;中日新聞Web",
    "date": "2026-07-10T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1973,9 +2023,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYRXVxNUFoUlhTSWxlb1hQaW05TnF3QndYX3IwNllHZU1PRUNGTzhLY0RqUEdzWXJHaFZlNnhkQnpXdkZJa3Z0ckZmQnhURm1TQVYtbVZ1VzZYXzR1U2c?oc=5",
-   "title": "日野町チョイソコひのサービスを一部利用 - 滋賀報知新聞",
+   "title": "日野町チョイソコひのサービスを一部利用 - shigahochi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYRXVxNUFoUlhTSWxlb1hQaW05TnF3QndYX3IwNllHZU1PRUNGTzhLY0RqUEdzWXJHaFZlNnhkQnpXdkZJa3Z0ckZmQnhURm1TQVYtbVZ1VzZYXzR1U2c?oc=5",
-   "summary": "日野町チョイソコひのサービスを一部利用&nbsp;&nbsp;滋賀報知新聞",
+   "summary": "日野町チョイソコひのサービスを一部利用&nbsp;&nbsp;shigahochi.co.jp",
    "date": "2026-07-03T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2264,9 +2314,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0Z0VrMFdyVVEtUTd2b0ZzQ3RLNEVRdGZpWmVzeEZKVnI2aFNPSTVFZF81MktqWnpDVEI4Vjl6aDJDUGs1NnFyT0pvR3VXWU1ZeF84VFVRNl9rMUE?oc=5",
-   "title": "滋賀・日野町事件、再審無罪へ 検察側、有罪立証を断念 大津地裁協議 - 山陰中央新報デジタル",
+   "title": "滋賀・日野町事件、再審無罪へ 検察側、有罪立証を断念 大津地裁協議 - sanin-chuo.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0Z0VrMFdyVVEtUTd2b0ZzQ3RLNEVRdGZpWmVzeEZKVnI2aFNPSTVFZF81MktqWnpDVEI4Vjl6aDJDUGs1NnFyT0pvR3VXWU1ZeF84VFVRNl9rMUE?oc=5",
-   "summary": "滋賀・日野町事件、再審無罪へ 検察側、有罪立証を断念 大津地裁協議&nbsp;&nbsp;山陰中央新報デジタル",
+   "summary": "滋賀・日野町事件、再審無罪へ 検察側、有罪立証を断念 大津地裁協議&nbsp;&nbsp;sanin-chuo.co.jp",
    "date": "2026-06-20T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2706,9 +2756,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94a3p6Mm5YZUdTM2dHalN6VkRSY3VINnpZazVDX3dFZlFJN1dRYTEyd3hiQUF6ZFhjdm5GLUs2VjVXcjQ4QmZEeGZ1d2pXYXM2RUxQQ1gyZDFHeHdjbHc?oc=5",
-   "title": "自閉症の生活介護事業所、発信拠点 日野町中在寺に施設オープン - 滋賀報知新聞",
+   "title": "自閉症の生活介護事業所、発信拠点 日野町中在寺に施設オープン - shigahochi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94a3p6Mm5YZUdTM2dHalN6VkRSY3VINnpZazVDX3dFZlFJN1dRYTEyd3hiQUF6ZFhjdm5GLUs2VjVXcjQ4QmZEeGZ1d2pXYXM2RUxQQ1gyZDFHeHdjbHc?oc=5",
-   "summary": "自閉症の生活介護事業所、発信拠点 日野町中在寺に施設オープン&nbsp;&nbsp;滋賀報知新聞",
+   "summary": "自閉症の生活介護事業所、発信拠点 日野町中在寺に施設オープン&nbsp;&nbsp;shigahochi.co.jp",
    "date": "2026-05-30T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2756,9 +2806,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lS2ZHMVAxVjRTQ1oxZkFYWFBZRjJTYi1YekN6dHBZdVl1U3BUZlRSV3RkVnNTaWxydjhrUzdKZHg4UDRzcS0zaU9pR3RxM3lNUXBkQw?oc=5",
-   "title": "色とりどり華やか大輪 春のバラ 滋賀県日野町のブルーメの丘で見頃 - chunichi.co.jp",
+   "title": "色とりどり華やか大輪 春のバラ 滋賀県日野町のブルーメの丘で見頃 - 中日新聞Web",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lS2ZHMVAxVjRTQ1oxZkFYWFBZRjJTYi1YekN6dHBZdVl1U3BUZlRSV3RkVnNTaWxydjhrUzdKZHg4UDRzcS0zaU9pR3RxM3lNUXBkQw?oc=5",
-   "summary": "色とりどり華やか大輪 春のバラ 滋賀県日野町のブルーメの丘で見頃&nbsp;&nbsp;chunichi.co.jp",
+   "summary": "色とりどり華やか大輪 春のバラ 滋賀県日野町のブルーメの丘で見頃&nbsp;&nbsp;中日新聞Web",
    "date": "2026-05-27T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3311,6 +3361,18 @@
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YUG5BbDVlb3QwYTlJV2I3dWVvZC1MSk5saHFmQ3NKQlRodTRrUFZIQURHQ1dSTjZncWgzb0lfaVlwQVFBcmN3Zl9FWWNDek9RYWVwdjlWQXY?oc=5",
    "summary": "滋賀県日野町の強盗殺人事件 無実訴えた関係者 再審への思い&nbsp;&nbsp;NHKニュース",
    "date": "2026-03-24T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGbm1GS3YxcVc1V3c2UFdqbENWbjdzclFpYmluSi1DYmtIWWdFYXpWRy1Xb0JLeG9XMzB6bUF3TjhxVjdKaTNVdG1KTlpucXlkTzRXZk5fODF1SkJvVXAwdXNQdmpfNll5SDFHalA2ZXFPOWpZc0E?oc=5",
+   "title": "＜主張＞日野町事件の再審 「脅迫的な調べ」は事実か うやむやにしてはならない 社説 - 産経ニュース",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGbm1GS3YxcVc1V3c2UFdqbENWbjdzclFpYmluSi1DYmtIWWdFYXpWRy1Xb0JLeG9XMzB6bUF3TjhxVjdKaTNVdG1KTlpucXlkTzRXZk5fODF1SkJvVXAwdXNQdmpfNll5SDFHalA2ZXFPOWpZc0E?oc=5",
+   "summary": "＜主張＞日野町事件の再審 「脅迫的な調べ」は事実か うやむやにしてはならない 社説&nbsp;&nbsp;産経ニュース",
+   "date": "2026-03-22T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
@@ -3983,9 +4045,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Yc0JfZllEU2VwdnZRU2QwNE9BMDQ5elU2LTVHejV4di0wOTZ3OVR2T1JPMUIwanhDM2pjRnI0U0FnWjJSQ0ZBRjhFeWFMNk96SVlNQm1lQ2hLSEZkQW5qWA?oc=5",
-   "title": "滋賀県日野町の雨雪レーダー【予想6時間】 - weathernews.jp",
+   "title": "滋賀県日野町の雨雪レーダー【予想6時間】 - ウェザーニュース",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Yc0JfZllEU2VwdnZRU2QwNE9BMDQ5elU2LTVHejV4di0wOTZ3OVR2T1JPMUIwanhDM2pjRnI0U0FnWjJSQ0ZBRjhFeWFMNk96SVlNQm1lQ2hLSEZkQW5qWA?oc=5",
-   "summary": "滋賀県日野町の雨雪レーダー【予想6時間】&nbsp;&nbsp;weathernews.jp",
+   "summary": "滋賀県日野町の雨雪レーダー【予想6時間】&nbsp;&nbsp;ウェザーニュース",
    "date": "2025-11-06T16:20:21+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
