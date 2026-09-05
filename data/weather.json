@@ -1,71 +1,57 @@
 {
- "updated_at": "2026-09-05T06:13:33.376994+09:00",
+ "updated_at": "2026-09-05T18:13:48.328448+09:00",
  "days": [
   {
    "date": "2026-09-05",
    "label": "きょう",
    "md": "9/5（土）",
-   "weather": "くもり 時々 晴れ",
-   "code": "201",
+   "weather": "晴れ 夜のはじめ頃 くもり",
+   "code": "101",
    "pops": [
-    {
-     "hour": 6,
-     "value": 10
-    },
-    {
-     "hour": 12,
-     "value": 10
-    },
     {
      "hour": 18,
      "value": 10
+    }
+   ],
+   "high": null,
+   "low": null
+  },
+  {
+   "date": "2026-09-06",
+   "label": "あす",
+   "md": "9/6（日）",
+   "weather": "くもり 夕方 から 雨",
+   "code": "214",
+   "pops": [
+    {
+     "hour": 0,
+     "value": 20
+    },
+    {
+     "hour": 6,
+     "value": 20
+    },
+    {
+     "hour": 12,
+     "value": 50
+    },
+    {
+     "hour": 18,
+     "value": 60
     }
    ],
    "high": null,
    "low": 30
   },
   {
-   "date": "2026-09-06",
-   "label": "あす",
-   "md": "9/6（日）",
-   "weather": "くもり 所により 夕方 から 雨",
-   "code": "200",
-   "pops": [
-    {
-     "hour": 0,
-     "value": 10
-    },
-    {
-     "hour": 6,
-     "value": 10
-    },
-    {
-     "hour": 12,
-     "value": 30
-    },
-    {
-     "hour": 18,
-     "value": 40
-    }
-   ],
-   "high": null,
-   "low": 31
-  },
-  {
    "date": "2026-09-07",
-   "label": "9/7",
+   "label": "あさって",
    "md": "9/7（月）",
-   "weather": "くもり",
-   "code": "203",
-   "pops": [
-    {
-     "hour": 0,
-     "value": 60
-    }
-   ],
-   "high": 28,
-   "low": 23,
-   "weekly": true
+   "weather": "雨 時々 くもり",
+   "code": "302",
+   "pops": [],
+   "high": null,
+   "low": null
   },
   {
    "date": "2026-09-08",
@@ -76,11 +62,11 @@
    "pops": [
     {
      "hour": 0,
-     "value": 50
+     "value": 60
     }
    ],
    "high": 30,
-   "low": 24,
+   "low": 25,
    "weekly": true
   },
   {
@@ -88,14 +74,14 @@
    "label": "9/9",
    "md": "9/9（水）",
    "weather": "くもり",
-   "code": "202",
+   "code": "203",
    "pops": [
     {
      "hour": 0,
-     "value": 50
+     "value": 70
     }
    ],
-   "high": 31,
+   "high": 30,
    "low": 24,
    "weekly": true
   },
@@ -104,15 +90,15 @@
    "label": "9/10",
    "md": "9/10（木）",
    "weather": "くもり",
-   "code": "202",
+   "code": "203",
    "pops": [
     {
      "hour": 0,
-     "value": 50
+     "value": 70
     }
    ],
    "high": 29,
-   "low": 24,
+   "low": 23,
    "weekly": true
   },
   {
@@ -127,13 +113,13 @@
      "value": 50
     }
    ],
-   "high": 29,
+   "high": 28,
    "low": 23,
    "weekly": true
   }
  ],
  "area_name": "南部",
- "overview": "滋賀県は、湿った空気の影響でおおむね曇っています。　５日の滋賀県は、湿った空気の影響でおおむね曇る見込みです。　６日の滋賀県は、前線や湿った空気の影響で曇り、夕方から雨の降る所があるでしょう。",
+ "overview": "滋賀県は、湿った空気の影響でおおむね曇っています。　５日の滋賀県は、高気圧に覆われておおむね晴れる見込みです。　６日の滋賀県は、前線や湿った空気の影響で曇り、夕方から雨が降るでしょう。",
  "warnings": [],
  "ok": true
 }
