@@ -1,10 +1,6 @@
 {
- "updated_at": "2026-09-06T18:16:52.084970+09:00",
+ "updated_at": "2026-09-07T06:13:22.431066+09:00",
  "errors": [
-  {
-   "source": "ひの暮らし",
-   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
-  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
@@ -339,9 +335,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OcklQZ2VMZFVNb2FuM0M3NkNUNnFqaVRWTDNCOHU5cXUxNm9kTW40TEYyRkdzYnR3a3MtTUppOWFadjkya2FpUjVhSlVDZVFjZ3BxS1V3SGIyZk5HUmc?oc=5",
-   "title": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。 - 選挙ドットコム",
+   "title": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。 - go2senkyo.com",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OcklQZ2VMZFVNb2FuM0M3NkNUNnFqaVRWTDNCOHU5cXUxNm9kTW40TEYyRkdzYnR3a3MtTUppOWFadjkya2FpUjVhSlVDZVFjZ3BxS1V3SGIyZk5HUmc?oc=5",
-   "summary": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。&nbsp;&nbsp;選挙ドットコム",
+   "summary": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。&nbsp;&nbsp;go2senkyo.com",
    "date": "2026-08-30T09:36:22+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2798,9 +2794,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cXpmaUxZNjFQMFVZMTU4ZGI3MUsxQXh5MFlhWlVnRDgyU0hTTnZfTkNaQ0JsZWFqVnJfV3A2bFlKYk1oY2dKUGZ0UXJjVkF6WXlWSEk5cGtNLUhDUXZz?oc=5",
-   "title": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース - 中日BIZナビ",
+   "title": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース - biz.chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cXpmaUxZNjFQMFVZMTU4ZGI3MUsxQXh5MFlhWlVnRDgyU0hTTnZfTkNaQ0JsZWFqVnJfV3A2bFlKYk1oY2dKUGZ0UXJjVkF6WXlWSEk5cGtNLUhDUXZz?oc=5",
-   "summary": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース&nbsp;&nbsp;中日BIZナビ",
+   "summary": "滋賀・日野町、地方創生伴走支援制度を活用 観光振興目指し県内初：ニュース&nbsp;&nbsp;biz.chunichi.co.jp",
    "date": "2026-05-29T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3333,9 +3329,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tajVJVXdkeDlhWEpMMU9QRk5ocWpQZVZiSXRGLURkOTRERTluTG1pSWpiaTZQdHFvNGVQUV9qeWp6cVpkS0VBNnpQVG1ETUhjMnFBTU1n?oc=5",
-   "title": "滋賀・日野町で自然との対話展 - sokagakkai.jp",
+   "title": "滋賀・日野町で自然との対話展 - 創価学会公式サイト",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tajVJVXdkeDlhWEpMMU9QRk5ocWpQZVZiSXRGLURkOTRERTluTG1pSWpiaTZQdHFvNGVQUV9qeWp6cVpkS0VBNnpQVG1ETUhjMnFBTU1n?oc=5",
-   "summary": "滋賀・日野町で自然との対話展&nbsp;&nbsp;sokagakkai.jp",
+   "summary": "滋賀・日野町で自然との対話展&nbsp;&nbsp;創価学会公式サイト",
    "date": "2026-03-28T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
