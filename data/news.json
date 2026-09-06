@@ -1,6 +1,10 @@
 {
- "updated_at": "2026-09-06T06:13:13.086873+09:00",
+ "updated_at": "2026-09-06T18:16:52.084970+09:00",
  "errors": [
+  {
+   "source": "ひの暮らし",
+   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
+  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
@@ -721,9 +725,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZbFhQckp1Qm55QkpPOFVkZnpLanRQX09neEp2b3VGTUl3NjJmNDdYNWVsdnNIOTc5NkpCbko5d3N0QU9lZWVHRGtSOXQxMGNUZFdLeUJad0Iyb3FxRmc?oc=5",
-   "title": "滋賀県日野町の天気予報（きょう・あす・週間） - news.ntv.co.jp",
+   "title": "滋賀県日野町の天気予報（きょう・あす・週間） - 日テレNEWS NNN",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZbFhQckp1Qm55QkpPOFVkZnpLanRQX09neEp2b3VGTUl3NjJmNDdYNWVsdnNIOTc5NkpCbko5d3N0QU9lZWVHRGtSOXQxMGNUZFdLeUJad0Iyb3FxRmc?oc=5",
-   "summary": "滋賀県日野町の天気予報（きょう・あす・週間）&nbsp;&nbsp;news.ntv.co.jp",
+   "summary": "滋賀県日野町の天気予報（きょう・あす・週間）&nbsp;&nbsp;日テレNEWS NNN",
    "date": "2026-08-19T07:42:06+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2638,9 +2642,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE91Y19nYUFodlZiRTBuZzRwS3NRdU00S0xNdUh5T2RreTJUcmk5VjFMTVNEWklMUHRwRFBXWGpRY2ZhV3dwSHkxOVRIS1R6c3RIVjNKaUZGbmNZVUt4QnM2TlVYZHNoZTJXRnRmMXlXb285RE5ZNXFUWlFFeXo?oc=5",
-   "title": "「日野町事件」やり直し裁判 検察側が有罪立証しない方針（2026年6月18日掲載）｜日テレNEWS NNN - news.ntv.co.jp",
+   "title": "「日野町事件」やり直し裁判 検察側が有罪立証しない方針（2026年6月18日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE91Y19nYUFodlZiRTBuZzRwS3NRdU00S0xNdUh5T2RreTJUcmk5VjFMTVNEWklMUHRwRFBXWGpRY2ZhV3dwSHkxOVRIS1R6c3RIVjNKaUZGbmNZVUt4QnM2TlVYZHNoZTJXRnRmMXlXb285RE5ZNXFUWlFFeXo?oc=5",
-   "summary": "「日野町事件」やり直し裁判 検察側が有罪立証しない方針（2026年6月18日掲載）｜日テレNEWS NNN&nbsp;&nbsp;news.ntv.co.jp",
+   "summary": "「日野町事件」やり直し裁判 検察側が有罪立証しない方針（2026年6月18日掲載）｜日テレNEWS NNN&nbsp;&nbsp;日テレNEWS NNN",
    "date": "2026-06-18T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3329,9 +3333,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tajVJVXdkeDlhWEpMMU9QRk5ocWpQZVZiSXRGLURkOTRERTluTG1pSWpiaTZQdHFvNGVQUV9qeWp6cVpkS0VBNnpQVG1ETUhjMnFBTU1n?oc=5",
-   "title": "滋賀・日野町で自然との対話展 - 創価学会公式サイト",
+   "title": "滋賀・日野町で自然との対話展 - sokagakkai.jp",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tajVJVXdkeDlhWEpMMU9QRk5ocWpQZVZiSXRGLURkOTRERTluTG1pSWpiaTZQdHFvNGVQUV9qeWp6cVpkS0VBNnpQVG1ETUhjMnFBTU1n?oc=5",
-   "summary": "滋賀・日野町で自然との対話展&nbsp;&nbsp;創価学会公式サイト",
+   "summary": "滋賀・日野町で自然との対話展&nbsp;&nbsp;sokagakkai.jp",
    "date": "2026-03-28T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
