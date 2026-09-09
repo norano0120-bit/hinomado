@@ -1,10 +1,6 @@
 {
- "updated_at": "2026-09-09T18:17:50.643525+09:00",
+ "updated_at": "2026-09-10T06:13:14.544267+09:00",
  "errors": [
-  {
-   "source": "ひの暮らし",
-   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
-  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
@@ -153,9 +149,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8yck55bFYtLUVYMFNXVGNIdjYzSXlHNmppRkNHRkttZGhVYzloSk9heXpnNy0xQm5jUFJYRURxT185WW1SaWJHWG1EZmlGaVZ3ZWF1UzlwS1RfNFpwUlZfdXB3?oc=5",
-   "title": "「日野町事件」再審で検察が証拠を撤回へ 即日結審の可能性 服役中死亡の阪原弘さんに無罪見通し - asahi.co.jp",
+   "title": "「日野町事件」再審で検察が証拠を撤回へ 即日結審の可能性 服役中死亡の阪原弘さんに無罪見通し - 朝日放送",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8yck55bFYtLUVYMFNXVGNIdjYzSXlHNmppRkNHRkttZGhVYzloSk9heXpnNy0xQm5jUFJYRURxT185WW1SaWJHWG1EZmlGaVZ3ZWF1UzlwS1RfNFpwUlZfdXB3?oc=5",
-   "summary": "「日野町事件」再審で検察が証拠を撤回へ 即日結審の可能性 服役中死亡の阪原弘さんに無罪見通し&nbsp;&nbsp;asahi.co.jp",
+   "summary": "「日野町事件」再審で検察が証拠を撤回へ 即日結審の可能性 服役中死亡の阪原弘さんに無罪見通し&nbsp;&nbsp;朝日放送",
    "date": "2026-09-07T22:11:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2835,9 +2831,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JcGpmV0poNEhrUFpxNVJDVEFoeUVZYWxXQ2FoX0p3NzUxS0RYcjU1eVIyX0h5OHlEUGdUVlNuN2g2SVhYc2NTSS1BWmxkMUdtUW52czRoZG1Mb3hMSS1LSnBJd1ZqcEN3czFXdEpkOXdxN0xwX2c?oc=5",
-   "title": "有罪主張はしないが…「犯人でない証拠はない」大津地検、無罪主張もせず 日野町事件再審 - sankei.com",
+   "title": "有罪主張はしないが…「犯人でない証拠はない」大津地検、無罪主張もせず 日野町事件再審 - 産経ニュース",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JcGpmV0poNEhrUFpxNVJDVEFoeUVZYWxXQ2FoX0p3NzUxS0RYcjU1eVIyX0h5OHlEUGdUVlNuN2g2SVhYc2NTSS1BWmxkMUdtUW52czRoZG1Mb3hMSS1LSnBJd1ZqcEN3czFXdEpkOXdxN0xwX2c?oc=5",
-   "summary": "有罪主張はしないが…「犯人でない証拠はない」大津地検、無罪主張もせず 日野町事件再審&nbsp;&nbsp;sankei.com",
+   "summary": "有罪主張はしないが…「犯人でない証拠はない」大津地検、無罪主張もせず 日野町事件再審&nbsp;&nbsp;産経ニュース",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3414,6 +3410,18 @@
    "tags": [
     "kurashi"
    ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xeWtyd0oweUpnZjFFOEtSaUlDdENoeEprcHBBYzJhakczclFtSllqcDhFOWl4STd3RGtCa2gxQW9xTFhfajh6eTV0QnRFR2d6MlZBTUFOZ0gwYmwtU1hpMnJRZXpuMElpcEdXUzI3X2hjdkNlSUtJdw?oc=5",
+   "title": "滋賀県蒲生郡日野町の天気予報(1時間・今日明日・週間) - ウェザーニュース",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xeWtyd0oweUpnZjFFOEtSaUlDdENoeEprcHBBYzJhakczclFtSllqcDhFOWl4STd3RGtCa2gxQW9xTFhfajh6eTV0QnRFR2d6MlZBTUFOZ0gwYmwtU1hpMnJRZXpuMElpcEdXUzI3X2hjdkNlSUtJdw?oc=5",
+   "summary": "滋賀県蒲生郡日野町の天気予報(1時間・今日明日・週間)&nbsp;&nbsp;ウェザーニュース",
+   "date": "2026-05-07T17:04:15+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RZzhXZTJSYXA1SVpzbjZidmI3VDFVLTBiQVVvckxTbEZVeW1kd1BEa0ZNVVpBOXdxdlh2X1RtZ25OOVp2WUFYaHdER1pjT1hFQmpZUUlLdzM?oc=5",
