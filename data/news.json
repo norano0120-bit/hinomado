@@ -1,12 +1,70 @@
 {
- "updated_at": "2026-09-09T06:13:11.274741+09:00",
+ "updated_at": "2026-09-09T18:17:50.643525+09:00",
  "errors": [
+  {
+   "source": "ひの暮らし",
+   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
+  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HOG1ab09vZF9QSWU0dEF5cUJUWlBjanZUVG50UmFnZ0pmamdwYkZCY3o4cjFvRkhFMlZvOTlBc2VQZjNubjJYV0laLXlQZncxVlJqWWRwcFhyMjRib2M4eHVn?oc=5",
+   "title": "集落の男衆、東西「芋競べ」 日野町で祭事、サトイモの長さ比べ米の作況占う - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HOG1ab09vZF9QSWU0dEF5cUJUWlBjanZUVG50UmFnZ0pmamdwYkZCY3o4cjFvRkhFMlZvOTlBc2VQZjNubjJYV0laLXlQZncxVlJqWWRwcFhyMjRib2M4eHVn?oc=5",
+   "summary": "集落の男衆、東西「芋競べ」 日野町で祭事、サトイモの長さ比べ米の作況占う&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-09-09T10:27:08+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8428",
+   "title": "親子ぷれすて開催のお知らせ",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8428",
+   "summary": "■子育て支援情報 ■みなくち子どもの森にお出かけ！ 化石をはじめ、太古の森や現代 &#8230; 続きを読む &#8594;",
+   "date": "2026-09-09T09:00:04+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "kosodate"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008962.html",
+   "title": "仕様書（令和8年9月30日分）",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008962.html",
+   "summary": "",
+   "date": "2026-09-09T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008961.html",
+   "title": "【入札公告】閉域モバイル通信環境賃貸借業務（長期継続契約）",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008961.html",
+   "summary": "",
+   "date": "2026-09-09T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "business"
+   ]
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008951.html",
    "title": "11月23日（祝日）インクルーシブ食堂×ひのの環フェスタを開催します",
@@ -95,9 +153,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8yck55bFYtLUVYMFNXVGNIdjYzSXlHNmppRkNHRkttZGhVYzloSk9heXpnNy0xQm5jUFJYRURxT185WW1SaWJHWG1EZmlGaVZ3ZWF1UzlwS1RfNFpwUlZfdXB3?oc=5",
-   "title": "「日野町事件」再審で検察が証拠を撤回へ 即日結審の可能性 服役中死亡の阪原弘さんに無罪見通し - 朝日放送",
+   "title": "「日野町事件」再審で検察が証拠を撤回へ 即日結審の可能性 服役中死亡の阪原弘さんに無罪見通し - asahi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8yck55bFYtLUVYMFNXVGNIdjYzSXlHNmppRkNHRkttZGhVYzloSk9heXpnNy0xQm5jUFJYRURxT185WW1SaWJHWG1EZmlGaVZ3ZWF1UzlwS1RfNFpwUlZfdXB3?oc=5",
-   "summary": "「日野町事件」再審で検察が証拠を撤回へ 即日結審の可能性 服役中死亡の阪原弘さんに無罪見通し&nbsp;&nbsp;朝日放送",
+   "summary": "「日野町事件」再審で検察が証拠を撤回へ 即日結審の可能性 服役中死亡の阪原弘さんに無罪見通し&nbsp;&nbsp;asahi.co.jp",
    "date": "2026-09-07T22:11:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
