@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-10T06:13:14.544267+09:00",
+ "updated_at": "2026-09-10T18:15:33.061636+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,30 @@
   }
  ],
  "items": [
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8430",
+   "title": "【再送】『日野町議会9月定例会議における一般質問の発言予定日時』について",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8430",
+   "summary": "□議会情報 ■一般質問発言予定日時について ■14日（月曜日）午前9時30分から &#8230; 続きを読む &#8594;",
+   "date": "2026-09-10T18:00:04+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008931.html",
+   "title": "【声の広報】広報ひの9月号",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008931.html",
+   "summary": "広報ひのを音声でお聞きいただけます。",
+   "date": "2026-09-10T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HOG1ab09vZF9QSWU0dEF5cUJUWlBjanZUVG50UmFnZ0pmamdwYkZCY3o4cjFvRkhFMlZvOTlBc2VQZjNubjJYV0laLXlQZncxVlJqWWRwcFhyMjRib2M4eHVn?oc=5",
    "title": "集落の男衆、東西「芋競べ」 日野町で祭事、サトイモの長さ比べ米の作況占う - 中日新聞Web",
@@ -93,6 +117,18 @@
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWWRCT0QtcjNWZlJibDh1U0FHNmRtOWROUlY5emxvT3BkM1JsN2V5c0FJTHppcWllajYyTkhJSVZqM2JfaGJIM0ZyYmMxYlJFMk1xRTNmUk9MakRIZ1hvaEEyb1JrUUUyMFNESS1zNEV2N0d6S21qZVJFQi1sWnp2NlNn0gGCAUFVX3lxTE1ZZEJPRC1yM1ZmUmJsOHVTQUc2ZG05ZE5SVjl6bG9PcGQzUmw3ZXlzQUlMemlxaWVqNjJOSElJVmozYl9oYkgzRnJiYzFiUkUyTXFFM2ZST0xqREhnWG9oQTJvUmtRRTIwU0RJLXM0RXY3R3pLbWplUkVCLWxaenY2U2c?oc=5",
    "summary": "【日野町事件】検察が有罪判決根拠の全証拠を事実上撤回へ 再審で「無罪」見通し高まる 7日の三者協議で明らかに&nbsp;&nbsp;ｄメニューニュース",
    "date": "2026-09-08T09:50:59+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EeWVNQTduSF91YkVZQzUyd25iNzluc0R4cHNIVGxKN1JTUmZKVVFtUFVoSDFDRlFFajRsc3RhLVUyWEhVVmJhMDRGamxLXzluY084V05pdkhaUQ?oc=5",
+   "title": "【日野町事件】検察が有罪判決根拠の全証拠を事実上撤回へ 再審で「無罪」見通し高まる 7日の三者協議で明らかに - TBS NEWS DIG",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EeWVNQTduSF91YkVZQzUyd25iNzluc0R4cHNIVGxKN1JTUmZKVVFtUFVoSDFDRlFFajRsc3RhLVUyWEhVVmJhMDRGamxLXzluY084V05pdkhaUQ?oc=5",
+   "summary": "【日野町事件】検察が有罪判決根拠の全証拠を事実上撤回へ 再審で「無罪」見通し高まる 7日の三者協議で明らかに&nbsp;&nbsp;TBS NEWS DIG",
+   "date": "2026-09-08T09:38:27+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
@@ -232,6 +268,18 @@
    "tags": []
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wNG1tMndDcnVqeUNyY2tNV2VaNkJ5MFFOelI1VVhnb2hzQkxaclBRTV91X2FXQ2pOMjlOaU5SR2NwVGNBbzU1UEt1SWtKeDVjR3JGVzdPU1ZhZw?oc=5",
+   "title": "検察“有罪の根拠となった証拠すべて請求せず” 再審決定の「日野町事件」 無罪の見通し一層高まる 審理日程も短縮か 滋賀 - TBS NEWS DIG",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wNG1tMndDcnVqeUNyY2tNV2VaNkJ5MFFOelI1VVhnb2hzQkxaclBRTV91X2FXQ2pOMjlOaU5SR2NwVGNBbzU1UEt1SWtKeDVjR3JGVzdPU1ZhZw?oc=5",
+   "summary": "検察“有罪の根拠となった証拠すべて請求せず” 再審決定の「日野町事件」 無罪の見通し一層高まる 審理日程も短縮か 滋賀&nbsp;&nbsp;TBS NEWS DIG",
+   "date": "2026-09-07T20:43:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvNW43VXY1TkVBZGtsNXY1WUxmTms1ZDYtZ0J6UzlvVmt4WHFhSTNudWxSUGhJXzhVbDFla3JNV0JjVW1Nc3hhZEx5eUZxb25aT0VQU0pNc1RmWW5IS19HM0JCMWVadXJpM1hReF9QNjhZb1lDV3dGdGxBazJ6OE0?oc=5",
    "title": "日野町事件で検察側が有罪立証の証拠を撤回へ 3者協議で合意、審理は1日で終結の可能性（京都新聞） - Yahoo!ニュース",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvNW43VXY1TkVBZGtsNXY1WUxmTms1ZDYtZ0J6UzlvVmt4WHFhSTNudWxSUGhJXzhVbDFla3JNV0JjVW1Nc3hhZEx5eUZxb25aT0VQU0pNc1RmWW5IS19HM0JCMWVadXJpM1hReF9QNjhZb1lDV3dGdGxBazJ6OE0?oc=5",
@@ -293,9 +341,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zS21IaGFnUFRLa1lBMUxNQ3FvYXAwSERZeW9aZTV5Q2IwM3NMWDEyZ0JnM2ZMcW9IVnBtQ0Q1UlJRWnJmNXl6dFdCTHdpV1Fna0RMMnlZTHg?oc=5",
-   "title": "【速報】日野町事件で検察側が有罪立証の証拠を撤回へ 3者協議で合意、審理は1日で終結の可能性 - 京都新聞デジタル",
+   "title": "日野町事件で検察側が有罪立証の証拠を撤回へ 3者協議で合意、審理は1日で終結の可能性 - 京都新聞デジタル",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zS21IaGFnUFRLa1lBMUxNQ3FvYXAwSERZeW9aZTV5Q2IwM3NMWDEyZ0JnM2ZMcW9IVnBtQ0Q1UlJRWnJmNXl6dFdCTHdpV1Fna0RMMnlZTHg?oc=5",
-   "summary": "【速報】日野町事件で検察側が有罪立証の証拠を撤回へ 3者協議で合意、審理は1日で終結の可能性&nbsp;&nbsp;京都新聞デジタル",
+   "summary": "日野町事件で検察側が有罪立証の証拠を撤回へ 3者協議で合意、審理は1日で終結の可能性&nbsp;&nbsp;京都新聞デジタル",
    "date": "2026-09-07T19:12:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1953,7 +2001,7 @@
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008718.html",
-   "title": "入札結果（8月19日開札分）",
+   "title": "入札結果（9月7日開札分）",
    "url": "https://www.town.shiga-hino.lg.jp/0000008718.html",
    "summary": "",
    "date": "2026-07-16T19:27:34+09:00",
@@ -2831,9 +2879,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JcGpmV0poNEhrUFpxNVJDVEFoeUVZYWxXQ2FoX0p3NzUxS0RYcjU1eVIyX0h5OHlEUGdUVlNuN2g2SVhYc2NTSS1BWmxkMUdtUW52czRoZG1Mb3hMSS1LSnBJd1ZqcEN3czFXdEpkOXdxN0xwX2c?oc=5",
-   "title": "有罪主張はしないが…「犯人でない証拠はない」大津地検、無罪主張もせず 日野町事件再審 - 産経ニュース",
+   "title": "有罪主張はしないが…「犯人でない証拠はない」大津地検、無罪主張もせず 日野町事件再審 - sankei.com",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JcGpmV0poNEhrUFpxNVJDVEFoeUVZYWxXQ2FoX0p3NzUxS0RYcjU1eVIyX0h5OHlEUGdUVlNuN2g2SVhYc2NTSS1BWmxkMUdtUW52czRoZG1Mb3hMSS1LSnBJd1ZqcEN3czFXdEpkOXdxN0xwX2c?oc=5",
-   "summary": "有罪主張はしないが…「犯人でない証拠はない」大津地検、無罪主張もせず 日野町事件再審&nbsp;&nbsp;産経ニュース",
+   "summary": "有罪主張はしないが…「犯人でない証拠はない」大津地検、無罪主張もせず 日野町事件再審&nbsp;&nbsp;sankei.com",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2867,9 +2915,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wek1ObjVKRXVRY2JUNzhNSXZjMEg5Q3lsRExFbndMb1E5TEx4MTZYTHY5N19CYjVKVi1RUWV3Rkh2VDNjdjhwd3hfdksyNUF0ZXFWMjJLS0VLRERVd0lYZkFVaw?oc=5",
-   "title": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず：時事ドットコム - 時事ドットコム",
+   "title": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず：時事ドットコム - jiji.com",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wek1ObjVKRXVRY2JUNzhNSXZjMEg5Q3lsRExFbndMb1E5TEx4MTZYTHY5N19CYjVKVi1RUWV3Rkh2VDNjdjhwd3hfdksyNUF0ZXFWMjJLS0VLRERVd0lYZkFVaw?oc=5",
-   "summary": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず：時事ドットコム&nbsp;&nbsp;時事ドットコム",
+   "summary": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず：時事ドットコム&nbsp;&nbsp;jiji.com",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
