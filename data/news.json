@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-15T08:45:37.148864+09:00",
+ "updated_at": "2026-09-15T23:15:21.922730+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,30 @@
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008972.html",
+   "title": "【重要】お問い合わせフォームからのメール受付不具合について（お詫び）",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008972.html",
+   "summary": "",
+   "date": "2026-09-15T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008963.html",
+   "title": "つどいのひろば『ぽけっと』10月の予定カレンダーを掲載しました。",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008963.html",
+   "summary": "",
+   "date": "2026-09-15T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwSjNFdUxSVjhkWHNWYUVQa2JtOWpXeHQ3TTh2ZUp3ck9oRjl3ZkwwYXlYdW5qQUFmOUdKeXQ3YVViVkZhNXg3MG5JZGtnRjF0cHF1dXRxcy0?oc=5",
    "title": "滋賀県日野町に「シルクロード中継地」ジョージア視察団 近江商人「三方よし」に注目する理由 - 京都新聞デジタル",
@@ -451,9 +475,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1qYXVtMi12cktZeGZkcXFMa0kzOXpuSjVMS0syVkZhQzB3eU9zTXc2SjA1R195dXNfR2dXUGEzMllCY1Zhbmh3bTNiUQ?oc=5",
-   "title": "確定審で有罪根拠の旧証拠取り調べず 日野町事件、再審公判へ3者協議 - 47news.jp",
+   "title": "確定審で有罪根拠の旧証拠取り調べず 日野町事件、再審公判へ3者協議 - 47NEWS",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1qYXVtMi12cktZeGZkcXFMa0kzOXpuSjVMS0syVkZhQzB3eU9zTXc2SjA1R195dXNfR2dXUGEzMllCY1Zhbmh3bTNiUQ?oc=5",
-   "summary": "確定審で有罪根拠の旧証拠取り調べず 日野町事件、再審公判へ3者協議&nbsp;&nbsp;47news.jp",
+   "summary": "確定審で有罪根拠の旧証拠取り調べず 日野町事件、再審公判へ3者協議&nbsp;&nbsp;47NEWS",
    "date": "2026-09-07T21:20:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -595,9 +619,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9KbzY1SWc0SHNuV1R0TnNrd29tWkxQdm5Zb3VqakZUZnRtSExHVjVCbUEwb2loZkxaN3BpWFU4RnB0Q05zTWJtZzdzbw?oc=5",
-   "title": "【速報】日野町再審、確定審の有罪証拠は取り調べず - 47news.jp",
+   "title": "【速報】日野町再審、確定審の有罪証拠は取り調べず - 47NEWS",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9KbzY1SWc0SHNuV1R0TnNrd29tWkxQdm5Zb3VqakZUZnRtSExHVjVCbUEwb2loZkxaN3BpWFU4RnB0Q05zTWJtZzdzbw?oc=5",
-   "summary": "【速報】日野町再審、確定審の有罪証拠は取り調べず&nbsp;&nbsp;47news.jp",
+   "summary": "【速報】日野町再審、確定審の有罪証拠は取り調べず&nbsp;&nbsp;47NEWS",
    "date": "2026-09-07T17:48:13+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1322,9 +1346,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9BbGZmNVE2MmUwd2M1OEthOG9tYVQxSDQzOUdSaXdTS3RrTm1sUHFrbktuNTV0SlVGSWNwRTFiSk1NNE9ON3BueWtmVQ?oc=5",
-   "title": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道 - 47news.jp",
+   "title": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道 - 47NEWS",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9BbGZmNVE2MmUwd2M1OEthOG9tYVQxSDQzOUdSaXdTS3RrTm1sUHFrbktuNTV0SlVGSWNwRTFiSk1NNE9ON3BueWtmVQ?oc=5",
-   "summary": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道&nbsp;&nbsp;47news.jp",
+   "summary": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道&nbsp;&nbsp;47NEWS",
    "date": "2026-08-21T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1722,9 +1746,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkUVZPUFJ4WXhuaWlKT1FsQkRiYnUwVHZUcFhOalZtYXROMl9fQl9DeVpvdGN0ejllb2VJNmFfT3JNSWFLWTNudUlRYw?oc=5",
-   "title": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃 - 47news.jp",
+   "title": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃 - 47NEWS",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkUVZPUFJ4WXhuaWlKT1FsQkRiYnUwVHZUcFhOalZtYXROMl9fQl9DeVpvdGN0ejllb2VJNmFfT3JNSWFLWTNudUlRYw?oc=5",
-   "summary": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃&nbsp;&nbsp;47news.jp",
+   "summary": "陽光浴びヒマワリ30万本咲き誇る 滋賀県日野町・ブルーメの丘で見頃&nbsp;&nbsp;47NEWS",
    "date": "2026-08-01T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2416,6 +2440,18 @@
    "tags": []
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE82Y3QxMUVnZmJqa3JvOTZsQWx3cVowLUdkUF9ycURvZ0pGQnJDdzh4Uzh1T194WE5vZWx6OGFJVUd4OFhkR1lDRU5FSWFtT2hxanM1cldnMkV0azJmWWFXMDRCWQ?oc=5",
+   "title": "共同通信、日野町事件で誤報 再審公判、記事取り消し - jiji.com",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE82Y3QxMUVnZmJqa3JvOTZsQWx3cVowLUdkUF9ycURvZ0pGQnJDdzh4Uzh1T194WE5vZWx6OGFJVUd4OFhkR1lDRU5FSWFtT2hxanM1cldnMkV0azJmWWFXMDRCWQ?oc=5",
+   "summary": "共同通信、日野町事件で誤報 再審公判、記事取り消し&nbsp;&nbsp;jiji.com",
+   "date": "2026-07-14T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://www.town.shiga-hino.lg.jp/0000007108.html",
    "title": "子育て女性の再就職を応援する就労セミナー＆相談会の案内",
    "url": "https://www.town.shiga-hino.lg.jp/0000007108.html",
@@ -2973,9 +3009,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wc2NEdXIwV1cyTFpVSEhteEV1LWo4Q2hqS2hOMjdNU2hUQ1RpUkZObkdrTmN2TnJWbnhJUl9yTm14WjBsVXkzQTZ6Yw?oc=5",
-   "title": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める - 47news.jp",
+   "title": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める - 47NEWS",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wc2NEdXIwV1cyTFpVSEhteEV1LWo4Q2hqS2hOMjdNU2hUQ1RpUkZObkdrTmN2TnJWbnhJUl9yTm14WjBsVXkzQTZ6Yw?oc=5",
-   "summary": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める&nbsp;&nbsp;47news.jp",
+   "summary": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める&nbsp;&nbsp;47NEWS",
    "date": "2026-06-23T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3063,9 +3099,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56RXJpY2tIMDA5cVl6VllINWJzMlpDVFBDYm1RZHVkbUwzUHFvNndUZ3V1bk5qcWVfYTJ0QUZuVlBGZ0NoQVUzUGRYQ0wzaTJsazFjaWV3MkQ0ZC1SM2NpUUlwZnZOS3lFMUJCeA?oc=5",
-   "title": "滋賀・日野町事件、無罪確定へ 検察側は再審で有罪主張せず - 日本経済新聞",
+   "title": "滋賀・日野町事件、無罪確定へ 検察側は再審で有罪主張せず - nikkei.com",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56RXJpY2tIMDA5cVl6VllINWJzMlpDVFBDYm1RZHVkbUwzUHFvNndUZ3V1bk5qcWVfYTJ0QUZuVlBGZ0NoQVUzUGRYQ0wzaTJsazFjaWV3MkQ0ZC1SM2NpUUlwZnZOS3lFMUJCeA?oc=5",
-   "summary": "滋賀・日野町事件、無罪確定へ 検察側は再審で有罪主張せず&nbsp;&nbsp;日本経済新聞",
+   "summary": "滋賀・日野町事件、無罪確定へ 検察側は再審で有罪主張せず&nbsp;&nbsp;nikkei.com",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3171,9 +3207,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wek1ObjVKRXVRY2JUNzhNSXZjMEg5Q3lsRExFbndMb1E5TEx4MTZYTHY5N19CYjVKVi1RUWV3Rkh2VDNjdjhwd3hfdksyNUF0ZXFWMjJLS0VLRERVd0lYZkFVaw?oc=5",
-   "title": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず：時事ドットコム - 時事ドットコム",
+   "title": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず：時事ドットコム - jiji.com",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wek1ObjVKRXVRY2JUNzhNSXZjMEg5Q3lsRExFbndMb1E5TEx4MTZYTHY5N19CYjVKVi1RUWV3Rkh2VDNjdjhwd3hfdksyNUF0ZXFWMjJLS0VLRERVd0lYZkFVaw?oc=5",
-   "summary": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず：時事ドットコム&nbsp;&nbsp;時事ドットコム",
+   "summary": "「日野町事件」早期に無罪の公算 検察側、再審で有罪主張せず：時事ドットコム&nbsp;&nbsp;jiji.com",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4228,9 +4264,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TcmptVVV5VWZiQ2M0YXJ1NklkVGsyYjR3eWROYnZFSW5oQjRfR3cxb0R0LTQzd0UyZzlwMVc0bHZSQnQwYUp2OU9QNkhxTFdkaExnejNyaVVYeGlnQ3NfUTdSYXJjaVJVcHhsVg?oc=5",
-   "title": "滋賀・日野町事件再審、25日に3者協議 無罪公算で検察の対応焦点 - 日本経済新聞",
+   "title": "滋賀・日野町事件再審、25日に3者協議 無罪公算で検察の対応焦点 - nikkei.com",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TcmptVVV5VWZiQ2M0YXJ1NklkVGsyYjR3eWROYnZFSW5oQjRfR3cxb0R0LTQzd0UyZzlwMVc0bHZSQnQwYUp2OU9QNkhxTFdkaExnejNyaVVYeGlnQ3NfUTdSYXJjaVJVcHhsVg?oc=5",
-   "summary": "滋賀・日野町事件再審、25日に3者協議 無罪公算で検察の対応焦点&nbsp;&nbsp;日本経済新聞",
+   "summary": "滋賀・日野町事件再審、25日に3者協議 無罪公算で検察の対応焦点&nbsp;&nbsp;nikkei.com",
    "date": "2026-03-11T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
