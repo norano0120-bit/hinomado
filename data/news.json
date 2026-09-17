@@ -1,16 +1,40 @@
 {
- "updated_at": "2026-09-17T08:37:36.420561+09:00",
+ "updated_at": "2026-09-17T23:12:47.354920+09:00",
  "errors": [
-  {
-   "source": "ひの暮らし",
-   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
-  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
   }
  ],
  "items": [
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8436",
+   "title": "氏郷まつり2026の開催に伴う町役場停留所移設等のお知らせ",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8436",
+   "summary": "□住民生活情報 ■氏郷まつり2026の開催に伴い、停留所について下記のとおり変更 &#8230; 続きを読む &#8594;",
+   "date": "2026-09-17T09:00:10+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8434",
+   "title": "（頭の健康チェック同時開催）おもいでカフェ「茶のみ処わたむき」のお知らせについて",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8434",
+   "summary": "□高齢者支援情報 ■日時：令和8年9月25日（金曜日）10時から11時30分 出 &#8230; 続きを読む &#8594;",
+   "date": "2026-09-17T09:00:02+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "senior"
+   ]
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000006573.html",
    "title": "65歳以上の方へのインフルエンザ予防接種のお知らせ（10月1日から12月31日）",
@@ -319,9 +343,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96VlNXZUlfTWoxMXRaVkhqcV8wa24yOXBrcm1pNlhQeWtpUjZPMmNvdXl4ZWtwV0JoaEQtVDRxZ1JEZDFvTWh1U3FsbFAyWndBVjZQaQ?oc=5",
-   "title": "集落の男衆、東西「芋競べ」 日野町で祭事、サトイモの長さ比べ米の作況占う - 中日新聞Web",
+   "title": "集落の男衆、東西「芋競べ」 日野町で祭事、サトイモの長さ比べ米の作況占う - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96VlNXZUlfTWoxMXRaVkhqcV8wa24yOXBrcm1pNlhQeWtpUjZPMmNvdXl4ZWtwV0JoaEQtVDRxZ1JEZDFvTWh1U3FsbFAyWndBVjZQaQ?oc=5",
-   "summary": "集落の男衆、東西「芋競べ」 日野町で祭事、サトイモの長さ比べ米の作況占う&nbsp;&nbsp;中日新聞Web",
+   "summary": "集落の男衆、東西「芋競べ」 日野町で祭事、サトイモの長さ比べ米の作況占う&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-09-09T09:57:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -359,7 +383,7 @@
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008961.html",
-   "title": "【入札公告】閉域モバイル通信環境賃貸借業務（長期継続契約）",
+   "title": "【質疑回答】閉域モバイル通信環境賃貸借業務（長期継続契約）",
    "url": "https://www.town.shiga-hino.lg.jp/0000008961.html",
    "summary": "",
    "date": "2026-09-09T00:00:01+09:00",
@@ -367,9 +391,7 @@
    "source_name": "日野町 新着情報",
    "source_short": "町",
    "category": "town",
-   "tags": [
-    "business"
-   ]
+   "tags": []
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008951.html",
@@ -495,9 +517,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8wVG9jT1NfdHJBVXo5bXZZU3dIQ2dkdEZkdzdhUUQybVI2bkpKUVhOOWxQeElVTC1reHZJYzRoaWU2RkIxX1hTN3JSODRIdXl5UllmRQ?oc=5",
-   "title": "確定審で有罪根拠の旧証拠取り調べず 日野町事件、再審公判へ3者協議 - 中日新聞Web",
+   "title": "確定審で有罪根拠の旧証拠取り調べず 日野町事件、再審公判へ3者協議 - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8wVG9jT1NfdHJBVXo5bXZZU3dIQ2dkdEZkdzdhUUQybVI2bkpKUVhOOWxQeElVTC1reHZJYzRoaWU2RkIxX1hTN3JSODRIdXl5UllmRQ?oc=5",
-   "summary": "確定審で有罪根拠の旧証拠取り調べず 日野町事件、再審公判へ3者協議&nbsp;&nbsp;中日新聞Web",
+   "summary": "確定審で有罪根拠の旧証拠取り調べず 日野町事件、再審公判へ3者協議&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-09-07T21:20:27+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -667,6 +689,18 @@
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnSVdDaUxvYkRUTlRXczBpLU5XOFd6Z19DUXE3Z3dsLVNTanFfR2dJV21NZzNBSF9vQWJxQUVXVTdDYkVfTlZTR016QzcyYjYwMlg2c0lFODY?oc=5",
    "summary": "日野町再審、確定審の有罪証拠は取り調べず&nbsp;&nbsp;京都新聞デジタル",
    "date": "2026-09-07T17:48:13+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lR3FQLXVQa2pycVY1OUh5ald2Wk43THhYbHI1UE1EUy0tTzNWV2x5a0NSbXRzRXNuUFBySkxvaEs5aUE4aFFWTzNZWWliMXpieHUzYmtYbzZIYmxSMHYwZ3lJZw?oc=5",
+   "title": "日野町 昭和34年伊勢湾台風 - pref.shiga.lg.jp",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lR3FQLXVQa2pycVY1OUh5ald2Wk43THhYbHI1UE1EUy0tTzNWV2x5a0NSbXRzRXNuUFBySkxvaEs5aUE4aFFWTzNZWWliMXpieHUzYmtYbzZIYmxSMHYwZ3lJZw?oc=5",
+   "summary": "日野町 昭和34年伊勢湾台風&nbsp;&nbsp;pref.shiga.lg.jp",
+   "date": "2026-09-07T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
@@ -961,9 +995,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aSS1JalJFNmJVZTlqUFRtOFNtcktYMGhNUm5RcEwwUnRRcVZ0SElmTVdlYnU0MWp3UW9BRTZIUzl2TU9EMVhxRU81TXoxQ2x0R0p1dg?oc=5",
-   "title": "世界選手権で腕試し 日野町の阪田さんと若林さんがアームレスリングU21に出場 - 中日新聞Web",
+   "title": "世界選手権で腕試し 日野町の阪田さんと若林さんがアームレスリングU21に出場 - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aSS1JalJFNmJVZTlqUFRtOFNtcktYMGhNUm5RcEwwUnRRcVZ0SElmTVdlYnU0MWp3UW9BRTZIUzl2TU9EMVhxRU81TXoxQ2x0R0p1dg?oc=5",
-   "summary": "世界選手権で腕試し 日野町の阪田さんと若林さんがアームレスリングU21に出場&nbsp;&nbsp;中日新聞Web",
+   "summary": "世界選手権で腕試し 日野町の阪田さんと若林さんがアームレスリングU21に出場&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-09-01T05:05:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1366,9 +1400,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BRDl2MElRcktUWG5nUmdkOThFUTJMR2RHTFE2VGZyZHh0c1FNSmpkZDhGY1FNOEJzWGhqZDRKYVdCYU9GbC1qOHdhdXNUdFI0V09sNA?oc=5",
-   "title": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道 - 中日新聞Web",
+   "title": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道 - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BRDl2MElRcktUWG5nUmdkOThFUTJMR2RHTFE2VGZyZHh0c1FNSmpkZDhGY1FNOEJzWGhqZDRKYVdCYU9GbC1qOHdhdXNUdFI0V09sNA?oc=5",
-   "summary": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道&nbsp;&nbsp;中日新聞Web",
+   "summary": "運転免許を受けず、女性をひき逃げした疑いで容疑者を再逮捕 滋賀県日野町の国道&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-08-21T17:59:27+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2289,9 +2323,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52akNkZXRJWkw2cWFiNzlodU9adjdQSXoyV0hXMUpUNS03NC01UFc0bnNxbDN0RmZEU2RDX2VCZmNzNVdHTERaaFk2dVdmMkRrbXhzaHg1NDQ?oc=5",
-   "title": "再審見直し改正法成立 滋賀 日野町事件遺族“運用監視必要” - news.web.nhk",
+   "title": "再審見直し改正法成立 滋賀 日野町事件遺族“運用監視必要” - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52akNkZXRJWkw2cWFiNzlodU9adjdQSXoyV0hXMUpUNS03NC01UFc0bnNxbDN0RmZEU2RDX2VCZmNzNVdHTERaaFk2dVdmMkRrbXhzaHg1NDQ?oc=5",
-   "summary": "再審見直し改正法成立 滋賀 日野町事件遺族“運用監視必要”&nbsp;&nbsp;news.web.nhk",
+   "summary": "再審見直し改正法成立 滋賀 日野町事件遺族“運用監視必要”&nbsp;&nbsp;NHKニュース",
    "date": "2026-07-17T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2413,9 +2447,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6U1pjMFJaNERjVV9GVmRVektPbFppVW5jSldpZUlrZVZhMXRMaVZRX201alpCRHd4blp3a2NXSWdfakFVV0RLMzBUc3FDWk9DMTRNcw?oc=5",
-   "title": "「有罪立証しないが無罪立証もしない、では父はかわいそう」 日野町事件の3者協議受け阪原弘さんの長男 - 中日新聞Web",
+   "title": "「有罪立証しないが無罪立証もしない、では父はかわいそう」 日野町事件の3者協議受け阪原弘さんの長男 - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6U1pjMFJaNERjVV9GVmRVektPbFppVW5jSldpZUlrZVZhMXRMaVZRX201alpCRHd4blp3a2NXSWdfakFVV0RLMzBUc3FDWk9DMTRNcw?oc=5",
-   "summary": "「有罪立証しないが無罪立証もしない、では父はかわいそう」 日野町事件の3者協議受け阪原弘さんの長男&nbsp;&nbsp;中日新聞Web",
+   "summary": "「有罪立証しないが無罪立証もしない、では父はかわいそう」 日野町事件の3者協議受け阪原弘さんの長男&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-07-14T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2513,9 +2547,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCTlozNmVUYm8wOUlGd3EtS2tHLU1sQmFfVVRLY3F4V0NtTlpQa244eDlBaUltZWNyS1dEdmlLVmgwMW5pb2ZkeDlpVXVkMnVOZi1yeA?oc=5",
-   "title": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん - 中日新聞Web",
+   "title": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCTlozNmVUYm8wOUlGd3EtS2tHLU1sQmFfVVRLY3F4V0NtTlpQa244eDlBaUltZWNyS1dEdmlLVmgwMW5pb2ZkeDlpVXVkMnVOZi1yeA?oc=5",
-   "summary": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん&nbsp;&nbsp;中日新聞Web",
+   "summary": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-07-10T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2549,9 +2583,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwRnZjSlUwWlVIVVpORG9lc181Tmd5Vkd4SExWLUh1dzZYdlE0T1VUend0ZF9XZUJYQ2JTNVAwdlVBNlpyQVVqNzJfaC1QRE5lZUZKd1NIN09XOXZvbmZuX3ZB?oc=5",
-   "title": "滋賀県日野町のゲリラ雷雨（豪雨）レーダー - weathernews.jp",
+   "title": "滋賀県日野町のゲリラ雷雨（豪雨）レーダー - ウェザーニュース",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwRnZjSlUwWlVIVVpORG9lc181Tmd5Vkd4SExWLUh1dzZYdlE0T1VUend0ZF9XZUJYQ2JTNVAwdlVBNlpyQVVqNzJfaC1QRE5lZUZKd1NIN09XOXZvbmZuX3ZB?oc=5",
-   "summary": "滋賀県日野町のゲリラ雷雨（豪雨）レーダー&nbsp;&nbsp;weathernews.jp",
+   "summary": "滋賀県日野町のゲリラ雷雨（豪雨）レーダー&nbsp;&nbsp;ウェザーニュース",
    "date": "2026-07-09T18:11:37+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2587,9 +2621,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZT1VZaEo1M2pRQVJwU2FCemFWSlB1eXprQ0lDTTRwWGRwRS1VcDBZNzQwbWlXbUtjb1JZR2FxM3duQU5YdjRNek0tcGFGWC1JSXNManVVaXlyb2Nibi0xRU5MRmpfNWJi?oc=5",
-   "title": "滋賀・日野町事件×狭山事件 12日に遺族対談 「死後再審」のバトンつなぐ 「無罪は必ず勝ち取れる」 ／埼玉 - 毎日新聞",
+   "title": "滋賀・日野町事件×狭山事件 12日に遺族対談 「死後再審」のバトンつなぐ 「無罪は必ず勝ち取れる」 ／埼玉 - mainichi.jp",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZT1VZaEo1M2pRQVJwU2FCemFWSlB1eXprQ0lDTTRwWGRwRS1VcDBZNzQwbWlXbUtjb1JZR2FxM3duQU5YdjRNek0tcGFGWC1JSXNManVVaXlyb2Nibi0xRU5MRmpfNWJi?oc=5",
-   "summary": "滋賀・日野町事件×狭山事件 12日に遺族対談 「死後再審」のバトンつなぐ 「無罪は必ず勝ち取れる」 ／埼玉&nbsp;&nbsp;毎日新聞",
+   "summary": "滋賀・日野町事件×狭山事件 12日に遺族対談 「死後再審」のバトンつなぐ 「無罪は必ず勝ち取れる」 ／埼玉&nbsp;&nbsp;mainichi.jp",
    "date": "2026-07-09T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2688,9 +2722,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LTHN4VW03LURyZTlxWUlWMHpuU29tSzF0REhkeHlJNm9jODZCdUc5U0JRd20zYk5kekNYMko3QjJ1aXAxT3AtOVFCTDZqNTIzSUY2Zg?oc=5",
-   "title": "滋賀県蒲生郡日野町の中西さん、国際フィギュア初V 「アダルト選手権」女子アーティスティック - 中日新聞Web",
+   "title": "滋賀県蒲生郡日野町の中西さん、国際フィギュア初V 「アダルト選手権」女子アーティスティック - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LTHN4VW03LURyZTlxWUlWMHpuU29tSzF0REhkeHlJNm9jODZCdUc5U0JRd20zYk5kekNYMko3QjJ1aXAxT3AtOVFCTDZqNTIzSUY2Zg?oc=5",
-   "summary": "滋賀県蒲生郡日野町の中西さん、国際フィギュア初V 「アダルト選手権」女子アーティスティック&nbsp;&nbsp;中日新聞Web",
+   "summary": "滋賀県蒲生郡日野町の中西さん、国際フィギュア初V 「アダルト選手権」女子アーティスティック&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-07-06T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2738,9 +2772,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuSExURHk2TnlqVkl6RlE1VS1rbWhmb1VDYVVuT2toNTZTbXVVa3kyWk44NzFLa1liWUlGQXFjWDFpRlZHQnNPSThGRlpxVDZJYThPUw?oc=5",
-   "title": "滋賀県日野町が妊婦支援、米贈る 東洋ライスの地域貢献活動 - 中日新聞Web",
+   "title": "滋賀県日野町が妊婦支援、米贈る 東洋ライスの地域貢献活動 - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuSExURHk2TnlqVkl6RlE1VS1rbWhmb1VDYVVuT2toNTZTbXVVa3kyWk44NzFLa1liWUlGQXFjWDFpRlZHQnNPSThGRlpxVDZJYThPUw?oc=5",
-   "summary": "滋賀県日野町が妊婦支援、米贈る 東洋ライスの地域貢献活動&nbsp;&nbsp;中日新聞Web",
+   "summary": "滋賀県日野町が妊婦支援、米贈る 東洋ライスの地域貢献活動&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-07-04T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2804,9 +2838,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE83ekc2SE5ONGM4Z0xGdzBHN1hnemZ4c3lncHN3WU1IVUZ0SHc4RDJGYnk3Zm9HMlRBdjZfODBFb0RYYy1LU2toRk9mTjdlSWZpUlgtaGJwOXo?oc=5",
-   "title": "滋賀 日野町の強盗殺人事件の再審に向け弁護団が証拠開示請求 - news.web.nhk",
+   "title": "滋賀 日野町の強盗殺人事件の再審に向け弁護団が証拠開示請求 - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE83ekc2SE5ONGM4Z0xGdzBHN1hnemZ4c3lncHN3WU1IVUZ0SHc4RDJGYnk3Zm9HMlRBdjZfODBFb0RYYy1LU2toRk9mTjdlSWZpUlgtaGJwOXo?oc=5",
-   "summary": "滋賀 日野町の強盗殺人事件の再審に向け弁護団が証拠開示請求&nbsp;&nbsp;news.web.nhk",
+   "summary": "滋賀 日野町の強盗殺人事件の再審に向け弁護団が証拠開示請求&nbsp;&nbsp;NHKニュース",
    "date": "2026-07-03T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2840,9 +2874,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUQlRFTkFpTnVVcWFVZDVmTFFVRldUbTNpUTdFczZLckpVQjRDMXhnTkdtaFJjX3A5M0prWGs1WDdtRmhGR2pENkxpQ3dzLUxnZGYycl84X1p2aUdxYUhfZlpSUGJmckxU?oc=5",
-   "title": "日野町事件 弁護側、追加で証拠開示請求 再審無罪が確実視の中 - 毎日新聞",
+   "title": "日野町事件 弁護側、追加で証拠開示請求 再審無罪が確実視の中 - mainichi.jp",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUQlRFTkFpTnVVcWFVZDVmTFFVRldUbTNpUTdFczZLckpVQjRDMXhnTkdtaFJjX3A5M0prWGs1WDdtRmhGR2pENkxpQ3dzLUxnZGYycl84X1p2aUdxYUhfZlpSUGJmckxU?oc=5",
-   "summary": "日野町事件 弁護側、追加で証拠開示請求 再審無罪が確実視の中&nbsp;&nbsp;毎日新聞",
+   "summary": "日野町事件 弁護側、追加で証拠開示請求 再審無罪が確実視の中&nbsp;&nbsp;mainichi.jp",
    "date": "2026-07-02T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3026,9 +3060,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1idEY4bG0tNkxRVW9zU3RDbXh4cF9vd3UtRzlZaFY5UTRLVWFaei0wdWM3MmlLb0ItVUgxaWt0a3JnLXBFdVczcmR4cHdjZjk4WXBPNQ?oc=5",
-   "title": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める - 中日新聞Web",
+   "title": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1idEY4bG0tNkxRVW9zU3RDbXh4cF9vd3UtRzlZaFY5UTRLVWFaei0wdWM3MmlLb0ItVUgxaWt0a3JnLXBFdVczcmR4cHdjZjk4WXBPNQ?oc=5",
-   "summary": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める&nbsp;&nbsp;中日新聞Web",
+   "summary": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-06-23T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3083,9 +3117,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0Z0VrMFdyVVEtUTd2b0ZzQ3RLNEVRdGZpWmVzeEZKVnI2aFNPSTVFZF81MktqWnpDVEI4Vjl6aDJDUGs1NnFyT0pvR3VXWU1ZeF84VFVRNl9rMUE?oc=5",
-   "title": "滋賀・日野町事件、再審無罪へ 検察側、有罪立証を断念 大津地裁協議 - sanin-chuo.co.jp",
+   "title": "滋賀・日野町事件、再審無罪へ 検察側、有罪立証を断念 大津地裁協議 - 山陰中央新報デジタル",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0Z0VrMFdyVVEtUTd2b0ZzQ3RLNEVRdGZpWmVzeEZKVnI2aFNPSTVFZF81MktqWnpDVEI4Vjl6aDJDUGs1NnFyT0pvR3VXWU1ZeF84VFVRNl9rMUE?oc=5",
-   "summary": "滋賀・日野町事件、再審無罪へ 検察側、有罪立証を断念 大津地裁協議&nbsp;&nbsp;sanin-chuo.co.jp",
+   "summary": "滋賀・日野町事件、再審無罪へ 検察側、有罪立証を断念 大津地裁協議&nbsp;&nbsp;山陰中央新報デジタル",
    "date": "2026-06-20T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3119,9 +3153,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZRDg1OUlBWlVuak1BTHhyeGVPRDBoSnVwdDNiN3VZdjVhSklQMXp1YmZmNVYwTWhyZnFVckxLNjlwRTBqSzJGMkZ5VENmYlVDYUNoWW1RM0VteExRZzl2aW9kWTFYejYw?oc=5",
-   "title": "日野町事件 検察側、有罪立証断念「死後再審」で無罪判決確実に - 毎日新聞",
+   "title": "日野町事件 検察側、有罪立証断念「死後再審」で無罪判決確実に - mainichi.jp",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZRDg1OUlBWlVuak1BTHhyeGVPRDBoSnVwdDNiN3VZdjVhSklQMXp1YmZmNVYwTWhyZnFVckxLNjlwRTBqSzJGMkZ5VENmYlVDYUNoWW1RM0VteExRZzl2aW9kWTFYejYw?oc=5",
-   "summary": "日野町事件 検察側、有罪立証断念「死後再審」で無罪判決確実に&nbsp;&nbsp;毎日新聞",
+   "summary": "日野町事件 検察側、有罪立証断念「死後再審」で無罪判決確実に&nbsp;&nbsp;mainichi.jp",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3155,9 +3189,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlVEZQZVpMWGFKYnhPQ3hVOXZ6bDA2RndyajFjdzZFcnBHU01semtQbWZGeFA3SnhjbTUyR2N2ZDN4LWY3U01rZDU0Q1c1eFUyb3ZEcjBnX2RzRS16cUtZ?oc=5",
-   "title": "滋賀 日野町の強盗殺人事件の再審で検察が有罪主張しない方針 - news.web.nhk",
+   "title": "滋賀 日野町の強盗殺人事件の再審で検察が有罪主張しない方針 - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlVEZQZVpMWGFKYnhPQ3hVOXZ6bDA2RndyajFjdzZFcnBHU01semtQbWZGeFA3SnhjbTUyR2N2ZDN4LWY3U01rZDU0Q1c1eFUyb3ZEcjBnX2RzRS16cUtZ?oc=5",
-   "summary": "滋賀 日野町の強盗殺人事件の再審で検察が有罪主張しない方針&nbsp;&nbsp;news.web.nhk",
+   "summary": "滋賀 日野町の強盗殺人事件の再審で検察が有罪主張しない方針&nbsp;&nbsp;NHKニュース",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3203,9 +3237,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JcGpmV0poNEhrUFpxNVJDVEFoeUVZYWxXQ2FoX0p3NzUxS0RYcjU1eVIyX0h5OHlEUGdUVlNuN2g2SVhYc2NTSS1BWmxkMUdtUW52czRoZG1Mb3hMSS1LSnBJd1ZqcEN3czFXdEpkOXdxN0xwX2c?oc=5",
-   "title": "有罪主張はしないが…「犯人でない証拠はない」大津地検、無罪主張もせず 日野町事件再審 - sankei.com",
+   "title": "有罪主張はしないが…「犯人でない証拠はない」大津地検、無罪主張もせず 日野町事件再審 - 産経ニュース",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JcGpmV0poNEhrUFpxNVJDVEFoeUVZYWxXQ2FoX0p3NzUxS0RYcjU1eVIyX0h5OHlEUGdUVlNuN2g2SVhYc2NTSS1BWmxkMUdtUW52czRoZG1Mb3hMSS1LSnBJd1ZqcEN3czFXdEpkOXdxN0xwX2c?oc=5",
-   "summary": "有罪主張はしないが…「犯人でない証拠はない」大津地検、無罪主張もせず 日野町事件再審&nbsp;&nbsp;sankei.com",
+   "summary": "有罪主張はしないが…「犯人でない証拠はない」大津地検、無罪主張もせず 日野町事件再審&nbsp;&nbsp;産経ニュース",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3227,9 +3261,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FOURsLU5uSzJCV3hIZGlxNXhmeTlwTEJfUVdtT3c3THFxZWhkU1VtT1oyTHJJeGFTQ3R3U3dweF9BSTdmWGNEQXBqY1VuZ2c5NXVWZA?oc=5",
-   "title": "【動画】滋賀県日野町事件の再審公判、検察側が有罪の主張をしない方針 無罪が確実に - 中日新聞Web",
+   "title": "【動画】滋賀県日野町事件の再審公判、検察側が有罪の主張をしない方針 無罪が確実に - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FOURsLU5uSzJCV3hIZGlxNXhmeTlwTEJfUVdtT3c3THFxZWhkU1VtT1oyTHJJeGFTQ3R3U3dweF9BSTdmWGNEQXBqY1VuZ2c5NXVWZA?oc=5",
-   "summary": "【動画】滋賀県日野町事件の再審公判、検察側が有罪の主張をしない方針 無罪が確実に&nbsp;&nbsp;中日新聞Web",
+   "summary": "【動画】滋賀県日野町事件の再審公判、検察側が有罪の主張をしない方針 無罪が確実に&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3275,9 +3309,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lUEY0Zzk5Q0hrZEtwajRUMl9YYVp5Q2MtM29QZTdyUGxMaUlYaFI5XzJQemlMSHBYZWE3T0lGd1BudkZGYWx5ZUFMTm5QR0NvR3I3QThJVjlBMlAwTEd0bGtn?oc=5",
-   "title": "阪原弘さんの遺族「ホッとした」 滋賀・日野町事件 検察が再審で有罪主張しない方針 無罪確定へ - 朝日放送",
+   "title": "阪原弘さんの遺族「ホッとした」 滋賀・日野町事件 検察が再審で有罪主張しない方針 無罪確定へ - asahi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lUEY0Zzk5Q0hrZEtwajRUMl9YYVp5Q2MtM29QZTdyUGxMaUlYaFI5XzJQemlMSHBYZWE3T0lGd1BudkZGYWx5ZUFMTm5QR0NvR3I3QThJVjlBMlAwTEd0bGtn?oc=5",
-   "summary": "阪原弘さんの遺族「ホッとした」 滋賀・日野町事件 検察が再審で有罪主張しない方針 無罪確定へ&nbsp;&nbsp;朝日放送",
+   "summary": "阪原弘さんの遺族「ホッとした」 滋賀・日野町事件 検察が再審で有罪主張しない方針 無罪確定へ&nbsp;&nbsp;asahi.co.jp",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3575,9 +3609,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lS2ZHMVAxVjRTQ1oxZkFYWFBZRjJTYi1YekN6dHBZdVl1U3BUZlRSV3RkVnNTaWxydjhrUzdKZHg4UDRzcS0zaU9pR3RxM3lNUXBkQw?oc=5",
-   "title": "色とりどり華やか大輪 春のバラ 滋賀県日野町のブルーメの丘で見頃 - 中日新聞Web",
+   "title": "色とりどり華やか大輪 春のバラ 滋賀県日野町のブルーメの丘で見頃 - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lS2ZHMVAxVjRTQ1oxZkFYWFBZRjJTYi1YekN6dHBZdVl1U3BUZlRSV3RkVnNTaWxydjhrUzdKZHg4UDRzcS0zaU9pR3RxM3lNUXBkQw?oc=5",
-   "summary": "色とりどり華やか大輪 春のバラ 滋賀県日野町のブルーメの丘で見頃&nbsp;&nbsp;中日新聞Web",
+   "summary": "色とりどり華やか大輪 春のバラ 滋賀県日野町のブルーメの丘で見頃&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-05-27T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3677,6 +3711,18 @@
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1acHpfZ2lqOWlwN0ppMy1CeGRmSGcwbDlzNEhaV1hRR0V1RzJQSy1WNFdkV1hkdHJUamJxMHc4THdrV01vSVY4MDcxYw?oc=5",
    "summary": "【速報】6月に検察立証方針表明へ 日野町事件 再審公判協議&nbsp;&nbsp;47NEWS",
    "date": "2026-05-19T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14REFYaG5sSDJZNWltRW9VeTVuMUZGM2Z5ekhUZHVMQWREYVQxWkk2RTdpbHE1aXpFY2EtYkRBem01a09nbXlEcFZSNkZLcVQ1b0h5dVRfdzJiU0NqV2dKYW53?oc=5",
+   "title": "日野町事件の再審に向けた協議で、検察は主張を明らかにせず 遺族「早期に救済するつもりがないんでしょうかね」 - asahi.co.jp",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14REFYaG5sSDJZNWltRW9VeTVuMUZGM2Z5ekhUZHVMQWREYVQxWkk2RTdpbHE1aXpFY2EtYkRBem01a09nbXlEcFZSNkZLcVQ1b0h5dVRfdzJiU0NqV2dKYW53?oc=5",
+   "summary": "日野町事件の再審に向けた協議で、検察は主張を明らかにせず 遺族「早期に救済するつもりがないんでしょうかね」&nbsp;&nbsp;asahi.co.jp",
+   "date": "2026-05-19T13:15:55+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
@@ -3866,9 +3912,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OYlhjUFFXaGNhbDYtWUdOa2Itc09VMkR4dEx5bmM3ZnAyUm1SY0V0WExseUZpUkV3Z0JIdTkxTzVBSHhQaUFxLWZ2VnM4cXhUaFJiZA?oc=5",
-   "title": "【動画】湖に浮かぶ紅一点 滋賀県日野町の日野川ダム、浮島の八重桜が見ごろ - 中日新聞Web",
+   "title": "【動画】湖に浮かぶ紅一点 滋賀県日野町の日野川ダム、浮島の八重桜が見ごろ - chunichi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OYlhjUFFXaGNhbDYtWUdOa2Itc09VMkR4dEx5bmM3ZnAyUm1SY0V0WExseUZpUkV3Z0JIdTkxTzVBSHhQaUFxLWZ2VnM4cXhUaFJiZA?oc=5",
-   "summary": "【動画】湖に浮かぶ紅一点 滋賀県日野町の日野川ダム、浮島の八重桜が見ごろ&nbsp;&nbsp;中日新聞Web",
+   "summary": "【動画】湖に浮かぶ紅一点 滋賀県日野町の日野川ダム、浮島の八重桜が見ごろ&nbsp;&nbsp;chunichi.co.jp",
    "date": "2026-04-22T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3964,9 +4010,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFNW5Md3F5RzJrMUtYMXFHckFnU3JwcmFOQjYyWjl4ckxta2g4b2xGZmtWQjh1bmdPNVNXeE9zQmxQYkItdDBRX0ZfMVVlS3V3WnhGcHpUUmFPQWNmQXlCT2dJMVUxNkxL?oc=5",
-   "title": "日野町事件遺族ら、大津地検に申し入れ 「有罪立証の断念を」 - 毎日新聞",
+   "title": "日野町事件遺族ら、大津地検に申し入れ 「有罪立証の断念を」 - mainichi.jp",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFNW5Md3F5RzJrMUtYMXFHckFnU3JwcmFOQjYyWjl4ckxta2g4b2xGZmtWQjh1bmdPNVNXeE9zQmxQYkItdDBRX0ZfMVVlS3V3WnhGcHpUUmFPQWNmQXlCT2dJMVUxNkxL?oc=5",
-   "summary": "日野町事件遺族ら、大津地検に申し入れ 「有罪立証の断念を」&nbsp;&nbsp;毎日新聞",
+   "summary": "日野町事件遺族ら、大津地検に申し入れ 「有罪立証の断念を」&nbsp;&nbsp;mainichi.jp",
    "date": "2026-04-17T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
