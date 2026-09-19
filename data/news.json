@@ -1,16 +1,24 @@
 {
- "updated_at": "2026-09-19T08:10:49.634207+09:00",
+ "updated_at": "2026-09-19T21:59:40.744656+09:00",
  "errors": [
-  {
-   "source": "ひの暮らし",
-   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
-  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tSGJ3MU5VV080bXJDbC1rZE5JUmstTXdMczB0QjZka0Vyd2sxTEZRX3o2TDBKUzlta0xiRG5NT3FlbHlqSG9YQW9sRQ?oc=5",
+   "title": "「商いのまち」交流始まる 滋賀県日野町にジョージア・カスピ市から使節団 - 47NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tSGJ3MU5VV080bXJDbC1rZE5JUmstTXdMczB0QjZka0Vyd2sxTEZRX3o2TDBKUzlta0xiRG5NT3FlbHlqSG9YQW9sRQ?oc=5",
+   "summary": "「商いのまち」交流始まる 滋賀県日野町にジョージア・カスピ市から使節団&nbsp;&nbsp;47NEWS",
+   "date": "2026-09-19T11:15:19+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008977.html",
    "title": "滋賀県特別高圧電力・工業用LPガス料金負担軽減支援事業について",
@@ -48,6 +56,18 @@
    "tags": [
     "event"
    ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XanlMQ1JOTGNfWWJWN1g0Zks4UWtDMmxvdWhqSEQwOTVSb0Ffc3htMllZZ0xhUUdkQ3kxNWh0VGdfYlpRMVNUSDllVGR0LTdMdUFHcA?oc=5",
+   "title": "「商いのまち」交流始まる 滋賀県日野町にジョージア・カスピ市から使節団 - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XanlMQ1JOTGNfWWJWN1g0Zks4UWtDMmxvdWhqSEQwOTVSb0Ffc3htMllZZ0xhUUdkQ3kxNWh0VGdfYlpRMVNUSDllVGR0LTdMdUFHcA?oc=5",
+   "summary": "「商いのまち」交流始まる 滋賀県日野町にジョージア・カスピ市から使節団&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-09-18T05:05:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
   },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8436",
@@ -370,6 +390,18 @@
    "tags": []
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QNTZSeHJkaTdtZUtFMHZIR3U3WmNPUmhlUU5ZZWZFVEFxT2dxUG9YOU85ZlRNcUJ2cGowZDJCUW5CalNUdjBCNlBBT184ZVZ3b3Bz?oc=5",
+   "title": "滋賀・日野町/特大エビフライに驚き！古民家で楽しむ「えびふらい抹茶専門店 はま田」 - lomore.net",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QNTZSeHJkaTdtZUtFMHZIR3U3WmNPUmhlUU5ZZWZFVEFxT2dxUG9YOU85ZlRNcUJ2cGowZDJCUW5CalNUdjBCNlBBT184ZVZ3b3Bz?oc=5",
+   "summary": "滋賀・日野町/特大エビフライに驚き！古民家で楽しむ「えびふらい抹茶専門店 はま田」&nbsp;&nbsp;lomore.net",
+   "date": "2026-09-10T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://www.town.shiga-hino.lg.jp/0000008931.html",
    "title": "【声の広報】広報ひの9月号",
    "url": "https://www.town.shiga-hino.lg.jp/0000008931.html",
@@ -631,9 +663,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rc1dueTl2ZFBlMHA1ZzFnYnppV1I3dUN4Sy12Z0h4Qkc4OHZxLUFwTWYtLXR5RXFTWXFReEh6dFR1aXR0VGhVQ196ZFFpOW4yV01IRERwaXdJVHJGRlp4aGw5MGdaaXpUWTZUQWpac2RfVEctNXc0bDJuMk_SAYIBQVVfeXFMT25kM0dpQXJ5eDdETDBvbnFNRTk4YkxvUHZhNkphc1lpY0RxOGNhQ0xvT3lqOVYtUXVEcDFCUjhKWE9vdGRzeW5lRFV6NjU2Ti1UeFhjQ1BXNXVteXpuakU4SVhWWE10MHBQbjFaOUdTcVVrdEZXRDV6Umo2ZHg0T0l6QQ?oc=5",
-   "title": "検察“有罪の根拠となった証拠すべて請求せず” 再審決定の「日野町事件」 無罪の見通し一層高まる 審理日程も短縮か 滋賀 - topics.smt.docomo.ne.jp",
+   "title": "検察“有罪の根拠となった証拠すべて請求せず” 再審決定の「日野町事件」 無罪の見通し一層高まる 審理日程も短縮か 滋賀 - ｄメニューニュース",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rc1dueTl2ZFBlMHA1ZzFnYnppV1I3dUN4Sy12Z0h4Qkc4OHZxLUFwTWYtLXR5RXFTWXFReEh6dFR1aXR0VGhVQ196ZFFpOW4yV01IRERwaXdJVHJGRlp4aGw5MGdaaXpUWTZUQWpac2RfVEctNXc0bDJuMk_SAYIBQVVfeXFMT25kM0dpQXJ5eDdETDBvbnFNRTk4YkxvUHZhNkphc1lpY0RxOGNhQ0xvT3lqOVYtUXVEcDFCUjhKWE9vdGRzeW5lRFV6NjU2Ti1UeFhjQ1BXNXVteXpuakU4SVhWWE10MHBQbjFaOUdTcVVrdEZXRDV6Umo2ZHg0T0l6QQ?oc=5",
-   "summary": "検察“有罪の根拠となった証拠すべて請求せず” 再審決定の「日野町事件」 無罪の見通し一層高まる 審理日程も短縮か 滋賀&nbsp;&nbsp;topics.smt.docomo.ne.jp",
+   "summary": "検察“有罪の根拠となった証拠すべて請求せず” 再審決定の「日野町事件」 無罪の見通し一層高まる 審理日程も短縮か 滋賀&nbsp;&nbsp;ｄメニューニュース",
    "date": "2026-09-07T20:43:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4124,9 +4156,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIWEVDb1NOZE5OVTNhUk16V2xSRmNLOWlOMWNDNGpNMndud1B6OHhBalNHc2FFQWkwNkNWSzU1VF9hUVlZSlhDbzcwbmFPV2xDWGZLclEwekZVa0NsUklCUE9NSDZTRWdsMGc?oc=5",
-   "title": "【滋賀県初進出】東近江市・日野町で「出張食堂」開始。株式会社きっちんカンパニーが、丹波篠山産・減農薬米で企業の健康経営を支援 - PR TIMES",
+   "title": "【滋賀県初進出】東近江市・日野町で「出張食堂」開始。株式会社きっちんカンパニーが、丹波篠山産・減農薬米で企業の健康経営を支援 - prtimes.jp",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIWEVDb1NOZE5OVTNhUk16V2xSRmNLOWlOMWNDNGpNMndud1B6OHhBalNHc2FFQWkwNkNWSzU1VF9hUVlZSlhDbzcwbmFPV2xDWGZLclEwekZVa0NsUklCUE9NSDZTRWdsMGc?oc=5",
-   "summary": "【滋賀県初進出】東近江市・日野町で「出張食堂」開始。株式会社きっちんカンパニーが、丹波篠山産・減農薬米で企業の健康経営を支援&nbsp;&nbsp;PR TIMES",
+   "summary": "【滋賀県初進出】東近江市・日野町で「出張食堂」開始。株式会社きっちんカンパニーが、丹波篠山産・減農薬米で企業の健康経営を支援&nbsp;&nbsp;prtimes.jp",
    "date": "2026-04-13T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
