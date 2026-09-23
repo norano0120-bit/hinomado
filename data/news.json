@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-23T08:32:34.240716+09:00",
+ "updated_at": "2026-09-23T23:09:42.055981+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,18 @@
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIY3lad2ZwTlozSVlhQlFLOHhQU3hBdmc0VzEycElsY285ZTV0WTJGbVMtUVNKUXJOd3NRYTI4VmUxejNSQWRnU2tTNUVUVWx4WFZ3RVZkdUxpMlp4U1hZaGEwYTc?oc=5",
+   "title": "アプリで生物多様性を見える化 「近江日野いきものクエスト」開催中 滋賀県日野町 | 産業別動向記事 | プレミアム - nikkinonline.com",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIY3lad2ZwTlozSVlhQlFLOHhQU3hBdmc0VzEycElsY285ZTV0WTJGbVMtUVNKUXJOd3NRYTI4VmUxejNSQWRnU2tTNUVUVWx4WFZ3RVZkdUxpMlp4U1hZaGEwYTc?oc=5",
+   "summary": "アプリで生物多様性を見える化 「近江日野いきものクエスト」開催中 滋賀県日野町 | 産業別動向記事 | プレミアム&nbsp;&nbsp;nikkinonline.com",
+   "date": "2026-09-22T16:59:22+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tSGJ3MU5VV080bXJDbC1rZE5JUmstTXdMczB0QjZka0Vyd2sxTEZRX3o2TDBKUzlta0xiRG5NT3FlbHlqSG9YQW9sRQ?oc=5",
    "title": "「商いのまち」交流始まる 滋賀県日野町にジョージア・カスピ市から使節団 - 47NEWS",
@@ -1238,9 +1250,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zWE9fa1I1ZFlMRl94T0NxaWJab2VIYTc1QjBISDc2bWhFOG1RQ0hpdV9TcHNjMVN5VUR2VFN6dUU1TWJxY3l6UDRrX2JlRXE0eXYtTk5mM1R1eUE3d0NYbFJCNTdsWWlxQ0FZbjZzNDgyVDRMMTF6OVBuZnhiZ2M?oc=5",
-   "title": "「警察にだまされた」検察関係者が異例の証言 無罪見通し「日野町事件」 無念のうちに父亡くした長男は怒り「だまされたレベルの話ではない」 - Yahoo!ニュース",
+   "title": "「警察にだまされた」検察関係者が異例の証言 無罪見通し「日野町事件」 無念のうちに父亡くした長男は怒り「だまされたレベルの話ではない」 - news.yahoo.co.jp",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zWE9fa1I1ZFlMRl94T0NxaWJab2VIYTc1QjBISDc2bWhFOG1RQ0hpdV9TcHNjMVN5VUR2VFN6dUU1TWJxY3l6UDRrX2JlRXE0eXYtTk5mM1R1eUE3d0NYbFJCNTdsWWlxQ0FZbjZzNDgyVDRMMTF6OVBuZnhiZ2M?oc=5",
-   "summary": "「警察にだまされた」検察関係者が異例の証言 無罪見通し「日野町事件」 無念のうちに父亡くした長男は怒り「だまされたレベルの話ではない」&nbsp;&nbsp;Yahoo!ニュース",
+   "summary": "「警察にだまされた」検察関係者が異例の証言 無罪見通し「日野町事件」 無念のうちに父亡くした長男は怒り「だまされたレベルの話ではない」&nbsp;&nbsp;news.yahoo.co.jp",
    "date": "2026-08-29T11:00:34+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2560,9 +2572,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45YXVJb1pDeHpKRVZyUlFjazlZVzBIc2dVcXhHZDBqeFQzaFBUblZYMVBNN1hncDBBVzFMaThBeDZmSkpIbTlOTWxySHFHZlhTeTFyOVNJZ3pKUlJ2cGY3WExMT19mOU1VR2JWNGg5LXpTa2d1aXBYVmx2Z1N1YTg?oc=5",
-   "title": "日野町事件再審で誤報 共同通信、記事取り消し - Yahoo!ニュース",
+   "title": "日野町事件再審で誤報 共同通信、記事取り消し - news.yahoo.co.jp",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45YXVJb1pDeHpKRVZyUlFjazlZVzBIc2dVcXhHZDBqeFQzaFBUblZYMVBNN1hncDBBVzFMaThBeDZmSkpIbTlOTWxySHFHZlhTeTFyOVNJZ3pKUlJ2cGY3WExMT19mOU1VR2JWNGg5LXpTa2d1aXBYVmx2Z1N1YTg?oc=5",
-   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;Yahoo!ニュース",
+   "summary": "日野町事件再審で誤報 共同通信、記事取り消し&nbsp;&nbsp;news.yahoo.co.jp",
    "date": "2026-07-14T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3410,9 +3422,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tbnBybVZXMkVzM0VZVFVWdVpZN2E2S1F6QUlUV2tKTWxrSzR3VnBJLWFpWUNVbGwwTUk2QmpJRGF3T0hLTlV5ZUhvd3ZvSlBYa2JoWDNPVnFnWHBLcnhGekdZVlliS216elQ4Q25hcjZCdw?oc=5",
-   "title": "滋賀 日野町強盗殺人事件 やり直し裁判 検察は有罪主張せず 無罪確定へ - テレ朝NEWS",
+   "title": "滋賀 日野町強盗殺人事件 やり直し裁判 検察は有罪主張せず 無罪確定へ - news.tv-asahi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tbnBybVZXMkVzM0VZVFVWdVpZN2E2S1F6QUlUV2tKTWxrSzR3VnBJLWFpWUNVbGwwTUk2QmpJRGF3T0hLTlV5ZUhvd3ZvSlBYa2JoWDNPVnFnWHBLcnhGekdZVlliS216elQ4Q25hcjZCdw?oc=5",
-   "summary": "滋賀 日野町強盗殺人事件 やり直し裁判 検察は有罪主張せず 無罪確定へ&nbsp;&nbsp;テレ朝NEWS",
+   "summary": "滋賀 日野町強盗殺人事件 やり直し裁判 検察は有罪主張せず 無罪確定へ&nbsp;&nbsp;news.tv-asahi.co.jp",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3446,9 +3458,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJOGxXbmtJd3hJbGxuNE5BMXg5T0tBazNseHhFN05QY3Vlc0xBdHN3R2dTbm5KRDJ1bFRsUWFKSlU3ekhPdUJlTy1jZ1pwUDJQMi1CRTBIc0lQTVlZbXNwTlYxbzg2bkk?oc=5",
-   "title": "再審での検察側の主張、過去の例は 「無罪求める」も「死刑求刑」も [滋賀県] [日野町事件] - asahi.com",
+   "title": "再審での検察側の主張、過去の例は 「無罪求める」も「死刑求刑」も [滋賀県] [日野町事件] - 朝日新聞",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJOGxXbmtJd3hJbGxuNE5BMXg5T0tBazNseHhFN05QY3Vlc0xBdHN3R2dTbm5KRDJ1bFRsUWFKSlU3ekhPdUJlTy1jZ1pwUDJQMi1CRTBIc0lQTVlZbXNwTlYxbzg2bkk?oc=5",
-   "summary": "再審での検察側の主張、過去の例は 「無罪求める」も「死刑求刑」も [滋賀県] [日野町事件]&nbsp;&nbsp;asahi.com",
+   "summary": "再審での検察側の主張、過去の例は 「無罪求める」も「死刑求刑」も [滋賀県] [日野町事件]&nbsp;&nbsp;朝日新聞",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3808,9 +3820,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NnZXb2ZLaUdfZDgxODdWblhXSlJsR0I0R0NCOEhPaWRTZkI2NUZ2NXB4SGVJTHp5N0xhbGhOMFBVQmtWX0hiV0V4UWZSemhtLVdaVjRJX2hYVXFjMTlxa1JSVFhzcXBWNm1hNU5TZGNDWmFrdVJobWRRb3cybk0?oc=5",
-   "title": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信） - Yahoo!ニュース",
+   "title": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信） - news.yahoo.co.jp",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NnZXb2ZLaUdfZDgxODdWblhXSlJsR0I0R0NCOEhPaWRTZkI2NUZ2NXB4SGVJTHp5N0xhbGhOMFBVQmtWX0hiV0V4UWZSemhtLVdaVjRJX2hYVXFjMTlxa1JSVFhzcXBWNm1hNU5TZGNDWmFrdVJobWRRb3cybk0?oc=5",
-   "summary": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信）&nbsp;&nbsp;Yahoo!ニュース",
+   "summary": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信）&nbsp;&nbsp;news.yahoo.co.jp",
    "date": "2026-05-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4269,9 +4281,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tajVJVXdkeDlhWEpMMU9QRk5ocWpQZVZiSXRGLURkOTRERTluTG1pSWpiaTZQdHFvNGVQUV9qeWp6cVpkS0VBNnpQVG1ETUhjMnFBTU1n?oc=5",
-   "title": "滋賀・日野町で自然との対話展 - sokagakkai.jp",
+   "title": "滋賀・日野町で自然との対話展 - 創価学会公式サイト",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tajVJVXdkeDlhWEpMMU9QRk5ocWpQZVZiSXRGLURkOTRERTluTG1pSWpiaTZQdHFvNGVQUV9qeWp6cVpkS0VBNnpQVG1ETUhjMnFBTU1n?oc=5",
-   "summary": "滋賀・日野町で自然との対話展&nbsp;&nbsp;sokagakkai.jp",
+   "summary": "滋賀・日野町で自然との対話展&nbsp;&nbsp;創価学会公式サイト",
    "date": "2026-03-28T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4383,9 +4395,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qeVJldzdJTVF4Nm1xMEZ2ZEJFSk9uU1BRclBrZVpiMTF2V0IxaTlRNlFSY2tPZUYwU2xSUVp1bklDUmsxQ0dJaGppdDA4dklHTWRHWEp2bjlYZXMyRTc0eXMwZGNhZDVyanZucU8ybUtUa281WktiOFdWdHota3c?oc=5",
-   "title": "遺族「再審無罪まで見守って」 滋賀・日野町事件、命日に墓参（共同通信） - Yahoo!ニュース",
+   "title": "遺族「再審無罪まで見守って」 滋賀・日野町事件、命日に墓参（共同通信） - news.yahoo.co.jp",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qeVJldzdJTVF4Nm1xMEZ2ZEJFSk9uU1BRclBrZVpiMTF2V0IxaTlRNlFSY2tPZUYwU2xSUVp1bklDUmsxQ0dJaGppdDA4dklHTWRHWEp2bjlYZXMyRTc0eXMwZGNhZDVyanZucU8ybUtUa281WktiOFdWdHota3c?oc=5",
-   "summary": "遺族「再審無罪まで見守って」 滋賀・日野町事件、命日に墓参（共同通信）&nbsp;&nbsp;Yahoo!ニュース",
+   "summary": "遺族「再審無罪まで見守って」 滋賀・日野町事件、命日に墓参（共同通信）&nbsp;&nbsp;news.yahoo.co.jp",
    "date": "2026-03-18T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
