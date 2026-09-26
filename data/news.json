@@ -1,12 +1,28 @@
 {
- "updated_at": "2026-09-26T22:41:32.065584+09:00",
+ "updated_at": "2026-09-27T08:28:43.396480+09:00",
  "errors": [
+  {
+   "source": "ひの暮らし",
+   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
+  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oVFNaRkhnUDd6ZmRQT1MzS29rY3JjNXI5OWN5OEJGbHNMZ1h1Um4wcTgzaXlxYUpYR25PRUItMHl2clJCbjNEcHNFaGpyOFZvZ25DUklnNkw?oc=5",
+   "title": "日野町出身の中西琉威選手が活躍 - 滋賀報知新聞",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oVFNaRkhnUDd6ZmRQT1MzS29rY3JjNXI5OWN5OEJGbHNMZ1h1Um4wcTgzaXlxYUpYR25PRUItMHl2clJCbjNEcHNFaGpyOFZvZ25DUklnNkw?oc=5",
+   "summary": "日野町出身の中西琉威選手が活躍&nbsp;&nbsp;滋賀報知新聞",
+   "date": "2026-09-27T07:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008976.html",
    "title": "子育て講座「心が“フッ”と軽くなる家族時間 笑顔がふえる子育てのヒント」開催のお知らせ",
@@ -2826,9 +2842,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCTlozNmVUYm8wOUlGd3EtS2tHLU1sQmFfVVRLY3F4V0NtTlpQa244eDlBaUltZWNyS1dEdmlLVmgwMW5pb2ZkeDlpVXVkMnVOZi1yeA?oc=5",
-   "title": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん - chunichi.co.jp",
+   "title": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん - 中日新聞Web",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCTlozNmVUYm8wOUlGd3EtS2tHLU1sQmFfVVRLY3F4V0NtTlpQa244eDlBaUltZWNyS1dEdmlLVmgwMW5pb2ZkeDlpVXVkMnVOZi1yeA?oc=5",
-   "summary": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん&nbsp;&nbsp;chunichi.co.jp",
+   "summary": "日野のお米で醸造「神調社」発売へ 滋賀・日野町にルーツ持つ下呂の天領酒造9代目・上野田さん&nbsp;&nbsp;中日新聞Web",
    "date": "2026-07-10T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -5125,9 +5141,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkWFlLZXNkMFYxOGJQNk9NbHZPdkNUb0Yyc3RWdTFxRjlfdkpKLU8xRFFXamk0cGIta2VYcTdZUlpwNXlfVzU0TmplWVVMZw?oc=5",
-   "title": "滋賀県日野町にコンテナホテル 「HOTEL R9 The Yard 蒲生日野」が2026年1月10日(土)開業！ - アットプレス",
+   "title": "滋賀県日野町にコンテナホテル 「HOTEL R9 The Yard 蒲生日野」が2026年1月10日(土)開業！ - atpress.ne.jp",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkWFlLZXNkMFYxOGJQNk9NbHZPdkNUb0Yyc3RWdTFxRjlfdkpKLU8xRFFXamk0cGIta2VYcTdZUlpwNXlfVzU0TmplWVVMZw?oc=5",
-   "summary": "滋賀県日野町にコンテナホテル 「HOTEL R9 The Yard 蒲生日野」が2026年1月10日(土)開業！&nbsp;&nbsp;アットプレス",
+   "summary": "滋賀県日野町にコンテナホテル 「HOTEL R9 The Yard 蒲生日野」が2026年1月10日(土)開業！&nbsp;&nbsp;atpress.ne.jp",
    "date": "2025-12-12T17:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
