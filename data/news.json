@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-26T08:54:07.612955+09:00",
+ "updated_at": "2026-09-26T22:41:32.065584+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,21 @@
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008976.html",
+   "title": "子育て講座「心が“フッ”と軽くなる家族時間 笑顔がふえる子育てのヒント」開催のお知らせ",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008976.html",
+   "summary": "",
+   "date": "2026-09-26T09:00:00+09:00",
+   "source_id": "town-topics",
+   "source_name": "日野町 募集情報",
+   "source_short": "募集",
+   "category": "town",
+   "tags": [
+    "event",
+    "kosodate"
+   ]
+  },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8446",
    "title": "水道水の濁水復旧について（蔵王地先）",
@@ -1752,9 +1767,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZbFhQckp1Qm55QkpPOFVkZnpLanRQX09neEp2b3VGTUl3NjJmNDdYNWVsdnNIOTc5NkpCbko5d3N0QU9lZWVHRGtSOXQxMGNUZFdLeUJad0Iyb3FxRmc?oc=5",
-   "title": "滋賀県日野町の天気予報（きょう・あす・週間） - news.ntv.co.jp",
+   "title": "滋賀県日野町の天気予報（きょう・あす・週間） - 日テレNEWS NNN",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZbFhQckp1Qm55QkpPOFVkZnpLanRQX09neEp2b3VGTUl3NjJmNDdYNWVsdnNIOTc5NkpCbko5d3N0QU9lZWVHRGtSOXQxMGNUZFdLeUJad0Iyb3FxRmc?oc=5",
-   "summary": "滋賀県日野町の天気予報（きょう・あす・週間）&nbsp;&nbsp;news.ntv.co.jp",
+   "summary": "滋賀県日野町の天気予報（きょう・あす・週間）&nbsp;&nbsp;日テレNEWS NNN",
    "date": "2026-08-19T07:42:06+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -2587,9 +2602,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52akNkZXRJWkw2cWFiNzlodU9adjdQSXoyV0hXMUpUNS03NC01UFc0bnNxbDN0RmZEU2RDX2VCZmNzNVdHTERaaFk2dVdmMkRrbXhzaHg1NDQ?oc=5",
-   "title": "再審見直し改正法成立 滋賀 日野町事件遺族“運用監視必要” - news.web.nhk",
+   "title": "再審見直し改正法成立 滋賀 日野町事件遺族“運用監視必要” - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52akNkZXRJWkw2cWFiNzlodU9adjdQSXoyV0hXMUpUNS03NC01UFc0bnNxbDN0RmZEU2RDX2VCZmNzNVdHTERaaFk2dVdmMkRrbXhzaHg1NDQ?oc=5",
-   "summary": "再審見直し改正法成立 滋賀 日野町事件遺族“運用監視必要”&nbsp;&nbsp;news.web.nhk",
+   "summary": "再審見直し改正法成立 滋賀 日野町事件遺族“運用監視必要”&nbsp;&nbsp;NHKニュース",
    "date": "2026-07-17T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3102,9 +3117,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE83ekc2SE5ONGM4Z0xGdzBHN1hnemZ4c3lncHN3WU1IVUZ0SHc4RDJGYnk3Zm9HMlRBdjZfODBFb0RYYy1LU2toRk9mTjdlSWZpUlgtaGJwOXo?oc=5",
-   "title": "滋賀 日野町の強盗殺人事件の再審に向け弁護団が証拠開示請求 - news.web.nhk",
+   "title": "滋賀 日野町の強盗殺人事件の再審に向け弁護団が証拠開示請求 - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE83ekc2SE5ONGM4Z0xGdzBHN1hnemZ4c3lncHN3WU1IVUZ0SHc4RDJGYnk3Zm9HMlRBdjZfODBFb0RYYy1LU2toRk9mTjdlSWZpUlgtaGJwOXo?oc=5",
-   "summary": "滋賀 日野町の強盗殺人事件の再審に向け弁護団が証拠開示請求&nbsp;&nbsp;news.web.nhk",
+   "summary": "滋賀 日野町の強盗殺人事件の再審に向け弁護団が証拠開示請求&nbsp;&nbsp;NHKニュース",
    "date": "2026-07-03T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3465,9 +3480,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlVEZQZVpMWGFKYnhPQ3hVOXZ6bDA2RndyajFjdzZFcnBHU01semtQbWZGeFA3SnhjbTUyR2N2ZDN4LWY3U01rZDU0Q1c1eFUyb3ZEcjBnX2RzRS16cUtZ?oc=5",
-   "title": "滋賀 日野町の強盗殺人事件の再審で検察が有罪主張しない方針 - news.web.nhk",
+   "title": "滋賀 日野町の強盗殺人事件の再審で検察が有罪主張しない方針 - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlVEZQZVpMWGFKYnhPQ3hVOXZ6bDA2RndyajFjdzZFcnBHU01semtQbWZGeFA3SnhjbTUyR2N2ZDN4LWY3U01rZDU0Q1c1eFUyb3ZEcjBnX2RzRS16cUtZ?oc=5",
-   "summary": "滋賀 日野町の強盗殺人事件の再審で検察が有罪主張しない方針&nbsp;&nbsp;news.web.nhk",
+   "summary": "滋賀 日野町の強盗殺人事件の再審で検察が有罪主張しない方針&nbsp;&nbsp;NHKニュース",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4448,9 +4463,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE80aDVvVkhwemdkRk1LNHk2UTJZWVdJbTRob3d6eWN2SUR1RDZkWHQ2NVYxV0Vkd1NOMWp0cWpHSFIwczA2b3pjZDE1Ym4yZGNmRXZNT2hYR2xGNlZuVC1r?oc=5",
-   "title": "滋賀 日野町の強盗殺人事件 再審に向け 初の3者協議 - news.web.nhk",
+   "title": "滋賀 日野町の強盗殺人事件 再審に向け 初の3者協議 - NHKニュース",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE80aDVvVkhwemdkRk1LNHk2UTJZWVdJbTRob3d6eWN2SUR1RDZkWHQ2NVYxV0Vkd1NOMWp0cWpHSFIwczA2b3pjZDE1Ym4yZGNmRXZNT2hYR2xGNlZuVC1r?oc=5",
-   "summary": "滋賀 日野町の強盗殺人事件 再審に向け 初の3者協議&nbsp;&nbsp;news.web.nhk",
+   "summary": "滋賀 日野町の強盗殺人事件 再審に向け 初の3者協議&nbsp;&nbsp;NHKニュース",
    "date": "2026-03-25T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
