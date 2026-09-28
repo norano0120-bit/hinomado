@@ -1,12 +1,42 @@
 {
- "updated_at": "2026-09-28T08:43:00.847296+09:00",
+ "updated_at": "2026-09-29T02:32:43.174380+09:00",
  "errors": [
+  {
+   "source": "ひの暮らし",
+   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
+  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008825.html",
+   "title": "草津線の活性化に向けた取組を募集します！（2次募集開始）",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008825.html",
+   "summary": "",
+   "date": "2026-09-28T17:34:09+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000007382.html",
+   "title": "令和6年度から森林環境税（国税）の課税が始まります",
+   "url": "https://www.town.shiga-hino.lg.jp/0000007382.html",
+   "summary": "",
+   "date": "2026-09-28T10:22:57+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "kurashi"
+   ]
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oVFNaRkhnUDd6ZmRQT1MzS29rY3JjNXI5OWN5OEJGbHNMZ1h1Um4wcTgzaXlxYUpYR25PRUItMHl2clJCbjNEcHNFaGpyOFZvZ25DUklnNkw?oc=5",
    "title": "日野町出身の中西琉威選手が活躍 - 滋賀報知新聞",
@@ -30,6 +60,34 @@
    "source_short": "報道",
    "category": "press",
    "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6MTlhSVN4YXdjN1hobjRVcUR2T0duSlRUYlM5Q01CdG9TRGxJYVRUSEZsYnRaeDYzWVNfbWRZSjhHUUhkOC1Dek5waFB0S2ZwTGJEcw?oc=5",
+   "title": "炮術演武披露、出店にぎわう 滋賀県・日野町役場周辺で「氏郷まつり」 - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6MTlhSVN4YXdjN1hobjRVcUR2T0duSlRUYlM5Q01CdG9TRGxJYVRUSEZsYnRaeDYzWVNfbWRZSjhHUUhkOC1Dek5waFB0S2ZwTGJEcw?oc=5",
+   "summary": "炮術演武披露、出店にぎわう 滋賀県・日野町役場周辺で「氏郷まつり」&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-09-27T05:05:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9NZngzSkRuUXdiRXBrdW5KSDFqZ2xkU2RnODdiV090RzZSdTZZNTBZVHE0NjRJcndaVURmUnRjZENldFR1bHY5M0g4SQ?oc=5",
+   "title": "炮術演武披露、出店にぎわう 滋賀県・日野町役場周辺で「氏郷まつり」 - 47NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9NZngzSkRuUXdiRXBrdW5KSDFqZ2xkU2RnODdiV090RzZSdTZZNTBZVHE0NjRJcndaVURmUnRjZENldFR1bHY5M0g4SQ?oc=5",
+   "summary": "炮術演武披露、出店にぎわう 滋賀県・日野町役場周辺で「氏郷まつり」&nbsp;&nbsp;47NEWS",
+   "date": "2026-09-27T05:05:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event"
+   ]
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008976.html",
@@ -3998,9 +4056,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NnZXb2ZLaUdfZDgxODdWblhXSlJsR0I0R0NCOEhPaWRTZkI2NUZ2NXB4SGVJTHp5N0xhbGhOMFBVQmtWX0hiV0V4UWZSemhtLVdaVjRJX2hYVXFjMTlxa1JSVFhzcXBWNm1hNU5TZGNDWmFrdVJobWRRb3cybk0?oc=5",
-   "title": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信） - Yahoo!ニュース",
+   "title": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信） - news.yahoo.co.jp",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NnZXb2ZLaUdfZDgxODdWblhXSlJsR0I0R0NCOEhPaWRTZkI2NUZ2NXB4SGVJTHp5N0xhbGhOMFBVQmtWX0hiV0V4UWZSemhtLVdaVjRJX2hYVXFjMTlxa1JSVFhzcXBWNm1hNU5TZGNDWmFrdVJobWRRb3cybk0?oc=5",
-   "summary": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信）&nbsp;&nbsp;Yahoo!ニュース",
+   "summary": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信）&nbsp;&nbsp;news.yahoo.co.jp",
    "date": "2026-05-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4325,9 +4383,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJcDNXdUdaYW42RHJyWElYcEtiLWV3eEU0cjN0Z3RrQlU0R2JpeDVSamhfWVNiTk53Qnd1dkVXVFN2S3RLMVJhdHhsVGF5WDZYdVVyNVhtdTRGRW5XbDI5b2dyVTJJTTh3VUNxQ05lOVJMRG1xVDY1b3FaTVpXbEU?oc=5",
-   "title": "検察に「有罪立証断念を」 日野町事件遺族が要請、滋賀（共同通信） - Yahoo!ニュース",
+   "title": "検察に「有罪立証断念を」 日野町事件遺族が要請、滋賀（共同通信） - news.yahoo.co.jp",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJcDNXdUdaYW42RHJyWElYcEtiLWV3eEU0cjN0Z3RrQlU0R2JpeDVSamhfWVNiTk53Qnd1dkVXVFN2S3RLMVJhdHhsVGF5WDZYdVVyNVhtdTRGRW5XbDI5b2dyVTJJTTh3VUNxQ05lOVJMRG1xVDY1b3FaTVpXbEU?oc=5",
-   "summary": "検察に「有罪立証断念を」 日野町事件遺族が要請、滋賀（共同通信）&nbsp;&nbsp;Yahoo!ニュース",
+   "summary": "検察に「有罪立証断念を」 日野町事件遺族が要請、滋賀（共同通信）&nbsp;&nbsp;news.yahoo.co.jp",
    "date": "2026-04-17T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4573,9 +4631,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qeVJldzdJTVF4Nm1xMEZ2ZEJFSk9uU1BRclBrZVpiMTF2V0IxaTlRNlFSY2tPZUYwU2xSUVp1bklDUmsxQ0dJaGppdDA4dklHTWRHWEp2bjlYZXMyRTc0eXMwZGNhZDVyanZucU8ybUtUa281WktiOFdWdHota3c?oc=5",
-   "title": "遺族「再審無罪まで見守って」 滋賀・日野町事件、命日に墓参（共同通信） - Yahoo!ニュース",
+   "title": "遺族「再審無罪まで見守って」 滋賀・日野町事件、命日に墓参（共同通信） - news.yahoo.co.jp",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qeVJldzdJTVF4Nm1xMEZ2ZEJFSk9uU1BRclBrZVpiMTF2V0IxaTlRNlFSY2tPZUYwU2xSUVp1bklDUmsxQ0dJaGppdDA4dklHTWRHWEp2bjlYZXMyRTc0eXMwZGNhZDVyanZucU8ybUtUa281WktiOFdWdHota3c?oc=5",
-   "summary": "遺族「再審無罪まで見守って」 滋賀・日野町事件、命日に墓参（共同通信）&nbsp;&nbsp;Yahoo!ニュース",
+   "summary": "遺族「再審無罪まで見守って」 滋賀・日野町事件、命日に墓参（共同通信）&nbsp;&nbsp;news.yahoo.co.jp",
    "date": "2026-03-18T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
