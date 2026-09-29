@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-29T09:53:08.682261+09:00",
+ "updated_at": "2026-09-30T00:33:45.858457+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,18 @@
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008995.html",
+   "title": "【10月4日】わたむきの里エコドームの臨時休業について",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008995.html",
+   "summary": "",
+   "date": "2026-09-29T20:22:16+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8450",
    "title": "きっずらんど開催のお知らせ（10月）",
@@ -3682,9 +3694,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tbnBybVZXMkVzM0VZVFVWdVpZN2E2S1F6QUlUV2tKTWxrSzR3VnBJLWFpWUNVbGwwTUk2QmpJRGF3T0hLTlV5ZUhvd3ZvSlBYa2JoWDNPVnFnWHBLcnhGekdZVlliS216elQ4Q25hcjZCdw?oc=5",
-   "title": "滋賀 日野町強盗殺人事件 やり直し裁判 検察は有罪主張せず 無罪確定へ - news.tv-asahi.co.jp",
+   "title": "滋賀 日野町強盗殺人事件 やり直し裁判 検察は有罪主張せず 無罪確定へ - テレ朝NEWS",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tbnBybVZXMkVzM0VZVFVWdVpZN2E2S1F6QUlUV2tKTWxrSzR3VnBJLWFpWUNVbGwwTUk2QmpJRGF3T0hLTlV5ZUhvd3ZvSlBYa2JoWDNPVnFnWHBLcnhGekdZVlliS216elQ4Q25hcjZCdw?oc=5",
-   "summary": "滋賀 日野町強盗殺人事件 やり直し裁判 検察は有罪主張せず 無罪確定へ&nbsp;&nbsp;news.tv-asahi.co.jp",
+   "summary": "滋賀 日野町強盗殺人事件 やり直し裁判 検察は有罪主張せず 無罪確定へ&nbsp;&nbsp;テレ朝NEWS",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4407,9 +4419,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJcDNXdUdaYW42RHJyWElYcEtiLWV3eEU0cjN0Z3RrQlU0R2JpeDVSamhfWVNiTk53Qnd1dkVXVFN2S3RLMVJhdHhsVGF5WDZYdVVyNVhtdTRGRW5XbDI5b2dyVTJJTTh3VUNxQ05lOVJMRG1xVDY1b3FaTVpXbEU?oc=5",
-   "title": "検察に「有罪立証断念を」 日野町事件遺族が要請、滋賀（共同通信） - news.yahoo.co.jp",
+   "title": "検察に「有罪立証断念を」 日野町事件遺族が要請、滋賀（共同通信） - Yahoo!ニュース",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJcDNXdUdaYW42RHJyWElYcEtiLWV3eEU0cjN0Z3RrQlU0R2JpeDVSamhfWVNiTk53Qnd1dkVXVFN2S3RLMVJhdHhsVGF5WDZYdVVyNVhtdTRGRW5XbDI5b2dyVTJJTTh3VUNxQ05lOVJMRG1xVDY1b3FaTVpXbEU?oc=5",
-   "summary": "検察に「有罪立証断念を」 日野町事件遺族が要請、滋賀（共同通信）&nbsp;&nbsp;news.yahoo.co.jp",
+   "summary": "検察に「有罪立証断念を」 日野町事件遺族が要請、滋賀（共同通信）&nbsp;&nbsp;Yahoo!ニュース",
    "date": "2026-04-17T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4655,9 +4667,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qeVJldzdJTVF4Nm1xMEZ2ZEJFSk9uU1BRclBrZVpiMTF2V0IxaTlRNlFSY2tPZUYwU2xSUVp1bklDUmsxQ0dJaGppdDA4dklHTWRHWEp2bjlYZXMyRTc0eXMwZGNhZDVyanZucU8ybUtUa281WktiOFdWdHota3c?oc=5",
-   "title": "遺族「再審無罪まで見守って」 滋賀・日野町事件、命日に墓参（共同通信） - news.yahoo.co.jp",
+   "title": "遺族「再審無罪まで見守って」 滋賀・日野町事件、命日に墓参（共同通信） - Yahoo!ニュース",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qeVJldzdJTVF4Nm1xMEZ2ZEJFSk9uU1BRclBrZVpiMTF2V0IxaTlRNlFSY2tPZUYwU2xSUVp1bklDUmsxQ0dJaGppdDA4dklHTWRHWEp2bjlYZXMyRTc0eXMwZGNhZDVyanZucU8ybUtUa281WktiOFdWdHota3c?oc=5",
-   "summary": "遺族「再審無罪まで見守って」 滋賀・日野町事件、命日に墓参（共同通信）&nbsp;&nbsp;news.yahoo.co.jp",
+   "summary": "遺族「再審無罪まで見守って」 滋賀・日野町事件、命日に墓参（共同通信）&nbsp;&nbsp;Yahoo!ニュース",
    "date": "2026-03-18T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4973,9 +4985,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JQ2E2ekdOa1pnVV9TWjNJZFg3REhBZmg3Ykxrem9XbjRiVlZyTzZYZXJqc0hrcGVrcURzRkloWldYcXJBM3F4THNTTWpwanptODlPMFZUdw?oc=5",
-   "title": "【速報】「日野町事件」の再審開始へ 最高裁が検察側の特別抗告を棄却 1984年に滋賀県日野町で起きた酒店経営女性殺害事件 「死後再審」は戦後初 - newsdig.tbs.co.jp",
+   "title": "【速報】「日野町事件」の再審開始へ 最高裁が検察側の特別抗告を棄却 1984年に滋賀県日野町で起きた酒店経営女性殺害事件 「死後再審」は戦後初 - TBS NEWS DIG",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JQ2E2ekdOa1pnVV9TWjNJZFg3REhBZmg3Ykxrem9XbjRiVlZyTzZYZXJqc0hrcGVrcURzRkloWldYcXJBM3F4THNTTWpwanptODlPMFZUdw?oc=5",
-   "summary": "【速報】「日野町事件」の再審開始へ 最高裁が検察側の特別抗告を棄却 1984年に滋賀県日野町で起きた酒店経営女性殺害事件 「死後再審」は戦後初&nbsp;&nbsp;newsdig.tbs.co.jp",
+   "summary": "【速報】「日野町事件」の再審開始へ 最高裁が検察側の特別抗告を棄却 1984年に滋賀県日野町で起きた酒店経営女性殺害事件 「死後再審」は戦後初&nbsp;&nbsp;TBS NEWS DIG",
    "date": "2026-02-25T17:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
