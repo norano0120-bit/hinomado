@@ -1,16 +1,40 @@
 {
- "updated_at": "2026-09-29T02:32:43.174380+09:00",
+ "updated_at": "2026-09-29T09:53:08.682261+09:00",
  "errors": [
-  {
-   "source": "ひの暮らし",
-   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
-  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
   }
  ],
  "items": [
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8450",
+   "title": "きっずらんど開催のお知らせ（10月）",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8450",
+   "summary": "□子育て支援情報 ■日野町立保育所やこども園では、園開放「きっずらんど」を開催し &#8230; 続きを読む &#8594;",
+   "date": "2026-09-29T08:30:04+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "kosodate"
+   ]
+  },
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8448",
+   "title": "指定ごみ袋以外のごみ収集期間を延長します",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8448",
+   "summary": "□住民生活情報 ■指定ごみ袋が一部販売店で一時的に品切れのため、指定ごみ袋以外で &#8230; 続きを読む &#8594;",
+   "date": "2026-09-29T08:30:03+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "kurashi"
+   ]
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008825.html",
    "title": "草津線の活性化に向けた取組を募集します！（2次募集開始）",
@@ -1341,9 +1365,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aSS1JalJFNmJVZTlqUFRtOFNtcktYMGhNUm5RcEwwUnRRcVZ0SElmTVdlYnU0MWp3UW9BRTZIUzl2TU9EMVhxRU81TXoxQ2x0R0p1dg?oc=5",
-   "title": "世界選手権で腕試し 日野町の阪田さんと若林さんがアームレスリングU21に出場 - chunichi.co.jp",
+   "title": "世界選手権で腕試し 日野町の阪田さんと若林さんがアームレスリングU21に出場 - 中日新聞Web",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aSS1JalJFNmJVZTlqUFRtOFNtcktYMGhNUm5RcEwwUnRRcVZ0SElmTVdlYnU0MWp3UW9BRTZIUzl2TU9EMVhxRU81TXoxQ2x0R0p1dg?oc=5",
-   "summary": "世界選手権で腕試し 日野町の阪田さんと若林さんがアームレスリングU21に出場&nbsp;&nbsp;chunichi.co.jp",
+   "summary": "世界選手権で腕試し 日野町の阪田さんと若林さんがアームレスリングU21に出場&nbsp;&nbsp;中日新聞Web",
    "date": "2026-09-01T05:05:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -1448,9 +1472,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OcklQZ2VMZFVNb2FuM0M3NkNUNnFqaVRWTDNCOHU5cXUxNm9kTW40TEYyRkdzYnR3a3MtTUppOWFadjkya2FpUjVhSlVDZVFjZ3BxS1V3SGIyZk5HUmc?oc=5",
-   "title": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。 - 選挙ドットコム",
+   "title": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。 - go2senkyo.com",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OcklQZ2VMZFVNb2FuM0M3NkNUNnFqaVRWTDNCOHU5cXUxNm9kTW40TEYyRkdzYnR3a3MtTUppOWFadjkya2FpUjVhSlVDZVFjZ3BxS1V3SGIyZk5HUmc?oc=5",
-   "summary": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。&nbsp;&nbsp;選挙ドットコム",
+   "summary": "【県議会レポート第78号】本日の朝刊、東近江市・日野町・愛荘町の各エリアに折込させて頂きました。&nbsp;&nbsp;go2senkyo.com",
    "date": "2026-08-30T09:36:22+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3373,9 +3397,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ncWZkOVI2NkJOX05OTW9ucnRIQUZoSkE4VV9jODZxWWRueVRkb0xQMHdGdzExTVBzcEJuLUlQY2JodFpwM1poaEtRWQ?oc=5",
-   "title": "＜社説＞日野町事件再審名誉回復し教訓生かせ - 47news.jp",
+   "title": "＜社説＞日野町事件再審名誉回復し教訓生かせ - 47NEWS",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ncWZkOVI2NkJOX05OTW9ucnRIQUZoSkE4VV9jODZxWWRueVRkb0xQMHdGdzExTVBzcEJuLUlQY2JodFpwM1poaEtRWQ?oc=5",
-   "summary": "＜社説＞日野町事件再審名誉回復し教訓生かせ&nbsp;&nbsp;47news.jp",
+   "summary": "＜社説＞日野町事件再審名誉回復し教訓生かせ&nbsp;&nbsp;47NEWS",
    "date": "2026-06-30T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3448,9 +3472,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wc2NEdXIwV1cyTFpVSEhteEV1LWo4Q2hqS2hOMjdNU2hUQ1RpUkZObkdrTmN2TnJWbnhJUl9yTm14WjBsVXkzQTZ6Yw?oc=5",
-   "title": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める - 47news.jp",
+   "title": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める - 47NEWS",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wc2NEdXIwV1cyTFpVSEhteEV1LWo4Q2hqS2hOMjdNU2hUQ1RpUkZObkdrTmN2TnJWbnhJUl9yTm14WjBsVXkzQTZ6Yw?oc=5",
-   "summary": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める&nbsp;&nbsp;47news.jp",
+   "summary": "ふるさと納税返礼品企画で1日町長体験プログラム、滋賀県日野町で親子が参加 正式な制度設計進める&nbsp;&nbsp;47NEWS",
    "date": "2026-06-23T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -3658,9 +3682,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tbnBybVZXMkVzM0VZVFVWdVpZN2E2S1F6QUlUV2tKTWxrSzR3VnBJLWFpWUNVbGwwTUk2QmpJRGF3T0hLTlV5ZUhvd3ZvSlBYa2JoWDNPVnFnWHBLcnhGekdZVlliS216elQ4Q25hcjZCdw?oc=5",
-   "title": "滋賀 日野町強盗殺人事件 やり直し裁判 検察は有罪主張せず 無罪確定へ - テレ朝NEWS",
+   "title": "滋賀 日野町強盗殺人事件 やり直し裁判 検察は有罪主張せず 無罪確定へ - news.tv-asahi.co.jp",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tbnBybVZXMkVzM0VZVFVWdVpZN2E2S1F6QUlUV2tKTWxrSzR3VnBJLWFpWUNVbGwwTUk2QmpJRGF3T0hLTlV5ZUhvd3ZvSlBYa2JoWDNPVnFnWHBLcnhGekdZVlliS216elQ4Q25hcjZCdw?oc=5",
-   "summary": "滋賀 日野町強盗殺人事件 やり直し裁判 検察は有罪主張せず 無罪確定へ&nbsp;&nbsp;テレ朝NEWS",
+   "summary": "滋賀 日野町強盗殺人事件 やり直し裁判 検察は有罪主張せず 無罪確定へ&nbsp;&nbsp;news.tv-asahi.co.jp",
    "date": "2026-06-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4056,9 +4080,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NnZXb2ZLaUdfZDgxODdWblhXSlJsR0I0R0NCOEhPaWRTZkI2NUZ2NXB4SGVJTHp5N0xhbGhOMFBVQmtWX0hiV0V4UWZSemhtLVdaVjRJX2hYVXFjMTlxa1JSVFhzcXBWNm1hNU5TZGNDWmFrdVJobWRRb3cybk0?oc=5",
-   "title": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信） - news.yahoo.co.jp",
+   "title": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信） - Yahoo!ニュース",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NnZXb2ZLaUdfZDgxODdWblhXSlJsR0I0R0NCOEhPaWRTZkI2NUZ2NXB4SGVJTHp5N0xhbGhOMFBVQmtWX0hiV0V4UWZSemhtLVdaVjRJX2hYVXFjMTlxa1JSVFhzcXBWNm1hNU5TZGNDWmFrdVJobWRRb3cybk0?oc=5",
-   "summary": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信）&nbsp;&nbsp;news.yahoo.co.jp",
+   "summary": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議（共同通信）&nbsp;&nbsp;Yahoo!ニュース",
    "date": "2026-05-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4068,9 +4092,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1OdWZtcjlsRlNvOG1MbUhVa3N0S3JHcS1VVVA0WEJLTVU4WlktMENNQ3NRemh2Xzk1aVQtQks2MV9QS3hQR2dUWlFEMA?oc=5",
-   "title": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議 - 47news.jp",
+   "title": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議 - 47NEWS",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1OdWZtcjlsRlNvOG1MbUhVa3N0S3JHcS1VVVA0WEJLTVU4WlktMENNQ3NRemh2Xzk1aVQtQks2MV9QS3hQR2dUWlFEMA?oc=5",
-   "summary": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議&nbsp;&nbsp;47news.jp",
+   "summary": "6月に再審への検察立証方針表明 滋賀・日野町事件、3者協議&nbsp;&nbsp;47NEWS",
    "date": "2026-05-19T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
