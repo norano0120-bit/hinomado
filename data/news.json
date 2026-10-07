@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-07T00:47:21.293915+09:00",
+ "updated_at": "2026-10-07T09:30:10.527723+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -173,9 +173,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWVV9FREk1aTVzOEo4M3ZVVjJLVHE3ajFhXzlMWW5MZlRnWXE0LTFqcFlkOUdzZl9LWW9TWXhHYl9iUlc5ODVidGQ1V2dpYzAzQ0JmZXVyLUt1SHR3YWlBRGEtS0VTaFhT?oc=5",
-   "title": "給食で提供予定の「みずかがみ」の産地・日野町へ！泉大津市のこども特派員が稲刈りに挑戦！ - news.nicovideo.jp",
+   "title": "給食で提供予定の「みずかがみ」の産地・日野町へ！泉大津市のこども特派員が稲刈りに挑戦！ - ニコニコニュース",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWVV9FREk1aTVzOEo4M3ZVVjJLVHE3ajFhXzlMWW5MZlRnWXE0LTFqcFlkOUdzZl9LWW9TWXhHYl9iUlc5ODVidGQ1V2dpYzAzQ0JmZXVyLUt1SHR3YWlBRGEtS0VTaFhT?oc=5",
-   "summary": "給食で提供予定の「みずかがみ」の産地・日野町へ！泉大津市のこども特派員が稲刈りに挑戦！&nbsp;&nbsp;news.nicovideo.jp",
+   "summary": "給食で提供予定の「みずかがみ」の産地・日野町へ！泉大津市のこども特派員が稲刈りに挑戦！&nbsp;&nbsp;ニコニコニュース",
    "date": "2026-10-01T04:45:25+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -629,9 +629,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52cE5RZ3RLVWRyc0d6MnZ2VlFSbnFINWF1U1JFbExPSmVOQmsxcFNQUEM3UFBxbHRwdjRlWXlTbGU5OEtLZDhET1pPN1BXMUJTb1lTM2t6dUwwR3U5MzkzSzBRUVdUenZUdzFRd2JqMHNQMDRMelZuVDlCVQ?oc=5",
-   "title": "アプリで生物多様性を見える化 「近江日野いきものクエスト」開催中 滋賀県日野町 - kankyo-news.co.jp",
+   "title": "アプリで生物多様性を見える化 「近江日野いきものクエスト」開催中 滋賀県日野町 - 環境新聞オンライン",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52cE5RZ3RLVWRyc0d6MnZ2VlFSbnFINWF1U1JFbExPSmVOQmsxcFNQUEM3UFBxbHRwdjRlWXlTbGU5OEtLZDhET1pPN1BXMUJTb1lTM2t6dUwwR3U5MzkzSzBRUVdUenZUdzFRd2JqMHNQMDRMelZuVDlCVQ?oc=5",
-   "summary": "アプリで生物多様性を見える化 「近江日野いきものクエスト」開催中 滋賀県日野町&nbsp;&nbsp;kankyo-news.co.jp",
+   "summary": "アプリで生物多様性を見える化 「近江日野いきものクエスト」開催中 滋賀県日野町&nbsp;&nbsp;環境新聞オンライン",
    "date": "2026-09-17T07:11:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -4131,6 +4131,18 @@
    "tags": []
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMXRwN0Njb1N0RWNUZzBEOHB1MGlfNGNVSEZDZHk4WlREeGpHQ19OVEVmYTdORnQ1Y0lqcGpLZFVPaWJtZDlLMVo2ZHgtM0FzajF6ak9ScTkzRGREVzZydFFLeDd1UkdmZzA3cU1yMndwRXpxMW03aWs5d0JWV3VrZzU5Zw?oc=5",
+   "title": "蒲生郡日野町＃2004年築＃木造＃高稼働中＃10.3％ - rakumachi.jp",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMXRwN0Njb1N0RWNUZzBEOHB1MGlfNGNVSEZDZHk4WlREeGpHQ19OVEVmYTdORnQ1Y0lqcGpLZFVPaWJtZDlLMVo2ZHgtM0FzajF6ak9ScTkzRGREVzZydFFLeDd1UkdmZzA3cU1yMndwRXpxMW03aWs5d0JWV3VrZzU5Zw?oc=5",
+   "summary": "蒲生郡日野町＃2004年築＃木造＃高稼働中＃10.3％&nbsp;&nbsp;rakumachi.jp",
+   "date": "2026-06-16T13:13:51+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16UEUxMnl0eG94UklhMHEyUjR4LV9JeTVzSWhncERuUnVJa0ZCSlQyVU1nMkMwY2hiczd3c2IyaE9USF83eVZHZndKTHJENEwzdU1RZEtCTHNZT1h1eHc?oc=5",
    "title": "県初！日野町で開始 地方創生伴走支援制度 - 滋賀報知新聞",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16UEUxMnl0eG94UklhMHEyUjR4LV9JeTVzSWhncERuUnVJa0ZCSlQyVU1nMkMwY2hiczd3c2IyaE9USF83eVZHZndKTHJENEwzdU1RZEtCTHNZT1h1eHc?oc=5",
@@ -5439,9 +5451,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6RUZKTTF3LXhNZGZZVG1WdmVPbVl2ZnFwQWc4VUVOUnNkZ1FlX2JqMmlFOHdhYUJPRk9pQU1WS1RhVG94X0taVUtlY0IzRDlWeUtXWjRiS0d6ZWppYlVLU2Z1S0JPbnp2ODg4?oc=5",
-   "title": "日野町がオーガニックビレッジ宣言を行いました！：近畿農政局 - maff.go.jp",
+   "title": "日野町がオーガニックビレッジ宣言を行いました！：近畿農政局 - 農林水産省",
    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6RUZKTTF3LXhNZGZZVG1WdmVPbVl2ZnFwQWc4VUVOUnNkZ1FlX2JqMmlFOHdhYUJPRk9pQU1WS1RhVG94X0taVUtlY0IzRDlWeUtXWjRiS0d6ZWppYlVLU2Z1S0JPbnp2ODg4?oc=5",
-   "summary": "日野町がオーガニックビレッジ宣言を行いました！：近畿農政局&nbsp;&nbsp;maff.go.jp",
+   "summary": "日野町がオーガニックビレッジ宣言を行いました！：近畿農政局&nbsp;&nbsp;農林水産省",
    "date": "2026-01-17T17:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
