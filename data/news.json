@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-07T09:30:10.527723+09:00",
+ "updated_at": "2026-10-08T01:13:39.349865+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,42 @@
   }
  ],
  "items": [
+  {
+   "id": "https://hino-kanko.jp/topics/7769/",
+   "title": "日野の味覚市のお知らせ 10月18日(日)",
+   "url": "https://hino-kanko.jp/topics/7769/",
+   "summary": "日野の味覚市を下記の通り開催します。 開催日： 2026年 10月 18日（日） 時 間： 10：00 ～ 15：00 出店者の詳細については、味覚市のチラシからご確認ください。 また、同週末には「日野まちなか歴史散策と &#8230; Continue reading \"日野の味覚市のお知らせ 10月18日(日)\"",
+   "date": "2026-10-07T15:51:31+09:00",
+   "source_id": "kanko",
+   "source_name": "日野観光協会",
+   "source_short": "観光",
+   "category": "event",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008994.html",
+   "title": "環境学習会「竹からはじまる！脱炭素チャレンジ」を開催します",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008994.html",
+   "summary": "",
+   "date": "2026-10-07T14:47:16+09:00",
+   "source_id": "town-topics",
+   "source_name": "日野町 募集情報",
+   "source_short": "募集",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOERyU2M4RE5ieGdfckxRWFRmRlFEOGl0M25CemYyVDRoMzgtUUVibWVBbXRDUExmRTJDaDhKeWt5NGJyTEdJOTdLSk9SdW8zR3pxN3dYMXVCQlR5TzZ0akFqbGNfNVhlTE5xTHR6OFVuSEU2aWdRNUo5RmtReUZoYjhkNnBMZlY5X2NrejNUNDJuME9WNlllZkRHOHnSAaIBQVVfeXFMUFdaeVNKTnJjMlctREFTTFZ6NjFnS0ptb3IzcmNxanBGdUJYUjZSeTRwNV9IMzBaUmJ2U05kUHZjREplbGJleERfNmFUcFBUZGdOTWZyQzh0SlFDeGJfLXlFTDJnV1hMUDR4N0hJLVZIeVN4YlJLWkp1QURUaGhIQVdkSDF0OTJYZjk2REdDeGhHTklzSS1OQmZfbXl5dEVLWWtR?oc=5",
+   "title": "（滋賀）日野町河原１丁目で声かけ ９月２５日 - ｄメニューニュース",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOERyU2M4RE5ieGdfckxRWFRmRlFEOGl0M25CemYyVDRoMzgtUUVibWVBbXRDUExmRTJDaDhKeWt5NGJyTEdJOTdLSk9SdW8zR3pxN3dYMXVCQlR5TzZ0akFqbGNfNVhlTE5xTHR6OFVuSEU2aWdRNUo5RmtReUZoYjhkNnBMZlY5X2NrejNUNDJuME9WNlllZkRHOHnSAaIBQVVfeXFMUFdaeVNKTnJjMlctREFTTFZ6NjFnS0ptb3IzcmNxanBGdUJYUjZSeTRwNV9IMzBaUmJ2U05kUHZjREplbGJleERfNmFUcFBUZGdOTWZyQzh0SlFDeGJfLXlFTDJnV1hMUDR4N0hJLVZIeVN4YlJLWkp1QURUaGhIQVdkSDF0OTJYZjk2REdDeGhHTklzSS1OQmZfbXl5dEVLWWtR?oc=5",
+   "summary": "（滋賀）日野町河原１丁目で声かけ ９月２５日&nbsp;&nbsp;ｄメニューニュース",
+   "date": "2026-10-07T13:09:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008476.html",
    "title": "令和8年度「日野町日野菜漬けコンクール」の出品を募集します",
