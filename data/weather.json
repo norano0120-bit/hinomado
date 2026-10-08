@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-08T09:51:00.139996+09:00",
+ "updated_at": "2026-10-09T01:14:56.110616+09:00",
  "days": [
   {
    "date": "2026-10-08",
@@ -9,20 +9,12 @@
    "code": "100",
    "pops": [
     {
-     "hour": 6,
-     "value": 0
-    },
-    {
-     "hour": 12,
-     "value": 0
-    },
-    {
      "hour": 18,
      "value": 0
     }
    ],
    "high": null,
-   "low": 25
+   "low": null
   },
   {
    "date": "2026-10-09",
@@ -53,19 +45,13 @@
   },
   {
    "date": "2026-10-10",
-   "label": "10/10",
+   "label": "あさって",
    "md": "10/10（土）",
    "weather": "晴れ",
-   "code": "101",
-   "pops": [
-    {
-     "hour": 0,
-     "value": 20
-    }
-   ],
-   "high": 27,
-   "low": 15,
-   "weekly": true
+   "code": "100",
+   "pops": [],
+   "high": null,
+   "low": null
   },
   {
    "date": "2026-10-11",
@@ -80,7 +66,7 @@
     }
    ],
    "high": 27,
-   "low": 15,
+   "low": 16,
    "weekly": true
   },
   {
@@ -95,7 +81,7 @@
      "value": 20
     }
    ],
-   "high": 27,
+   "high": 26,
    "low": 16,
    "weekly": true
   },
@@ -112,7 +98,7 @@
     }
    ],
    "high": 26,
-   "low": 16,
+   "low": 17,
    "weekly": true
   },
   {
@@ -128,7 +114,7 @@
     }
    ],
    "high": 24,
-   "low": 17,
+   "low": 16,
    "weekly": true
   }
  ],

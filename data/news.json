@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-08T09:51:00.052154+09:00",
+ "updated_at": "2026-10-09T01:14:56.036850+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,18 @@
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsN0NJZWc0a0hkLTc4a3NXZFpBbkY2VU1UekhPZHFieGUxLTN5TXU1VnpFLUQzcjFCXzdFckZLM0RJdHZMY2djWjBPMjdJSHEtNERteGt6c3I?oc=5",
+   "title": "滋賀県日野町の名産「日野菜」使い、やわらかな香りの焼酎に 販売始まる - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsN0NJZWc0a0hkLTc4a3NXZFpBbkY2VU1UekhPZHFieGUxLTN5TXU1VnpFLUQzcjFCXzdFckZLM0RJdHZMY2djWjBPMjdJSHEtNERteGt6c3I?oc=5",
+   "summary": "滋賀県日野町の名産「日野菜」使い、やわらかな香りの焼酎に 販売始まる&nbsp;&nbsp;京都新聞デジタル",
+   "date": "2026-10-08T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8460",
    "title": "サルの出没に注意してください",
@@ -194,6 +206,20 @@
    "source_short": "報道",
    "category": "press",
    "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008975.html",
+   "title": "ちびっこまつりを開催します",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008975.html",
+   "summary": "",
+   "date": "2026-10-01T09:00:00+09:00",
+   "source_id": "town-topics",
+   "source_name": "日野町 募集情報",
+   "source_short": "募集",
+   "category": "town",
+   "tags": [
+    "event"
+   ]
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008990.html",
