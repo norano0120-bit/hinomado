@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-09T10:04:14.507162+09:00",
+ "updated_at": "2026-10-10T00:59:11.018394+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,20 @@
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008666.html",
+   "title": "日野町除雪機械購入補助金の活用",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008666.html",
+   "summary": "",
+   "date": "2026-10-09T10:18:11+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "business"
+   ]
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000009010.html",
    "title": "令和9年度幼稚園・認定こども園・保育所・地域型保育入園申込み方法について",
@@ -261,6 +275,20 @@
    "category": "town",
    "tags": [
     "event"
+   ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GZ2VITXJmUzRyMU1Gc182NXJrUUlRcURObURVYl9UcjhIbUxzYkpraGdaRW5PQjhkR0hTeGZIamdpSHZKb3plR1lZZ1VDVkNrUFVYN0FOSUJnUEk5dndHc2stME51b3pTajFiU3A0VmcyZw?oc=5",
+   "title": "給食で提供予定の「みずかがみ」の産地・日野町へ！泉大津市のこども特派員が稲刈りに挑戦！ - Infoseek",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GZ2VITXJmUzRyMU1Gc182NXJrUUlRcURObURVYl9UcjhIbUxzYkpraGdaRW5PQjhkR0hTeGZIamdpSHZKb3plR1lZZ1VDVkNrUFVYN0FOSUJnUEk5dndHc2stME51b3pTajFiU3A0VmcyZw?oc=5",
+   "summary": "給食で提供予定の「みずかがみ」の産地・日野町へ！泉大津市のこども特派員が稲刈りに挑戦！&nbsp;&nbsp;Infoseek",
+   "date": "2026-10-01T08:10:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "kosodate"
    ]
   },
   {

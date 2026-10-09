@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-09T10:04:14.586905+09:00",
+ "updated_at": "2026-10-10T00:59:11.084249+09:00",
  "days": [
   {
    "date": "2026-10-09",
@@ -9,20 +9,12 @@
    "code": "100",
    "pops": [
     {
-     "hour": 6,
-     "value": 0
-    },
-    {
-     "hour": 12,
-     "value": 0
-    },
-    {
      "hour": 18,
      "value": 0
     }
    ],
    "high": null,
-   "low": 26
+   "low": null
   },
   {
    "date": "2026-10-10",
@@ -49,23 +41,17 @@
     }
    ],
    "high": null,
-   "low": 26
+   "low": 27
   },
   {
    "date": "2026-10-11",
-   "label": "10/11",
+   "label": "あさって",
    "md": "10/11（日）",
    "weather": "晴れ",
-   "code": "101",
-   "pops": [
-    {
-     "hour": 0,
-     "value": 20
-    }
-   ],
-   "high": 27,
-   "low": 16,
-   "weekly": true
+   "code": "100",
+   "pops": [],
+   "high": null,
+   "low": null
   },
   {
    "date": "2026-10-12",
@@ -79,8 +65,8 @@
      "value": 20
     }
    ],
-   "high": 26,
-   "low": 16,
+   "high": 25,
+   "low": 17,
    "weekly": true
   },
   {
@@ -96,7 +82,7 @@
     }
    ],
    "high": 26,
-   "low": 17,
+   "low": 18,
    "weekly": true
   },
   {
@@ -104,15 +90,15 @@
    "label": "10/14",
    "md": "10/14（水）",
    "weather": "くもり",
-   "code": "200",
+   "code": "202",
    "pops": [
     {
      "hour": 0,
-     "value": 40
+     "value": 50
     }
    ],
    "high": 24,
-   "low": 16,
+   "low": 17,
    "weekly": true
   },
   {
@@ -128,7 +114,7 @@
     }
    ],
    "high": 23,
-   "low": 15,
+   "low": 14,
    "weekly": true
   }
  ],
