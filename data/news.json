@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-09T01:14:56.036850+09:00",
+ "updated_at": "2026-10-09T10:04:14.507162+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,48 @@
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009010.html",
+   "title": "令和9年度幼稚園・認定こども園・保育所・地域型保育入園申込み方法について",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009010.html",
+   "summary": "",
+   "date": "2026-10-09T09:06:09+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "kosodate"
+   ]
+  },
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8464",
+   "title": "地域イベント「やっぱり日野が好き！」開催のお知らせ",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8464",
+   "summary": "□住民生活情報 ■10月11日(日曜日）、日野駅前にて地域イベント「やっぱり日野 &#8230; 続きを読む &#8594;",
+   "date": "2026-10-09T09:00:04+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8462",
+   "title": "おもいでカフェ「茶のみ処わたむき(つどえば）」のお知らせについて",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8462",
+   "summary": "□高齢者支援情報 ■おもいでカフェ「茶のみ処わたむき（つどえば）」のお知らせ ■ &#8230; 続きを読む &#8594;",
+   "date": "2026-10-09T09:00:03+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "senior"
+   ]
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsN0NJZWc0a0hkLTc4a3NXZFpBbkY2VU1UekhPZHFieGUxLTN5TXU1VnpFLUQzcjFCXzdFckZLM0RJdHZMY2djWjBPMjdJSHEtNERteGt6c3I?oc=5",
    "title": "滋賀県日野町の名産「日野菜」使い、やわらかな香りの焼酎に 販売始まる - 京都新聞デジタル",
@@ -5473,9 +5515,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5peWpGYXZpclBHNHVmQm54ZVJyR2hlVWpfNjcyY0QySlRxeFVjSUlXTTNsbVE3cjczRmpOQkdIeEtoc0N2OWVVa1ptRTMtRnI1R3JTaW5Qc2hpay1LckRTcFcwMVpOYUk?oc=5",
-   "title": "40年前の殺人「日野町事件」、再審可否の判断が年度内にも 最高裁 - 朝日新聞",
+   "title": "40年前の殺人「日野町事件」、再審可否の判断が年度内にも 最高裁 [滋賀県] - 朝日新聞",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5peWpGYXZpclBHNHVmQm54ZVJyR2hlVWpfNjcyY0QySlRxeFVjSUlXTTNsbVE3cjczRmpOQkdIeEtoc0N2OWVVa1ptRTMtRnI1R3JTaW5Qc2hpay1LckRTcFcwMVpOYUk?oc=5",
-   "summary": "40年前の殺人「日野町事件」、再審可否の判断が年度内にも 最高裁&nbsp;&nbsp;朝日新聞",
+   "summary": "40年前の殺人「日野町事件」、再審可否の判断が年度内にも 最高裁 [滋賀県]&nbsp;&nbsp;朝日新聞",
    "date": "2026-02-17T17:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
