@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-10T09:37:03.094204+09:00",
+ "updated_at": "2026-10-11T00:08:35.276565+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,20 @@
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11VjBTTXJkVjZXVHFvQUVrSmp2VDUxUmtIa004NXpiUjdpNFJuYWFEc2dVU25GRmxTZU5nbTZ3WDNrZGhudmtvY1pEQ2NtTlZLNi1LbUs2X1U4aTJfZ3FRUk5ldjJfT2s?oc=5",
+   "title": "作業所の日常伝える写真展 滋賀・日野町の「わたむきの里福祉会」 [滋賀県] - 朝日新聞",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11VjBTTXJkVjZXVHFvQUVrSmp2VDUxUmtIa004NXpiUjdpNFJuYWFEc2dVU25GRmxTZU5nbTZ3WDNrZGhudmtvY1pEQ2NtTlZLNi1LbUs2X1U4aTJfZ3FRUk5ldjJfT2s?oc=5",
+   "summary": "作業所の日常伝える写真展 滋賀・日野町の「わたむきの里福祉会」 [滋賀県]&nbsp;&nbsp;朝日新聞",
+   "date": "2026-10-10T10:45:01+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event"
+   ]
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008666.html",
    "title": "日野町除雪機械購入補助金の活用",
@@ -380,6 +394,20 @@
    "source_short": "町",
    "category": "town",
    "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oZExPbXA4QzhJLS1BaDJuMTZoYXNSMG9aalFxdklYa0FOUnhXcmxiYVNuVHVwTFZOdFRtNV9TQWxFd3c0T2kzdFVhWXJQUTFfY1lVSEVlU1lCb2dhUWFaWVY2blE0bWUzOEE?oc=5",
+   "title": "給食で提供予定の「みずかがみ」の産地・日野町へ！泉大津市のこども特派員が稲刈りに挑戦！ - PR TIMES",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oZExPbXA4QzhJLS1BaDJuMTZoYXNSMG9aalFxdklYa0FOUnhXcmxiYVNuVHVwTFZOdFRtNV9TQWxFd3c0T2kzdFVhWXJQUTFfY1lVSEVlU1lCb2dhUWFaWVY2blE0bWUzOEE?oc=5",
+   "summary": "給食で提供予定の「みずかがみ」の産地・日野町へ！泉大津市のこども特派員が稲刈りに挑戦！&nbsp;&nbsp;PR TIMES",
+   "date": "2026-09-30T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "kosodate"
+   ]
   },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8454",
