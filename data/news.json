@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T09:09:46.467866+09:00",
+ "updated_at": "2026-10-12T00:28:58.169932+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,32 @@
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdGpuYTdSSUs0QnFHLXAtNkJZMTRxTTVzckMyeGxkQjVodGFJSTFjZmZOaW96S0p2R1c3dExPRjVDYnpHVTh5V2d3WkFmMGF2WEhSTDhhazl6cTVkUDNJVHR1SWpVdW1TYVZpazEtZnJqXzMxUWNKY2lnRm5TMm9IWEpfOHBoQzA5Q2JUS3JteTNkSWJOdWFDT3dFdWlEMm5jTGJIcGJidDFKc01oUUU0UzNpT0ttR0VvcFNNLXVpQQ?oc=5",
+   "title": "久々の日野町へ : ブログ : 清水ひとみ 公式サイト滋賀県議会議員 - 公明党",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdGpuYTdSSUs0QnFHLXAtNkJZMTRxTTVzckMyeGxkQjVodGFJSTFjZmZOaW96S0p2R1c3dExPRjVDYnpHVTh5V2d3WkFmMGF2WEhSTDhhazl6cTVkUDNJVHR1SWpVdW1TYVZpazEtZnJqXzMxUWNKY2lnRm5TMm9IWEpfOHBoQzA5Q2JUS3JteTNkSWJOdWFDT3dFdWlEMm5jTGJIcGJidDFKc01oUUU0UzNpT0ttR0VvcFNNLXVpQQ?oc=5",
+   "summary": "久々の日野町へ : ブログ : 清水ひとみ 公式サイト滋賀県議会議員&nbsp;&nbsp;公明党",
+   "date": "2026-10-11T23:15:25+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE43UnBCa1FFak1IQ1JLSF9ZbDFhdlZXekN3UmZiczE1RnZUazFaLXdTWGlmVnpnRzc4cXY4SjNxMWZOVFp2TDJoSlNZVHpUcXVoRHN0Sk9iNDg?oc=5",
+   "title": "滋賀県日野町の社会福祉法人が25周年 利用者の日常とらえた写真展が開催中 - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE43UnBCa1FFak1IQ1JLSF9ZbDFhdlZXekN3UmZiczE1RnZUazFaLXdTWGlmVnpnRzc4cXY4SjNxMWZOVFp2TDJoSlNZVHpUcXVoRHN0Sk9iNDg?oc=5",
+   "summary": "滋賀県日野町の社会福祉法人が25周年 利用者の日常とらえた写真展が開催中&nbsp;&nbsp;京都新聞デジタル",
+   "date": "2026-10-11T10:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event"
+   ]
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11VjBTTXJkVjZXVHFvQUVrSmp2VDUxUmtIa004NXpiUjdpNFJuYWFEc2dVU25GRmxTZU5nbTZ3WDNrZGhudmtvY1pEQ2NtTlZLNi1LbUs2X1U4aTJfZ3FRUk5ldjJfT2s?oc=5",
    "title": "作業所の日常伝える写真展 滋賀・日野町の「わたむきの里福祉会」 [滋賀県] - 朝日新聞",
@@ -39,6 +65,20 @@
    "id": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNGVKNTUyd2VBRm5IVUVndGdCOWtjNk1kMFhURkVvdzJvSHpReUVBMFFFSGlYWmFXeVZXZTBIdnRzV1VNTVhFcVVKaWZfZEpxdjR6WGR1ajhmUGJmR3dZMzcyM2lVMXl0UWNJcVV3RWlBbXY2S00yTTh6bGVjQzBob2tNa3JXN2dQVHpRZ2syYjV5X19BcGtBNUg3cE9iOFNNVjlkWQ?oc=5",
    "title": "作業所の日常伝える写真展 滋賀・日野町の「わたむきの里福祉会」 [滋賀県] - 朝日新聞",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNGVKNTUyd2VBRm5IVUVndGdCOWtjNk1kMFhURkVvdzJvSHpReUVBMFFFSGlYWmFXeVZXZTBIdnRzV1VNTVhFcVVKaWZfZEpxdjR6WGR1ajhmUGJmR3dZMzcyM2lVMXl0UWNJcVV3RWlBbXY2S00yTTh6bGVjQzBob2tNa3JXN2dQVHpRZ2syYjV5X19BcGtBNUg3cE9iOFNNVjlkWQ?oc=5",
+   "summary": "作業所の日常伝える写真展 滋賀・日野町の「わたむきの里福祉会」 [滋賀県]&nbsp;&nbsp;朝日新聞",
+   "date": "2026-10-10T10:45:01+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2c3LXZUZjY0akJqa2g2ck1iVU9KTXlvWTVoNjJEYnh5N1M1dkdYcnZhbkY5UC11eGxSdnVRYkJZV3Zmb3dhT001eEJ5cmpqVkgzZjljUUFqbXhhUnQ0R0pMY2J5aU1ZTzdKSGpwa1ZYcVcxRm5tY2l6ZzlkTER2azFDRjlJd00ybUJSa3RqcWJWam1DYUVnOXV3WkpTN3lxdWVpZTJDcEozT2JYU2h4LXg0X3lnY1dLaXN6elVFelRjVWJyRTVF?oc=5",
+   "title": "作業所の日常伝える写真展 滋賀・日野町の「わたむきの里福祉会」 [滋賀県] - 朝日新聞",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2c3LXZUZjY0akJqa2g2ck1iVU9KTXlvWTVoNjJEYnh5N1M1dkdYcnZhbkY5UC11eGxSdnVRYkJZV3Zmb3dhT001eEJ5cmpqVkgzZjljUUFqbXhhUnQ0R0pMY2J5aU1ZTzdKSGpwa1ZYcVcxRm5tY2l6ZzlkTER2azFDRjlJd00ybUJSa3RqcWJWam1DYUVnOXV3WkpTN3lxdWVpZTJDcEozT2JYU2h4LXg0X3lnY1dLaXN6elVFelRjVWJyRTVF?oc=5",
    "summary": "作業所の日常伝える写真展 滋賀・日野町の「わたむきの里福祉会」 [滋賀県]&nbsp;&nbsp;朝日新聞",
    "date": "2026-10-10T10:45:01+09:00",
    "source_id": "gnews",
@@ -5599,9 +5639,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5peWpGYXZpclBHNHVmQm54ZVJyR2hlVWpfNjcyY0QySlRxeFVjSUlXTTNsbVE3cjczRmpOQkdIeEtoc0N2OWVVa1ptRTMtRnI1R3JTaW5Qc2hpay1LckRTcFcwMVpOYUk?oc=5",
-   "title": "40年前の殺人「日野町事件」、再審可否の判断が年度内にも 最高裁 [滋賀県] - 朝日新聞",
+   "title": "40年前の殺人「日野町事件」、再審可否の判断が年度内にも 最高裁 - 朝日新聞",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5peWpGYXZpclBHNHVmQm54ZVJyR2hlVWpfNjcyY0QySlRxeFVjSUlXTTNsbVE3cjczRmpOQkdIeEtoc0N2OWVVa1ptRTMtRnI1R3JTaW5Qc2hpay1LckRTcFcwMVpOYUk?oc=5",
-   "summary": "40年前の殺人「日野町事件」、再審可否の判断が年度内にも 最高裁 [滋賀県]&nbsp;&nbsp;朝日新聞",
+   "summary": "40年前の殺人「日野町事件」、再審可否の判断が年度内にも 最高裁&nbsp;&nbsp;朝日新聞",
    "date": "2026-02-17T17:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
