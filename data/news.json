@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-12T09:20:29.700262+09:00",
+ "updated_at": "2026-10-13T03:48:28.995410+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -1580,6 +1580,18 @@
    "title": "日野町が移住専用ホームページを作成しました！ - pref.shiga.lg.jp",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBweDhJV25Nd0twNkpubWtvUWs0eFNsZnlXd01HTG9LU1VISnU3U3AxNjJzVk9uUkduYlUxVldoVTRZMVpGQUYtUmtnOXRLOHhYelJ4Y2p3?oc=5",
    "summary": "日野町が移住専用ホームページを作成しました！&nbsp;&nbsp;pref.shiga.lg.jp",
+   "date": "2026-09-07T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45bUhsRWxIbFF1ZUxKbDVZVERhRFBUano5VTQ4ei10NmxKczFrUnhTQkk5ckxOM3dId253cmFHVTFyZldYLTR6WjR3bUQ1bUJJNWFEaEVxaHJTOU5jSDBCbG1wNA?oc=5",
+   "title": "日野町 昭和34年台風7号 - 滋賀県",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45bUhsRWxIbFF1ZUxKbDVZVERhRFBUano5VTQ4ei10NmxKczFrUnhTQkk5ckxOM3dId253cmFHVTFyZldYLTR6WjR3bUQ1bUJJNWFEaEVxaHJTOU5jSDBCbG1wNA?oc=5",
+   "summary": "日野町 昭和34年台風7号&nbsp;&nbsp;滋賀県",
    "date": "2026-09-07T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -5236,6 +5248,20 @@
    "tags": []
   },
   {
+   "id": "https://hino-kanko.jp/pickup/7592/",
+   "title": "日野ひなまつり紀行、ご来場ありがとうございました",
+   "url": "https://hino-kanko.jp/pickup/7592/",
+   "summary": "今年も日野ひなまつり紀行が無事に終了いたしました。 &#160; &#160; &#160; &#160; 皆様には、日野ひなまつり紀行を通じて日野町の歴史や文化、古い町並み。そして、日野の美味しいものを楽しんでいただけ &#8230; Continue reading \"日野ひなまつり紀行、ご来場ありがとうございまし",
+   "date": "2026-03-15T15:11:53+09:00",
+   "source_id": "kanko",
+   "source_name": "日野観光協会",
+   "source_short": "観光",
+   "category": "event",
+   "tags": [
+    "event"
+   ]
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBJTFp1Zm9DdGptbXVLNDZiUXhLSElrSkNOWmhPNmdRZm12TVljd2pHakR4b0V3VFBwMHoxcjkzTEZIRklVbXBHTFpGRVlSYThFTGt4aEZ2MXlnRWRXU0hrVzBIQmNUZ1dQUFVUNF9XRmZpaG5mZ1E?oc=5",
    "title": "滋賀・日野町事件で再審開始の阪原さん遺族、事件現場を視察 決定後初めて - 産経ニュース",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBJTFp1Zm9DdGptbXVLNDZiUXhLSElrSkNOWmhPNmdRZm12TVljd2pHakR4b0V3VFBwMHoxcjkzTEZIRklVbXBHTFpGRVlSYThFTGt4aEZ2MXlnRWRXU0hrVzBIQmNUZ1dQUFVUNF9XRmZpaG5mZ1E?oc=5",
@@ -5648,6 +5674,34 @@
    "source_short": "報道",
    "category": "press",
    "tags": []
+  },
+  {
+   "id": "https://hino-kanko.jp/topics/7581/",
+   "title": "デジタル無料バス乗車券、レンタサイクル無料利用券を発行します！",
+   "url": "https://hino-kanko.jp/topics/7581/",
+   "summary": "日野ひなまつり紀行に合わせて、町内周遊アプリ「ぐるりん日野ナビ」にて、近江鉄道バス日八線と日野町営バスに無料で乗車できる無料乗車券を発行します。 【利用可能日】 令和8年2月21日（土曜日）、22日（日曜日）、23日（月 &#8230; Continue reading \"デジタル無料バス乗車券、レンタサイクル無料利用",
+   "date": "2026-02-12T11:22:06+09:00",
+   "source_id": "kanko",
+   "source_name": "日野観光協会",
+   "source_short": "観光",
+   "category": "event",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "https://hino-kanko.jp/pickup/7575/",
+   "title": "日野ひなまつり紀行 デジタルスタンプラリー開催中！",
+   "url": "https://hino-kanko.jp/pickup/7575/",
+   "summary": "初春の日野を巡る、日野ひなまつり紀行。 町なかでは、デジタルスタンプラリーが開催中！各スポットを巡り、スタンプ５つを集めて、日野町の特産品をGETしよう！！ 参加方法は、日野町公式アプリ「ぐるりん日野ナビ」をインストール &#8230; Continue reading \"日野ひなまつり紀行 デジタルスタンプラリー開催",
+   "date": "2026-02-11T11:56:44+09:00",
+   "source_id": "kanko",
+   "source_name": "日野観光協会",
+   "source_short": "観光",
+   "category": "event",
+   "tags": [
+    "event"
+   ]
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1yc0U0b0hYdjZnVGxDZ0h1TFc2akk2T0FieHh4V1FJbDFlOGU1eGRqLXNlbUdZV05ibnpPSTFEcTdqTXZsNjk1RXRVT3JlbzdHZ3c?oc=5",
