@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-13T03:48:28.995410+09:00",
+ "updated_at": "2026-10-13T11:29:09.392906+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,35 @@
   }
  ],
  "items": [
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8466",
+   "title": "子育て講座「心が”フッ”と軽くなる家族時間～笑顔がふえる子育てのヒント～」受講者募集",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8466",
+   "summary": "□子育て支援情報 ■産後の心の変化や家事・育児、家族との関わり方について。助産師 &#8230; 続きを読む &#8594;",
+   "date": "2026-10-13T09:00:10+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "event",
+    "kosodate"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008970.html",
+   "title": "【令和9年1月18日採用】令和8年度日野町会計年度任用職員（確定申告事務補助）を募集します",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008970.html",
+   "summary": "",
+   "date": "2026-10-13T09:00:00+09:00",
+   "source_id": "town-topics",
+   "source_name": "日野町 募集情報",
+   "source_short": "募集",
+   "category": "town",
+   "tags": [
+    "business"
+   ]
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdGpuYTdSSUs0QnFHLXAtNkJZMTRxTTVzckMyeGxkQjVodGFJSTFjZmZOaW96S0p2R1c3dExPRjVDYnpHVTh5V2d3WkFmMGF2WEhSTDhhazl6cTVkUDNJVHR1SWpVdW1TYVZpazEtZnJqXzMxUWNKY2lnRm5TMm9IWEpfOHBoQzA5Q2JUS3JteTNkSWJOdWFDT3dFdWlEMm5jTGJIcGJidDFKc01oUUU0UzNpT0ttR0VvcFNNLXVpQQ?oc=5",
    "title": "久々の日野町へ : ブログ : 清水ひとみ 公式サイト滋賀県議会議員 - 公明党",
@@ -2395,9 +2424,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZbFhQckp1Qm55QkpPOFVkZnpLanRQX09neEp2b3VGTUl3NjJmNDdYNWVsdnNIOTc5NkpCbko5d3N0QU9lZWVHRGtSOXQxMGNUZFdLeUJad0Iyb3FxRmc?oc=5",
-   "title": "滋賀県日野町の天気予報（きょう・あす・週間） - 日テレNEWS NNN",
+   "title": "滋賀県日野町の天気 - 日テレNEWS NNN",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZbFhQckp1Qm55QkpPOFVkZnpLanRQX09neEp2b3VGTUl3NjJmNDdYNWVsdnNIOTc5NkpCbko5d3N0QU9lZWVHRGtSOXQxMGNUZFdLeUJad0Iyb3FxRmc?oc=5",
-   "summary": "滋賀県日野町の天気予報（きょう・あす・週間）&nbsp;&nbsp;日テレNEWS NNN",
+   "summary": "滋賀県日野町の天気&nbsp;&nbsp;日テレNEWS NNN",
    "date": "2026-08-19T07:42:06+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
