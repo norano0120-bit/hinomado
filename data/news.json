@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15T08:47:15.815367+09:00",
+ "updated_at": "2026-10-15T23:03:26.101853+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,102 @@
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05ZHRaeHJzMF9pQnlnUklVaHpYc0t5SXZDb2VSeXFEY2d4Ynl6V0N5Y2dBOWFqSHNOU0MtdnRiSlBKSXFYcWN4WDh3eDNFd0ppVlBKTlhjWHUtOHZ4emtmeWZEQkxBdGxzejd5cThEeGdQZk9LN0hVTVg3LTdWRzA?oc=5",
+   "title": "「父は何のために逮捕され、亡くなった」再審確定の滋賀・日野町事件で検察が新たに57点の証拠開示へ 一日も早い無罪判決か真相解明か 弁護団が抱えるジレンマ - Yahoo!ニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05ZHRaeHJzMF9pQnlnUklVaHpYc0t5SXZDb2VSeXFEY2d4Ynl6V0N5Y2dBOWFqSHNOU0MtdnRiSlBKSXFYcWN4WDh3eDNFd0ppVlBKTlhjWHUtOHZ4emtmeWZEQkxBdGxzejd5cThEeGdQZk9LN0hVTVg3LTdWRzA?oc=5",
+   "summary": "「父は何のために逮捕され、亡くなった」再審確定の滋賀・日野町事件で検察が新たに57点の証拠開示へ 一日も早い無罪判決か真相解明か 弁護団が抱えるジレンマ&nbsp;&nbsp;Yahoo!ニュース",
+   "date": "2026-10-15T21:34:34+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaNEJrVHh6NVM1X0pVR0RIRmVjZ1FzVHZ1eVBfTGo3RF81Uk40TXYybl9PVExvWGlVcm9rSmpVb0R0eHNLWWVET3dKQjRRWTZ6bjlGUTBfOXZ6aWc1TTlLZkUtNm84YkU?oc=5",
+   "title": "日野町事件で検察が新たな証拠を開示の方針 弁護団「全容分からず」 [滋賀県] - 朝日新聞",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaNEJrVHh6NVM1X0pVR0RIRmVjZ1FzVHZ1eVBfTGo3RF81Uk40TXYybl9PVExvWGlVcm9rSmpVb0R0eHNLWWVET3dKQjRRWTZ6bjlGUTBfOXZ6aWc1TTlLZkUtNm84YkU?oc=5",
+   "summary": "日野町事件で検察が新たな証拠を開示の方針 弁護団「全容分からず」 [滋賀県]&nbsp;&nbsp;朝日新聞",
+   "date": "2026-10-15T21:25:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZMm12YW10QVZWUksxNFJUc3pUZEhwQ2Y0dkQ2TDloaTlHTFFjX1Jxb05JaHJtcksyejRLbXMwZ1lFUTJOYzFiXy0zMnJYM3BoN080bHkwVkE?oc=5",
+   "title": "日野町事件の再審公判、検察側が証拠57点開示へ 6回目の3者協議で意向表明 - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZMm12YW10QVZWUksxNFJUc3pUZEhwQ2Y0dkQ2TDloaTlHTFFjX1Jxb05JaHJtcksyejRLbXMwZ1lFUTJOYzFiXy0zMnJYM3BoN080bHkwVkE?oc=5",
+   "summary": "日野町事件の再審公判、検察側が証拠57点開示へ 6回目の3者協議で意向表明&nbsp;&nbsp;京都新聞デジタル",
+   "date": "2026-10-15T20:41:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1uVjlEaDViM2syOGx4MTVJSHJKb3ZhdnlpYUttYnhlMS1xUXRWOHN2TUxlaWVMRTNMLVZiRU9sQmE2NHloUDJCNkQ1dw?oc=5",
+   "title": "検察、57点の新証拠開示へ 日野町事件の再審公判 - 47NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1uVjlEaDViM2syOGx4MTVJSHJKb3ZhdnlpYUttYnhlMS1xUXRWOHN2TUxlaWVMRTNMLVZiRU9sQmE2NHloUDJCNkQ1dw?oc=5",
+   "summary": "検察、57点の新証拠開示へ 日野町事件の再審公判&nbsp;&nbsp;47NEWS",
+   "date": "2026-10-15T19:04:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EbTNJSUhuZWF1c2ZJeHJKM0JveFJnU05wMkhoSzhuVmdxVDBlNEo4ZFdGQW0yN1NZYUNSSEJpOVJ3dzFIZC1aUUdtZGwyTV9id09zMWpfMGhhRGtibEh3?oc=5",
+   "title": "滋賀 日野町事件再審向け 検察57点証拠開示の意向 - NHKニュース",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EbTNJSUhuZWF1c2ZJeHJKM0JveFJnU05wMkhoSzhuVmdxVDBlNEo4ZFdGQW0yN1NZYUNSSEJpOVJ3dzFIZC1aUUdtZGwyTV9id09zMWpfMGhhRGtibEh3?oc=5",
+   "summary": "滋賀 日野町事件再審向け 検察57点証拠開示の意向&nbsp;&nbsp;NHKニュース",
+   "date": "2026-10-15T18:47:32+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ENldMOWpLc0VibjFxSk5iOExuVVVoZFNrcUVVNjhodExIbmxuNTFuT0FzUUNJSVNmQWo4ci1kWnlMcmVVUDFfZFlzMW5tdHVhVE0tZw?oc=5",
+   "title": "「日野町事件」検察側が新たな証拠開示へ 捜査報告書や供述調書など57点、大津地裁で3者協議 - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ENldMOWpLc0VibjFxSk5iOExuVVVoZFNrcUVVNjhodExIbmxuNTFuT0FzUUNJSVNmQWo4ci1kWnlMcmVVUDFfZFlzMW5tdHVhVE0tZw?oc=5",
+   "summary": "「日野町事件」検察側が新たな証拠開示へ 捜査報告書や供述調書など57点、大津地裁で3者協議&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-10-15T17:35:26+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009005.html",
+   "title": "つどいのひろば『ぽけっと』11月の予定カレンダーを掲載しました。",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009005.html",
+   "summary": "",
+   "date": "2026-10-15T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008985.html",
+   "title": "【声の広報】広報ひの10月号",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008985.html",
+   "summary": "広報ひのを音声でお聞きいただけます。",
+   "date": "2026-10-15T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8470",
    "title": "【重要】日野め～る配信システムへの不正アクセスについて",
