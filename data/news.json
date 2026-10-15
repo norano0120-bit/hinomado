@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15T23:03:26.101853+09:00",
+ "updated_at": "2026-10-16T08:36:04.140434+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,42 @@
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aSUFxTXN3b1dkRVFWYmNjcXJsek9LUmxTTFRRbThLYk1LZ3ZKWEdCMnBCR1RxdTlFWUQtWjBmTTdzaGg4UlVuUXY5dVI1UnY4S2VxLWNjVlM?oc=5",
+   "title": "滋賀県日野町でメールアドレス漏洩の可能性 配信サービス会社に不正アクセス - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aSUFxTXN3b1dkRVFWYmNjcXJsek9LUmxTTFRRbThLYk1LZ3ZKWEdCMnBCR1RxdTlFWUQtWjBmTTdzaGg4UlVuUXY5dVI1UnY4S2VxLWNjVlM?oc=5",
+   "summary": "滋賀県日野町でメールアドレス漏洩の可能性 配信サービス会社に不正アクセス&nbsp;&nbsp;京都新聞デジタル",
+   "date": "2026-10-16T05:45:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vaUVnVWFTX19uYWxfelhySlV2NG8zMkdmQkhPaWp3ODlVRktWRTlRVk5vaWNrTktMcmhSclV1NlpHaXVybTM3dkVyMEx6T1pHRVA3VGxOUUk1UW85MWZJ?oc=5",
+   "title": "滋賀 日野町事件の再審に向け検察が証拠57点開示の意向 - NHKニュース",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vaUVnVWFTX19uYWxfelhySlV2NG8zMkdmQkhPaWp3ODlVRktWRTlRVk5vaWNrTktMcmhSclV1NlpHaXVybTM3dkVyMEx6T1pHRVA3VGxOUUk1UW85MWZJ?oc=5",
+   "summary": "滋賀 日野町事件の再審に向け検察が証拠57点開示の意向&nbsp;&nbsp;NHKニュース",
+   "date": "2026-10-16T00:24:34+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BM0xlcktDNU9lMlNJWFlaRGxnMFdFdmNYVHRnODdfNWVtV3p4Vm1ZUk5NaXJXTXFLSjRxdTJsRThyTUtQV1Vmdk9pV0ZQOWhUQmk2SVRqcWxZRzBF?oc=5",
+   "title": "「父は何のために逮捕され、亡くなった」再審確定の滋賀・日野町事件で検察が新たに57点の証拠開示へ 一日も早い無罪判決か真相解明か 弁護団が抱えるジレンマ｜Infoseekニュース - Infoseek",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BM0xlcktDNU9lMlNJWFlaRGxnMFdFdmNYVHRnODdfNWVtV3p4Vm1ZUk5NaXJXTXFLSjRxdTJsRThyTUtQV1Vmdk9pV0ZQOWhUQmk2SVRqcWxZRzBF?oc=5",
+   "summary": "「父は何のために逮捕され、亡くなった」再審確定の滋賀・日野町事件で検察が新たに57点の証拠開示へ 一日も早い無罪判決か真相解明か 弁護団が抱えるジレンマ｜Infoseekニュース&nbsp;&nbsp;Infoseek",
+   "date": "2026-10-15T21:35:31+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05ZHRaeHJzMF9pQnlnUklVaHpYc0t5SXZDb2VSeXFEY2d4Ynl6V0N5Y2dBOWFqSHNOU0MtdnRiSlBKSXFYcWN4WDh3eDNFd0ppVlBKTlhjWHUtOHZ4emtmeWZEQkxBdGxzejd5cThEeGdQZk9LN0hVTVg3LTdWRzA?oc=5",
    "title": "「父は何のために逮捕され、亡くなった」再審確定の滋賀・日野町事件で検察が新たに57点の証拠開示へ 一日も早い無罪判決か真相解明か 弁護団が抱えるジレンマ - Yahoo!ニュース",
@@ -37,6 +73,18 @@
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZMm12YW10QVZWUksxNFJUc3pUZEhwQ2Y0dkQ2TDloaTlHTFFjX1Jxb05JaHJtcksyejRLbXMwZ1lFUTJOYzFiXy0zMnJYM3BoN080bHkwVkE?oc=5",
    "summary": "日野町事件の再審公判、検察側が証拠57点開示へ 6回目の3者協議で意向表明&nbsp;&nbsp;京都新聞デジタル",
    "date": "2026-10-15T20:41:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DR0R3dGVXWlFURzh1U3ZGalQ1ZUJIWVZDUFVTbldrZEhzY2p3NnQtdlB0eHRUTWVWZTBnRTVOdU9KQ0txY19pSzhFZGRSdkFTWmxyZnVYcWFoUUJ6RnhFRk5lWWJ5YkJEU084Zw?oc=5",
+   "title": "滋賀・日野町事件、57点の新証拠開示へ 再審公判に向けて検察側 - 日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DR0R3dGVXWlFURzh1U3ZGalQ1ZUJIWVZDUFVTbldrZEhzY2p3NnQtdlB0eHRUTWVWZTBnRTVOdU9KQ0txY19pSzhFZGRSdkFTWmxyZnVYcWFoUUJ6RnhFRk5lWWJ5YkJEU084Zw?oc=5",
+   "summary": "滋賀・日野町事件、57点の新証拠開示へ 再審公判に向けて検察側&nbsp;&nbsp;日本経済新聞",
+   "date": "2026-10-15T20:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
