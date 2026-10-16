@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16T08:36:04.140434+09:00",
+ "updated_at": "2026-10-16T22:51:39.080085+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,42 @@
   }
  ],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000004719.html",
+   "title": "工場立地法に基づく緑地等の面積率を緩和しました",
+   "url": "https://www.town.shiga-hino.lg.jp/0000004719.html",
+   "summary": "工場立地法の概要説明と日野町工場立地法に基づく緑地面積率等に係る準則を定める条例に定められた緑地率等の概要",
+   "date": "2026-10-16T15:43:07+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009016.html",
+   "title": "株式会社滋賀レイクスとフレンドシップタウン協定を締結しました",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009016.html",
+   "summary": "",
+   "date": "2026-10-16T15:37:15+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009013.html",
+   "title": "蒲生家ゆかりの地を巡るデジタルスタンプラリーを開催します！ぜひご参加ください！",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009013.html",
+   "summary": "蒲生家ゆかりの地を巡るデジタルスタンプラリーを開催します。先着300名様にオリジナル御城印をプレゼントします。",
+   "date": "2026-10-16T09:03:04+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aSUFxTXN3b1dkRVFWYmNjcXJsek9LUmxTTFRRbThLYk1LZ3ZKWEdCMnBCR1RxdTlFWUQtWjBmTTdzaGg4UlVuUXY5dVI1UnY4S2VxLWNjVlM?oc=5",
    "title": "滋賀県日野町でメールアドレス漏洩の可能性 配信サービス会社に不正アクセス - 京都新聞デジタル",
@@ -163,6 +199,20 @@
    "category": "alert",
    "tags": [
     "business"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009015.html",
+   "title": "住民意見交換会「日野町の子育てちょっとしゃべろ。」の開催について",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009015.html",
+   "summary": "",
+   "date": "2026-10-14T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "kosodate"
    ]
   },
   {
@@ -3112,7 +3162,7 @@
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008693.html",
-   "title": "入札予報(9月30日開札分）",
+   "title": "入札予報(10月30日、11月6日開札分）",
    "url": "https://www.town.shiga-hino.lg.jp/0000008693.html",
    "summary": "",
    "date": "2026-07-30T09:00:00+09:00",
