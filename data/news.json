@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T08:21:22.539500+09:00",
+ "updated_at": "2026-10-17T21:49:07.902270+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -169,6 +169,18 @@
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ENldMOWpLc0VibjFxSk5iOExuVVVoZFNrcUVVNjhodExIbmxuNTFuT0FzUUNJSVNmQWo4ci1kWnlMcmVVUDFfZFlzMW5tdHVhVE0tZw?oc=5",
    "summary": "「日野町事件」検察側が新たな証拠開示へ 捜査報告書や供述調書など57点、大津地裁で3者協議&nbsp;&nbsp;中日新聞Web",
    "date": "2026-10-15T17:35:26+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5IUFV6V2Y5QW9rdDdweVdESVpPMHFsV0dVVmtUU2o2OU9WY3ExMmxoOERpaDdfNmI5RUh4ZTVoUDJVSjJMUnlMb1FRZw?oc=5",
+   "title": "「日野町事件」検察側が新たな証拠開示へ 捜査報告書や供述調書など57点、大津地裁で3者協議 - 47NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5IUFV6V2Y5QW9rdDdweVdESVpPMHFsV0dVVmtUU2o2OU9WY3ExMmxoOERpaDdfNmI5RUh4ZTVoUDJVSjJMUnlMb1FRZw?oc=5",
+   "summary": "「日野町事件」検察側が新たな証拠開示へ 捜査報告書や供述調書など57点、大津地裁で3者協議&nbsp;&nbsp;47NEWS",
+   "date": "2026-10-15T17:35:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
