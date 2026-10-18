@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-18T22:06:25.438628+09:00",
+ "updated_at": "2026-10-19T07:53:47.487583+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -145,6 +145,18 @@
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1uVjlEaDViM2syOGx4MTVJSHJKb3ZhdnlpYUttYnhlMS1xUXRWOHN2TUxlaWVMRTNMLVZiRU9sQmE2NHloUDJCNkQ1dw?oc=5",
    "summary": "検察、57点の新証拠開示へ 日野町事件の再審公判&nbsp;&nbsp;47NEWS",
    "date": "2026-10-15T19:04:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ3I5d0Z4VjFkLTF6VkM3cnFEQmhYSzFGTXdVb3U3SGVQZzBsN0FjUDdySDM1X1AtRVBtb2hrdEJiakNVQWw1ZGpOdFNYMmhBTWF5clkzVk1QMUpmWHQ0akw1bUEzSlZqWHY3dXJqdWpxMVhpMUFVUUxMS0FBVTlYQWdxdHFHeGFWeHlN?oc=5",
+   "title": "検察、５７点の新証拠開示へ 日野町事件の再審公判 - 山形新聞",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ3I5d0Z4VjFkLTF6VkM3cnFEQmhYSzFGTXdVb3U3SGVQZzBsN0FjUDdySDM1X1AtRVBtb2hrdEJiakNVQWw1ZGpOdFNYMmhBTWF5clkzVk1QMUpmWHQ0akw1bUEzSlZqWHY3dXJqdWpxMVhpMUFVUUxMS0FBVTlYQWdxdHFHeGFWeHlN?oc=5",
+   "summary": "検察、５７点の新証拠開示へ 日野町事件の再審公判&nbsp;&nbsp;山形新聞",
+   "date": "2026-10-15T18:53:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
