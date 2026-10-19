@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-19T07:53:47.487583+09:00",
+ "updated_at": "2026-10-20T01:20:26.793994+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,18 @@
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FQXN1YlB4eWVoWWNEeWVRZHVnd2ZEc1FEbmhBSDVuM2kxVGJlYnpJRGNnYVZsWm5iUVd3UVZMMGtSRGJGdFZZUGo2NTI4YWFWelAtR3M0dE9ET0ExRkE?oc=5",
+   "title": "【日野町に集う】16日（金）は午後から日野町町民会館「わたむきホール虹」で開催された「第75回... - 選挙ドットコム",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FQXN1YlB4eWVoWWNEeWVRZHVnd2ZEc1FEbmhBSDVuM2kxVGJlYnpJRGNnYVZsWm5iUVd3UVZMMGtSRGJGdFZZUGo2NTI4YWFWelAtR3M0dE9ET0ExRkE?oc=5",
+   "summary": "【日野町に集う】16日（金）は午後から日野町町民会館「わたむきホール虹」で開催された「第75回...&nbsp;&nbsp;選挙ドットコム",
+   "date": "2026-10-19T04:19:11+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000004719.html",
    "title": "工場立地法に基づく緑地等の面積率を緩和しました",
@@ -65,6 +77,18 @@
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
    "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009011.html",
+   "title": "仕様書（令和8年10月30日分）",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009011.html",
+   "summary": "",
+   "date": "2026-10-16T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
    "tags": []
   },
   {
