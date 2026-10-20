@@ -1,6 +1,10 @@
 {
- "updated_at": "2026-10-20T23:12:37.706015+09:00",
+ "updated_at": "2026-10-21T08:44:06.621375+09:00",
  "errors": [
+  {
+   "source": "ひの暮らし",
+   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
+  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
@@ -372,6 +376,20 @@
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE43UnBCa1FFak1IQ1JLSF9ZbDFhdlZXekN3UmZiczE1RnZUazFaLXdTWGlmVnpnRzc4cXY4SjNxMWZOVFp2TDJoSlNZVHpUcXVoRHN0Sk9iNDg?oc=5",
    "summary": "滋賀県日野町の社会福祉法人が25周年 利用者の日常とらえた写真展が開催中&nbsp;&nbsp;京都新聞デジタル",
    "date": "2026-10-11T10:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZU04a3FicmZuMS1hcGkyeXR5cV9fejBTc3ZHWVVwcU5FZGlfa0hjOWxublNTWjVoYVNwU05UZ0ZqUm1oSmhuZnJST19RVndWQS1kcXZSOGFXX04zRXl5Ui1uUTZLT28zZ0UxemdvVExwMVhIY1dyU0EzMTlBQUhLNExjdU9qMHBUTWFUZS11WW5SNDJLdXJBY9IBngFBVV95cUxPLWZzR01Sb3JfMU4xUnRwYTdRSG5kZ09hOGNYUEVJQWpvaTgzWU8zelVzQlNLdlRDMWdjLTdISWR5X21uTTlEQm5WeDRaTWZPX3kyT29DX2ZFOG12NndBTnJfQ0h4amFEMmlhRUR3N0ZSMGpDa3VJRXd0UmFiaXBaeUlTUEhpcklpR3d4eGlqQTdkT0tnTW5pN2U2cE1uZw?oc=5",
+   "title": "作業所の日常伝える写真展 滋賀・日野町の「わたむきの里福祉会」 - ｄメニューニュース",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZU04a3FicmZuMS1hcGkyeXR5cV9fejBTc3ZHWVVwcU5FZGlfa0hjOWxublNTWjVoYVNwU05UZ0ZqUm1oSmhuZnJST19RVndWQS1kcXZSOGFXX04zRXl5Ui1uUTZLT28zZ0UxemdvVExwMVhIY1dyU0EzMTlBQUhLNExjdU9qMHBUTWFUZS11WW5SNDJLdXJBY9IBngFBVV95cUxPLWZzR01Sb3JfMU4xUnRwYTdRSG5kZ09hOGNYUEVJQWpvaTgzWU8zelVzQlNLdlRDMWdjLTdISWR5X21uTTlEQm5WeDRaTWZPX3kyT29DX2ZFOG12NndBTnJfQ0h4amFEMmlhRUR3N0ZSMGpDa3VJRXd0UmFiaXBaeUlTUEhpcklpR3d4eGlqQTdkT0tnTW5pN2U2cE1uZw?oc=5",
+   "summary": "作業所の日常伝える写真展 滋賀・日野町の「わたむきの里福祉会」&nbsp;&nbsp;ｄメニューニュース",
+   "date": "2026-10-10T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
