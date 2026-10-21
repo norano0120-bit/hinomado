@@ -1,16 +1,84 @@
 {
- "updated_at": "2026-10-21T08:44:06.621375+09:00",
+ "updated_at": "2026-10-21T23:24:55.314608+09:00",
  "errors": [
-  {
-   "source": "ひの暮らし",
-   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
-  },
   {
    "source": "滋賀報知新聞",
    "message": "解析に失敗しました: <unknown>:2:39: not well-formed (invalid token)"
   }
  ],
  "items": [
+  {
+   "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa0hmVnlJZ1I3SFV0Z3dhU3g1UV9ObXRkLXNNRVRjV0E5ZW9Ld1UxMHpHNENaYnJXeVdBY1VBdW9YZFZWdG5nNGtFeDJyZDdJeWplNFhqaE5mX2NKOE9yb19vZE9wU3JEYm9Ob3BJVGwwclBEWDNVa09aa3J0WW52SGV0UQ?oc=5",
+   "title": "【楽待】滋賀県蒲生郡日野町 1棟アパート | 収益物件数No.1不動産投資サイト - rakumachi.jp",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa0hmVnlJZ1I3SFV0Z3dhU3g1UV9ObXRkLXNNRVRjV0E5ZW9Ld1UxMHpHNENaYnJXeVdBY1VBdW9YZFZWdG5nNGtFeDJyZDdJeWplNFhqaE5mX2NKOE9yb19vZE9wU3JEYm9Ob3BJVGwwclBEWDNVa09aa3J0WW52SGV0UQ?oc=5",
+   "summary": "【楽待】滋賀県蒲生郡日野町 1棟アパート | 収益物件数No.1不動産投資サイト&nbsp;&nbsp;rakumachi.jp",
+   "date": "2026-10-21T18:50:41+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15Q3c4cnJuRENXaG50NVFkejdiRFR2UDZJMnR2Yjk4YVFqdWZ4c2hUaGtiRTBoR3BBLVdDTkxTMTdnNExYeEZBSjc3UWlKVWRPLUxsUDZFcjc?oc=5",
+   "title": "「日野町事件」長男が「伊勢田平和のつどい」で講演 京都府宇治市 再審法の問題点について語る 無料 - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15Q3c4cnJuRENXaG50NVFkejdiRFR2UDZJMnR2Yjk4YVFqdWZ4c2hUaGtiRTBoR3BBLVdDTkxTMTdnNExYeEZBSjc3UWlKVWRPLUxsUDZFcjc?oc=5",
+   "summary": "「日野町事件」長男が「伊勢田平和のつどい」で講演 京都府宇治市 再審法の問題点について語る 無料&nbsp;&nbsp;京都新聞デジタル",
+   "date": "2026-10-21T10:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008978.html",
+   "title": "近江八幡八日市都市計画案の縦覧（都市計画法第17条）の実施について",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008978.html",
+   "summary": "",
+   "date": "2026-10-21T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2SmNHam5ZcmdESFNGRlN1YjhraktaeEU5V2llWTlVTmk4b0hSSDlUeVB1aHZaUm9HSkhabjR3NndYNVBsdEU1QWZqTkpEVDkxbzNySg?oc=5",
+   "title": "「町の皆さんを笑顔に」 Bプレミア・滋賀レイクスが日野町とフレンドシップタウン協定 - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2SmNHam5ZcmdESFNGRlN1YjhraktaeEU5V2llWTlVTmk4b0hSSDlUeVB1aHZaUm9HSkhabjR3NndYNVBsdEU1QWZqTkpEVDkxbzNySg?oc=5",
+   "summary": "「町の皆さんを笑顔に」 Bプレミア・滋賀レイクスが日野町とフレンドシップタウン協定&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-10-20T05:05:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51bm1yR2ZPRmRDOVU1VWVQbkxqNjEzQWxWSzY3eDZoakdIZFEyMm9yMkRsSkcwSGF3YzdjTVVib3Q4YUF5T1BNcTV3MVBNVmkzMUZGOHg3UWRodk1QVUgwSTZUcDN0OVJiQ1BmaGFvdEExTzFqOG1odjVaQVBvS0XSAX9BVV95cUxOdW5tckdmT0ZkQzlVNVVlUG5MajYxM0FsVks2N3g2aGpHSGRRMjJvcjJEbEpHMEhhd2M3Y01VYm90OGFBeU9QTXE1dzFQTVZpMzFGRjh4N1FkaHZNUFVIMEk2VHAzdDlSYkNQZmhhb3RBMU8xajhtaHY1WkFQb0tF?oc=5",
+   "title": "「町の皆さんを笑顔に」 Bプレミア・滋賀レイクスが日野町とフレンドシップタウン協定 - ｄメニューニュース",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51bm1yR2ZPRmRDOVU1VWVQbkxqNjEzQWxWSzY3eDZoakdIZFEyMm9yMkRsSkcwSGF3YzdjTVVib3Q4YUF5T1BNcTV3MVBNVmkzMUZGOHg3UWRodk1QVUgwSTZUcDN0OVJiQ1BmaGFvdEExTzFqOG1odjVaQVBvS0XSAX9BVV95cUxOdW5tckdmT0ZkQzlVNVVlUG5MajYxM0FsVks2N3g2aGpHSGRRMjJvcjJEbEpHMEhhd2M3Y01VYm90OGFBeU9QTXE1dzFQTVZpMzFGRjh4N1FkaHZNUFVIMEk2VHAzdDlSYkNQZmhhb3RBMU8xajhtaHY1WkFQb0tF?oc=5",
+   "summary": "「町の皆さんを笑顔に」 Bプレミア・滋賀レイクスが日野町とフレンドシップタウン協定&nbsp;&nbsp;ｄメニューニュース",
+   "date": "2026-10-20T05:05:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9sSXdXNENWdnFmWHRHem5iS3llazh6dWc5dHNCajJkSVhaNjdSdEtlRnVPRVRtZmlLVnpSbnRXR1NBSElSb2l1ZldGRQ?oc=5",
+   "title": "「町の皆さんを笑顔に」 Bプレミア・滋賀レイクスが日野町とフレンドシップタウン協定 - 47NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9sSXdXNENWdnFmWHRHem5iS3llazh6dWc5dHNCajJkSVhaNjdSdEtlRnVPRVRtZmlLVnpSbnRXR1NBSElSb2l1ZldGRQ?oc=5",
+   "summary": "「町の皆さんを笑顔に」 Bプレミア・滋賀レイクスが日野町とフレンドシップタウン協定&nbsp;&nbsp;47NEWS",
+   "date": "2026-10-20T05:05:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FQXN1YlB4eWVoWWNEeWVRZHVnd2ZEc1FEbmhBSDVuM2kxVGJlYnpJRGNnYVZsWm5iUVd3UVZMMGtSRGJGdFZZUGo2NTI4YWFWelAtR3M0dE9ET0ExRkE?oc=5",
    "title": "【日野町に集う】16日（金）は午後から日野町町民会館「わたむきホール虹」で開催された「第75回... - 選挙ドットコム",
