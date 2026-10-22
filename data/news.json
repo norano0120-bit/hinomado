@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-22T08:56:36.868391+09:00",
+ "updated_at": "2026-10-22T23:26:25.903730+09:00",
  "errors": [
   {
    "source": "滋賀報知新聞",
@@ -7,6 +7,56 @@
   }
  ],
  "items": [
+  {
+   "id": "https://hino-kanko.jp/topics/7778/",
+   "title": "日野町周遊謎解きイベント開催中！",
+   "url": "https://hino-kanko.jp/topics/7778/",
+   "summary": "日野町を舞台にした周遊謎解きイベントを開催中！ 「がもにゃん」とともに、町の守り神「カグツチ様」の御力を取り戻すため、伝説の神薬「八百万感応丸(やおよろずかんのうがん)を探す旅へ出かけよう！ 歴史ある町並みや町内のスポッ &#8230; Continue reading \"日野町周遊謎解きイベント開催中！\"",
+   "date": "2026-10-22T15:53:26+09:00",
+   "source_id": "kanko",
+   "source_name": "日野観光協会",
+   "source_short": "観光",
+   "category": "event",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009026.html",
+   "title": "【重要】PHPの脆弱性への対応に伴うホームページ等の緊急メンテナンスについて",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009026.html",
+   "summary": "",
+   "date": "2026-10-22T14:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ONnpIelJzSl9hcTEydlVGTTNfS3UtRXAwTzhGZjk3YW9IMExxN1U3VF9NMDRLeEZRRFN4RTdQaW1VNENZLWNOenFzWTlVYlJoNEVSTEZVb3M?oc=5",
+   "title": "「再審無罪が確実」も服役中に病死「日野町事件」遺族が講演 京都府南丹市で11月開催 - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ONnpIelJzSl9hcTEydlVGTTNfS3UtRXAwTzhGZjk3YW9IMExxN1U3VF9NMDRLeEZRRFN4RTdQaW1VNENZLWNOenFzWTlVYlJoNEVSTEZVb3M?oc=5",
+   "summary": "「再審無罪が確実」も服役中に病死「日野町事件」遺族が講演 京都府南丹市で11月開催&nbsp;&nbsp;京都新聞デジタル",
+   "date": "2026-10-22T10:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009012.html",
+   "title": "仕様書（令和8年11月6日分）",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009012.html",
+   "summary": "",
+   "date": "2026-10-22T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa0hmVnlJZ1I3SFV0Z3dhU3g1UV9ObXRkLXNNRVRjV0E5ZW9Ld1UxMHpHNENaYnJXeVdBY1VBdW9YZFZWdG5nNGtFeDJyZDdJeWplNFhqaE5mX2NKOE9yb19vZE9wU3JEYm9Ob3BJVGwwclBEWDNVa09aa3J0WW52SGV0UQ?oc=5",
    "title": "【楽待】滋賀県蒲生郡日野町 1棟アパート | 収益物件数No.1不動産投資サイト - rakumachi.jp",
@@ -42,6 +92,20 @@
    "source_short": "町",
    "category": "town",
    "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wWUlXR202c0FSYXNtU0xKYzViWmR1eGVmNXAxSmVrN2FXMnFleWNSQnJxTEZzemNZa2gwWmZpeFlQR3pwWTczZXhvSWxQVGNfOGNpOA?oc=5",
+   "title": "「桟敷窓」の町並みでイベント 日野町で工芸作品や飲食販売、大道芸も - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wWUlXR202c0FSYXNtU0xKYzViWmR1eGVmNXAxSmVrN2FXMnFleWNSQnJxTEZzemNZa2gwWmZpeFlQR3pwWTczZXhvSWxQVGNfOGNpOA?oc=5",
+   "summary": "「桟敷窓」の町並みでイベント 日野町で工芸作品や飲食販売、大道芸も&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-10-21T05:05:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event"
+   ]
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2SmNHam5ZcmdESFNGRlN1YjhraktaeEU5V2llWTlVTmk4b0hSSDlUeVB1aHZaUm9HSkhabjR3NndYNVBsdEU1QWZqTkpEVDkxbzNySg?oc=5",
@@ -514,6 +578,20 @@
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2c3LXZUZjY0akJqa2g2ck1iVU9KTXlvWTVoNjJEYnh5N1M1dkdYcnZhbkY5UC11eGxSdnVRYkJZV3Zmb3dhT001eEJ5cmpqVkgzZjljUUFqbXhhUnQ0R0pMY2J5aU1ZTzdKSGpwa1ZYcVcxRm5tY2l6ZzlkTER2azFDRjlJd00ybUJSa3RqcWJWam1DYUVnOXV3WkpTN3lxdWVpZTJDcEozT2JYU2h4LXg0X3lnY1dLaXN6elVFelRjVWJyRTVF?oc=5",
    "summary": "作業所の日常伝える写真展 滋賀・日野町の「わたむきの里福祉会」 [滋賀県]&nbsp;&nbsp;朝日新聞",
    "date": "2026-10-10T10:45:01+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlQ0dHaTFsM0tyVTZ1MkdnUWN3dmxPazNsX2g5REFlMnQ0MWVrdFc3RmdLMXFfLTVkTFg5WTUtWVI1MmwzeWluLU9pNm1JV3RBT1FYTTVDanczN1NWTnNnUm5qWGZ5NkpQVjNEeVFR?oc=5",
+   "title": "作業所の日常伝える写真展 滋賀・日野町の「わたむきの里福祉会」 [滋賀県] - 朝日新聞",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlQ0dHaTFsM0tyVTZ1MkdnUWN3dmxPazNsX2g5REFlMnQ0MWVrdFc3RmdLMXFfLTVkTFg5WTUtWVI1MmwzeWluLU9pNm1JV3RBT1FYTTVDanczN1NWTnNnUm5qWGZ5NkpQVjNEeVFR?oc=5",
+   "summary": "作業所の日常伝える写真展 滋賀・日野町の「わたむきの里福祉会」 [滋賀県]&nbsp;&nbsp;朝日新聞",
+   "date": "2026-10-09T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
@@ -6154,6 +6232,20 @@
    "url": "https://hino-kanko.jp/pickup/7575/",
    "summary": "初春の日野を巡る、日野ひなまつり紀行。 町なかでは、デジタルスタンプラリーが開催中！各スポットを巡り、スタンプ５つを集めて、日野町の特産品をGETしよう！！ 参加方法は、日野町公式アプリ「ぐるりん日野ナビ」をインストール &#8230; Continue reading \"日野ひなまつり紀行 デジタルスタンプラリー開催",
    "date": "2026-02-11T11:56:44+09:00",
+   "source_id": "kanko",
+   "source_name": "日野観光協会",
+   "source_short": "観光",
+   "category": "event",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "https://hino-kanko.jp/topics/6733/",
+   "title": "ジャパンコーヒーフェスティバル 2026 in 滋賀県・日野町 が開催されます！3月7日(土)・8日(日)",
+   "url": "https://hino-kanko.jp/topics/6733/",
+   "summary": "ジャパンコーヒーフェスティバルは、日本国内における、コーヒー文化の健全な発展と普及を目的に、関西を中心とした全国各地で行っているコーヒーの飲み比べの祭典です。開催地ごとにテーマを設け、そのテーマに合わせたそこでしか飲めな &#8230; Continue reading \"ジャパンコーヒーフェスティバル 2026 in",
+   "date": "2026-02-10T18:30:43+09:00",
    "source_id": "kanko",
    "source_name": "日野観光協会",
    "source_short": "観光",
