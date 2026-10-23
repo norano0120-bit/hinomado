@@ -918,14 +918,10 @@ html { scroll-padding-top: 4.2rem; }
 }
 
 /* ── ごみ欄：予定と決まりを横並びに ───────────────────────── */
-.gomi-wrap {
-  display: grid;
-  grid-template-columns: 1.55fr 1fr;
-  gap: 1rem;
-  align-items: start;
-}
+.gomi-wrap { display: block; }
 .gomi-wrap.unverified .gomi-list { opacity: .62; }
 .gomi-side {
+  margin-top: 1.1rem;
   background: var(--paper-deep);
   border: 1px solid var(--line);
   padding: 1rem 1.2rem 1.1rem;
@@ -938,8 +934,13 @@ html { scroll-padding-top: 4.2rem; }
   color: #55503f;
 }
 .gomi-side .gomi-rules { margin: 0; padding-left: 1.1rem; font-size: .8rem; line-height: 1.8; }
+/* 収集予定は幅が余るので2列に流す */
+.gomi-list { columns: 2; column-gap: 2rem; }
+.gomi-list li { break-inside: avoid; }
+.gomi-side .gomi-rules { columns: 2; column-gap: 2rem; }
+.gomi-side .gomi-rules li { break-inside: avoid; }
 @media (max-width: 780px) {
-  .gomi-wrap { grid-template-columns: 1fr; }
+  .gomi-list, .gomi-side .gomi-rules { columns: 1; }
 }
 
 /* ── 記事 ─────────────────────────────────────────────── */

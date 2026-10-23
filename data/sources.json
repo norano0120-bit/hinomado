@@ -78,7 +78,9 @@
     ],
     "exclude": [
       "日野市"
-    ]
+    ],
+    "enabled": false,
+    "disabled_note": "2026年8月以降、RSSが取得できない状態が続いているため停止中。記事はGoogleニュース経由でも拾えることがある。復旧を確認したら enabled を true に戻す。"
   },
   {
     "id": "gnews",

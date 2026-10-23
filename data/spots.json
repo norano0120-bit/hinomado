@@ -142,7 +142,7 @@
     "cat": "cafe",
     "url": "https://hino-kanko.jp/food/watamukiyama-cafe/",
     "source": "日野観光協会",
-    "blurb": "綿向山のふもと。登山の前後に食事ができ、宿泊もできる。",
+    "blurb": "綿向山のふもと。食事ができ、宿泊もできる。登山道は閉鎖中なので、山以外の目的で訪ねることになる。",
     "tags": [
       "登山口",
       "宿泊可"
@@ -330,18 +330,18 @@
     "cat": "nature",
     "url": "https://hino-kanko.jp/nature/watamukiyama/",
     "source": "日野観光協会",
-    "blurb": "日野のシンボルとなる山。登山道が整備され、冬は霧氷が目当ての人でにぎわう。",
+    "blurb": "日野のシンボルとなる山。冬の霧氷で知られるが、登山道は令和9年3月末まで閉鎖されている。訪れる前に町のお知らせで最新の状況を確認してほしい。",
     "tags": [
-      "登山",
+      "登山道が閉鎖中",
       "霧氷"
     ],
-    "season": [
-      1,
-      2,
-      11,
-      12
-    ],
+    "season": [],
     "links": [
+      {
+        "label": "閉鎖のお知らせ（町）",
+        "icon": "web",
+        "url": "https://www.town.shiga-hino.lg.jp/0000007361.html"
+      },
       {
         "label": "観光協会の紹介",
         "icon": "web",
@@ -420,13 +420,12 @@
     "cat": "nature",
     "url": "https://hino-kanko.jp/nature/hinodariaen/",
     "source": "日野観光協会",
-    "blurb": "秋に多品種のダリアが咲きそろう。品種ごとの姿の違いを見て回れる。",
+    "blurb": "秋に多品種のダリアが咲きそろう。シーズンは例年9月から10月中旬ごろまでで、その年の営業期間は町のお知らせで告知される。",
     "tags": [
       "花"
     ],
     "season": [
-      9,
-      10
+      9
     ],
     "links": [
       {

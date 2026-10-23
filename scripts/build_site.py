@@ -60,18 +60,23 @@ def load(name):
     return json.loads((DATA / name).read_text(encoding="utf-8"))
 
 
-def event_date(title: str, today: date):
-    """タイトル先頭の【8月26日】から日付を取り出す。無ければ None。"""
+def event_date(title: str, posted: date):
+    """タイトル先頭の【8月26日】から開催日を取り出す。無ければ None。
+
+    年は「記事が出た日」を基準に決める。今日を基準にすると、終わった催しの
+    月日が翌年のものと解釈され、いつまでも「これから」に残ってしまう。
+    記事より前の月日なら、年をまたいだ告知とみなして翌年にする。
+    """
     m = DATE_IN_TITLE.search(title)
     if not m:
         return None
     month, day = int(m.group(1)), int(m.group(2))
-    for year in (today.year, today.year + 1):
+    for year in (posted.year, posted.year + 1):
         try:
             candidate = date(year, month, day)
         except ValueError:
             return None
-        if candidate >= today - timedelta(days=1):
+        if candidate >= posted - timedelta(days=14):
             return candidate
     return None
 
@@ -288,8 +293,9 @@ def build():
     # 日付つきイベントを拾って、これから来る順に並べる
     upcoming = []
     for item in items:
-        d = event_date(item["title"], today)
-        if d:
+        d = event_date(item["title"], item["date_obj"])
+        # 終わったものは出さない。半年以上先のものも、告知として古すぎる可能性が高い
+        if d and today <= d <= today + timedelta(days=180):
             upcoming.append({**item, "event_date": d})
     upcoming.sort(key=lambda x: x["event_date"])
     seen, dedup = set(), []

@@ -187,6 +187,7 @@ def main() -> int:
         existing = {item["id"]: item for item in old.get("items", [])}
 
     fetched, errors = 0, []
+    sources = [s for s in sources if s.get("enabled", True)]
     for i, source in enumerate(sources):
         if i:
             time.sleep(REQUEST_INTERVAL)
