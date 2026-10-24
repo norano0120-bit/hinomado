@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T08:47:15.821375+09:00",
+ "updated_at": "2026-10-24T22:12:09.600814+09:00",
  "errors": [],
  "items": [
   {
@@ -1761,6 +1761,18 @@
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QNTZSeHJkaTdtZUtFMHZIR3U3WmNPUmhlUU5ZZWZFVEFxT2dxUG9YOU85ZlRNcUJ2cGowZDJCUW5CalNUdjBCNlBBT184ZVZ3b3Bz?oc=5",
    "summary": "滋賀・日野町/特大エビフライに驚き！古民家で楽しむ「えびふらい抹茶専門店 はま田」&nbsp;&nbsp;lomore.net",
    "date": "2026-09-10T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aVjNoX3kzVnB4LXotSDhuOHRPNWlzOWtEakVZUko4Z1pueVluM1E5NkE1eDUxeDk0S3ZLZHRkRDkwR1JkZ0dWRkM5Uy1Wc3dVZ1lqa1JjMWU?oc=5",
+   "title": "日野町9月定例会議が開会 - 滋賀報知新聞",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aVjNoX3kzVnB4LXotSDhuOHRPNWlzOWtEakVZUko4Z1pueVluM1E5NkE1eDUxeDk0S3ZLZHRkRDkwR1JkZ0dWRkM5Uy1Wc3dVZ1lqa1JjMWU?oc=5",
+   "summary": "日野町9月定例会議が開会&nbsp;&nbsp;滋賀報知新聞",
+   "date": "2026-09-10T07:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
