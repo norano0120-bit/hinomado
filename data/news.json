@@ -1,7 +1,19 @@
 {
- "updated_at": "2026-10-26T08:06:36.744581+09:00",
+ "updated_at": "2026-10-27T00:59:30.242032+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009021.html",
+   "title": "みんなのスポーツ広場を開催します",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009021.html",
+   "summary": "",
+   "date": "2026-10-26T08:57:14+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000009027.html",
    "title": "ふるさと納税ポータルサイト「ふるさとチョイス」会員情報の流出について",
