@@ -1,7 +1,21 @@
 {
- "updated_at": "2026-10-29T09:40:44.582086+09:00",
+ "updated_at": "2026-10-30T00:57:37.484896+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009019.html",
+   "title": "日野町認定こども園整備基本設計について",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009019.html",
+   "summary": "",
+   "date": "2026-10-29T11:50:40+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "kosodate"
+   ]
+  },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8478",
    "title": "すくすく広場のお知らせ（11月）",
@@ -14,6 +28,20 @@
    "category": "alert",
    "tags": [
     "kosodate"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009025.html",
+   "title": "【入札公告】閉域モバイル通信環境賃貸借業務（長期継続契約）",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009025.html",
+   "summary": "",
+   "date": "2026-10-28T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "business"
    ]
   },
   {
@@ -56,6 +84,20 @@
    "category": "press",
    "tags": [
     "alert"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009028.html",
+   "title": "子育て応援通信（最新）を掲載しました",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009028.html",
+   "summary": "",
+   "date": "2026-10-27T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "kosodate"
    ]
   },
   {
