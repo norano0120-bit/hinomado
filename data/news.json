@@ -1,7 +1,21 @@
 {
- "updated_at": "2026-10-30T09:41:39.721905+09:00",
+ "updated_at": "2026-10-31T00:44:13.487362+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009041.html",
+   "title": "日野町で婚活イベント「ガチャ婚 Flying Christmas 」開催されます！（ひっさ応縁隊主催）",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009041.html",
+   "summary": "",
+   "date": "2026-10-30T18:11:18+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "event"
+   ]
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008960.html",
    "title": "令和8年度第3回町営住宅入居者募集について",
@@ -20,6 +34,18 @@
    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TTE10QTlWRlg3R3RlSlRtR2lBRV9mQ1RJY096UEdwNG9Ec2otOEhNQktvbTByYmNSODhocW9oNmVRa21adWh4Q3BDX3VqM3Q5ZjlmWkNfVlE?oc=5",
    "title": "大賞は、日野町の苧原玉江さん - 滋賀報知新聞",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TTE10QTlWRlg3R3RlSlRtR2lBRV9mQ1RJY096UEdwNG9Ec2otOEhNQktvbTByYmNSODhocW9oNmVRa21adWh4Q3BDX3VqM3Q5ZjlmWkNfVlE?oc=5",
+   "summary": "大賞は、日野町の苧原玉江さん&nbsp;&nbsp;滋賀報知新聞",
+   "date": "2026-10-30T07:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvV1h6VXlxTmM0bE1lbmo5Uk9xM0t2VFFIQk9zbFRMZzZnZjZNUWx1b21Ec2FBWEZaVllVNXFxLWZGcTB3S2dNcUN2NUdKSDU4NHZ5RVR6dFRnQ01BOEE?oc=5",
+   "title": "大賞は、日野町の苧原玉江さん - 滋賀報知新聞",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvV1h6VXlxTmM0bE1lbmo5Uk9xM0t2VFFIQk9zbFRMZzZnZjZNUWx1b21Ec2FBWEZaVllVNXFxLWZGcTB3S2dNcUN2NUdKSDU4NHZ5RVR6dFRnQ01BOEE?oc=5",
    "summary": "大賞は、日野町の苧原玉江さん&nbsp;&nbsp;滋賀報知新聞",
    "date": "2026-10-30T07:00:00+09:00",
    "source_id": "gnews",
@@ -55,6 +81,18 @@
    "tags": [
     "kosodate"
    ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009039.html",
+   "title": "近江八幡八日市都市計画地区計画案の縦覧（都市計画法第17条）の実施について",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009039.html",
+   "summary": "",
+   "date": "2026-10-28T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000009025.html",
