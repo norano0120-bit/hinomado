@@ -1066,3 +1066,36 @@ html { scroll-padding-top: 4.2rem; }
 }
 /* 画像だけの段落は、下に説明文が続くので間隔を詰める */
 .post-body p > img:only-child { margin-bottom: .2rem; }
+
+/* ── 記事一覧のサムネイル ───────────────────────────────── */
+.post-list > li.has-thumb {
+  display: grid;
+  grid-template-columns: 71px 1fr;
+  gap: .9rem;
+  align-items: start;
+}
+.p-thumb { display: block; }
+.p-thumb img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 71 / 35;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  transition: opacity .15s;
+}
+.p-thumb:hover img { opacity: .85; }
+.post-list .p-text > *:first-child { margin-top: 0; }
+@media (max-width: 620px) {
+  .post-list > li.has-thumb { gap: .7rem; }
+}
+
+/* タグは記事でも使うので、お出かけカード以外にも効かせる */
+.tags { display: flex; flex-wrap: wrap; gap: .3rem; }
+.tags span {
+  font-size: .68rem;
+  letter-spacing: .06em;
+  padding: .1rem .5rem;
+  background: var(--paper-deep);
+  color: #55503f;
+}
+.post .tags, .post-list .tags { margin-top: .5rem; }

@@ -8,11 +8,18 @@
     {% if posts %}
     <ul class="post-list">
       {% for p in posts %}
-      <li>
-        <p class="p-date">{{ p.date_label }}</p>
-        <h2><a href="{{ p.url }}">{{ p.title }}</a></h2>
-        {% if p.summary %}<p class="p-sum">{{ p.summary }}</p>{% endif %}
-        {% if p.tags %}<div class="tags">{% for t in p.tags %}<span>{{ t }}</span>{% endfor %}</div>{% endif %}
+      <li{% if p.thumb %} class="has-thumb"{% endif %}>
+        {% if p.thumb %}
+        <a class="p-thumb" href="{{ p.url }}" tabindex="-1" aria-hidden="true">
+          <img src="{{ p.thumb }}" alt="" loading="lazy">
+        </a>
+        {% endif %}
+        <div class="p-text">
+          <p class="p-date">{{ p.date_label }}</p>
+          <h2><a href="{{ p.url }}">{{ p.title }}</a></h2>
+          {% if p.summary %}<p class="p-sum">{{ p.summary }}</p>{% endif %}
+          {% if p.tags %}<div class="tags">{% for t in p.tags %}<span>{{ t }}</span>{% endfor %}</div>{% endif %}
+        </div>
       </li>
       {% endfor %}
     </ul>

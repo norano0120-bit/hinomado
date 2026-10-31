@@ -188,14 +188,19 @@ def load_posts(today: date) -> list:
         if posted > today:          # 予約投稿
             continue
 
+        body_html = md_lib.markdown(body.strip(), extensions=["tables", "nl2br"])
+        # 本文の1枚目の写真を一覧のサムネイルに使う
+        first_img = re.search(r'<img[^>]+src="([^"]+)"', body_html)
+
         posts.append({
+            "thumb": first_img.group(1) if first_img else "",
             "slug": path.stem,
             "title": meta.get("title", path.stem),
             "date": posted,
             "date_label": f"{posted.year}年{posted.month}月{posted.day}日",
             "summary": meta.get("summary", ""),
             "tags": [t for t in meta.get("tags", "").split() if t],
-            "html": md_lib.markdown(body.strip(), extensions=["tables", "nl2br"]),
+            "html": body_html,
             "url": f"kiji-{path.stem}.html",
         })
     posts.sort(key=lambda x: x["date"], reverse=True)
@@ -371,6 +376,7 @@ def build():
         gomi=gomi,
         site_url=site["site_url"].rstrip("/"),
         og_description=site.get("og_description", ""),
+        og_image="",
         google_verification=site.get("google_site_verification", ""),
         analytics=analytics,
         privacy_note=site.get("privacy_note", "") if analytics else "",
@@ -427,7 +433,8 @@ def build():
     # 記事は1本ずつページにする
     tpl = env.get_template("kiji_single.html.j2")
     for post in posts:
-        html = tpl.render(**shared, page="kiji", compact=True, post=post)
+        html = tpl.render(**{**shared, "og_image": post["thumb"]},
+                          page="kiji", compact=True, post=post)
         (PUBLIC / post["url"]).write_text(html, encoding="utf-8")
         pages.append((post["url"], "kiji_single.html.j2", {"priority": "0.6"}))
 
