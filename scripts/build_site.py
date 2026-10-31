@@ -432,6 +432,20 @@ def build():
         pages.append((post["url"], "kiji_single.html.j2", {"priority": "0.6"}))
 
     shutil.copy(DATA / "news.json", PUBLIC / "news.json")
+
+    # 記事に使う写真を公開フォルダへ。posts/images/ に置けば
+    # 記事の中から ![説明](images/ファイル名) で呼び出せる。
+    src_images = ROOT / "posts" / "images"
+    if src_images.is_dir():
+        dst_images = PUBLIC / "images"
+        dst_images.mkdir(exist_ok=True)
+        copied = 0
+        for img in src_images.iterdir():
+            if img.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg"):
+                shutil.copy(img, dst_images / img.name)
+                copied += 1
+        if copied:
+            print(f"写真 {copied}枚を公開フォルダへコピーしました")
     write_sitemap(pages, now, site["site_url"])
     write_robots(site["site_url"])
     write_feed(items[:50], now, site["site_url"])
