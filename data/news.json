@@ -1,11 +1,6 @@
 {
- "updated_at": "2026-11-01T02:34:44.053075+09:00",
- "errors": [
-  {
-   "source": "ひの暮らし",
-   "message": "解析に失敗しました: <urlopen error [Errno 110] Connection timed out>"
-  }
- ],
+ "updated_at": "2026-11-01T08:58:58.472106+09:00",
+ "errors": [],
  "items": [
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000009032.html",
