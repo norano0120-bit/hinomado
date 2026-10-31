@@ -1,7 +1,33 @@
 {
- "updated_at": "2026-10-31T09:34:24.686003+09:00",
+ "updated_at": "2026-11-01T00:12:06.944228+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009032.html",
+   "title": "「広報ひの」11月号(No.796)を掲載しました",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009032.html",
+   "summary": "",
+   "date": "2026-11-01T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009029.html",
+   "title": "新しい認定こども園の園名を募集します",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009029.html",
+   "summary": "",
+   "date": "2026-11-01T00:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "kosodate"
+   ]
+  },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8480",
    "title": "つどいのひろば『ぽけっと』11月の予定について",
@@ -2783,7 +2809,7 @@
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000003032.html",
-   "title": "学校給食「給食だより10月号」を掲載しました！",
+   "title": "学校給食「給食だより11月号」を掲載しました！",
    "url": "https://www.town.shiga-hino.lg.jp/0000003032.html",
    "summary": "幼稚園、小・中学校の給食献立表、給食だよりを掲載しています。",
    "date": "2026-09-01T00:00:00+09:00",
