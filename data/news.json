@@ -1,7 +1,21 @@
 {
- "updated_at": "2026-11-04T10:08:03.036277+09:00",
+ "updated_at": "2026-11-05T01:57:52.098818+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009040.html",
+   "title": "11月27日の親子ぷれすて開催のお知らせ",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009040.html",
+   "summary": "■寒い季節は運動不足になりがちです。 バランスボールで、親子で楽しく体を動かしてリフレッシュしましょう！ お気軽にご参加ください。 ■とき…11月27日（金曜日）10時から11時30分 ■場所…保健センター ■申込み…11月6日（金曜日）から ■対象…日野町内未就園の子どもと保護者 ■定員…15組程度 ■問い合わせ・申",
+   "date": "2026-11-04T16:49:29+09:00",
+   "source_id": "town-topics",
+   "source_name": "日野町 募集情報",
+   "source_short": "募集",
+   "category": "town",
+   "tags": [
+    "kosodate"
+   ]
+  },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8484",
    "title": "きっずらんど開催のお知らせ（11月）",
@@ -27,6 +41,34 @@
    "source_short": "報道",
    "category": "press",
    "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008855.html",
+   "title": "令和8年度日野町職員採用試験（労務職）第一次試験結果",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008855.html",
+   "summary": "",
+   "date": "2026-11-02T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "business"
+   ]
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009047.html",
+   "title": "令和8年度日野町職員採用上級試験（行政）二次募集第一次試験結果",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009047.html",
+   "summary": "",
+   "date": "2026-11-02T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "business"
+   ]
   },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8482",
