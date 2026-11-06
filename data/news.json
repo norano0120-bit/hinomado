@@ -1,7 +1,31 @@
 {
- "updated_at": "2026-11-06T02:13:33.357084+09:00",
+ "updated_at": "2026-11-06T10:26:11.324193+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8486",
+   "title": "11月27日の親子ぷれすて開催のお知らせ",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8486",
+   "summary": "11月27日の親子ぷれすて開催のお知らせ ■寒い季節は運動不足になりがちです。 &#8230; 続きを読む &#8594;",
+   "date": "2026-11-06T09:00:04+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Hb1ZXa1hrUVRzeHVkOWNiMVJaTk9MV29Qdm9ERWZzcHQzd1ZkdUlqYmRNeVgySmNpMnpBRnpKRkpNWU1RSEhCRW1nREszNGV2aUJON0RmX2Y?oc=5",
+   "title": "「日野町事件」裁判のやり直しに向けた3者協議 弁護団「検察側の証拠開示が不十分」 - 京都新聞デジタル",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Hb1ZXa1hrUVRzeHVkOWNiMVJaTk9MV29Qdm9ERWZzcHQzd1ZkdUlqYmRNeVgySmNpMnpBRnpKRkpNWU1RSEhCRW1nREszNGV2aUJON0RmX2Y?oc=5",
+   "summary": "「日野町事件」裁判のやり直しに向けた3者協議 弁護団「検察側の証拠開示が不十分」&nbsp;&nbsp;京都新聞デジタル",
+   "date": "2026-11-06T05:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TNjJNVGdGOWxGS2dxbjluSkpYN3RYSnA4aWFucFR5ZDFJUllEcEsxbWJzcE50Q2dYUmNrdTVKZjhJaGtnblFETWYxU3pwUWZkeFN5SGpWNE1fdnIzeENwajgzaVVVNzhEdXF2RjdlSHU3bE84LUZndjJR0gF_QVVfeXFMTUZIQ0xFbXdvMVlGWnQyUktCaUZqREFKQVdiT0RCejdpWEdlVTJaZW9uTDdoaDloQWQ1dTlHdlhMSTRNbi1TSHl5T2puZnVlNFNKQ1dnR29XbllHQy1NZzhWbGoxUGVhdlZqU05JOXZwSGdQZEhESy11emh1akJuYw?oc=5",
    "title": "「不存在」とされていた証拠が半数 日野町事件で57点追加開示 - Infoseek",
@@ -27,6 +51,18 @@
    "tags": []
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fWnU5S0ZDZVgtaVJqMGwtek9pcmppTjl0U3VCTHQyUnVTQlEzN0V0c1hSUmR6SUhaNkJSWV83SHpRbGFoQ0taMmhOazQtOW9tZWtLMFBHTDROZw?oc=5",
+   "title": "検察「これ以上の証拠開示の必要性は認められない」 再審確定の滋賀・日野町事件 先月“57点の新証拠”開示も弁護団「本当に全てなのか」 | MBSニュース | 関西の最新ニュースを分かりやすく。 - TBS NEWS DIG",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fWnU5S0ZDZVgtaVJqMGwtek9pcmppTjl0U3VCTHQyUnVTQlEzN0V0c1hSUmR6SUhaNkJSWV83SHpRbGFoQ0taMmhOazQtOW9tZWtLMFBHTDROZw?oc=5",
+   "summary": "検察「これ以上の証拠開示の必要性は認められない」 再審確定の滋賀・日野町事件 先月“57点の新証拠”開示も弁護団「本当に全てなのか」 | MBSニュース | 関西の最新ニュースを分かりやすく。&nbsp;&nbsp;TBS NEWS DIG",
+   "date": "2026-11-05T20:55:43+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5xdXVkNHByLTNmZTlXYzJ1cWNqNkJYQk1CTjBuRHpMYksxZHJXWDZwXy0wNUlpOTNESElERXdwYzlXS3VNVWxRUEJKSEJyb3hYN2pzRjZBMmwwdW4wU1lsS1pGamxBSHNHX1NsQzV2dV9VSEJhZ1BZSngzLVLSAYIBQVVfeXFMT2hFNExjWWg1ZFdsVzZKWDdtZFk4cmUxaXAwS3cyS1ZqSzNhXzJTekFPT2ZZc3QyOXBNT0E5ZU1mcG5zV3M0QUlhVURKU05kSGpzeWNxZFpYVTR1TFhDaUJraG1nemswb21IQlJQMkNnQmtUclJPODZMcUlGZl8yQjdMQQ?oc=5",
    "title": "検察「これ以上の証拠開示の必要性は認められない」 再審確定の滋賀・日野町事件 先月“57点の新証拠”開示も弁護団「本当に全てなのか」 - ｄメニューニュース",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5xdXVkNHByLTNmZTlXYzJ1cWNqNkJYQk1CTjBuRHpMYksxZHJXWDZwXy0wNUlpOTNESElERXdwYzlXS3VNVWxRUEJKSEJyb3hYN2pzRjZBMmwwdW4wU1lsS1pGamxBSHNHX1NsQzV2dV9VSEJhZ1BZSngzLVLSAYIBQVVfeXFMT2hFNExjWWg1ZFdsVzZKWDdtZFk4cmUxaXAwS3cyS1ZqSzNhXzJTekFPT2ZZc3QyOXBNT0E5ZU1mcG5zV3M0QUlhVURKU05kSGpzeWNxZFpYVTR1TFhDaUJraG1nemswb21IQlJQMkNnQmtUclJPODZMcUlGZl8yQjdMQQ?oc=5",
@@ -44,6 +80,18 @@
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uMzJJU3dib3VuX1pNQWtwdUhMREJGenhsRGt1VHlkTlE5WC1hV0pNWEE2Mm5PeFRpSTE2d1NtQ0dGQ1RDc3ZZTFVwa2t0UzRrRDYxVW5Rcl9WTnpYNlhXNG5FZTFGellqeUUxaw?oc=5",
    "summary": "滋賀・日野町事件の再審協議、弁護側が検察の証拠開示対応を批判&nbsp;&nbsp;日本経済新聞",
    "date": "2026-11-05T20:48:43+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzNEhodUNuUFhDZEt0b2VCZGRKYS1qWktybC1OQnp4UW13aG16SU9TV2RrODVMOEhwRi1ubk1vUl83WE14dmlsM1hfYmhLYktNWm5aU0tycE9zYlRFUmRV?oc=5",
+   "title": "滋賀 日野町事件 再審に向けて証拠開示めぐる協議続く - NHKニュース",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzNEhodUNuUFhDZEt0b2VCZGRKYS1qWktybC1OQnp4UW13aG16SU9TV2RrODVMOEhwRi1ubk1vUl83WE14dmlsM1hfYmhLYktNWm5aU0tycE9zYlRFUmRV?oc=5",
+   "summary": "滋賀 日野町事件 再審に向けて証拠開示めぐる協議続く&nbsp;&nbsp;NHKニュース",
+   "date": "2026-11-05T19:27:55+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
