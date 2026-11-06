@@ -1099,3 +1099,88 @@ html { scroll-padding-top: 4.2rem; }
   color: #55503f;
 }
 .post .tags, .post-list .tags { margin-top: .5rem; }
+
+/* ── トップの「書いたもの」 ───────────────────────────── */
+.top-posts {
+  list-style: none; margin: 0; padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.1rem;
+}
+.tp-link { display: block; text-decoration: none; }
+.tp-link img, .tp-noimg {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  margin-bottom: .55rem;
+  transition: opacity .15s;
+}
+.tp-noimg { background: var(--paper-deep); }
+.tp-link:hover img { opacity: .85; }
+.tp-date { display: block; font-size: .74rem; color: var(--nezu); letter-spacing: .06em; }
+.tp-title {
+  display: block;
+  margin-top: .15rem;
+  font-family: var(--serif);
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: .02em;
+}
+.tp-link:hover .tp-title { text-decoration: underline; text-underline-offset: 3px; }
+.top-posts .tp-sum { margin: .4rem 0 0; font-size: .8rem; color: #4a453d; }
+
+/* ── お出かけカードの写真とカテゴリ帯 ─────────────────── */
+.spot-photo, .spot-band { display: block; margin: -1rem -1.1rem .8rem; }
+.spot-photo { position: relative; }
+.spot-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--line);
+}
+.spot-photo i {
+  position: absolute;
+  right: 0; bottom: 1px;
+  font-style: normal;
+  font-size: .62rem;
+  letter-spacing: .04em;
+  color: var(--shironeri);
+  background: rgba(27, 25, 23, .55);
+  padding: .1rem .45rem;
+}
+.spot-band {
+  display: grid;
+  place-items: center;
+  height: 52px;
+  border-bottom: 1px solid var(--line);
+}
+.spot-band svg { width: 25px; height: 25px; }
+.cat-cafe     { background: #eee3d5; color: #7c5c3c; }
+.cat-food     { background: #f3e3df; color: #9a4536; }
+.cat-sight    { background: #e2eaf1; color: #2b4f70; }
+.cat-nature   { background: #e2ece0; color: #4a6b47; }
+.cat-play     { background: #f6e9d6; color: #96682a; }
+.cat-festival { background: #f4dfdc; color: var(--shu); }
+
+/* 窓の下に置く小さな案内 */
+.mado-more { margin: .6rem 0 0; font-size: .76rem; text-align: right; }
+.mado-more a { color: var(--ai); }
+
+/* ── 閉園・閉店したところ ───────────────────────────── */
+.spot.is-closed { background: var(--paper); border-style: dashed; }
+.spot.is-closed h4 a { color: var(--nezu); }
+.spot.is-closed .spot-band { filter: grayscale(1); opacity: .5; }
+.closed-mark {
+  align-self: flex-start;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  color: var(--shironeri);
+  background: var(--nezu);
+  padding: .1rem .5rem;
+  margin-bottom: .5rem;
+}

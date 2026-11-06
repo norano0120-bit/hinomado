@@ -44,6 +44,7 @@
         </li>
         {% endfor %}
       </ul>
+      <p class="mado-more"><a href="kurashi.html#tenki">1週間の天気を見る</a></p>
       {% else %}
       <p class="note">天気を取得できませんでした。<code>scripts/fetch_weather.py</code> を実行してください。</p>
       {% endif %}
@@ -55,7 +56,7 @@
       <ul class="gomi-mini{% if not gomi.verified %} unverified{% endif %}">
         {% for a in gomi.areas %}
         <li>
-          <a href="#gomi-{{ a.id }}">
+          <a href="kurashi.html#gomi-{{ a.id }}">
             <span class="ga">{{ a.name }}</span>
             {% if a.next %}
             <span class="gd">{{ a.next.when }} {{ a.next.md }}
@@ -85,6 +86,33 @@
       {% endif %}
     </div>
   </section>
+
+  {% if posts %}
+  {# ── 書いたもの（写真つきで上に出す） ── #}
+  <section class="section" id="kiji-top">
+    <div class="section-head">
+      <h2>書いたもの</h2>
+      <span class="sub">実際に行って書いた記事</span>
+    </div>
+    <ul class="top-posts">
+      {% for p in posts[:3] %}
+      <li>
+        <a class="tp-link" href="{{ p.url }}">
+          {% if p.thumb %}
+          <img src="{{ p.thumb }}" alt="" loading="lazy">
+          {% else %}
+          <span class="tp-noimg" aria-hidden="true"></span>
+          {% endif %}
+          <span class="tp-date">{{ p.date_label }}</span>
+          <span class="tp-title">{{ p.title }}</span>
+        </a>
+        {% if p.summary %}<p class="tp-sum">{{ p.summary }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="more"><a href="kiji.html">記事の一覧へ</a></p>
+  </section>
+  {% endif %}
 
   {# ── お知らせ ── #}
   <section class="section" id="news">
@@ -159,91 +187,6 @@
     {% endif %}
   </section>
 
-  {# ── きょうの暮らし ── #}
-  <section class="section" id="kurashi">
-    <div class="section-head">
-      <h2>きょうの暮らし</h2>
-      <span class="sub">ごみの日と天気</span>
-    </div>
-
-    {% if not gomi.verified %}
-    <p class="fetch-error">
-      <b>収集日は未確認です。</b>
-      地区の区分けは公式カレンダーどおりですが、曜日はまだ確かめられていません。
-      各地区のPDFで確認して <code>data/gomi.json</code> を直し、<code>verified</code> を
-      <code>true</code> にするまで、この注意書きが出ます。
-    </p>
-    {% endif %}
-
-    <h3 class="sub-head">ごみの収集日</h3>
-    <div class="gomi-tabs" role="tablist">
-      {% for a in gomi.areas %}
-      <button type="button" role="tab" data-area="{{ a.id }}"
-              aria-selected="{{ 'true' if loop.first else 'false' }}">{{ a.tab_label }}</button>
-      {% endfor %}
-    </div>
-
-    {% for a in gomi.areas %}
-    <div class="gomi-wrap{% if not gomi.verified %} unverified{% endif %}"
-         id="gomi-{{ a.id }}" {% if not loop.first %}hidden{% endif %}>
-      <div class="gomi-panel">
-      <p class="gomi-area">{{ a.name }}</p>
-      {% if a.upcoming %}
-      <ul class="gomi-list">
-        {% for g in a.upcoming[:8] %}
-        <li{% if g.in_days == 0 %} class="today-row"{% endif %}>
-          <span class="gomi-when">{{ g.when }}</span>
-          <span class="gomi-date">{{ g.md }}（{{ g.wd }}）</span>
-          <span class="gomi-kinds">
-            {% for k in g.kinds %}<span class="chip {{ k.kind }}">{{ k.label }}</span>{% endfor %}
-          </span>
-        </li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-      <p class="gomi-pdf"><a href="{{ a.pdf }}" rel="noopener">この地区のカレンダーPDF（{{ gomi.fiscal_year }}）</a></p>
-      </div>
-
-    </div>
-    {% endfor %}
-
-    <aside class="gomi-side">
-      <h4>出すときの決まり</h4>
-      <ul class="gomi-rules">
-        {% for c in gomi.common %}<li>{{ c }}</li>{% endfor %}
-      </ul>
-    </aside>
-
-    <h3 class="sub-head">持ち込み先</h3>
-    <ul class="cards">
-      {% for f in gomi.facilities %}
-      <li class="card">
-        <h4>{{ f.name }}</h4>
-        <p>{{ f.hours }}<br>{{ f.address }}　<a href="tel:{{ f.tel }}">{{ f.tel }}</a><br>{{ f.note }}</p>
-      </li>
-      {% endfor %}
-    </ul>
-    <p class="more">ごみのことは {{ gomi.contact }} へ。</p>
-
-    {% if weather.ok %}
-    <h3 class="sub-head">この先の天気</h3>
-    <ul class="forecast">
-      {% for d in weather.days %}
-      <li>
-        <svg class="wx-mini" aria-hidden="true"><use href="#wi-{{ d.icon }}"></use></svg>
-        <span class="fc-day">{{ d.label }}<i>{{ d.md }}</i></span>
-        <span class="fc-weather">{{ d.main }}{% if d.rest %}<i>{{ d.rest }}</i>{% endif %}</span>
-        <span class="fc-temp">
-          {% if d.high %}<b>{{ d.high }}℃</b>{% endif %}
-          {% if d.low %}<i>{{ d.low }}℃</i>{% endif %}
-        </span>
-      </li>
-      {% endfor %}
-    </ul>
-    {% if weather.overview %}<p class="more">{{ weather.overview[:180] }}{% if weather.overview|length > 180 %}…{% endif %}（気象庁）</p>{% endif %}
-    {% endif %}
-  </section>
-
   {# ── お出かけ ── #}
   <section class="section" id="odekake">
     <div class="section-head">
@@ -266,8 +209,19 @@
       <h3>{{ group.label }}</h3>
       <ul class="spots">
         {% for s in group.spots %}
-        <li class="spot">
-          {% if s.in_season %}<span class="now">{{ s.season_label }}</span>{% endif %}
+        <li class="spot{% if s.closed %} is-closed{% endif %}">
+          {% if s.photo %}
+          <span class="spot-photo">
+            <img src="{{ s.photo }}" alt="{{ s.name }}" loading="lazy">
+            {% if s.photo_note %}<i>{{ s.photo_note }}</i>{% endif %}
+          </span>
+          {% else %}
+          <span class="spot-band cat-{{ s.cat }}" aria-hidden="true">
+            <svg><use href="#ic-{{ s.cat }}"></use></svg>
+          </span>
+          {% endif %}
+          {% if s.closed %}<span class="closed-mark">閉園{% if s.closed_note %}・{{ s.closed_note }}{% endif %}</span>
+          {% elif s.in_season %}<span class="now">{{ s.season_label }}</span>{% endif %}
           <h4><a href="{{ s.url }}" rel="noopener">{{ s.name }}</a></h4>
           {% if s.when_label %}<p class="spot-when">{{ s.when_label }}</p>{% endif %}
           <p>{{ s.blurb }}</p>
@@ -380,29 +334,6 @@
   makeExpander('news-list', 'news-toggle',
     Array.prototype.slice.call(document.querySelectorAll('.filters button')));
   makeExpander('press-list', 'press-toggle', null);
-
-  // ごみの地区タブ。#gomi-B のように直接開ける
-  var tabs = document.querySelectorAll('.gomi-tabs button');
-  function showArea(id) {
-    tabs.forEach(function (tab) {
-      var on = tab.dataset.area === id;
-      tab.setAttribute('aria-selected', on);
-      var panel = document.getElementById('gomi-' + tab.dataset.area);
-      if (panel) panel.hidden = !on;
-    });
-  }
-  tabs.forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      showArea(tab.dataset.area);
-      history.replaceState(null, '', '#gomi-' + tab.dataset.area);
-    });
-  });
-  function syncFromHash() {
-    var m = (location.hash.match(/^#gomi-(\w+)$/) || [])[1];
-    if (m) showArea(m);
-  }
-  window.addEventListener('hashchange', syncFromHash);
-  syncFromHash();
 })();
 </script>
 {% endblock %}

@@ -26,7 +26,9 @@
         "icon": "web",
         "url": "https://nanairo.space/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "ツバメカフェ",
@@ -44,7 +46,9 @@
         "icon": "inst",
         "url": "https://www.instagram.com/tsubamecafe2017/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "カフェ・雑貨 らっこや",
@@ -62,7 +66,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/food/rakkoya/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "守貞cafe",
@@ -80,7 +86,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/food/morisada-cafe/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "庭園茶寮 せせら",
@@ -98,7 +106,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/food/sesera/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "茶屋 茶茶丸",
@@ -116,7 +126,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/food/chachamaru/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "Taiyou Breads.",
@@ -135,7 +147,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/food/taiyou-breads/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "綿向山ビレッジ キッチン＆ゲストハウス",
@@ -154,7 +168,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/food/watamukiyama-cafe/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "近江日野牛 レストラン岡﨑",
@@ -172,7 +188,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/food/okazaki/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "日野まちかど感応館・にぎり飯惣菜 みかく",
@@ -191,7 +209,9 @@
         "icon": "web",
         "url": "https://hinomachikadokannokan.business.site/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "馬見岡綿向神社",
@@ -212,7 +232,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/sight/umamioka/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "近江日野商人館",
@@ -231,7 +253,9 @@
         "icon": "web",
         "url": "https://hinosyouninkan.jp/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "近江日野商人ふるさと館（旧山中正吉邸）",
@@ -249,7 +273,9 @@
         "icon": "web",
         "url": "http://www.hinofurusatokan.jp/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "日野まちかど感応館",
@@ -267,7 +293,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/sight/hinomachikado/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "信楽院",
@@ -286,7 +314,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/sight/shigarakiin/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "正明寺",
@@ -304,7 +334,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/sight/syoumeiji/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "鬼室神社",
@@ -323,7 +355,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/sight/kishitsujinjya/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "綿向山",
@@ -347,7 +381,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/nature/watamukiyama/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "鎌掛谷ほんしゃくなげ群落",
@@ -369,7 +405,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/nature/honsyakunage/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "さつき寺 雲迎寺",
@@ -391,7 +429,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/nature/satsuki/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "藤の寺 正法寺",
@@ -413,27 +453,30 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/nature/fuji/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "花の郷 日野ダリア園",
     "cat": "nature",
     "url": "https://hino-kanko.jp/nature/hinodariaen/",
-    "source": "日野観光協会",
-    "blurb": "秋に多品種のダリアが咲きそろう。シーズンは例年9月から10月中旬ごろまでで、その年の営業期間は町のお知らせで告知される。",
+    "source": "日野町",
+    "blurb": "秋に多品種のダリアが咲きそろう花畑でした。設備の老朽化と人手不足のため、2026年の秋を最終シーズンとして、約25年の歴史に幕を下ろしました。",
     "tags": [
-      "花"
+      "閉園"
     ],
-    "season": [
-      9
-    ],
+    "season": [],
     "links": [
       {
-        "label": "観光協会の紹介",
+        "label": "営業終了のお知らせ（町）",
         "icon": "web",
-        "url": "https://hino-kanko.jp/nature/hinodariaen/"
+        "url": "https://www.town.shiga-hino.lg.jp/0000009004.html"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": true,
+    "closed_note": "2026年10月に営業終了"
   },
   {
     "name": "日野川ダム",
@@ -455,7 +498,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/nature/hinogawadamu/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "滋賀農業公園ブルーメの丘",
@@ -479,7 +524,10 @@
         "icon": "web",
         "url": "https://www.blumenooka.jp/"
       }
-    ]
+    ],
+    "photo": "images/blume-cosmos-wide.jpg",
+    "photo_note": "2026年10月31日撮影",
+    "closed": false
   },
   {
     "name": "グリム冒険の森",
@@ -499,7 +547,9 @@
         "icon": "web",
         "url": "https://hino-kanko.jp/play/grimm/"
       }
-    ]
+    ],
+    "photo": "",
+    "closed": false
   },
   {
     "name": "日野祭",
@@ -530,7 +580,9 @@
       ],
       "label": "5月2日（宵祭）・3日（本祭）",
       "source": "日野町・日野観光協会"
-    }
+    },
+    "photo": "",
+    "closed": false
   },
   {
     "name": "火ふり祭",
@@ -561,7 +613,9 @@
       ],
       "label": "8月14日・15日",
       "source": "日野町・日野観光協会"
-    }
+    },
+    "photo": "",
+    "closed": false
   },
   {
     "name": "近江中山の芋競べ祭り",
@@ -589,7 +643,9 @@
       "nth": 1,
       "label": "9月の第1日曜",
       "source": "日野観光協会"
-    }
+    },
+    "photo": "",
+    "closed": false
   },
   {
     "name": "日野ひなまつり紀行",
@@ -625,6 +681,8 @@
       "label": "2月上旬〜3月上旬",
       "approximate": true,
       "source": "日野観光協会（年により前後します）"
-    }
+    },
+    "photo": "",
+    "closed": false
   }
 ]

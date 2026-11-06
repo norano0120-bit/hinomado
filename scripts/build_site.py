@@ -315,7 +315,9 @@ def build():
     SEASONAL_CATS = {"nature", "festival"}
     in_season = [
         s for s in spots
-        if s["cat"] in SEASONAL_CATS and now.month in s.get("season", [])
+        if s["cat"] in SEASONAL_CATS
+        and now.month in s.get("season", [])
+        and not s.get("closed")
     ]
     for s in spots:
         s["in_season"] = s in in_season
@@ -358,7 +360,10 @@ def build():
     festivals_now.sort(key=lambda f: f["next_start"])
 
     spot_groups = [
-        {"key": key, "label": label, "spots": [s for s in spots if s["cat"] == key]}
+        {"key": key, "label": label,
+         # 閉園したところは分類の最後にまとめる
+         "spots": sorted((s for s in spots if s["cat"] == key),
+                         key=lambda x: bool(x.get("closed")))}
         for key, label in SPOT_CATS
     ]
 
@@ -374,6 +379,7 @@ def build():
     shared = dict(
         css=css,
         gomi=gomi,
+        kurashi=kurashi,
         site_url=site["site_url"].rstrip("/"),
         og_description=site.get("og_description", ""),
         og_image="",
@@ -409,7 +415,6 @@ def build():
             page="index",
             compact=False,
             press_items=press_items,
-            kurashi=kurashi,
             festivals_now=festivals_now,
             collapse_at=COLLAPSE_AT,
             upcoming=upcoming,
@@ -419,6 +424,7 @@ def build():
             errors=news.get("errors", []),
             cat_labels={k: v for k, v in CAT_LABELS.items() if k in NOTICE_CATS},
         )),
+        ("kurashi.html", "kurashi.html.j2", dict(page="kurashi", compact=True, priority="0.9")),
         ("kosodate.html", "kosodate.html.j2", dict(page="kosodate", compact=True, priority="0.8")),
         ("furusato.html", "furusato.html.j2", dict(page="furusato", compact=True, priority="0.6")),
         ("gikai.html", "gikai.html.j2", dict(page="gikai", compact=True, priority="0.6")),
