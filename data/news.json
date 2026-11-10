@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T12:19:04.528390+09:00",
+ "updated_at": "2026-11-11T01:53:56.694422+09:00",
  "errors": [],
  "items": [
   {
@@ -144,6 +144,18 @@
    "source_name": "報道横断検索（Googleニュース）",
    "source_short": "報道",
    "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009050.html",
+   "title": "近江八幡八日市都市計画案の縦覧（都市計画法第17条）の実施について（縦覧の結果）",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009050.html",
+   "summary": "",
+   "date": "2026-11-05T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
    "tags": []
   },
   {
@@ -362,7 +374,7 @@
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000009025.html",
-   "title": "【入札公告】閉域モバイル通信環境賃貸借業務（長期継続契約）",
+   "title": "【質疑回答】閉域モバイル通信環境賃貸借業務（長期継続契約）",
    "url": "https://www.town.shiga-hino.lg.jp/0000009025.html",
    "summary": "",
    "date": "2026-10-28T00:00:01+09:00",
@@ -370,9 +382,7 @@
    "source_name": "日野町 新着情報",
    "source_short": "町",
    "category": "town",
-   "tags": [
-    "business"
-   ]
+   "tags": []
   },
   {
    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SS1ZwbWcydmtlNnphS3dEeHVmWlBPZTZSYjUyeFd4UFhYcXYtMHV4eXotN09mU2ZvVHVsaW5Cb2otMVNDbWIwTklsYThPc3VRZlJhaQ?oc=5",
@@ -4362,7 +4372,7 @@
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008718.html",
-   "title": "入札結果（10月30日開札分）",
+   "title": "入札結果（11月6日開札分）",
    "url": "https://www.town.shiga-hino.lg.jp/0000008718.html",
    "summary": "",
    "date": "2026-07-16T19:27:34+09:00",
