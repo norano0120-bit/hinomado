@@ -1,7 +1,59 @@
 {
- "updated_at": "2026-11-13T02:27:44.991772+09:00",
+ "updated_at": "2026-11-13T10:43:34.151938+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "https://hinogurashi.net/chiokoinaka-taiken/",
+   "title": "保護中: 三方よし！近江日野田舎体験の魅力を町内外へ届ける地域おこし協力隊募集！滋賀県日野町",
+   "url": "https://hinogurashi.net/chiokoinaka-taiken/",
+   "summary": "この投稿はパスワードで保護されているため抜粋文はありません。",
+   "date": "2026-11-13T10:20:59+09:00",
+   "source_id": "hinogurashi",
+   "source_name": "ひの暮らし",
+   "source_short": "暮らし",
+   "category": "life",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IdGZXZ3VPc3lkb1pZbEtaTy15eEVjMzBvenVFZFAyVHFXdm5WV2huWGl4ZlN4bV82LTAzV09Kc01VT3p0cUlORnI3d3ltcFRycHVCMnltZXRXMlB1aVpqdy13?oc=5",
+   "title": "＜しが旅のススメ＞日野町で謎解きイベント 地域の魅力を発見せよ - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IdGZXZ3VPc3lkb1pZbEtaTy15eEVjMzBvenVFZFAyVHFXdm5WV2huWGl4ZlN4bV82LTAzV09Kc01VT3p0cUlORnI3d3ltcFRycHVCMnltZXRXMlB1aVpqdy13?oc=5",
+   "summary": "＜しが旅のススメ＞日野町で謎解きイベント 地域の魅力を発見せよ&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-11-13T10:05:40+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event"
+   ]
+  },
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8490",
+   "title": "12月4日の親子ぷれすて開催のお知らせ",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8490",
+   "summary": "■12月の親子ぷれすては、「お楽しみ！クリスマス」を開催します。 今年のサンタさ &#8230; 続きを読む &#8594;",
+   "date": "2026-11-13T09:00:02+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009033.html",
+   "title": "【声の広報】広報ひの11月号",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009033.html",
+   "summary": "広報ひのを音声でお聞きいただけます。",
+   "date": "2026-11-13T00:00:01+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008362.html",
    "title": "ひの若者会議（仮）サポーター交流会を開催します！",
