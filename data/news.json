@@ -1,12 +1,24 @@
 {
- "updated_at": "2026-11-13T10:43:34.151938+09:00",
+ "updated_at": "2026-11-14T02:02:05.654332+09:00",
  "errors": [],
  "items": [
   {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009048.html",
+   "title": "地域おこし協力隊（都市農村交流推進員）を募集します",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009048.html",
+   "summary": "",
+   "date": "2026-11-13T17:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
    "id": "https://hinogurashi.net/chiokoinaka-taiken/",
-   "title": "保護中: 三方よし！近江日野田舎体験の魅力を町内外へ届ける地域おこし協力隊募集！滋賀県日野町",
+   "title": "三方よし！近江日野田舎体験の魅力を町内外へ届ける地域おこし協力隊募集！滋賀県日野町",
    "url": "https://hinogurashi.net/chiokoinaka-taiken/",
-   "summary": "この投稿はパスワードで保護されているため抜粋文はありません。",
+   "summary": "この町の「いつもの暮らし」を、誰かの忘れられない体験に。 畑で汗を流す。一緒にごはんをつくる。食卓を囲んで話をする。 滋賀県日野町では、地域の家 …",
    "date": "2026-11-13T10:20:59+09:00",
    "source_id": "hinogurashi",
    "source_name": "ひの暮らし",
@@ -65,6 +77,20 @@
    "source_short": "町",
    "category": "town",
    "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTVXU4QzZnWFFlYmFmWTJrY2dkOGxnb3EyWjJpWFNTLTRMbmt5dTgzSlQtTmNyb25rSUpEMkpaN2ZNRkpVOGpYYTFJRlhyY1o4R2tEcA?oc=5",
+   "title": "＜しが旅のススメ＞日野町で謎解きイベント 地域の魅力を発見せよ - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTVXU4QzZnWFFlYmFmWTJrY2dkOGxnb3EyWjJpWFNTLTRMbmt5dTgzSlQtTmNyb25rSUpEMkpaN2ZNRkpVOGpYYTFJRlhyY1o4R2tEcA?oc=5",
+   "summary": "＜しが旅のススメ＞日野町で謎解きイベント 地域の魅力を発見せよ&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-11-12T05:05:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event"
+   ]
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000009053.html",
