@@ -1,7 +1,19 @@
 {
- "updated_at": "2026-11-20T11:08:35.064633+09:00",
+ "updated_at": "2026-11-21T02:39:46.185048+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000008311.html",
+   "title": "移住相談会in大阪を開催します",
+   "url": "https://www.town.shiga-hino.lg.jp/0000008311.html",
+   "summary": "",
+   "date": "2026-11-20T15:34:58+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
   {
    "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKSGk4T243bDV3dllMUk1pWUtUNGxwa2g5SW1ncHluUEpMV0tUUHMyOE92N1hDRDYzMFdXUGpYRkM4bFo1VUdKSl8xSkExTFZJVHhYQzJKa3A2ZW1WRXBuaEhn?oc=5",
    "title": "日野町の観音さん案内マップ完成 紀行画家・川村さん、母の出身地をイラストで紹介 - 中日新聞Web",
@@ -50,6 +62,18 @@
    "source_name": "日野町 新着情報",
    "source_short": "町",
    "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9VTXJ1clpIVnVsZ0xJZjcxLXJwb21uWUhYSkZVVS1PRU1WTGZKdklEaTBQR3ZoRC1hM09GUHFYbzFWSjg3RXBSZDdfYk5naG5JdmJfRw?oc=5",
+   "title": "日野町の観音さん案内マップ完成 紀行画家・川村さん、母の出身地をイラストで紹介 - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9VTXJ1clpIVnVsZ0xJZjcxLXJwb21uWUhYSkZVVS1PRU1WTGZKdklEaTBQR3ZoRC1hM09GUHFYbzFWSjg3RXBSZDdfYk5naG5JdmJfRw?oc=5",
+   "summary": "日野町の観音さん案内マップ完成 紀行画家・川村さん、母の出身地をイラストで紹介&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-11-19T05:05:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
    "tags": []
   },
   {
@@ -104,6 +128,18 @@
    "source_name": "日野町 新着情報",
    "source_short": "町",
    "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVF9MS1E2Yno1Q3lYcy1rNDlqOU9uTktmSDNQX3JKb0hTQ3dsUHBqZWM0clB2SVFsczV6d3A0TEpGUTZMNHk2WS1hLURWWDZxOXVRd1V3MlRCOHJLM2JFUnhTVzlVSi1LWXlPQXFmSnEyaE5YdjJjSUVKUEtKT21GX0xuQQ?oc=5",
+   "title": "【27年フルローン可能】蒲生郡日野町一棟アパート - www.rakumachi.jp",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVF9MS1E2Yno1Q3lYcy1rNDlqOU9uTktmSDNQX3JKb0hTQ3dsUHBqZWM0clB2SVFsczV6d3A0TEpGUTZMNHk2WS1hLURWWDZxOXVRd1V3MlRCOHJLM2JFUnhTVzlVSi1LWXlPQXFmSnEyaE5YdjJjSUVKUEtKT21GX0xuQQ?oc=5",
+   "summary": "【27年フルローン可能】蒲生郡日野町一棟アパート&nbsp;&nbsp;www.rakumachi.jp",
+   "date": "2026-11-15T15:45:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
    "tags": []
   },
   {
@@ -221,6 +257,18 @@
    "tags": []
   },
   {
+   "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtZlJGajEyaXdfNVEwWDI2dmZqUHFQTTVCODY3bmZoRi0xLU5adzczM2gyeklfT1VhNnZZZ1hCbUc1ZlZsN19GTzR5U21saUxGUDFHS3dJVFU0eWoyLTNsTG1n?oc=5",
+   "title": "日野町事件の再審に向けた三者協議で検察が新たな証拠を開示 弁護側は阪原さんのアリバイを立証方針 - 朝日放送",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtZlJGajEyaXdfNVEwWDI2dmZqUHFQTTVCODY3bmZoRi0xLU5adzczM2gyeklfT1VhNnZZZ1hCbUc1ZlZsN19GTzR5U21saUxGUDFHS3dJVFU0eWoyLTNsTG1n?oc=5",
+   "summary": "日野町事件の再審に向けた三者協議で検察が新たな証拠を開示 弁護側は阪原さんのアリバイを立証方針&nbsp;&nbsp;朝日放送",
+   "date": "2026-11-06T17:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
    "id": "https://www.town.shiga-hino.lg.jp/0000009051.html",
    "title": "ホームページのメンテナンスに伴う一時利用停止について",
    "url": "https://www.town.shiga-hino.lg.jp/0000009051.html",
@@ -285,6 +333,18 @@
    "title": "「日野町事件」弁護団、引き続き検察側に証拠開示を求める方針 「出し切ったとは思えない」 - 中日新聞Web",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53SmtlTTQ2WFRoWGJYejExWHpiQldZSUNfLXoya1VDdVc5ak1OWmZhOXVhUFllb2gtX1ItalVocXRtb1VKajM5YUxnNGRfQWQ2RDZ3dw?oc=5",
    "summary": "「日野町事件」弁護団、引き続き検察側に証拠開示を求める方針 「出し切ったとは思えない」&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-11-05T21:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9SQnFSY1VYWkN3MDlzOTJ1dmhia3VYVU5QcEVfSnl1Yy1PYklGN1hXcGtKQ1NzSDM1U1k2Xzc2cWdabDZyWGRZcWM3MA?oc=5",
+   "title": "「日野町事件」弁護団、引き続き検察側に証拠開示を求める方針 「出し切ったとは思えない」 - 47NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9SQnFSY1VYWkN3MDlzOTJ1dmhia3VYVU5QcEVfSnl1Yy1PYklGN1hXcGtKQ1NzSDM1U1k2Xzc2cWdabDZyWGRZcWM3MA?oc=5",
+   "summary": "「日野町事件」弁護団、引き続き検察側に証拠開示を求める方針 「出し切ったとは思えない」&nbsp;&nbsp;47NEWS",
    "date": "2026-11-05T21:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -482,6 +542,21 @@
    "category": "town",
    "tags": [
     "kosodate"
+   ]
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNNDBzU0Z3ejRrcGxOYkJaN1p4dndYZnlfVXQ3Q3A0WGYtRWt3QklpaEthV2FUNmtBZWIyX1ZzVEJsUlpQcmxVX01UYnVFSFpwYmMwZw?oc=5",
+   "title": "伝統野菜「日野菜」を収穫 2026年採用の日野町役場職員、日野菜漬け調理も体験 - 中日新聞Web",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNNDBzU0Z3ejRrcGxOYkJaN1p4dndYZnlfVXQ3Q3A0WGYtRWt3QklpaEthV2FUNmtBZWIyX1ZzVEJsUlpQcmxVX01UYnVFSFpwYmMwZw?oc=5",
+   "summary": "伝統野菜「日野菜」を収穫 2026年採用の日野町役場職員、日野菜漬け調理も体験&nbsp;&nbsp;中日新聞Web",
+   "date": "2026-10-31T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": [
+    "event",
+    "business"
    ]
   },
   {
@@ -748,7 +823,7 @@
   },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000002699.html",
-   "title": "滋賀県最低賃金が改定されました",
+   "title": "滋賀県特定（産業別）最低賃金が改定されます。（令和8年12月31日発効）",
    "url": "https://www.town.shiga-hino.lg.jp/0000002699.html",
    "summary": "",
    "date": "2026-10-23T08:41:44+09:00",
@@ -2916,6 +2991,18 @@
    "title": "日野町事件、検察側が有罪証拠を事実上「撤回」 早期の再審無罪へ 大津地裁 - 産経ニュース",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Odk5XMlM2aEdpeXk1QTZTLTNlOWowTDBnVXlHWUVXcFU2MXB5Y1IyQnpScHotZFB0OTY4OTFiU2FSV2VzNkIzLXhjanNxVkctNnBPRTBYQVN0LUpJRUpDYnNKZUNPOW9iVnlzbnFJRE9KTXQ0MHc?oc=5",
    "summary": "日野町事件、検察側が有罪証拠を事実上「撤回」 早期の再審無罪へ 大津地裁&nbsp;&nbsp;産経ニュース",
+   "date": "2026-09-07T16:00:00+09:00",
+   "source_id": "gnews",
+   "source_name": "報道横断検索（Googleニュース）",
+   "source_short": "報道",
+   "category": "press",
+   "tags": []
+  },
+  {
+   "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RclIxS0xMZnhYakxyazR3Zzh1bjFPSHo2RV9RamNpU284QnhucTFkMEZBNk85SnRyb0dxTmhtSV9VYy1sNlBpc1pCcElER3dPWTVfRVN6TDVtUXpXaHpxbm9JcnZvdGFiSGZjcA?oc=5",
+   "title": "日野町事件の再審、旧有罪証拠は取り調べず 早期に無罪の可能性 - 日本経済新聞",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RclIxS0xMZnhYakxyazR3Zzh1bjFPSHo2RV9RamNpU284QnhucTFkMEZBNk85SnRyb0dxTmhtSV9VYy1sNlBpc1pCcElER3dPWTVfRVN6TDVtUXpXaHpxbm9JcnZvdGFiSGZjcA?oc=5",
+   "summary": "日野町事件の再審、旧有罪証拠は取り調べず 早期に無罪の可能性&nbsp;&nbsp;日本経済新聞",
    "date": "2026-09-07T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
@@ -5683,9 +5770,9 @@
   },
   {
    "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE91Y19nYUFodlZiRTBuZzRwS3NRdU00S0xNdUh5T2RreTJUcmk5VjFMTVNEWklMUHRwRFBXWGpRY2ZhV3dwSHkxOVRIS1R6c3RIVjNKaUZGbmNZVUt4QnM2TlVYZHNoZTJXRnRmMXlXb285RE5ZNXFUWlFFeXo?oc=5",
-   "title": "「日野町事件」やり直し裁判 検察側が有罪立証しない方針（2026年6月18日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
+   "title": "「日野町事件」やり直し裁判 検察側が有罪立証しない方針（2026年6月18日掲載） - 日テレNEWS NNN",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE91Y19nYUFodlZiRTBuZzRwS3NRdU00S0xNdUh5T2RreTJUcmk5VjFMTVNEWklMUHRwRFBXWGpRY2ZhV3dwSHkxOVRIS1R6c3RIVjNKaUZGbmNZVUt4QnM2TlVYZHNoZTJXRnRmMXlXb285RE5ZNXFUWlFFeXo?oc=5",
-   "summary": "「日野町事件」やり直し裁判 検察側が有罪立証しない方針（2026年6月18日掲載）｜日テレNEWS NNN&nbsp;&nbsp;日テレNEWS NNN",
+   "summary": "「日野町事件」やり直し裁判 検察側が有罪立証しない方針（2026年6月18日掲載）&nbsp;&nbsp;日テレNEWS NNN",
    "date": "2026-06-18T16:00:00+09:00",
    "source_id": "gnews",
    "source_name": "報道横断検索（Googleニュース）",
