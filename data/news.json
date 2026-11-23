@@ -1,6 +1,11 @@
 {
- "updated_at": "2026-11-23T10:28:24.570711+09:00",
- "errors": [],
+ "updated_at": "2026-11-24T06:01:35.493044+09:00",
+ "errors": [
+  {
+   "source": "報道横断検索（Googleニュース）",
+   "message": "解析に失敗しました: <unknown>:2:252: not well-formed (invalid token)"
+  }
+ ],
  "items": [
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008311.html",
