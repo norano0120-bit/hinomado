@@ -1,12 +1,21 @@
 {
- "updated_at": "2026-11-24T06:01:35.493044+09:00",
- "errors": [
-  {
-   "source": "報道横断検索（Googleニュース）",
-   "message": "解析に失敗しました: <unknown>:2:252: not well-formed (invalid token)"
-  }
- ],
+ "updated_at": "2026-11-24T14:11:53.656530+09:00",
+ "errors": [],
  "items": [
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009061.html",
+   "title": "【令和9年4月1日採用予定】日野町会計年度任用職員（公民館主事）を募集します",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009061.html",
+   "summary": "",
+   "date": "2026-11-24T13:08:52+09:00",
+   "source_id": "town-topics",
+   "source_name": "日野町 募集情報",
+   "source_short": "募集",
+   "category": "town",
+   "tags": [
+    "business"
+   ]
+  },
   {
    "id": "https://www.town.shiga-hino.lg.jp/0000008311.html",
    "title": "移住相談会in大阪を開催します",
