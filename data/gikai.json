@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T12:25:24.645988+09:00",
+ "updated_at": "2026-11-27T03:54:01.617540+09:00",
  "minutes": [
   {
    "url": "https://www.town.shiga-hino.lg.jp/0000009023.html",
@@ -475,6 +475,10 @@
    "title": "Language"
   },
   {
+   "url": "https://www.town.shiga-hino.lg.jp/0000009081.html",
+   "title": "令和8年12月定例会議"
+  },
+  {
    "url": "https://www.town.shiga-hino.lg.jp/0000008926.html",
    "title": "令和8年9月定例会議"
   },
@@ -497,10 +501,6 @@
   {
    "url": "https://www.town.shiga-hino.lg.jp/0000008596.html",
    "title": "令和8年1月臨時会議(1月26日)"
-  },
-  {
-   "url": "https://www.town.shiga-hino.lg.jp/0000006723.html",
-   "title": "（地図・フロア案内）"
   }
  ],
  "documents": [
