@@ -1,7 +1,34 @@
 {
- "updated_at": "2026-11-27T03:53:59.075004+09:00",
+ "updated_at": "2026-11-27T12:33:06.056647+09:00",
  "errors": [],
  "items": [
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8500",
+   "title": "【管理栄養士によるミニ講座同時開催】おもいでカフェ「茶のみ処わたむき」のお知らせについて",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8500",
+   "summary": "□高齢者支援情報 ■日時：令和8年11月27日（金曜日）10時から11時30分 &#8230; 続きを読む &#8594;",
+   "date": "2026-11-27T09:00:04+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": [
+    "event",
+    "senior"
+   ]
+  },
+  {
+   "id": "http://hino-town.site.ktaiwork.jp/?p=8498",
+   "title": "『日野町議会12月定例会議』のお知らせ",
+   "url": "http://hino-town.site.ktaiwork.jp/?p=8498",
+   "summary": "□議会情報 ■『日野町議会令和8年12月定例会議』の開催について ■会議日程：1 &#8230; 続きを読む &#8594;",
+   "date": "2026-11-27T09:00:04+09:00",
+   "source_id": "hino-mail",
+   "source_name": "日野め〜る",
+   "source_short": "防災",
+   "category": "alert",
+   "tags": []
+  },
   {
    "id": "http://hino-town.site.ktaiwork.jp/?p=8496",
    "title": "おさんぽカードプレミアムチャージのお知らせ",
@@ -25,6 +52,32 @@
    "source_short": "町",
    "category": "town",
    "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009082.html",
+   "title": "つどいのひろば『ぽけっと』12月の予定カレンダーを掲載しました。",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009082.html",
+   "summary": "",
+   "date": "2026-11-26T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": []
+  },
+  {
+   "id": "https://www.town.shiga-hino.lg.jp/0000009083.html",
+   "title": "子育て応援通信（最新）を掲載しました",
+   "url": "https://www.town.shiga-hino.lg.jp/0000009083.html",
+   "summary": "",
+   "date": "2026-11-26T09:00:00+09:00",
+   "source_id": "town-news",
+   "source_name": "日野町 新着情報",
+   "source_short": "町",
+   "category": "town",
+   "tags": [
+    "kosodate"
+   ]
   },
   {
    "id": "https://hinogurashi.net/%ef%bc%91%ef%bc%92-%ef%bc%95%ef%bc%88%e5%9c%9f%ef%bc%89%e3%80%81%e3%81%b5%e3%82%8b%e3%81%95%e3%81%a8%e5%9b%9e%e5%b8%b0%e6%94%af%e6%8f%b4%e3%82%bb%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%bb%e5%a4%a7%e9%98%aa/",
